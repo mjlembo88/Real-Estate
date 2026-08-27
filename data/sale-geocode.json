@@ -1,0 +1,230 @@
+{
+  "holly-lake": {
+    "address": "7519 Holly Lake Ln, New Port Richey, FL 34653",
+    "result": {
+      "lat": 28.266607070466,
+      "lon": -82.686077311023,
+      "src": "arcgis",
+      "display": "7519 Holly Lake Ln, New Port Richey, Florida, 34653",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "redbud": {
+    "address": "7235 Redbud Ct, New Port Richey, FL 34653",
+    "result": {
+      "lat": 28.262485982041,
+      "lon": -82.686821456387,
+      "src": "arcgis",
+      "display": "7235 Redbud Ct, New Port Richey, Florida, 34653",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "magnolia-valley": {
+    "address": "7037 Magnolia Valley Dr, New Port Richey, FL 34653",
+    "result": {
+      "lat": 28.259693299541,
+      "lon": -82.692138013752,
+      "src": "arcgis",
+      "display": "7037 Magnolia Valley Dr, New Port Richey, Florida, 34653",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "moog": {
+    "address": "3153 Moog Rd, Holiday, FL 34691",
+    "result": {
+      "lat": 28.209753668965,
+      "lon": -82.761316961963,
+      "src": "arcgis",
+      "display": "3153 Moog Rd, Holiday, Florida, 34691",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "kimberly": {
+    "address": "3536 Kimberly Oaks Dr, Holiday, FL 34691",
+    "result": {
+      "lat": 28.210603049123,
+      "lon": -82.74737810844,
+      "src": "arcgis",
+      "display": "3536 Kimberly Oaks Dr, Holiday, Florida, 34691",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "conoley": {
+    "address": "1031 Conoley Ln, Holiday, FL 34691",
+    "result": {
+      "lat": 28.1738241,
+      "lon": -82.7548391,
+      "src": "nominatim",
+      "display": "1031, Conoley Lane, Holiday Lake Estates, Holiday, Pasco County, Florida, 34691, United States",
+      "addresstype": "place",
+      "house_number": "1031"
+    },
+    "note": "nominatim"
+  },
+  "chauncy": {
+    "address": "3416 Chauncy Rd, Holiday, FL 34691",
+    "result": {
+      "lat": 28.1918353,
+      "lon": -82.7575248,
+      "src": "nominatim",
+      "display": "3416, Chauncy Road, Aloha Gardens, Holiday, Pasco County, Florida, 34691, United States",
+      "addresstype": "place",
+      "house_number": "3416"
+    },
+    "note": "nominatim"
+  },
+  "sunray": {
+    "address": "3852 Sunray Dr, Holiday, FL 34691",
+    "result": {
+      "lat": 28.1978529,
+      "lon": -82.7499759,
+      "src": "nominatim",
+      "display": "3852, Sunray Drive, Aloha Gardens, Holiday, Pasco County, Florida, 34691, United States",
+      "addresstype": "place",
+      "house_number": "3852"
+    },
+    "note": "nominatim"
+  },
+  "tamarac": {
+    "address": "1056 Tamarac Dr, Holiday, FL 34690",
+    "result": {
+      "lat": 28.174820914015,
+      "lon": -82.719934919253,
+      "src": "arcgis",
+      "display": "1056 Tamarac Dr, Holiday, Florida, 34690",
+      "score": 100.0,
+      "addr_type": "PointAddress"
+    },
+    "note": "arcgis"
+  },
+  "shannon": {
+    "address": "2109 Shannon Dr, Holiday, FL 34690",
+    "result": {
+      "lat": 28.1900433,
+      "lon": -82.7252402,
+      "src": "nominatim",
+      "display": "2109, Shannon Drive, Holiday, Pasco County, Florida, 34690, United States",
+      "addresstype": "place",
+      "house_number": "2109"
+    },
+    "note": "nominatim"
+  },
+  "merrilon": {
+    "address": "1446 Merrilon Dr, Holiday, FL 34691",
+    "result": {
+      "lat": 28.1799776,
+      "lon": -82.7545015,
+      "src": "nominatim",
+      "display": "1446, Merrilon Drive, Holiday Lake Estates, Holiday, Pasco County, Florida, 34691, United States",
+      "addresstype": "place",
+      "house_number": "1446"
+    },
+    "note": "nominatim"
+  },
+  "pointer": {
+    "address": "3067 Pointer Dr, Palm Harbor, FL 34683",
+    "result": {
+      "lat": 28.0971392,
+      "lon": -82.7429778,
+      "src": "nominatim",
+      "display": "3067, Pointer Drive, Lake Shore Estates, Palm Harbor, Pinellas County, Florida, 34683, United States",
+      "addresstype": "place",
+      "house_number": "3067"
+    },
+    "note": "nominatim"
+  },
+  "bay-lake": {
+    "address": "602 Bay Lake Trail, Oldsmar, FL 34677",
+    "result": {
+      "lat": 28.017444,
+      "lon": -82.664126,
+      "src": "nominatim",
+      "display": "602, Bay Lake Trail, Oldsmar, Pinellas County, Florida, 34677, United States",
+      "addresstype": "place",
+      "house_number": "602"
+    },
+    "note": "nominatim"
+  },
+  "tangerine": {
+    "address": "611 Tangerine Dr, Oldsmar, FL 34677",
+    "result": {
+      "lat": 28.041063,
+      "lon": -82.6928589,
+      "src": "nominatim",
+      "display": "611, Tangerine Drive, Harbor Palms, Oldsmar, Pinellas County, Florida, 34677, United States",
+      "addresstype": "place",
+      "house_number": "611"
+    },
+    "note": "nominatim"
+  },
+  "hudson-ct": {
+    "address": "1916 Hudson Ct, Oldsmar, FL 34677",
+    "result": {
+      "lat": 28.0455218,
+      "lon": -82.6950874,
+      "src": "nominatim",
+      "display": "1916, Hudson Court, Harbor Palms, Oldsmar, Pinellas County, Florida, 34677, United States",
+      "addresstype": "place",
+      "house_number": "1916"
+    },
+    "note": "nominatim"
+  },
+  "manor": {
+    "address": "568 Manor Dr, Dunedin, FL 34698",
+    "result": {
+      "lat": 28.0075947,
+      "lon": -82.7773022,
+      "src": "nominatim",
+      "display": "568, Manor Drive, Victoria Palms, Dunedin, Pinellas County, Florida, 34698, United States",
+      "addresstype": "place",
+      "house_number": "568"
+    },
+    "note": "nominatim"
+  },
+  "greenleaf": {
+    "address": "1004 Greenleaf Way, Tarpon Springs, FL 34689",
+    "result": {
+      "lat": 28.1341436,
+      "lon": -82.7801283,
+      "src": "nominatim",
+      "display": "1004, Greenleaf Way, Tarpon Springs, Pinellas County, Florida, 34689, United States",
+      "addresstype": "place",
+      "house_number": "1004"
+    },
+    "note": "nominatim"
+  },
+  "acropolis": {
+    "address": "345 Acropolis Dr, Dunedin, FL 34698",
+    "result": {
+      "lat": 28.0041479,
+      "lon": -82.7799199,
+      "src": "nominatim",
+      "display": "345, Acropolis Drive, Victoria Palms, Dunedin, Pinellas County, Florida, 34698, United States",
+      "addresstype": "place",
+      "house_number": "345"
+    },
+    "note": "nominatim"
+  },
+  "pinehurst": {
+    "address": "1680 Pinehurst Rd, Dunedin, FL 34698",
+    "result": {
+      "lat": 28.030988,
+      "lon": -82.7717904,
+      "src": "nominatim",
+      "display": "1680, Pinehurst Road, Dunedin, Pinellas County, Florida, 34698, United States",
+      "addresstype": "place",
+      "house_number": "1680"
+    },
+    "note": "nominatim"
+  }
+}
