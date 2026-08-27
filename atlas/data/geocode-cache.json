@@ -1,0 +1,4271 @@
+{
+  "5220 CR 579 S, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 27.989698996763,
+    "lon": -82.302609012603,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "5220 County Road 579, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "375 W HIGHWAY 630, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.755432765817,
+    "lon": -81.538413801016,
+    "score": 99.88,
+    "addr_type": "PointAddress",
+    "match": "375 Hwy 630 W, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "1200 N DAVIS AVE, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.058739014929,
+    "lon": -81.982201208352,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1200 N Davis Ave, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "6105 LAND O' LAKES BLVD, LAND O' LAKES, FL 34638": {
+    "ok": true,
+    "lat": 28.245930046889,
+    "lon": -82.461939688056,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6105 Land O' Lakes Blvd, Land O Lakes, Florida, 34638",
+    "src": "arcgis"
+  },
+  "1400 HWY 17 N, FORT MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.770393079971,
+    "lon": -81.801023102273,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1400 US Highway 17 N, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "1112 W SHELL POINT RD, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.720474571791,
+    "lon": -82.448753194161,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1112 W Shell Point Rd, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1000 S CLINCH LAKE BLVD, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.731369662905,
+    "lon": -81.544529489029,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1000 S Clinch Lake Blvd, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "39 1/2 AZALEA DR, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.065562973761,
+    "lon": -81.712688152545,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "39 1/2 Azalea Dr, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "1518 CLEMENT RD, LUTZ, FL 33549": {
+    "ok": true,
+    "lat": 28.121252883282,
+    "lon": -82.440999346991,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1518 Clement Rd, Lutz, Florida, 33549",
+    "src": "arcgis"
+  },
+  "192 PINEWOOD LN, LAKE ALFRED, FL 33881": {
+    "ok": true,
+    "lat": 28.074765674805,
+    "lon": -81.757046106158,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "192 Pinewood Ln, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "1675 LYNCHBURG RD, LAKE ALFRED, FL 33850-2651": {
+    "ok": true,
+    "lat": 28.068217145311,
+    "lon": -81.751731225174,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1675 Lynchburg Rd, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "5123 E BROADWAY AVE, TAMPA, FL 33619": {
+    "ok": true,
+    "lat": 27.962472856959,
+    "lon": -82.398392792045,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5123 E Broadway Ave, Tampa, Florida, 33619",
+    "src": "arcgis"
+  },
+  "156 19TH ST NW, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.720475451891,
+    "lon": -82.457374819767,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "156 19th St NW, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "37936 12TH AVE, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.238429207466,
+    "lon": -82.188835238194,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "37936 12th Ave, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "20344 OLD SOMERSET ACRES LN, SPRING HILL, FL 34610": {
+    "ok": true,
+    "lat": 28.394859409144,
+    "lon": -82.479446633942,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "20344 Old Somerset Acres Ln, Spring Hill, Florida, 34610",
+    "src": "arcgis"
+  },
+  "1094 HWY 92 W, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.050404301868,
+    "lon": -81.845636452476,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1094 US Highway 92 W, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "1501 W ARIANA ST, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.025957684976,
+    "lon": -81.979815048156,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "1501 Ariana St, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "7530 MARYLAND AVE, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.372767729858,
+    "lon": -82.689460247145,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7530 Maryland Ave, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "5201 STRUTHERS RD, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 27.991263898085,
+    "lon": -81.658873232854,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5201 Struthers Rd, Winter Haven, Florida, 33884",
+    "src": "arcgis"
+  },
+  "11440 CAUSEWAY BLVD, NEW PORT RICHEY, FL 34654": {
+    "ok": true,
+    "lat": 28.312791231234,
+    "lon": -82.625517892943,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11440 Causeway Blvd, New Port Richey, Florida, 34654",
+    "src": "arcgis"
+  },
+  "6530 ACCENT LANE, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.263692892279,
+    "lon": -82.706253641614,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6530 Accent Ln, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "1150 FLETCHER LN, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.020595110962,
+    "lon": -82.167778221037,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "1150 Fletcher Ln, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "8215 STONER RD, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.867906674681,
+    "lon": -82.311580498848,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8215 Stoner Rd, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "301 SOUTH LAKE REEDY BLVD, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.742211403205,
+    "lon": -81.526825316961,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "301 S Lake Reedy Blvd, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "10940 CLAY PIT RD, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.989711988713,
+    "lon": -82.315211958399,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10940 Clay Pit Rd, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "2011 N LK REEDY BLVD, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.754932575745,
+    "lon": -81.489371285536,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2011 N Lake Reedy Blvd, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "14235 PINE ST, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.364736944607,
+    "lon": -82.702755119047,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14235 Pine St, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "38539 CRESCENT AVE, ZEPHYRHILLS, FL 33540": {
+    "ok": true,
+    "lat": 28.246619500335,
+    "lon": -82.178785755382,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "38539 Crescent Ave, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "1951 LAKE DAISY RD, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 28.007947112437,
+    "lon": -81.66202030222,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1951 Lake Daisy Rd, Winter Haven, Florida, 33884",
+    "src": "arcgis"
+  },
+  "643 MATHEW RD, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.044231449274,
+    "lon": -82.021879964518,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "643 Mathew Rd, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "6429 FOREST LAKE DR, ZEPHYRHILLS, FL 33540": {
+    "ok": true,
+    "lat": 28.251100172406,
+    "lon": -82.136217338096,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6429 Forest Lake Dr, Zephyrhills, Florida, 33540",
+    "src": "arcgis"
+  },
+  "6817 N HABANA AVE, TAMPA, FL 33614": {
+    "ok": true,
+    "lat": 28.009606603538,
+    "lon": -82.487939429697,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6817 N Habana Ave, Tampa, Florida, 33614",
+    "src": "arcgis"
+  },
+  "50 LAKE CHARLOTTE DR W, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.978665562337,
+    "lon": -81.782148313607,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "50 Lake Charlotte Dr W, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "5106 WALLACE RD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 27.942237601589,
+    "lon": -82.157585910595,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5106 Wallace Rd, Plant City, Florida, 33567",
+    "src": "arcgis"
+  },
+  "2550 PIER DR, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.681591970698,
+    "lon": -82.465174264491,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2550 Pier Dr, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "546 STRAWBERRY PATCH CIR, PLANT CITY, FL 33563": {
+    "ok": true,
+    "lat": 28.019359366977,
+    "lon": -82.164436523879,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "546 Strawberry Patch Cir, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "4331 LAKE BUFFUM ROAD, LAKE WALES, FL 33859-3163": {
+    "ok": true,
+    "lat": 27.834088084211,
+    "lon": -81.642271113415,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4331 Lake Buffum Rd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "5252 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.033088547193,
+    "lon": -82.028616332462,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5252 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "5500 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.032701638542,
+    "lon": -82.030692865155,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5500 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "105 22ND ST NW, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.719379015136,
+    "lon": -82.459824011875,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "105 22nd St NW, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1301 POLK CITY RD, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.118749292623,
+    "lon": -81.645150213337,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1301 Polk City Rd, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "411 RIVER BAY DR, TAMPA, FL 33619": {
+    "ok": true,
+    "lat": 27.946379309495,
+    "lon": -82.376233219344,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "411 River Bay Dr, Tampa, Florida, 33619",
+    "src": "arcgis"
+  },
+  "19608 LIVINGSTON AVE, LUTZ, FL 33549": {
+    "ok": true,
+    "lat": 28.145305005901,
+    "lon": -82.430924969926,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "19608 Livingston Ave, Lutz, Florida, 33559",
+    "src": "arcgis"
+  },
+  "12966 MORRIS BRIDGE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.081543994174,
+    "lon": -82.325550030137,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12966 Morris Bridge Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "5912 TWIN BEND LOOP, NEW PORT RICHEY, FL 34652": {
+    "ok": true,
+    "lat": 28.222111988916,
+    "lon": -82.716437989248,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5912 Twin Bend Loop, New Port Richey, Florida, 34652",
+    "src": "arcgis"
+  },
+  "1331 OAKHILL ST, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.03567629216,
+    "lon": -81.975733228948,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1331 Oakhill St, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "6529 STONE RD, PORT RICHEY, FL 34668": {
+    "ok": true,
+    "lat": 28.287925100088,
+    "lon": -82.706150460386,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6529 Stone Rd, Port Richey, Florida, 34668",
+    "src": "arcgis"
+  },
+  "10109 OAK FOREST DR, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.852544112994,
+    "lon": -82.321178532355,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10109 Oak Forest Dr, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "10511 MONROE CT, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 27.939253224963,
+    "lon": -81.421573088235,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10511 Monroe Ct, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "602 WOODLAND ESTATES AVE, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.706813913633,
+    "lon": -82.442386803423,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "602 Woodland Estates Ave, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "301 N WILDER RD, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.023644447338,
+    "lon": -82.095843219243,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "301 N Wilder Rd, Plant City, Florida, 33566",
+    "src": "arcgis"
+  },
+  "4002 SMITH RYALS RD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 27.958954972196,
+    "lon": -82.08710877322,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4002 Smith Ryals Rd, Plant City, Florida, 33567",
+    "src": "arcgis"
+  },
+  "2800 HIGHWAY 17- 92 WEST, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.106978334536,
+    "lon": -81.657660958198,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2800 US Highway 17 92 W, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "11222 CRESCENT LAKE DR, RIVERVIEW, FL 33578": {
+    "ok": true,
+    "lat": 27.882750019377,
+    "lon": -82.314190036764,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11222 Crescent Lake Dr, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "6421- 6427 BLACK DAIRY ROAD, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.020168807367,
+    "lon": -82.310527396533,
+    "score": 98.89,
+    "addr_type": "PointAddress",
+    "match": "6421 Black Dairy Rd, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "200 E ROBSON ST, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.084943945559,
+    "lon": -81.956116390394,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "200 E Robson St, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "203 SUNSET DR, LAKE ALFRED, FL 33850": {
+    "ok": true,
+    "lat": 28.075569038315,
+    "lon": -81.755505428536,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "203 Sunset Dr, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "10416 CANDY LANE, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.309268317329,
+    "lon": -82.174340161576,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10416 Candy Ln, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "3800 BRUCE BLVD, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 27.981597132972,
+    "lon": -81.380492961677,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3800 Bruce Blvd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "707 E 138TH AVE, TAMPA, FL 33613-3304": {
+    "ok": true,
+    "lat": 28.07266424786,
+    "lon": -82.453448568682,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "707 E 138th Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "12415 THONOTOSASSA RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.045274409487,
+    "lon": -82.256401424416,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12415 Thonotosassa Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "11315 DEL RIO DR., RIVERVIEW, FL 33569-5184": {
+    "ok": true,
+    "lat": 27.865210006882,
+    "lon": -82.316851961574,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11315 Del Rio Dr, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "1601 W JOSEPHINE ST, LAKELAND, FL 33815-4244": {
+    "ok": true,
+    "lat": 28.03485650012,
+    "lon": -81.981097982256,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "1601 Josephine St, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "525 POLO PARK EAST BLVD, DAVENPORT, FL 33897": {
+    "ok": true,
+    "lat": 28.337756813661,
+    "lon": -81.665237863392,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "525 Polo Park East Blvd, Davenport, Florida, 33897",
+    "src": "arcgis"
+  },
+  "3221 PARADISE WAY, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.204961986376,
+    "lon": -82.194319936537,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3221 Paradise Way, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "39515 BAMBOO LANE, ZEPHYRHILLS, FL 33540": {
+    "ok": true,
+    "lat": 28.253697975657,
+    "lon": -82.162975558156,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "39515 Bamboo Ln, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "13301 CLARA DR, HUDSON, FL 34669": {
+    "ok": true,
+    "lat": 28.350115971803,
+    "lon": -82.646212392788,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "13301 Clara Dr, Hudson, Florida, 34669",
+    "src": "arcgis"
+  },
+  "4028 ROLLING OAKS DR, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.995637994258,
+    "lon": -81.787117021991,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4028 Rolling Oaks Dr, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "2321 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.040920890887,
+    "lon": -81.996160178443,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2321 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "1925 HARDEN BLVD, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.020475207838,
+    "lon": -81.975892904203,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1925 Harden Blvd, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "33194 MAUMEE TRACK, DADE CITY, FL 33523": {
+    "ok": true,
+    "lat": 28.503791586731,
+    "lon": -82.195960442627,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "33194 Maumee Trak, Dade City, Florida, 33523",
+    "src": "arcgis"
+  },
+  "5130 ALTURAS BABSON PARK CUTOFF RD, LAKE WALES, FL 33859-8223": {
+    "ok": true,
+    "lat": 27.841704635807,
+    "lon": -81.659823824493,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5130 Alturas Babson Park Cutoff Rd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "5101 ALLEN RD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.231829213086,
+    "lon": -82.206228944569,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5101 Allen Road, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "506 50TH ST S, TAMPA, FL 33619": {
+    "ok": true,
+    "lat": 27.944164014395,
+    "lon": -82.400807031617,
+    "score": 99.89,
+    "addr_type": "PointAddress",
+    "match": "506 S 50th St, Tampa, Florida, 33619",
+    "src": "arcgis"
+  },
+  "800 N KINGSWAY RD, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.005363013598,
+    "lon": -82.278361004907,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "800 N Kingsway Rd, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "1400 BANANA RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.146017006666,
+    "lon": -81.977401982051,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1400 Banana Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "1500 W HIGHLAND ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.031512330301,
+    "lon": -81.979302746234,
+    "score": 98.33,
+    "addr_type": "PointAddress",
+    "match": "1500 W Highland St, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "1201 E SKIPPER RD, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.07867549736,
+    "lon": -82.446434592105,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "1201 Skipper Rd, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "225 ED PADGETT RD, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.153260060657,
+    "lon": -81.951327473834,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "225 Ed Padgett Rd, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "5210 SR 33 NORTH, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.109366254932,
+    "lon": -81.929386501168,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5210 State Road 33 N, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "4120 HIGHWAY 92 WEST, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.020207867036,
+    "lon": -82.165949792678,
+    "score": 98.48,
+    "addr_type": "PointAddress",
+    "match": "4120 US Highway 92 W, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "10515 US HWY 301, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.310841265279,
+    "lon": -82.188581685623,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10515 US Highway 301, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "285 LAKE AVE, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.742988615177,
+    "lon": -81.526620211791,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "285 S Lake Ave, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "20500 COT ROAD, LUTZ, FL 33558": {
+    "ok": true,
+    "lat": 28.183976969767,
+    "lon": -82.477040860093,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "20500 Cot Rd, Lutz, Florida, 33558",
+    "src": "arcgis"
+  },
+  "3301 AVE G NW, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 28.030511992066,
+    "lon": -81.766474573764,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3301 Avenue G NW, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "4320 WILLIAMS RD, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.985653387376,
+    "lon": -82.32021117691,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4320 Williams Rd, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "200 JEREMY DR, DAVENPORT, FL 33837": {
+    "ok": true,
+    "lat": 28.189687308944,
+    "lon": -81.65056048038,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "200 Jeremy Dr, Davenport, Florida, 33837",
+    "src": "arcgis"
+  },
+  "8406 CINDY WAY, TAMPA, FL 33637": {
+    "ok": true,
+    "lat": 28.05063354692,
+    "lon": -82.35960561892,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8406 Cindy Way, Tampa, Florida, 33637",
+    "src": "arcgis"
+  },
+  "2455 HWY 17 S, BARTOW, FL 33830": {
+    "ok": true,
+    "lat": 27.867590676931,
+    "lon": -81.829423085707,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2455 US Highway 17 S, Bartow, Florida, 33830",
+    "src": "arcgis"
+  },
+  "6555 OLD LAKE WILSON RD, DAVENPORT, FL 33896": {
+    "ok": true,
+    "lat": 28.246049363281,
+    "lon": -81.567316111907,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6555 Old Lake Wilson Rd, Davenport, Florida, 33896",
+    "src": "arcgis"
+  },
+  "21318 ENTRY WAY, LAND O LAKES, FL 34639": {
+    "ok": true,
+    "lat": 28.200670619589,
+    "lon": -82.462717025756,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "21318 Entry Way, Land O Lakes, Florida, 34639",
+    "src": "arcgis"
+  },
+  "2025 W DAUGHTERY RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.121001384277,
+    "lon": -81.989391288715,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2025 W Daughtery Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "780 W DAVIDSON ST, BARTOW, FL 33830": {
+    "ok": true,
+    "lat": 27.897774916095,
+    "lon": -81.85023551893,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "780 W Davidson St, Bartow, Florida, 33830",
+    "src": "arcgis"
+  },
+  "301 N GALLOWAY RD, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.04020381907,
+    "lon": -82.018454029233,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "301 N Galloway Rd, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "111 E LINEBAUGH AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.039883923735,
+    "lon": -82.458480141339,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "111 E Linebaugh Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "ONE EAST LANE, LAKE ALFRED, FL 33850": {
+    "ok": true,
+    "lat": 28.097175279677,
+    "lon": -81.712210048787,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1 East Ln, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "1510 W ARIANA ST, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.02493584716,
+    "lon": -81.97964246477,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "1510 Ariana St, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "9614 CENTRAL AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.037247018906,
+    "lon": -82.455528035041,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "9614 N Central Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "12720 US HWY 92, DOVER, FL 33527": {
+    "ok": true,
+    "lat": 28.015040675185,
+    "lon": -82.25015514635,
+    "score": 99.54,
+    "addr_type": "PointAddress",
+    "match": "12720 E US Highway 92, Dover, Florida, 33527",
+    "src": "arcgis"
+  },
+  "13516 WEST HILLSBOROUGH AVE, TAMPA, FL 33635": {
+    "ok": true,
+    "lat": 28.030195198036,
+    "lon": -82.642950491348,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "13516 W Hillsborough Ave, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "745 ARBOR ESTATES WAY, PLANT CITY, FL 33565": {
+    "ok": true,
+    "lat": 28.047865171939,
+    "lon": -82.121226891,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "745 Arbor Estate Way, Plant City, Florida, 33565",
+    "src": "arcgis"
+  },
+  "8026 BLUEBELL LN, ZEPHYRHILLS, FL 33540": {
+    "ok": true,
+    "lat": 28.274424578191,
+    "lon": -82.166621686037,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8026 Bluebell Ln, Zephyrhills, Florida, 33540",
+    "src": "arcgis"
+  },
+  "1865 TOWER LAKES BLVD, LAKE WALES, FL 33859": {
+    "ok": true,
+    "lat": 27.930206385409,
+    "lon": -81.603632383795,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1865 Tower Lakes Blvd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "1311 HWY 92 W, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.060855361661,
+    "lon": -81.803112626915,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1311 US Highway 92 W, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "1608 W BAKER ST, PLANT CITY, FL 33563": {
+    "ok": true,
+    "lat": 28.018502275468,
+    "lon": -82.13988492365,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1608 W Baker St, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "6509 THORNHILL RD, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.98179729282,
+    "lon": -81.782706715997,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6509 Thornhill Rd, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "12739 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.064215499006,
+    "lon": -82.459069892047,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12739 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "14818 SHARK ST, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.372885244141,
+    "lon": -82.69167591943,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14818 Shark St, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "5337 GARDEN LN, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.993816229512,
+    "lon": -82.345467108463,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5337 Garden Ln, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "1 HARRELL RD, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.972329639817,
+    "lon": -81.784569426339,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1 Harrell Rd, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "126 21ST ST NW, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.718873879741,
+    "lon": -82.459027060521,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "126 21st St NW, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1701 WEST COMMERCE AVE, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.115636840517,
+    "lon": -81.649047295399,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1701 W Commerce Ave, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "10731 EL PASO DRIVE, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.842605187484,
+    "lon": -82.323902902344,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10731 El Paso Dr, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "10921 NEBRASKA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.048894930654,
+    "lon": -82.450510376343,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "10921 N Nebraska Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "12408 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.060593972011,
+    "lon": -82.461166792764,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12408 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "11050 HARMONY DRIVE, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.318589580394,
+    "lon": -82.18037018654,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11050 Harmony Dr, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "23 TENNESSEE LANE, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.058776062941,
+    "lon": -81.805216233155,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "23 Tennessee Ln, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "700 N KINGSWAY RD, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.003875812517,
+    "lon": -82.280358328615,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "700 N Kingsway Rd, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "13618 N FLORIDA AVE, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.071350384537,
+    "lon": -82.460656753956,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "13618 N Florida Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "8540 NORTH RIVER RD, TAMPA, FL 33635": {
+    "ok": true,
+    "lat": 28.030385341509,
+    "lon": -82.630884909365,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8540 N River Rd, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "4404 SR 574, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.00725174975,
+    "lon": -82.168569388878,
+    "score": 98.0,
+    "addr_type": "PointAddress",
+    "match": "4404 State Road 574, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "33009 MCCABE ROAD, SAN ANTONIO, FL 33576": {
+    "ok": true,
+    "lat": 28.326505952667,
+    "lon": -82.269817498638,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "33009 McCabe Rd, San Antonio, Florida, 33576",
+    "src": "arcgis"
+  },
+  "2121 NEW TAMPA HWY 3F, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.041444508378,
+    "lon": -81.992167458866,
+    "score": 99.38,
+    "addr_type": "PointAddress",
+    "match": "2121 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "1 CENTURY DR, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.095379917927,
+    "lon": -81.68232747432,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1 Century Dr, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "11723 HWY 579 S, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.056358470608,
+    "lon": -82.302182876646,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "11723 County Road 579, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "36345 US HWY 27N, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.130814287872,
+    "lon": -81.634830330328,
+    "score": 99.75,
+    "addr_type": "PointAddress",
+    "match": "36345 US Hwy 27 N, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "6617 LOUISIANA AVE, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.242808919513,
+    "lon": -82.705151169889,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6617 Louisiana Ave, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "10306 BIG BEND RD LOT 1, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.793687981457,
+    "lon": -82.338069995091,
+    "score": 98.53,
+    "addr_type": "PointAddress",
+    "match": "10306 Big Bend Rd, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "7306 OSTEEN RD, NEW PORT RICHEY, FL 33653": {
+    "ok": true,
+    "lat": 28.263262272004,
+    "lon": -82.682279638332,
+    "score": 98.44,
+    "addr_type": "PointAddress",
+    "match": "7306 Osteen Rd, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "1801 HWY 17 S, FORT MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.727220620833,
+    "lon": -81.797467750403,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1801 US Highway 17 S, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "4535 WALK-IN-WATER RD, LAKES WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.818924131719,
+    "lon": -81.44107643582,
+    "score": 98.53,
+    "addr_type": "PointAddress",
+    "match": "4535 Walk in Water Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "277 LAKE ERIE DR, MULBERRY, FL 33860": {
+    "ok": true,
+    "lat": 27.910541853826,
+    "lon": -81.976912898001,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "277 Lake Erie Dr, Mulberry, Florida, 33860",
+    "src": "arcgis"
+  },
+  "201 FISH HAVEN RD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.127789384745,
+    "lon": -81.813803157682,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "201 Fish Haven Rd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "101 OAKHILL RIDGE RD, VALRICO, FL 33594": {
+    "ok": true,
+    "lat": 27.938538751536,
+    "lon": -82.240562058166,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "101 Oakhill Ridge Rd, Valrico, Florida, 33594",
+    "src": "arcgis"
+  },
+  "615 N WIGGINS RD, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.035487992706,
+    "lon": -82.067969032595,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "615 N Wiggins Rd, Plant City, Florida, 33566",
+    "src": "arcgis"
+  },
+  "1841 GEORGE JENKINS BLVD, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.04242079055,
+    "lon": -81.985491775901,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "1841 George Jenkins Blvd, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "4701 HWY 92 WEST, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.019628258431,
+    "lon": -82.174522887065,
+    "score": 98.28,
+    "addr_type": "PointAddress",
+    "match": "4701 US Highway 92 W, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "36100 DOCKSIDE PLACE, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.325284416007,
+    "lon": -82.218781934222,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "36100 Dockside Pl, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "4511 LAND-O-LAKES BOULEVARD, LAND-O-LAKES, FL 34639": {
+    "ok": true,
+    "lat": 28.22303617756,
+    "lon": -82.457994745326,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4511 Land O Lakes Blvd, Land O Lakes, Florida, 34639",
+    "src": "arcgis"
+  },
+  "10803 ANNETTE AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.046611113495,
+    "lon": -82.453501961405,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "10803 N Annette Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "801 W US HWY 92, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.005837010222,
+    "lon": -82.288115025632,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "801 W US Highway 92, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "1112 W BEACON RD, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.017077519566,
+    "lon": -81.971483771676,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1112 W Beacon Rd, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "2600 EARLENE DR, LAND O' LAKES, FL 34639": {
+    "ok": true,
+    "lat": 28.195208342837,
+    "lon": -82.456060285892,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2600 Earlene Dr, Land O Lakes, Florida, 34639",
+    "src": "arcgis"
+  },
+  "1600 S LAKE SHIPP DR, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 28.001194441692,
+    "lon": -81.75051962107,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1600 S Lake Shipp Dr, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "1630 6TH ST NW, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.038649395126,
+    "lon": -81.732460894497,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1630 6th St NW, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "39345 SIXTH AVE E, ZEPHYRHILLS, FL 33542-6843": {
+    "ok": true,
+    "lat": 28.237556190341,
+    "lon": -82.165804031382,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "39345 6th Ave, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "730 GROCE CIR, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.724870335183,
+    "lon": -82.4348886043,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "730 Groce Cir, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1000 MAIN ST, DAVENPORT, FL 33897": {
+    "ok": true,
+    "lat": 28.296056971092,
+    "lon": -81.668149652736,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1000 Main St, Davenport, Florida, 33897",
+    "src": "arcgis"
+  },
+  "5018 SLEIGHBELL LN, NEW PORT RICHEY, FL 34652": {
+    "ok": true,
+    "lat": 28.264257162001,
+    "lon": -82.731389041399,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5018 Sleighbell Ln, New Port Richey, Florida, 34652",
+    "src": "arcgis"
+  },
+  "9901 SYMMES RD, RIVERVIEW, FL 33534": {
+    "ok": true,
+    "lat": 27.83332637876,
+    "lon": -82.344928571184,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "9901 Symmes Rd, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "8301 NEW YORK AVE, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.375525124546,
+    "lon": -82.677470269928,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8301 New York Ave, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "1123 WALT WILLIAMS RD, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.122175269817,
+    "lon": -81.932527535564,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "1123 Walt Williams Rd, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "944 REYNOLDS RD, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.030512033976,
+    "lon": -81.884861580043,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "944 Reynolds Rd, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "1900 S LAKE REEDY BLVD, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.730714575262,
+    "lon": -81.469219765379,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1900 S Lake Reedy Blvd, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "1101 W COMMERCE AVE, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.117837383467,
+    "lon": -81.643167641779,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1101 W Commerce Ave, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "12110 SPANISH MAIN RESORT TR, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.063895394124,
+    "lon": -82.305584336773,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12110 Spanish Main Resort Trl, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "1960 PEDALER'S POND BLVD, LAKE WALES, FL 33859": {
+    "ok": true,
+    "lat": 27.96677084545,
+    "lon": -81.624386227515,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1960 Pedalers Pond Blvd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "6340 SANTA FE DR, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.249674284947,
+    "lon": -82.159114099182,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6340 Santa Fe Dr, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "8937 KLOSS LN, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.393522956592,
+    "lon": -82.66620507588,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8937 Kloss Ln, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "36323 ARBOR OAKS DRIVE, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.241846802757,
+    "lon": -82.215818093259,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "36323 Arbor Oaks Dr, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "5810 W US HWY 92, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.022899589512,
+    "lon": -82.199829277676,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5810 W US Highway 92, Plant City, Florida, 33566",
+    "src": "arcgis"
+  },
+  "10 LAKEVIEW DR, MULBERRY, FL 33860": {
+    "ok": true,
+    "lat": 27.914717215074,
+    "lon": -81.977152117517,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10 Lakeview Dr, Mulberry, Florida, 33860",
+    "src": "arcgis"
+  },
+  "2601 COUNTRY PLACE BLVD, NEW PORT RICHEY, FL 34655": {
+    "ok": true,
+    "lat": 28.196405488158,
+    "lon": -82.6364360762,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2601 Country Place Blvd, New Port Richey, Florida, 34655",
+    "src": "arcgis"
+  },
+  "1800 AMBERWOOD DR, RIVERVIEW, FL 33578": {
+    "ok": true,
+    "lat": 27.892660236867,
+    "lon": -82.304937840581,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1800 Amberwood Dr, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "2230 TANGLEWOOD ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.060253373375,
+    "lon": -81.913659452421,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2230 Tanglewood St, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "164 BONNY SHORES DR, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.032970991001,
+    "lon": -81.922432958112,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "164 Bonny Shores Dr, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "3501 SAM ASTIN RD, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 27.968920007334,
+    "lon": -82.13853099483,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3501 Sam Astin Rd, Plant City, Florida, 33566",
+    "src": "arcgis"
+  },
+  "185 MARION PLACE, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.721664131489,
+    "lon": -81.472069528639,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "185 Marion Pl, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "1122 MCCAMPBELL ROAD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.05028636849,
+    "lon": -81.852816893651,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1122 McCampbell Rd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "49473 HWY 27, DAVENPORT, FL 33897": {
+    "ok": true,
+    "lat": 28.299868096737,
+    "lon": -81.665460151464,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "49473 Highway 27, Davenport, Florida, 33897",
+    "src": "arcgis"
+  },
+  "11344 S US HWY 41, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.835642340517,
+    "lon": -82.380548390737,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11344 S US Highway 41, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "113 S MOUNT CARMEL RD, BRANDON, FL 33511": {
+    "ok": true,
+    "lat": 27.936536063411,
+    "lon": -82.260802677954,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "113 S Mount Carmel Rd, Brandon, Florida, 33511",
+    "src": "arcgis"
+  },
+  "2854 TINDEL CAMP RD, LAKE WALES, FL 33893": {
+    "ok": true,
+    "lat": 27.981744989744,
+    "lon": -81.547010532369,
+    "score": 98.44,
+    "addr_type": "PointAddress",
+    "match": "2854 Tindel Camp Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "10730 FALMOUTH CT, NEW PORT RICHEY, FL 34654": {
+    "ok": true,
+    "lat": 28.328791781482,
+    "lon": -82.636899427807,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10730 Falmouth Ct, New Port Richey, Florida, 34654",
+    "src": "arcgis"
+  },
+  "402 SATSUMA LN, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.75584544882,
+    "lon": -81.57072922288,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "402 Satsuma Ln, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "9810 VAUGHN ST, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.856355699644,
+    "lon": -82.356113969514,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9810 Vaughn St, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "20 GRANER DRIVE, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.753552663025,
+    "lon": -81.521839593314,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "20 Graner Dr, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "37945 BENTLEY DR, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.254264131307,
+    "lon": -82.189237569547,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "37945 Bentley Dr, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "3509 SOUTHPORT SPRINGS PKWY, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.209910578192,
+    "lon": -82.229729035045,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3509 Southport Springs Pkwy, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "32704 CANTWELL DRIVE, SAN ANTONIO, FL 33576": {
+    "ok": true,
+    "lat": 28.327467231232,
+    "lon": -82.2746738057,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "32704 Cantwell Dr, San Antonio, Florida, 33576",
+    "src": "arcgis"
+  },
+  "4821 WILLIAMS RD, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.990436981428,
+    "lon": -82.317560986764,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4821 Williams Rd, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "1012 SR 542 DUNDEE RD, DUNDEE, FL 33838": {
+    "ok": true,
+    "lat": 28.018864080319,
+    "lon": -81.636013771238,
+    "score": 99.33,
+    "addr_type": "PointAddress",
+    "match": "1012 State Hwy 542, Dundee, Florida, 33838",
+    "src": "arcgis"
+  },
+  "1425 RITTER RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.143683568641,
+    "lon": -81.97739510889,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1425 Ritter Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "48097 HWY 27, DAVENPORT, FL 33897": {
+    "ok": true,
+    "lat": 28.289958004975,
+    "lon": -81.66274399574,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "48097 Highway 27, Davenport, Florida, 33897",
+    "src": "arcgis"
+  },
+  "3950 DIXON ST, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.215338489141,
+    "lon": -82.182180426168,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3950 Dixon St, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "240 BAY BREEZE LOOP, DAVENPORT, FL 33897": {
+    "ok": true,
+    "lat": 28.328845216114,
+    "lon": -81.671080888096,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "240 Bay Breeze Loop, Davenport, Florida, 33897",
+    "src": "arcgis"
+  },
+  "17123 RICH-JO CIR, LUTZ, FL 33548": {
+    "ok": true,
+    "lat": 28.118243360947,
+    "lon": -82.465845654936,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "17123 Rich Jo Cir, Lutz, Florida, 33548",
+    "src": "arcgis"
+  },
+  "2903 W WATERS AVE, TAMPA, FL 33614": {
+    "ok": true,
+    "lat": 28.02589498834,
+    "lon": -82.490063990694,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2903 W Waters Ave, Tampa, Florida, 33614",
+    "src": "arcgis"
+  },
+  "6211 US HWY 98 N, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.123684976308,
+    "lon": -81.972415504033,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6211 US Highway 98 N, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "8920 SHELDON RD, TAMPA, FL 33635": {
+    "ok": true,
+    "lat": 28.032291973025,
+    "lon": -82.588121696649,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8920 Sheldon Rd, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "301 27TH ST SE, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.716085220555,
+    "lon": -82.398486417904,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "301 27th St SE, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "2105 BRUCE ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.043525567299,
+    "lon": -81.922523063571,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2105 Bruce St, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "11310 US 19, PORT RICHEY, FL 34668": {
+    "ok": true,
+    "lat": 28.321497933157,
+    "lon": -82.698521587392,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11310 US Highway 19, Port Richey, Florida, 34668",
+    "src": "arcgis"
+  },
+  "11888 HWY 41 SOUTH, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.826893016615,
+    "lon": -82.378273877491,
+    "score": 99.88,
+    "addr_type": "PointAddress",
+    "match": "11888 S US Highway 41, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "15401 LAKESHORE VILLA ST, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.092208373403,
+    "lon": -82.45637645128,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "15401 Lakeshore Villa St, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "7700 PARKWAY BLVD, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.365297191015,
+    "lon": -82.687484884023,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7700 Parkway Blvd, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "2000 MAINE STREET, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.727655725427,
+    "lon": -81.559103858452,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2000 Maine St, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "9315 MEMORIAL HWY, TAMPA, FL 33615": {
+    "ok": true,
+    "lat": 28.005532453771,
+    "lon": -82.590445327847,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9315 Memorial Hwy, Tampa, Florida, 33615",
+    "src": "arcgis"
+  },
+  "300 S WASHINGTON AVE, FORT MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.745328758725,
+    "lon": -81.78562202574,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "300 S Washington Ave, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "37400 CHANCEY RD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.207133025027,
+    "lon": -82.197780824358,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "37400 Chancey Rd, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "3655 JOHNSON AVENUE, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.113404991158,
+    "lon": -81.598049952461,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "3655 E Johnson Ave, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "7515 DECEMBER DR, PORT RICHEY, FL 34668": {
+    "ok": true,
+    "lat": 28.266329336104,
+    "lon": -82.729481990789,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7515 December Dr, Port Richey, Florida, 34668",
+    "src": "arcgis"
+  },
+  "9304 PARADISE DR, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.991870873604,
+    "lon": -82.347015497436,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9304 Paradise Dr, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "36442 LAUREL LANE, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.317669289335,
+    "lon": -82.212805553439,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "36442 Laurel Ln, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "18801 SKIFF DR, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.430925481222,
+    "lon": -82.600438651908,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "18801 Skiff Dr, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "6205 N ROME AVE, TAMPA, FL 33604": {
+    "ok": true,
+    "lat": 28.003698744813,
+    "lon": -82.475851132756,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6205 N Rome Ave, Tampa, Florida, 33604",
+    "src": "arcgis"
+  },
+  "9516 EASTFIELD RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.0456827339,
+    "lon": -82.333955402642,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9516 Eastfield Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "5611 OAK RIDGE AVENUE, NEW PORT RICHEY, FL 34652": {
+    "ok": true,
+    "lat": 28.242191257068,
+    "lon": -82.72159378171,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5611 Oak Ridge Ave, New Port Richey, Florida, 34652",
+    "src": "arcgis"
+  },
+  "100 WINTERDALE DR, LAKE ALFRED, FL 33850": {
+    "ok": true,
+    "lat": 28.070043939198,
+    "lon": -81.748070261324,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "100 Winterdale Dr, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "2712 SE 14TH AVE, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.706214984742,
+    "lon": -82.397103990613,
+    "score": 99.89,
+    "addr_type": "PointAddress",
+    "match": "2712 14th Ave SE, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "3276 MT TABOR RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.094711251601,
+    "lon": -82.013630830689,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3276 MT Tabor Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "166 JULIANA BLVD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.142371716975,
+    "lon": -81.799327107984,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "166 Juliana Blvd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "8406 TAMPA STREET, TAMPA, FL 33604": {
+    "ok": true,
+    "lat": 28.025800566201,
+    "lon": -82.461024719505,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "8406 N Tampa St, Tampa, Florida, 33604",
+    "src": "arcgis"
+  },
+  "2907 SHELL RD, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.955829234773,
+    "lon": -81.603120668606,
+    "score": 98.15,
+    "addr_type": "PointAddress",
+    "match": "2907 Shell Rd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "2400 PARAKEET PARK BLVD, LAKE WALES, FL 33859": {
+    "ok": true,
+    "lat": 27.867954241982,
+    "lon": -81.578228427832,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2400 Parakeet Park Blvd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "2510 W SHELL POINT RD, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.719269002657,
+    "lon": -82.463079962164,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2510 W Shell Point Rd, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1501 11TH ST NE, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.03806387728,
+    "lon": -81.710855281777,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1501 11th St NE, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "6925 THORNHILL RD, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.980746579348,
+    "lon": -81.779595353538,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6925 Thornhill Rd, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "11635 TURKS DR, NEW PORT RICHEY, FL 34654": {
+    "ok": true,
+    "lat": 28.313955100399,
+    "lon": -82.622207544102,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11635 Turks Dr, New Port Richey, Florida, 34654",
+    "src": "arcgis"
+  },
+  "9601 CLUBHOUSE LANE, TAMPA, FL 33536": {
+    "ok": true,
+    "lat": 28.033509109185,
+    "lon": -82.580220495621,
+    "score": 98.28,
+    "addr_type": "PointAddress",
+    "match": "9601 Clubhouse Ln, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "18920 US HWY 301, DADE CITY, FL 33523": {
+    "ok": true,
+    "lat": 28.433714685232,
+    "lon": -82.189638224519,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "18920 US Highway 301, Dade City, Florida, 33523",
+    "src": "arcgis"
+  },
+  "1734 WHEELHOUSE CIR, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.702011879395,
+    "lon": -82.457948058126,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1734 Wheelhouse Cir, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "3741 OLD TAMPA HWY (OFFICE), LAKELAND, FL 33811": {
+    "ok": true,
+    "lat": 28.029697145349,
+    "lon": -82.022672557283,
+    "score": 98.33,
+    "addr_type": "PointAddress",
+    "match": "3741 Old Tampa Hwy, Lakeland, Florida, 33811",
+    "src": "arcgis"
+  },
+  "2000 MAINE ST, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.727655725427,
+    "lon": -81.559103858452,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2000 Maine St, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "3922 VAN LANE, SEBRING, FL 33870": {
+    "ok": true,
+    "lat": 27.474797553138,
+    "lon": -81.426553363645,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3922 Van Ln, Sebring, Florida, 33870",
+    "src": "arcgis"
+  },
+  "38418 RAMBLEWOOD BLVD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.214092142048,
+    "lon": -82.181190188127,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38418 Ramblewood Blvd, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "1803 US 92, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.058523516198,
+    "lon": -81.810277142474,
+    "score": 99.54,
+    "addr_type": "PointAddress",
+    "match": "1803 US Highway 92 W, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "17000 PATTERSON ROAD, ODESSA, FL 33556": {
+    "ok": true,
+    "lat": 28.117351987454,
+    "lon": -82.642849992329,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "17000 Patterson Rd, Odessa, Florida, 33556",
+    "src": "arcgis"
+  },
+  "3000 CAMP ROSALIE RD, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.956328754293,
+    "lon": -81.409885194809,
+    "score": 98.48,
+    "addr_type": "PointAddress",
+    "match": "3000 Camp Rosalie Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "14709 SHADOW  WOOD BLVD, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.37141883018,
+    "lon": -82.667787160104,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14709 Shadowwood Blvd, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "18 KINSMEN DR, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 27.966983536243,
+    "lon": -81.700017397152,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "18 Kinsmen Dr, Winter Haven, Florida, 33884",
+    "src": "arcgis"
+  },
+  "2201 US 41 S, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.705288113889,
+    "lon": -82.446543808303,
+    "score": 97.4,
+    "addr_type": "PointAddress",
+    "match": "2201 S US Highway 41, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "4054 ALOHA BLVD, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.686060195643,
+    "lon": -82.493884043067,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4054 Aloha Blvd, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "2425 HARDEN BLVD, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.017491040759,
+    "lon": -81.976305377659,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2425 Harden Blvd, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "1725 GIBSONIA GALLOWAY RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.115011005716,
+    "lon": -81.981512132092,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1725 Gibsonia Galloway Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "38018 WREN RD, ZEPHYRHILLS, FL 33540": {
+    "ok": true,
+    "lat": 28.276228573302,
+    "lon": -82.187570325186,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38018 Wren Rd, Zephyrhills, Florida, 33540",
+    "src": "arcgis"
+  },
+  "1095 HWY 92 W, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.050171829783,
+    "lon": -81.847708123665,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1095 US Highway 92 W, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "101 SUNSHINE DR, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.733496319378,
+    "lon": -81.562243048829,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "101 Sunshine Dr, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "7 BRIDGE BLVD, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.044341252206,
+    "lon": -81.987378374668,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7 Bridge Blvd, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "6220 S DALE MABRY HWY, TAMPA, FL 33611": {
+    "ok": true,
+    "lat": 27.877119895014,
+    "lon": -82.504149443705,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6220 S Dale Mabry Hwy, Tampa, Florida, 33611",
+    "src": "arcgis"
+  },
+  "206 ORANGE MANOR DR, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 27.966992588698,
+    "lon": -81.696721297548,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "206 Orange Manor Dr, Winter Haven, Florida, 33884",
+    "src": "arcgis"
+  },
+  "37836 8TH AVE W, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.233485393335,
+    "lon": -82.190444395966,
+    "score": 98.38,
+    "addr_type": "PointAddress",
+    "match": "37836 8th Ave, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "5233 PINE ST, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 27.991259371858,
+    "lon": -82.292755498687,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5233 Pine St, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "6043 HARRIET ST, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.24573516764,
+    "lon": -82.190604574136,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6043 Harriet St, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "600 LUNDY RD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.141866162485,
+    "lon": -81.802371666675,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "600 Lundy Rd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "911 WESTSIDE RIDGE BLVD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.080940539055,
+    "lon": -81.815896118905,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "911 Westside Ridge Blvd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "8406 HENRY GEORGE RD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 27.888235597819,
+    "lon": -82.103260449182,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8406 Henry George Rd, Plant City, Florida, 33567",
+    "src": "arcgis"
+  },
+  "38022 WINTER DR, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.228823336879,
+    "lon": -82.187764282426,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38022 Winter Dr, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "14 LAKE ST, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.754604256598,
+    "lon": -81.536955433682,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14 Lake St, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "105 21ST NW, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.71793301111,
+    "lon": -82.458563289819,
+    "score": 98.84,
+    "addr_type": "PointAddress",
+    "match": "105 21st St NW, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "1000 CYPRESS CREEK BLVD, LAKE ALFRED, FL 33850": {
+    "ok": true,
+    "lat": 28.108433139561,
+    "lon": -81.719625183251,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1000 Cypress Creek Blvd, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "5729 DAYTON ST, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.241149805598,
+    "lon": -82.189952797345,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5729 Dayton St, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "6403 CR 579, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.020136453221,
+    "lon": -82.300913185953,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6403 County Road 579, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "1731 SAM KEENE RD, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 27.872571455255,
+    "lon": -81.348349955561,
+    "score": 97.34,
+    "addr_type": "PointAddress",
+    "match": "1731 Sam Keen Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "7805 US 98 N, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.1415394359,
+    "lon": -81.973158308292,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7805 US Highway 98 N, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "11611 SIR LAWRENCE CT, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.053054575833,
+    "lon": -82.29237521174,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11611 Sir Lawrence Ct, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "2615 TANGLEWOOD ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.058789222529,
+    "lon": -81.908909595529,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2615 Tanglewood St, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "916 N PARSONS AVE, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.006389000456,
+    "lon": -82.28686603824,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "916 N Parsons Ave, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "670 EAST ALFRED DRIVE, LAKE ALFRED, FL 33850": {
+    "ok": true,
+    "lat": 28.09570253738,
+    "lon": -81.719927518498,
+    "score": 97.95,
+    "addr_type": "PointAddress",
+    "match": "670 Alfred St E, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "2412 BROADWAY ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.055969131205,
+    "lon": -81.911396003287,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2412 Broadway St, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "9910 SKEWLEE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.05127677417,
+    "lon": -82.314555403923,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9910 Skewlee Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "1400 GRAPE HAMMOCK RD, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.817411240105,
+    "lon": -81.209550165203,
+    "score": 98.53,
+    "addr_type": "PointAddress",
+    "match": "1400 Grape Hammock Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "3300 CANAL RD, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 27.996472747995,
+    "lon": -81.539053675504,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3300 Canal Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "4202 W HOLLOWAY RD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 27.952538960591,
+    "lon": -82.163696820924,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "4202 Holloway Rd, Plant City, Florida, 33567",
+    "src": "arcgis"
+  },
+  "102 MAGNOLIA LN, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.98535528499,
+    "lon": -82.318181918151,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "102 Magnolia Ln, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "9702 N CENTRAL, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.037633508461,
+    "lon": -82.456132705536,
+    "score": 98.84,
+    "addr_type": "PointAddress",
+    "match": "9702 N Central Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "2808 N FLORIDA AVE, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.078334689177,
+    "lon": -81.957990500125,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2808 N Florida Ave, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "224 TYLER AVE, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.042112546061,
+    "lon": -81.938667866373,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "224 Tyler Ave, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "9821 HOPI LN, NEW PORT RICHEY, FL 34654": {
+    "ok": true,
+    "lat": 28.329334761169,
+    "lon": -82.651953745006,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9821 Hopi Ln, New Port Richey, Florida, 34654",
+    "src": "arcgis"
+  },
+  "3125 WEST HILLSBOROUGH, TAMPA, FL 33614": {
+    "ok": true,
+    "lat": 27.996612474321,
+    "lon": -82.493357827185,
+    "score": 98.84,
+    "addr_type": "PointAddress",
+    "match": "3125 W Hillsborough Ave, Tampa, Florida, 33614",
+    "src": "arcgis"
+  },
+  "3000 US 17-92 W, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.107209339788,
+    "lon": -81.659873529179,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3000 US Highway 17 92 W, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "745 PINEWOOD AVE, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.034814674423,
+    "lon": -81.975852419611,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "745 Pinewood Ave, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "5235 VILLAGE LN, LAND O' LAKES, FL 34638": {
+    "ok": true,
+    "lat": 28.234034198445,
+    "lon": -82.472149684314,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5235 Village Ln, Land O Lakes, Florida, 34638",
+    "src": "arcgis"
+  },
+  "9722 E US 92, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.996399448252,
+    "lon": -82.341190829101,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9722 E US Highway 92, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "10730 SKEWLEE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.050938983472,
+    "lon": -82.297509965625,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10730 Skewlee Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "10502 PLEASANT BLVD, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.848061806452,
+    "lon": -82.32530217726,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10502 Pleasant Blvd, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "12885 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.064472152882,
+    "lon": -82.459029239816,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12885 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "6025 NEW TAMPA HWY, LAKELAND, FL 33811": {
+    "ok": true,
+    "lat": 28.032846813105,
+    "lon": -82.036180916259,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "6025 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "70 AVE E N, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.050319896103,
+    "lon": -81.855808143437,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "70 Avenue E N, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "7405 N SOCRUM LOOP RD, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.136927796592,
+    "lon": -81.953751017318,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7405 N Socrum Loop Rd, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "9800 SHELDON RD, TAMPA, FL 33635": {
+    "ok": true,
+    "lat": 28.037060605379,
+    "lon": -82.583489773135,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9800 Sheldon Rd, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "4230 HWY 60, MULBERRY, FL 33860": {
+    "ok": true,
+    "lat": 27.917455750479,
+    "lon": -82.024358074192,
+    "score": 99.54,
+    "addr_type": "PointAddress",
+    "match": "4230 State Road 60 W, Mulberry, Florida, 33860",
+    "src": "arcgis"
+  },
+  "14011 NEBRASKA AVE, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.075155852398,
+    "lon": -82.45084129388,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "14011 N Nebraska Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "10000 W LAKE LOWERY RD, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.128990637199,
+    "lon": -81.68860191558,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "10000 Lake Lowery Rd, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "4325 JENNINGS FISH CAMP RD, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 28.00410325546,
+    "lon": -81.521424521469,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4325 Jennings Fish Camp Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "8000 SHELDON RD, TAMPA, FL 33615": {
+    "ok": true,
+    "lat": 28.020609402107,
+    "lon": -82.583607538875,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8000 Sheldon Rd, Tampa, Florida, 33615",
+    "src": "arcgis"
+  },
+  "12130 U S 41 SOUTH, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.823070952586,
+    "lon": -82.379139895727,
+    "score": 99.88,
+    "addr_type": "PointAddress",
+    "match": "12130 S US Highway 41, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "366 ALPINE DR, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.084934976923,
+    "lon": -81.673383313079,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "366 Alpine Dr S, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "3801 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.038288302737,
+    "lon": -82.012910322292,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3801 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "4141 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.03743707856,
+    "lon": -82.016204913154,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4141 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "10740 SKEWLEE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.051499271789,
+    "lon": -82.297037226286,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10740 Skewlee Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "5028 FISHER ST, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.23035550687,
+    "lon": -82.211709619598,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "5028 Fisher St, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "2245 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.041785484199,
+    "lon": -81.993863201697,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2245 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "5302 GLEN HARWELL ROAD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.025440102455,
+    "lon": -82.189602182335,
+    "score": 98.57,
+    "addr_type": "PointAddress",
+    "match": "5302 Glen Harwell Rd, Plant City, Florida, 33566",
+    "src": "arcgis"
+  },
+  "330 BRACEY ROAD, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.160020694211,
+    "lon": -81.962059746479,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "330 Bracey Rd, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "37251 CHANCEY RD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.209165636547,
+    "lon": -82.199674715381,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "37251 Chancey Rd, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "7801 RIVERVIEW DR, RIVERVIEW, FL 33578": {
+    "ok": true,
+    "lat": 27.862232000503,
+    "lon": -82.368697972209,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7801 Riverview Dr, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "2204 THOREAU DR, LAKE WALES, FL 33898": {
+    "ok": true,
+    "lat": 27.859107017451,
+    "lon": -81.41442734814,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2204 Thoreau Dr, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "1622 COUNTY ROAD 630 WEST, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.750981304679,
+    "lon": -81.567093740016,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1622 Hwy 630 W, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "3925 COMBEE RD N, LAKELAND, FL 33805-7617": {
+    "ok": true,
+    "lat": 28.093234234533,
+    "lon": -81.903975420587,
+    "score": 99.89,
+    "addr_type": "PointAddress",
+    "match": "3925 N Combee Rd, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "8601 E SLIGH AVE, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 28.010102015925,
+    "lon": -82.360317996871,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8601 E Sligh Ave, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "1210 CALVARY RD, HOLIDAY, FL 34691": {
+    "ok": true,
+    "lat": 28.176214112051,
+    "lon": -82.779713730691,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1210 Calvary Rd, Holiday, Florida, 34691",
+    "src": "arcgis"
+  },
+  "14530 N FLORIDA AVE, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.079536989368,
+    "lon": -82.459731056569,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14530 N Florida Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "5353 MADISON LAKE CIR, TAMPA, FL 33619": {
+    "ok": true,
+    "lat": 27.899682930624,
+    "lon": -82.378483173614,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5353 Madison Lake Cir, Tampa, Florida, 33619",
+    "src": "arcgis"
+  },
+  "31850 US 27 S, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.066885512353,
+    "lon": -81.642744439488,
+    "score": 97.61,
+    "addr_type": "PointAddress",
+    "match": "31850 US Hwy 27 N, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "12420 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.061288077413,
+    "lon": -82.459672886161,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12420 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "202 E GRIFFIN RD, LAKELAND, FL 33805": {
+    "ok": true,
+    "lat": 28.081964304709,
+    "lon": -81.956053023206,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "202 E Griffin Rd, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "405 ELSBERRY RD, APOLLO BEACH, FL 33572": {
+    "ok": true,
+    "lat": 27.775042479753,
+    "lon": -82.395964051781,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "405 Elsberry Rd, Apollo Beach, Florida, 33572",
+    "src": "arcgis"
+  },
+  "1625 ARIANA ST, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.027764823301,
+    "lon": -81.982844687059,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1625 Ariana St, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "3710 OLD TAMPA HWY, LAKELAND, FL 33811": {
+    "ok": true,
+    "lat": 28.029499583891,
+    "lon": -82.021162725064,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3710 Old Tampa Hwy, Lakeland, Florida, 33811",
+    "src": "arcgis"
+  },
+  "597 TOWERWOOD BLVD, LAKE WALES, FL 33859": {
+    "ok": true,
+    "lat": 27.940825208994,
+    "lon": -81.60708254278,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "597 Towerwood Blvd, Lake Wales, Florida, 33859",
+    "src": "arcgis"
+  },
+  "5129 SANDPIPER DR, NEW PORT RICHEY, FL 34652": {
+    "ok": true,
+    "lat": 28.244439534957,
+    "lon": -82.729208908383,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "5129 Sandpiper Rd, New Port Richey, Florida, 34652",
+    "src": "arcgis"
+  },
+  "12428 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.061710902518,
+    "lon": -82.460473777009,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12428 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "705 N SCENIC HWY, LAKE WALES, FL 33853-2600": {
+    "ok": true,
+    "lat": 27.910397433634,
+    "lon": -81.588183362777,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "705 N Scenic Hwy, Lake Wales, Florida, 33853",
+    "src": "arcgis"
+  },
+  "2604 SADDLE CREEK RD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.07334980372,
+    "lon": -81.853473783402,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2604 Saddle Creek Rd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "8800 BERKSHIRE LN, TAMPA, FL 33635": {
+    "ok": true,
+    "lat": 28.029113136245,
+    "lon": -82.589066588594,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8800 Berkshire Ln, Tampa, Florida, 33635",
+    "src": "arcgis"
+  },
+  "1046 2ND ST SE, FORT MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.749594728346,
+    "lon": -81.784904451009,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1046 2nd St SE, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "226 S WASHINGTON AVE, FORT MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.748161506722,
+    "lon": -81.786912838829,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "226 S Washington Ave, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "111 WEST CARTER ROAD, LAKELAND, FL 33813": {
+    "ok": true,
+    "lat": 27.93502199833,
+    "lon": -81.956875036451,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "111 W Carter Rd, Lakeland, Florida, 33813",
+    "src": "arcgis"
+  },
+  "14417 US 19, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.367291958242,
+    "lon": -82.691915893318,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14417 US Highway 19, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "9102 WILLIAMS RD, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.031257436625,
+    "lon": -82.337412267149,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9102 Williams Rd, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "9920 SKEWLEE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.051003985131,
+    "lon": -82.313670023491,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9920 Skewlee Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "2120 DUFF RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.135143582772,
+    "lon": -81.991595477793,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2120 Duff Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "3245 E MAIN ST, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.043771366609,
+    "lon": -81.895832317833,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3245 E Main St, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "1849 7TH ST SW, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 28.001171475277,
+    "lon": -81.735677449841,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1849 7th St SW, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "3731 OLD TAMPA HWY, LAKELAND, FL 33811": {
+    "ok": true,
+    "lat": 28.029901118963,
+    "lon": -82.022330072719,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3731 Old Tampa Hwy, Lakeland, Florida, 33811",
+    "src": "arcgis"
+  },
+  "5310 DEESON RD, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.113090627879,
+    "lon": -82.055705721516,
+    "score": 98.15,
+    "addr_type": "PointAddress",
+    "match": "5310 Deeson Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "2400 HUTCHINS RD, FT. MEADE, FL 33841": {
+    "ok": true,
+    "lat": 27.700168447429,
+    "lon": -81.83631016027,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2400 Hutchins Rd, Fort Meade, Florida, 33841",
+    "src": "arcgis"
+  },
+  "11219 MCMULLEN RD, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.836925903259,
+    "lon": -82.303289120227,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11219 McMullen Rd, Riverview, Florida, 33569",
+    "src": "arcgis"
+  },
+  "3942 E STATE ROAD 60, DOVER, FL 33527": {
+    "ok": true,
+    "lat": 27.939485571319,
+    "lon": -82.213709457877,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3942 E State Road 60, Dover, Florida, 33527",
+    "src": "arcgis"
+  },
+  "1701 SKIPPER RD, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.078559617549,
+    "lon": -82.441075203214,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1701 Skipper Rd, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "10532 BECOMING DR, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.411267026519,
+    "lon": -82.640162167437,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10532 Becoming Dr, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "1920 151ST AVE, LUTZ, FL 33549": {
+    "ok": true,
+    "lat": 28.089141937946,
+    "lon": -82.437702493015,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "1920 E 151st Ave, Lutz, Florida, 33549",
+    "src": "arcgis"
+  },
+  "563 CONE ROAD, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.135978713695,
+    "lon": -81.786685270158,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "563 Cone Rd, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "143 ALAFARA ST, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.003693128938,
+    "lon": -82.281334904154,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "143 Alafara St, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "5229 RUBBER TREE CIR, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.234807806199,
+    "lon": -82.70196277774,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5229 Rubber Tree Cir, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "7026 NUNDY AVE, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.846315981749,
+    "lon": -82.378219981854,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7026 Nundy Ave, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "6700 N ROME AVE, TAMPA, FL 33604": {
+    "ok": true,
+    "lat": 28.008067308929,
+    "lon": -82.476424371114,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6700 N Rome Ave, Tampa, Florida, 33604",
+    "src": "arcgis"
+  },
+  "3305 SKYVIEW DR, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.025698181254,
+    "lon": -81.89246329567,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3305 Skyview Dr, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "2600 HARDEN BLVD, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.014178386896,
+    "lon": -81.972614658052,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2600 Harden Blvd, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "38511 WILDS RD, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.317674695662,
+    "lon": -82.178974348204,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38511 Wilds Rd, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "4262 CASTLEWOOD DRIVE, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.01371407137,
+    "lon": -82.252533343738,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "4262 Castlewood Rd, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "7500 OSCEOLA POLK LINE RD, DAVENPORT, FL 33837": {
+    "ok": true,
+    "lat": 28.259157276833,
+    "lon": -81.586421067634,
+    "score": 98.65,
+    "addr_type": "PointAddress",
+    "match": "7500 Osceola Polk Line Rd, Davenport, Florida, 33896",
+    "src": "arcgis"
+  },
+  "9901 E FOWLER AVE, THONOTOSASSA, FL 33903": {
+    "ok": true,
+    "lat": 28.052694992187,
+    "lon": -82.323406023124,
+    "score": 98.48,
+    "addr_type": "PointAddress",
+    "match": "9901 E Fowler Ave, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "5248 SPIRIT LAKE RD, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.971421460608,
+    "lon": -81.784486613136,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5248 Spirit Lake Rd, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "30 BONISEE CIR, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.027598232975,
+    "lon": -81.924838061409,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "30 Bonisee Cir, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "14714 N FLORIDA AVE, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.081150799096,
+    "lon": -82.460108158393,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14714 N Florida Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "3800 HWY 17/92 W, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.108055995828,
+    "lon": -81.664963020787,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3800 US Highway 17 92 W, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "6010 RIDGE RD, NEW PORT RICHEY, FL 34668": {
+    "ok": true,
+    "lat": 28.280304944273,
+    "lon": -82.715009880585,
+    "score": 99.07,
+    "addr_type": "PointAddress",
+    "match": "6010 Ridge Rd, Port Richey, Florida, 34668",
+    "src": "arcgis"
+  },
+  "2040 15TH ST SW, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.993367839602,
+    "lon": -81.743148491598,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2040 15th St SW, Winter Haven, Florida, 33880",
+    "src": "arcgis"
+  },
+  "4535 US HWY 92 E, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.047461248025,
+    "lon": -81.866809307536,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4535 US Highway 92 E, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "600 FOUNTAINVIEW S, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.106587779758,
+    "lon": -81.966733998604,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "600 Fountainview S, Lakeland, Florida, 33809",
+    "src": "arcgis"
+  },
+  "1209 RIVER DR SW, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.71039981754,
+    "lon": -82.450558572286,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1209 River Dr SW, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "2405 E STATE RD 60, BARTOW, FL 33830": {
+    "ok": true,
+    "lat": 27.901802169113,
+    "lon": -81.811326053837,
+    "score": 97.95,
+    "addr_type": "PointAddress",
+    "match": "2405 State Road 60 E, Bartow, Florida, 33830",
+    "src": "arcgis"
+  },
+  "1234 REYNOLDS RD, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.027978100827,
+    "lon": -81.886695205181,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1234 Reynolds Rd, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "12301 CARL LOOP, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.335274890221,
+    "lon": -82.181913714009,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12301 Carl Loop, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "10321 MAIN ST, THONOTOSASSA, FL 33592-8327": {
+    "ok": true,
+    "lat": 28.056150557499,
+    "lon": -82.306151707799,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10321 Main St, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "12224 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.059653396746,
+    "lon": -82.45991797301,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12224 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "6616 WIRE RD, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.254235213741,
+    "lon": -82.178885667668,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6616 Wire Rd, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "7142 PISCINA ST, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.262370353687,
+    "lon": -82.194647752771,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7142 Piscina St, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "4604 LAKE CRYSTAL BLVD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.224190365627,
+    "lon": -82.24214766279,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4604 Lake Crystal Blvd, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "1955 BRANCH FORBES RD, PLANT CITY, FL 33565": {
+    "ok": true,
+    "lat": 28.034009173528,
+    "lon": -82.187270755967,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1955 Branch Forbes Rd, Plant City, Florida, 33565",
+    "src": "arcgis"
+  },
+  "9920 PRINCESS LN, HUDSON, FL 34667": {
+    "ok": true,
+    "lat": 28.376439212997,
+    "lon": -82.65051549424,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9920 Princess Ln, Hudson, Florida, 34667",
+    "src": "arcgis"
+  },
+  "14622 N NEBRASKA AVE, TAMPA, FL 33613": {
+    "ok": true,
+    "lat": 28.081378786863,
+    "lon": -82.451710329601,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14622 N Nebraska Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "4500 US HWY 92 EAST 1030, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.05773993398,
+    "lon": -81.870182269192,
+    "score": 98.82,
+    "addr_type": "PointAddress",
+    "match": "4500 US Highway 92 E, Lakeland, Florida, 33801",
+    "src": "arcgis"
+  },
+  "1177 PRIMROSE PEAK DR, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.709585809014,
+    "lon": -82.479541852362,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1177 Primrose Peak Dr, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "6704 RIVERVIEW DR, RIVERVIEW, FL 33569": {
+    "ok": true,
+    "lat": 27.865062233929,
+    "lon": -82.380350158727,
+    "score": 98.39,
+    "addr_type": "PointAddress",
+    "match": "6704 Riverview Dr, Riverview, Florida, 33578",
+    "src": "arcgis"
+  },
+  "7107 GIBRALTAR AVE, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.248164913733,
+    "lon": -82.697161204506,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7107 Gibraltar Ave, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "1510 E GEORGIA ST, BARTOW, FL 33830": {
+    "ok": true,
+    "lat": 27.883016857264,
+    "lon": -81.827918198811,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1510 E Georgia St, Bartow, Florida, 33830",
+    "src": "arcgis"
+  },
+  "3325 US HWY 98 S, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.005703276957,
+    "lon": -81.906914199659,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3325 US Highway 98 S, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "5601 CYPRESS GARDENS ROAD, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 27.985326828428,
+    "lon": -81.662732847809,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5601 Cypress Gardens Rd, Winter Haven, Florida, 33884",
+    "src": "arcgis"
+  },
+  "203 E LINEBAUGH AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.039197990689,
+    "lon": -82.456429005813,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "203 E Linebaugh Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "1015 NEPTUNE DR, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.707076267203,
+    "lon": -82.463109131187,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1015 Neptune Dr, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "4700 FOXWOOD BLVD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.103839688983,
+    "lon": -81.979870368717,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4700 Foxwood Blvd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "8518 GIBSONTON DR, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.85397456859,
+    "lon": -82.358147251587,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8518 Gibsonton Dr, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "15812 LIVINGSTON AVE, LUTZ, FL 33549": {
+    "ok": true,
+    "lat": 28.094690003476,
+    "lon": -82.432839983344,
+    "score": 99.51,
+    "addr_type": "PointAddress",
+    "match": "15812 Livingston Ave, Lutz, Florida, 33559",
+    "src": "arcgis"
+  },
+  "1111 W BEACON RD, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.020090352753,
+    "lon": -81.97136567066,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1111 W Beacon Rd, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "713 ROSE ST, AUBURNDALE, FL 33823": {
+    "ok": true,
+    "lat": 28.054874706108,
+    "lon": -81.774225738726,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "713 Rose St, Auburndale, Florida, 33823",
+    "src": "arcgis"
+  },
+  "7850 OLDFIELD RD, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.252403600259,
+    "lon": -82.684643251209,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7850 Oldfield Rd, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "38130 MCDONALD ST, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.337150257238,
+    "lon": -82.185381139715,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38130 McDonald St, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "340 BRUNNELL PKWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.047278396807,
+    "lon": -81.983543151051,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "340 N Brunnell Pkwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "38210 VINSON AVE, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.220688783666,
+    "lon": -82.184453849767,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38210 Vinson Ave, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "5270 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.032791324906,
+    "lon": -82.028977676308,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5270 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "23 O'HARA DR, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.105231210638,
+    "lon": -81.665005517036,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "23 Ohara Dr, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "3700 US HWY 17-92 N, DAVENPORT, FL 33837": {
+    "ok": true,
+    "lat": 28.205917732886,
+    "lon": -81.574395215872,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3700 US Highway 17 92 N, Davenport, Florida, 33837",
+    "src": "arcgis"
+  },
+  "9230 ELMIRA AVE, ARIPEKA, FL 34679": {
+    "ok": true,
+    "lat": 28.427794840386,
+    "lon": -82.659763080375,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9230 Elmira Ave, Aripeka, Florida, 34679",
+    "src": "arcgis"
+  },
+  "5435 LEWELLYN RD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.113296068326,
+    "lon": -82.02308746149,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5435 Lewellyn Rd, Lakeland, Florida, 33810",
+    "src": "arcgis"
+  },
+  "700 HWY 630A, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.757837030924,
+    "lon": -81.574824956048,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "700 County Road 630a, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "4337 HAMLIN WAY, WIMAUMA, FL 33598": {
+    "ok": true,
+    "lat": 27.667062402548,
+    "lon": -82.361128778365,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4337 Hamlin Way, Wimauma, Florida, 33598",
+    "src": "arcgis"
+  },
+  "1501 SUSIE CIRCLE, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.703939800944,
+    "lon": -82.446023711211,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1501 Susie Cir, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "5330 GREEN KEY RD, NEW PORT RICHEY, FL 34652": {
+    "ok": true,
+    "lat": 28.253223685666,
+    "lon": -82.726780335757,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5330 Green Key Rd, New Port Richey, Florida, 34652",
+    "src": "arcgis"
+  },
+  "5137 NORTH SCENIC HIGHWAY, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.972412075835,
+    "lon": -81.594988713784,
+    "score": 98.68,
+    "addr_type": "PointAddress",
+    "match": "5137 N Scenic Hwy, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "10808 US 98 SOUTH, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.316426001637,
+    "lon": -82.17585996826,
+    "score": 98.85,
+    "addr_type": "PointAddress",
+    "match": "10808 US Highway 98, Dade City, Florida, 33525",
+    "src": "arcgis"
+  },
+  "1640 S SCENIC HWY, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.699024736741,
+    "lon": -81.533979690417,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1640 S Scenic Hwy, Frostproof, Florida, 33843",
+    "src": "arcgis"
+  },
+  "5600 NEW TAMPA HWY, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.032441925273,
+    "lon": -82.03202558776,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5600 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "5233 PINE STREET, SEFFNER, FL 33586": {
+    "ok": true,
+    "lat": 27.991259371858,
+    "lon": -82.292755498687,
+    "score": 98.21,
+    "addr_type": "PointAddress",
+    "match": "5233 Pine St, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "7306 OSTEEN RD, NEW PORT RICHEY, FL 34653": {
+    "ok": true,
+    "lat": 28.263262272004,
+    "lon": -82.682279638332,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7306 Osteen Rd, New Port Richey, Florida, 34653",
+    "src": "arcgis"
+  },
+  "3335 S FLORIDA AVE, LAKELAND, FL 33803": {
+    "ok": true,
+    "lat": 28.003371305765,
+    "lon": -81.958383443746,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3335 S Florida Ave, Lakeland, Florida, 33803",
+    "src": "arcgis"
+  },
+  "117 MONTEREY CYPRESS BLVD, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.020507813441,
+    "lon": -81.641048780475,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "117 Monterey Cypress Blvd, Winter Haven, Florida, 33881",
+    "src": "arcgis"
+  },
+  "8400 W WATERS AVE, TAMPA, FL 33615": {
+    "ok": true,
+    "lat": 28.026341534232,
+    "lon": -82.576291310869,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8400 W Waters Ave, Tampa, Florida, 33615",
+    "src": "arcgis"
+  },
+  "11123 N NEBRASKA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.050165878632,
+    "lon": -82.450811789581,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11123 N Nebraska Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "10921 N NEBRASKA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.048894930654,
+    "lon": -82.450510376343,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10921 N Nebraska Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "900 OHLINGER RD, BABSON PARK, FL 33827": {
+    "ok": true,
+    "lat": 27.808575331144,
+    "lon": -81.556221824864,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "900 Ohlinger Rd, Babson Park, Florida, 33827",
+    "src": "arcgis"
+  },
+  "4943 HILLSBOROUGH AVE, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.995083573272,
+    "lon": -82.402751297878,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "4943 E Hillsborough Ave, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "10603 N NEBRASKA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.045530015624,
+    "lon": -82.451010021591,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10603 N Nebraska Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "3927 CRYSTAL SPRINGS RD, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.214524983528,
+    "lon": -82.181342990222,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3927 Crystal Springs Rd, Zephyrhills, Florida, 33541",
+    "src": "arcgis"
+  },
+  "221 21ST ST SE, RUSKIN, FL 33570": {
+    "ok": true,
+    "lat": 27.717775305602,
+    "lon": -82.40690721311,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "221 21st St SE, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "8750 SYMMES RD, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.835671593359,
+    "lon": -82.357032877559,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8750 Symmes Rd, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "11337 HUDSON AVE, HUDSON, FL 34669": {
+    "ok": true,
+    "lat": 28.361113657412,
+    "lon": -82.626646767662,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11337 Hudson Ave, Hudson, Florida, 34669",
+    "src": "arcgis"
+  },
+  "10101 N FLORIDA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.043099473251,
+    "lon": -82.458195324269,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10101 N Florida Ave, Tampa, Florida, 33612",
+    "src": "arcgis"
+  },
+  "8536 HONEYWELL RD, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.838708147331,
+    "lon": -82.358350848015,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8536 Honeywell Rd, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "14011 N NEBRASKA AVE, TAMPA, FL 33612": {
+    "ok": true,
+    "lat": 28.075155852398,
+    "lon": -82.45084129388,
+    "score": 99.52,
+    "addr_type": "PointAddress",
+    "match": "14011 N Nebraska Ave, Tampa, Florida, 33613",
+    "src": "arcgis"
+  },
+  "11520 E US  HWY 92, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.001627241262,
+    "lon": -82.306194204048,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11520 E US Highway 92, Seffner, Florida, 33584",
+    "src": "arcgis"
+  },
+  "2310 S 50TH ST, TAMPA, FL 33619": {
+    "ok": true,
+    "lat": 27.927148750949,
+    "lon": -82.401171057672,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2310 S 50th St, Tampa, Florida, 33619",
+    "src": "arcgis"
+  },
+  "1221 N VALRICO RD, VALRICO, FL 33594": {
+    "ok": true,
+    "lat": 27.960268542152,
+    "lon": -82.250950505143,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1221 N Valrico Rd, Valrico, Florida, 33594",
+    "src": "arcgis"
+  },
+  "3815 NEW RIVER RD, WESLEY CHAPEL, FL 33543": {
+    "ok": true,
+    "lat": 28.213210868748,
+    "lon": -82.258667639577,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3815 New River Rd, Wesley Chapel, Florida, 33543",
+    "src": "arcgis"
+  },
+  "5410 N FALKENBURG RD, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.996426018885,
+    "lon": -82.336289678857,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5410 N Falkenburg Rd, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "12960 MORRIS BRIDGE RD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.080462602936,
+    "lon": -82.324538334424,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12960 Morris Bridge Rd, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "2850 NEW TAMPA HWY LOT 74, LAKELAND, FL 33815": {
+    "ok": true,
+    "lat": 28.038733507525,
+    "lon": -82.002970390955,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2850 New Tampa Hwy, Lakeland, Florida, 33815",
+    "src": "arcgis"
+  },
+  "4404 574 HWY, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.00725174975,
+    "lon": -82.168569388878,
+    "score": 98.33,
+    "addr_type": "PointAddress",
+    "match": "4404 State Road 574, Plant City, Florida, 33563",
+    "src": "arcgis"
+  },
+  "11024 E OLD HILLSBORO, TAMPA, FL 33610": {
+    "ok": true,
+    "lat": 27.997093176468,
+    "lon": -82.314978270938,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "11024 Old Hillsborough Ave, Tampa, Florida, 33610",
+    "src": "arcgis"
+  },
+  "3520 EAST GASKIN ROAD LOT #1, BARTOW, FL 33830": {
+    "ok": true,
+    "lat": 27.928581218202,
+    "lon": -81.785841631603,
+    "score": 97.0,
+    "addr_type": "PointAddress",
+    "match": "3520 E Gaskins Rd, Bartow, Florida, 33830",
+    "src": "arcgis"
+  },
+  "18118 US SERVICE RD, LUTZ, FL 33548": {
+    "ok": true,
+    "lat": 28.136636148271,
+    "lon": -82.46562454033,
+    "score": 97.33,
+    "addr_type": "PointAddress",
+    "match": "18118 N US Highway 41, Lutz, Florida, 33549",
+    "src": "arcgis"
+  },
+  "11211 E BAY RD # 10, GIBSONTON, FL 33534": {
+    "ok": true,
+    "lat": 27.839166888892,
+    "lon": -82.352690464981,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11211 E Bay Rd, Gibsonton, Florida, 33534",
+    "src": "arcgis"
+  },
+  "375 W BRANNEN RD, LAKELAND, FL 33813": {
+    "ok": true,
+    "lat": 27.963401781378,
+    "lon": -81.959040920231,
+    "score": 99.89,
+    "addr_type": "PointAddress",
+    "match": "375 Brannen Rd W, Lakeland, Florida, 33813",
+    "src": "arcgis"
+  },
+  "5230 SR 60, DOVER, FL 33527": {
+    "ok": true,
+    "lat": 27.940699941451,
+    "lon": -82.187064644968,
+    "score": 99.54,
+    "addr_type": "PointAddress",
+    "match": "5230 E State Road 60, Dover, Florida, 33527",
+    "src": "arcgis"
+  },
+  "2525 GULF CITY RD # 1, RUSKIN, FL 33570-2771": {
+    "ok": true,
+    "lat": 27.705427127753,
+    "lon": -82.463984537154,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2525 Gulf City Rd, Ruskin, Florida, 33570",
+    "src": "arcgis"
+  },
+  "11940 US HWY 301 NORTH LOT 11, THONOTOSASSA, FL 33637": {
+    "ok": true,
+    "lat": 28.061290633893,
+    "lon": -82.310181140113,
+    "score": 98.52,
+    "addr_type": "PointAddress",
+    "match": "11940 N US Highway 301, Thonotosassa, Florida, 33592",
+    "src": "arcgis"
+  },
+  "753 W MAIN ST OFFICE, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.120867609103,
+    "lon": -81.638222318906,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "753 W Main St, Haines City, Florida, 33844",
+    "src": "arcgis"
+  },
+  "1111 HW 17 & 92 N, DAVENPORT, FL 33837": {
+    "ok": true,
+    "lat": 28.173037454566,
+    "lon": -81.596732904015,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1111 US Highway 17 92 N, Davenport, Florida, 33837",
+    "src": "arcgis"
+  },
+  "3100 CANAL RD LOT 17, LAKE WALES, FL 33843": {
+    "ok": true,
+    "lat": 27.995551073922,
+    "lon": -81.543496922377,
+    "score": 98.15,
+    "addr_type": "PointAddress",
+    "match": "3100 Canal Rd, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "12880 MORRIS BRIDGE ROAD, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.0802279,
+    "lon": -82.3283146,
+    "score": 9.99999999995449e-06,
+    "addr_type": "place",
+    "match": "12880, Morris Bridge Road, Trifoliata, Thonotosassa, Hillsborough County, Florida, 33592, United States",
+    "src": "nominatim"
+  },
+  "4331 MITCHELL RD, LAND O' LAKES, FL 34638": {
+    "ok": true,
+    "lat": 28.2203051,
+    "lon": -82.4822489,
+    "score": 9.99999999995449e-06,
+    "addr_type": "place",
+    "match": "4331, Mitchell Road, Land O' Lakes, Pasco County, Florida, 34638, United States",
+    "src": "nominatim"
+  },
+  "4401 BOOT BAY RD, PLANT CITY, FL 33567": {
+    "ok": true,
+    "lat": 28.025053,
+    "lon": -82.16238,
+    "score": 9.99999999995449e-06,
+    "addr_type": "place",
+    "match": "4401, Boot Bay Road, Village At Plant City, Plant City, Hillsborough County, Florida, 33567, United States",
+    "src": "nominatim"
+  },
+  "183 MAPLE, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.056790431988,
+    "lon": -82.120739818607,
+    "score": 90.47,
+    "addr_type": "PointAddress",
+    "match": "183 Maple Dr, Plant City, Florida, 33565",
+    "src": "arcgis"
+  },
+  "6703 LYNCHBURG ROAD, WINTER HAVEN, FL 33801": {
+    "ok": true,
+    "lat": 28.076717987692,
+    "lon": -81.751884027269,
+    "score": 92.34,
+    "addr_type": "PointAddress",
+    "match": "6703 Lynchburg Rd, Lake Alfred, Florida, 33850",
+    "src": "arcgis"
+  },
+  "4747 N  SR 33, LAKELAND, FL 33801": {
+    "ok": true,
+    "lat": 28.103781979579,
+    "lon": -81.941708988483,
+    "score": 91.42,
+    "addr_type": "PointAddress",
+    "match": "4747 State Road 33 N, Lakeland, Florida, 33805",
+    "src": "arcgis"
+  },
+  "18721 US HWY 27 S, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.889351564408,
+    "lon": -81.599366833269,
+    "score": 96.15,
+    "addr_type": "PointAddress",
+    "match": "18721 Hwy 27, Lake Wales, Florida, 33853",
+    "src": "arcgis"
+  },
+  "14400 RESSE DRIVE, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.978552490463,
+    "lon": -81.378468396784,
+    "score": 93.75,
+    "addr_type": "PointAddress",
+    "match": "14400 Reese Dr, Lake Wales, Florida, 33898",
+    "src": "arcgis"
+  },
+  "2317 N US HWY 27, DAVENPORT, FL 33837": {
+    "ok": true,
+    "lat": 28.192670009189,
+    "lon": -81.641190015544,
+    "score": 96.93,
+    "addr_type": "PointAddress",
+    "match": "2317 Highway 27, Davenport, Florida, 33837",
+    "src": "arcgis"
+  },
+  "4531 GAIL BLVD, ZEPHYRHILLS, FL 33542": {
+    "ok": true,
+    "lat": 28.223282982699,
+    "lon": -82.180669001388,
+    "score": 94.69,
+    "addr_type": "PointAddress",
+    "match": "4531 Gall Blvd, Zephyrhills, Florida, 33542",
+    "src": "arcgis"
+  },
+  "7400 S COUNTY LINE RD, MULBERRY, FL 33860": {
+    "ok": true,
+    "lat": 27.931224053257,
+    "lon": -82.055138959007,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "7400 S COUNTY LINE RD, MULBERRY, FL 33860",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "4639 HWY 27 S, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.801109316736,
+    "lon": -81.597498334291,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "4639 HWY 27 S, LAKE WALES, FL 33853",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "36006 5TH AVE, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.229833607935,
+    "lon": -82.220777813539,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "36006 5TH AVE, ZEPHYRHILLS, FL 33541",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "BOX 16, 33009 MCCABE ROAD, SAN ANTONIO, FL 33576": {
+    "ok": true,
+    "lat": 28.326505952667,
+    "lon": -82.269817498638,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "BOX 16, 33009 MCCABE ROAD, SAN ANTONIO, FL 33576",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "4419 SR 60, VALRICO, FL 33594": {
+    "ok": true,
+    "lat": 27.937593911812,
+    "lon": -82.199976142073,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "4419 SR 60, VALRICO, FL 33594",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "5425 2ND STREET, HIGHLAND CITY, FL 33846": {
+    "ok": true,
+    "lat": 27.966732214508,
+    "lon": -81.876062590469,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "5425 2ND STREET, HIGHLAND CITY, FL 33846",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "4950 CYPRESS GARDEN RD, WINTER HAVEN, FL 33884": {
+    "ok": true,
+    "lat": 27.989462077678,
+    "lon": -81.662141566288,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "4950 CYPRESS GARDEN RD, WINTER HAVEN, FL 33884",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "3255 WEST US HWY 92, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.064551842704,
+    "lon": -81.766288206011,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "3255 WEST US HWY 92, WINTER HAVEN, FL 33881",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "328 MAGNOLIA HILL DRIVE, PLANT CITY, FL 33565": {
+    "ok": true,
+    "lat": 28.055786840043,
+    "lon": -82.127200128059,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "328 MAGNOLIA HILL DRIVE, PLANT CITY, FL 33565",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "9420 US 301, DADE CITY, FL 33525": {
+    "ok": true,
+    "lat": 28.294879850517,
+    "lon": -82.187619646118,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "9420 US 301, DADE CITY, FL 33525",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "1901 HWY 17-92 WEST, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.10636160896,
+    "lon": -81.650549122623,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "1901 HWY 17-92 WEST, HAINES CITY, FL 33844",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "10000 N US HWY 98, LAKELAND, FL 33809": {
+    "ok": true,
+    "lat": 28.181182231079,
+    "lon": -81.993679076587,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "10000 N US HWY 98, LAKELAND, FL 33809",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "1525 DUFF ROAD, LAKELAND, FL 33810": {
+    "ok": true,
+    "lat": 28.135504130158,
+    "lon": -81.978668628405,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "1525 DUFF ROAD, LAKELAND, FL 33810",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "10813 E MAIN ST, THONOTOSASSA, FL 33592": {
+    "ok": true,
+    "lat": 28.057953396718,
+    "lon": -82.292276683342,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "10813 E MAIN ST, THONOTOSASSA, FL 33592",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "2727 SANLAN RANCH DR, LAKELAND, FL 33813": {
+    "ok": true,
+    "lat": 27.99384592673,
+    "lon": -81.903622659898,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "2727 SANLAN RANCH DR, LAKELAND, FL 33813",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "3731 E ST RD 60, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.89426197416,
+    "lon": -81.528479322962,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "3731 E ST RD 60, LAKE WALES, FL 33853",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "2251 FORT MEADE RD CR 630 W, FROSTPROOF, FL 33843": {
+    "ok": true,
+    "lat": 27.733611460099,
+    "lon": -81.569700631758,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "2251 FORT MEADE RD CR 630 W, FROSTPROOF, FL 33843",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "SR 540-A 19-B HUMMINGBIRD LN, WINTER HAVEN, FL 33880": {
+    "ok": true,
+    "lat": 27.972733838945,
+    "lon": -81.672994188581,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "SR 540-A 19-B HUMMINGBIRD LN, WINTER HAVEN, FL 33880",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "3275 WEST US 92, WINTER HAVEN, FL 33881": {
+    "ok": true,
+    "lat": 28.064517968525,
+    "lon": -81.76650222759,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "3275 WEST US 92, WINTER HAVEN, FL 33881",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "36106 U.S. HWY 27, HAINES CITY, FL 33844": {
+    "ok": true,
+    "lat": 28.125173225778,
+    "lon": -81.639859181716,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "36106 U.S. HWY 27, HAINES CITY, FL 33844",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "213 FREDRICK AVENUE, DUNDEE, FL 33838": {
+    "ok": true,
+    "lat": 28.025987464508,
+    "lon": -81.620928035116,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "213 FREDRICK AVENUE, DUNDEE, FL 33838",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "3900 SR 37 N, MULBERRY, FL 33860": {
+    "ok": true,
+    "lat": 27.917449913629,
+    "lon": -81.974075333278,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "3900 SR 37 N, MULBERRY, FL 33860",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "8106 N HWY 301, ZEPHYRHILLS, FL 33541": {
+    "ok": true,
+    "lat": 28.276193784348,
+    "lon": -82.187959495702,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "8106 N HWY 301, ZEPHYRHILLS, FL 33541",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "9721 CR RD 39 S, LITHIA, FL 33547": {
+    "ok": true,
+    "lat": 27.862635996063,
+    "lon": -82.145646912388,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "9721 CR RD 39 S, LITHIA, FL 33547",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "20401 US 301, TRILBY, FL 33593": {
+    "ok": true,
+    "lat": 28.456101369971,
+    "lon": -82.185770939522,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "20401 US 301, TRILBY, FL 33593",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "5301 US HWY 27 S, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.810587076269,
+    "lon": -81.597533058112,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "5301 US HWY 27 S, LAKE WALES, FL 33853",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "4000 US HIGHWAY 92 EAST, PLANT CITY, FL 33566": {
+    "ok": true,
+    "lat": 28.026032243521,
+    "lon": -82.063119731795,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "4000 US HIGHWAY 92 EAST, PLANT CITY, FL 33566",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "11520 US 92 E BOX D-4, SEFFNER, FL 33584": {
+    "ok": true,
+    "lat": 28.001195143399,
+    "lon": -82.30608235117,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "11520 US 92 E BOX D-4, SEFFNER, FL 33584",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "2200 HWY 60 E, VALRICO, FL 33594": {
+    "ok": true,
+    "lat": 27.938026933204,
+    "lon": -82.250026202352,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "2200 HWY 60 E, VALRICO, FL 33594",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  },
+  "2300 E STATE RD 60, LAKE WALES, FL 33853": {
+    "ok": true,
+    "lat": 27.903565257382,
+    "lon": -81.626308110279,
+    "score": 100,
+    "addr_type": "PointAddress",
+    "match": "2300 E STATE RD 60, LAKE WALES, FL 33853",
+    "src": "arcgis",
+    "from": "mhp-map-listings"
+  }
+}

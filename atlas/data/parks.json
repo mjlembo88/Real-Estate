@@ -1,0 +1,4862 @@
+[
+  {
+    "id": "PRMZ000352",
+    "name": "FROSTPROOF MOBILE VILLAGE",
+    "county": "Polk",
+    "address": "375 W HIGHWAY 630, FROSTPROOF, FL 33843",
+    "lots": 124,
+    "approved": "06/24/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000385",
+    "name": "GRANDVIEW ESTATES",
+    "county": "Hillsborough",
+    "address": "5220 CR 579 S, SEFFNER, FL 33584",
+    "lots": 122,
+    "approved": "11/10/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001011",
+    "name": "SHERWOOD MOBILE MANOR",
+    "county": "Polk",
+    "address": "1200 N DAVIS AVE, LAKELAND, FL 33805",
+    "lots": 160,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001611",
+    "name": "SHELL POINTE MANUFACTURED HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "1112 W SHELL POINT RD, RUSKIN, FL 33570",
+    "lots": 63,
+    "approved": "02/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000776",
+    "name": "LAKE BAMBI MOBILE HOME & RV PARK",
+    "county": "Pasco",
+    "address": "6105 LAND O' LAKES BLVD, LAND O' LAKES, FL 34638",
+    "lots": 33,
+    "approved": "08/14/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001540",
+    "name": "PINE OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "183 MAPLE, PLANT CITY, FL 33566",
+    "lots": 104,
+    "approved": "02/05/2020",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ000749",
+    "name": "LUCERNE LAKESIDE MANUFACTURED HOME COMMUNITY",
+    "county": "Polk",
+    "address": "39 1/2 AZALEA DR, WINTER HAVEN, FL 33881",
+    "lots": 140,
+    "approved": "06/04/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000275",
+    "name": "DALLEY TOWN PARK",
+    "county": "Polk",
+    "address": "1400 HWY 17 N, FORT MEADE, FL 33841",
+    "lots": 25,
+    "approved": "06/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001295",
+    "name": "RAINES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "5123 E BROADWAY AVE, TAMPA, FL 33619",
+    "lots": 0,
+    "approved": "04/19/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003122",
+    "name": "PINEWOOD MOBILE PARK",
+    "county": "Polk",
+    "address": "192 PINEWOOD LN, LAKE ALFRED, FL 33881",
+    "lots": 17,
+    "approved": "04/13/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001059",
+    "name": "GROVE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "1518 CLEMENT RD, LUTZ, FL 33549",
+    "lots": 34,
+    "approved": "06/03/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001524",
+    "name": "RIVER HAVEN MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "156 19TH ST NW, RUSKIN, FL 33570",
+    "lots": 63,
+    "approved": "05/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000164",
+    "name": "SUNSET SHORES CO-OP INC",
+    "county": "Polk",
+    "address": "1000 S CLINCH LAKE BLVD, FROSTPROOF, FL 33843",
+    "lots": 24,
+    "approved": "07/19/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000415",
+    "name": "GEORGETOWNE MOBILE MANOR",
+    "county": "Polk",
+    "address": "1501 W ARIANA ST, LAKELAND, FL 33803",
+    "lots": 188,
+    "approved": "02/29/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002186",
+    "name": "FRIENDLY OURS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "37936 12TH AVE, ZEPHYRHILLS, FL 33542",
+    "lots": 20,
+    "approved": "10/26/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000619",
+    "name": "LEISURE HOMES MP",
+    "county": "Polk",
+    "address": "1675 LYNCHBURG RD, LAKE ALFRED, FL 33850-2651",
+    "lots": 54,
+    "approved": "10/28/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003246",
+    "name": "HAMPTONS",
+    "county": "Polk",
+    "address": "1094 HWY 92 W, AUBURNDALE, FL 33823",
+    "lots": 829,
+    "approved": "06/30/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000374",
+    "name": "GROVE SHORES MOBILE COLONY",
+    "county": "Polk",
+    "address": "5201 STRUTHERS RD, WINTER HAVEN, FL 33884",
+    "lots": 60,
+    "approved": "07/05/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000379",
+    "name": "GULF BREEZE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "7530 MARYLAND AVE, HUDSON, FL 34667",
+    "lots": 39,
+    "approved": "02/20/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002608",
+    "name": "SOMERSET ACRES MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "20344 OLD SOMERSET ACRES LN, SPRING HILL, FL 34610",
+    "lots": 13,
+    "approved": "12/03/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000944",
+    "name": "RAINBOW ROCK MHP",
+    "county": "Hillsborough",
+    "address": "1150 FLETCHER LN, PLANT CITY, FL 33566",
+    "lots": 45,
+    "approved": "07/20/2016",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001720",
+    "name": "RIVERLAWN MANUFACTURED HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "8215 STONER RD, RIVERVIEW, FL 33569",
+    "lots": 131,
+    "approved": "06/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002064",
+    "name": "MCKENZIE MHP",
+    "county": "Polk",
+    "address": "2011 N LK REEDY BLVD, FROSTPROOF, FL 33843",
+    "lots": 15,
+    "approved": "10/12/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000882",
+    "name": "IMPERIAL OAKS ESTATES MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "11440 CAUSEWAY BLVD, NEW PORT RICHEY, FL 34654",
+    "lots": 89,
+    "approved": "01/31/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001740",
+    "name": "SPRING HILL MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "7400 S COUNTY LINE RD, MULBERRY, FL 33860",
+    "lots": 255,
+    "approved": "12/07/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001253",
+    "name": "ZACK'S OAKSIDE MHP INC",
+    "county": "Pasco",
+    "address": "38539 CRESCENT AVE, ZEPHYRHILLS, FL 33540",
+    "lots": 238,
+    "approved": "09/08/2011",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001775",
+    "name": "SUNSHINE LAKE ESTATES",
+    "county": "Pasco",
+    "address": "6530 ACCENT LANE, NEW PORT RICHEY, FL 34653",
+    "lots": 248,
+    "approved": "11/18/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001247",
+    "name": "SELPH'S MH VILLAGE",
+    "county": "Polk",
+    "address": "301 SOUTH LAKE REEDY BLVD, FROSTPROOF, FL 33843",
+    "lots": 35,
+    "approved": "08/22/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003081",
+    "name": "GARDEN GATE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "801 HWY 27 S., DUNDEE, FL 33838",
+    "lots": 8,
+    "approved": "02/28/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001176",
+    "name": "FOREST LAKE ESTATES",
+    "county": "Pasco",
+    "address": "6429 FOREST LAKE DR, ZEPHYRHILLS, FL 33540",
+    "lots": 1068,
+    "approved": "07/15/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000240",
+    "name": "COUNTRY AIRE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10940 CLAY PIT RD, TAMPA, FL 33610",
+    "lots": 61,
+    "approved": "08/03/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001561",
+    "name": "RIVERSIDE CLUB",
+    "county": "Hillsborough",
+    "address": "2550 PIER DR, RUSKIN, FL 33570",
+    "lots": 729,
+    "approved": "03/24/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000890",
+    "name": "HUDSON SPRINGS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "14235 PINE ST, HUDSON, FL 34667",
+    "lots": 18,
+    "approved": "09/29/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000108",
+    "name": "COLLEGE PARK MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "4639 HWY 27 S, LAKE WALES, FL 33853",
+    "lots": 99,
+    "approved": "02/01/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000157",
+    "name": "CYPRESS GARDENS FAMILY CAMPGRND & MH EST",
+    "county": "Polk",
+    "address": "1951 LAKE DAISY RD, WINTER HAVEN, FL 33884",
+    "lots": 143,
+    "approved": "11/08/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000940",
+    "name": "RALSTON BEACH TRAILER CT",
+    "county": "Hillsborough",
+    "address": "6817 N HABANA AVE, TAMPA, FL 33614",
+    "lots": 45,
+    "approved": "11/08/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000300",
+    "name": "BUCCANEER BAY MOBILE HOME COMMUNITY",
+    "county": "Polk",
+    "address": "643 MATHEW RD, LAKELAND, FL 33815",
+    "lots": 54,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR7602",
+    "name": "STRAWBERRY PATCH MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "546 STRAWBERRY PATCH CIR, PLANT CITY, FL 33563",
+    "lots": 32,
+    "approved": "09/18/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY002818",
+    "name": "PARKWAY MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "5252 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 16,
+    "approved": "06/20/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001718",
+    "name": "STRAWBERRY FIELDS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "5106 WALLACE RD, PLANT CITY, FL 33567",
+    "lots": 70,
+    "approved": "08/14/2017",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001823",
+    "name": "WINTER HAVEN MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "50 LAKE CHARLOTTE DR W, WINTER HAVEN, FL 33880",
+    "lots": 238,
+    "approved": "07/17/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001695",
+    "name": "SHANGRI-LA MOBILE ESTATES",
+    "county": "Polk",
+    "address": "2850 NEW TAMPA HWY LOT 74, LAKELAND, FL 33815",
+    "lots": 124,
+    "approved": "02/01/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001851",
+    "name": "RIVER BAY MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "411 RIVER BAY DR, TAMPA, FL 33619",
+    "lots": 307,
+    "approved": "12/06/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000840",
+    "name": "RIDGE MANOR MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1301 POLK CITY RD, HAINES CITY, FL 33844",
+    "lots": 170,
+    "approved": "05/01/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001344",
+    "name": "ORANGE HEIGHTS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "5912 TWIN BEND LOOP, NEW PORT RICHEY, FL 34652",
+    "lots": 37,
+    "approved": "07/03/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002873",
+    "name": "GREEN ACRES",
+    "county": "Polk",
+    "address": "4331 LAKE BUFFUM ROAD, LAKE WALES, FL 33859-3163",
+    "lots": 41,
+    "approved": "08/17/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003058",
+    "name": "MY WARRIOR'S PLACE",
+    "county": "Hillsborough",
+    "address": "105 22ND ST NW, RUSKIN, FL 33570",
+    "lots": 10,
+    "approved": "09/18/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001580",
+    "name": "MELODY ACRES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "5500 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 84,
+    "approved": "11/05/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000968",
+    "name": "OAK HILL MOBILE HOME COMMUNITY",
+    "county": "Polk",
+    "address": "1331 OAKHILL ST, LAKELAND, FL 33815",
+    "lots": 79,
+    "approved": "10/08/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001261",
+    "name": "KINGSWOOD",
+    "county": "Hillsborough",
+    "address": "10109 OAK FOREST DR, RIVERVIEW, FL 33569",
+    "lots": 89,
+    "approved": "07/12/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002094",
+    "name": "SILVER STAR MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "19608 LIVINGSTON AVE, LUTZ, FL 33549",
+    "lots": 15,
+    "approved": "09/10/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002969",
+    "name": "SHADY GROVE",
+    "county": "Hillsborough",
+    "address": "12966 MORRIS BRIDGE RD, THONOTOSASSA, FL 33592",
+    "lots": 22,
+    "approved": "02/20/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001008",
+    "name": "SHALIMAR VILLAGE",
+    "county": "Pasco",
+    "address": "6529 STONE RD, PORT RICHEY, FL 34668",
+    "lots": 179,
+    "approved": "12/08/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002691",
+    "name": "WOODLAND ESTATES",
+    "county": "Hillsborough",
+    "address": "602 WOODLAND ESTATES AVE, RUSKIN, FL 33570",
+    "lots": 60,
+    "approved": "10/10/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001511",
+    "name": "HARBOR, THE",
+    "county": "Polk",
+    "address": "10511 MONROE CT, LAKE WALES, FL 33898",
+    "lots": 28,
+    "approved": "08/27/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001637",
+    "name": "MINERVA MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2800 HIGHWAY 17- 92 WEST, HAINES CITY, FL 33844",
+    "lots": 81,
+    "approved": "05/27/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002910",
+    "name": "PRUETT BLACK DAIRY ROAD TP",
+    "county": "Hillsborough",
+    "address": "6421- 6427 BLACK DAIRY ROAD, SEFFNER, FL 33584",
+    "lots": 25,
+    "approved": "03/22/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000062",
+    "name": "BRIARWOOD MOBILE HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "4002 SMITH RYALS RD, PLANT CITY, FL 33567",
+    "lots": 95,
+    "approved": "01/10/2020",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001398",
+    "name": "SUNSET BY THE LAKE",
+    "county": "Polk",
+    "address": "203 SUNSET DR, LAKE ALFRED, FL 33850",
+    "lots": 92,
+    "approved": "03/25/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001330",
+    "name": "WINDWARD GARDENS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "301 N WILDER RD, PLANT CITY, FL 33566",
+    "lots": 99,
+    "approved": "12/27/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ000112",
+    "name": "CRESCENT LAKE PARK",
+    "county": "Hillsborough",
+    "address": "11222 CRESCENT LAKE DR, RIVERVIEW, FL 33578",
+    "lots": 143,
+    "approved": "05/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001310",
+    "name": "TOWNSLEY ESTATES MH COMMUNITY",
+    "county": "Polk",
+    "address": "200 E ROBSON ST, LAKELAND, FL 33805",
+    "lots": 39,
+    "approved": "10/19/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002629",
+    "name": "SUNSET BY THE LAKE II",
+    "county": "Polk",
+    "address": "6703 LYNCHBURG ROAD, WINTER HAVEN, FL 33801",
+    "lots": 14,
+    "approved": "04/25/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000897",
+    "name": "WINDWARD KNOLL MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "12415 THONOTOSASSA RD, THONOTOSASSA, FL 33592",
+    "lots": 140,
+    "approved": "02/10/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001548",
+    "name": "PALM TREE ACRES MHP",
+    "county": "Pasco",
+    "address": "36006 5TH AVE, ZEPHYRHILLS, FL 33541",
+    "lots": 183,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001549",
+    "name": "POLO PARK EAST",
+    "county": "Polk",
+    "address": "525 POLO PARK EAST BLVD, DAVENPORT, FL 33897",
+    "lots": 31,
+    "approved": "07/31/2013",
+    "owner": "POLO PARK EAST RO ASSOCIATION INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001564",
+    "name": "KISSIMMEE RIVER PARK AND MARINA",
+    "county": "Polk",
+    "address": "3800 BRUCE BLVD, LAKE WALES, FL 33898",
+    "lots": 82,
+    "approved": "10/26/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002200",
+    "name": "BURGER'S MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "10416 CANDY LANE, DADE CITY, FL 33525",
+    "lots": 5,
+    "approved": "07/02/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002203",
+    "name": "ALAFIA RIVER BEER SHED & MHP, INC",
+    "county": "Hillsborough",
+    "address": "11315 DEL RIO DR., RIVERVIEW, FL 33569-5184",
+    "lots": 18,
+    "approved": "04/06/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002259",
+    "name": "HI OAKS MHP",
+    "county": "Pasco",
+    "address": "13301 CLARA DR, HUDSON, FL 34669",
+    "lots": 17,
+    "approved": "04/12/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000501",
+    "name": "HEATHERWOOD VILLAGE",
+    "county": "Polk",
+    "address": "1925 HARDEN BLVD, LAKELAND, FL 33803",
+    "lots": 301,
+    "approved": "07/02/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000503",
+    "name": "HIDDEN OAKS",
+    "county": "Hillsborough",
+    "address": "707 E 138TH AVE, TAMPA, FL 33613-3304",
+    "lots": 73,
+    "approved": "10/05/1988",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000517",
+    "name": "TROPICAL ACRE EST",
+    "county": "Pasco",
+    "address": "3221 PARADISE WAY, ZEPHYRHILLS, FL 33541",
+    "lots": 367,
+    "approved": "10/02/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000520",
+    "name": "HICKORY HILLS MANOR",
+    "county": "Polk",
+    "address": "1601 W JOSEPHINE ST, LAKELAND, FL 33815-4244",
+    "lots": 366,
+    "approved": "12/20/2022",
+    "owner": "FLORIDA HICKORY HILLS LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000524",
+    "name": "HIGHLAND VILLAGE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "375 W BRANNEN RD, LAKELAND, FL 33813",
+    "lots": 385,
+    "approved": "10/09/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000534",
+    "name": "HILLSIDE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "39515 BAMBOO LANE, ZEPHYRHILLS, FL 33540",
+    "lots": 188,
+    "approved": "08/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000546",
+    "name": "LIBERTY HILLS MHC",
+    "county": "Pasco",
+    "address": "5101 ALLEN RD, ZEPHYRHILLS, FL 33541",
+    "lots": 54,
+    "approved": "10/24/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000547",
+    "name": "HIDDEN COVE EAST",
+    "county": "Polk",
+    "address": "LUCERN PARK RD, WINTER HAVEN, FL 33880",
+    "lots": 83,
+    "approved": "08/13/2015",
+    "owner": "LUCERNE LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000549",
+    "name": "IMPERIAL MANOR MH TERRACE",
+    "county": "Polk",
+    "address": "2321 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 200,
+    "approved": "05/22/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001566",
+    "name": "KINGS MANOR",
+    "county": "Polk",
+    "address": "1500 W HIGHLAND ST, LAKELAND, FL 33801",
+    "lots": 240,
+    "approved": "02/27/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001570",
+    "name": "ORANGE ACRES RANCH",
+    "county": "Polk",
+    "address": "5130 ALTURAS BABSON PARK CUTOFF RD, LAKE WALES, FL 33859-8223",
+    "lots": 53,
+    "approved": "01/08/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001571",
+    "name": "OAKWOOD EST MHP",
+    "county": "Polk",
+    "address": "4028 ROLLING OAKS DR, WINTER HAVEN, FL 33880",
+    "lots": 445,
+    "approved": "09/19/1990",
+    "owner": "OAKWOOD ASSOC. INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001575",
+    "name": "SUNDANCE VILLAGE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1400 BANANA RD, LAKELAND, FL 33810",
+    "lots": 160,
+    "approved": "11/12/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001586",
+    "name": "VILLAGE OF TAMPA",
+    "county": "Hillsborough",
+    "address": "1201 E SKIPPER RD, TAMPA, FL 33613",
+    "lots": 463,
+    "approved": "10/02/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002396",
+    "name": "OAK MANOR MOBILE RANCH",
+    "county": "Pasco",
+    "address": "33194 MAUMEE TRACK, DADE CITY, FL 33523",
+    "lots": 21,
+    "approved": "11/01/1988",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002397",
+    "name": "PALM RIVER TP",
+    "county": "Hillsborough",
+    "address": "506 50TH ST S, TAMPA, FL 33619",
+    "lots": 5,
+    "approved": "06/30/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002420",
+    "name": "SMOKEY VALLEY MHP",
+    "county": "Polk",
+    "address": "225 ED PADGETT RD, LAKELAND, FL 33809",
+    "lots": 12,
+    "approved": "07/10/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002421",
+    "name": "KING OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "800 N KINGSWAY RD, SEFFNER, FL 33584",
+    "lots": 13,
+    "approved": "06/02/2003",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001612",
+    "name": "LAKE DEESON VILLAGE",
+    "county": "Polk",
+    "address": "5210 SR 33 NORTH, LAKELAND, FL 33805",
+    "lots": 103,
+    "approved": "12/16/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001613",
+    "name": "REEDY HAVEN TRAILER PARK",
+    "county": "Polk",
+    "address": "285 LAKE AVE, FROSTPROOF, FL 33843",
+    "lots": 34,
+    "approved": "02/02/2002",
+    "owner": "SMITH, MARGARET",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001625",
+    "name": "ROBINSONS ORANGE PARK",
+    "county": "Hillsborough",
+    "address": "4120 HIGHWAY 92 WEST, PLANT CITY, FL 33567",
+    "lots": 109,
+    "approved": "04/26/1989",
+    "owner": "ROBINSON, T G & LAVERNE",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001626",
+    "name": "OAK GROVE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "4320 WILLIAMS RD, TAMPA, FL 33610",
+    "lots": 50,
+    "approved": "11/22/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000562",
+    "name": "LAKE COMO NUDIST MOBILE HOME RESORT",
+    "county": "Pasco",
+    "address": "20500 COT ROAD, LUTZ, FL 33558",
+    "lots": 166,
+    "approved": "05/29/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000578",
+    "name": "LAMPLIGHTER ON THE RIVER MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8406 CINDY WAY, TAMPA, FL 33637",
+    "lots": 423,
+    "approved": "01/07/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000596",
+    "name": "LAKEVIEW IN THE HILLS",
+    "county": "Pasco",
+    "address": "10515 US HWY 301, DADE CITY, FL 33525",
+    "lots": 55,
+    "approved": "08/02/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000598",
+    "name": "LAKE PADGETT MH VILLAGE",
+    "county": "Pasco",
+    "address": "21318 ENTRY WAY, LAND O LAKES, FL 34639",
+    "lots": 74,
+    "approved": "09/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000616",
+    "name": "LAKE DEER MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3301 AVE G NW, WINTER HAVEN, FL 33880",
+    "lots": 130,
+    "approved": "12/30/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001629",
+    "name": "OAKBROOK MHP",
+    "county": "Hillsborough",
+    "address": "4404 574 HWY, PLANT CITY, FL 33567",
+    "lots": 47,
+    "approved": "05/03/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001635",
+    "name": "OAK HAMMOCK",
+    "county": "Polk",
+    "address": "2455 HWY 17 S, BARTOW, FL 33830",
+    "lots": 103,
+    "approved": "12/15/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001638",
+    "name": "EMERALD LAKE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "200 JEREMY DR, DAVENPORT, FL 33837",
+    "lots": 108,
+    "approved": "03/24/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001692",
+    "name": "SCENIC VIEW MH CT",
+    "county": "Polk",
+    "address": "2025 W DAUGHTERY RD, LAKELAND, FL 33810",
+    "lots": 75,
+    "approved": "07/07/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001693",
+    "name": "SUNLAKE TERRACE ESTATES",
+    "county": "Polk",
+    "address": "6555 OLD LAKE WILSON RD, DAVENPORT, FL 33896",
+    "lots": 202,
+    "approved": "03/18/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001694",
+    "name": "TWIN PALMS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "301 N GALLOWAY RD, LAKELAND, FL 33815",
+    "lots": 222,
+    "approved": "05/20/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001698",
+    "name": "S-P MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "780 W DAVIDSON ST, BARTOW, FL 33830",
+    "lots": 102,
+    "approved": "05/21/2026",
+    "owner": "IMPERIAL S-P CORP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001701",
+    "name": "JERSEY MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "111 E LINEBAUGH AVE, TAMPA, FL 33612",
+    "lots": 73,
+    "approved": "08/20/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001702",
+    "name": "CENTRAL AVENUE TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "9614 CENTRAL AVE, TAMPA, FL 33612",
+    "lots": 28,
+    "approved": "10/24/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000403",
+    "name": "TAMPA EAST RV RESORT",
+    "county": "Hillsborough",
+    "address": "12720 US HWY 92, DOVER, FL 33527",
+    "lots": 32,
+    "approved": "07/25/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000420",
+    "name": "LAKES AT COUNTRYWOOD",
+    "county": "Hillsborough",
+    "address": "745 ARBOR ESTATES WAY, PLANT CITY, FL 33565",
+    "lots": 421,
+    "approved": "09/18/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ000435",
+    "name": "HIDDEN COVE",
+    "county": "Polk",
+    "address": "STATE RD 544, WINTER HAVEN, FL 33881",
+    "lots": 122,
+    "approved": "07/13/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001433",
+    "name": "PALM SHORES MOBILE VILLAGE",
+    "county": "Polk",
+    "address": "ONE EAST LANE, LAKE ALFRED, FL 33850",
+    "lots": 97,
+    "approved": "01/04/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001448",
+    "name": "WOODBROOK ESTATES MANUFACTURED HOME COMMUNITY",
+    "county": "Polk",
+    "address": "1510 W ARIANA ST, LAKELAND, FL 33803",
+    "lots": 461,
+    "approved": "11/22/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001460",
+    "name": "SUNSHINE TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "13516 WEST HILLSBOROUGH AVE, TAMPA, FL 33635",
+    "lots": 16,
+    "approved": "10/25/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001461",
+    "name": "FLORAL VILLAGE",
+    "county": "Hillsborough",
+    "address": "1608 W BAKER ST, PLANT CITY, FL 33563",
+    "lots": 138,
+    "approved": "07/15/2025",
+    "owner": "RICKERT WAYNE C",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001478",
+    "name": "TOWER LAKES",
+    "county": "Polk",
+    "address": "1865 TOWER LAKES BLVD, LAKE WALES, FL 33859",
+    "lots": 418,
+    "approved": "05/05/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001482",
+    "name": "OAK BEND MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "14818 SHARK ST, HUDSON, FL 34667",
+    "lots": 71,
+    "approved": "06/22/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001490",
+    "name": "HAPPY DAYS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1311 HWY 92 W, AUBURNDALE, FL 33823",
+    "lots": 114,
+    "approved": "11/20/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002042",
+    "name": "MAGNOLIA ACRES",
+    "county": "Pasco",
+    "address": "8026 BLUEBELL LN, ZEPHYRHILLS, FL 33540",
+    "lots": 17,
+    "approved": "03/11/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002049",
+    "name": "DICKSON MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "12739 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 17,
+    "approved": "06/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002066",
+    "name": "TRIPLE R MHP LLC",
+    "county": "Hillsborough",
+    "address": "126 21ST ST NW, RUSKIN, FL 33570",
+    "lots": 10,
+    "approved": "05/08/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002075",
+    "name": "G & S PARK",
+    "county": "Polk",
+    "address": "1 HARRELL RD, WINTER HAVEN, FL 33880",
+    "lots": 12,
+    "approved": "09/10/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002086",
+    "name": "PELICAN COURT",
+    "county": "Hillsborough",
+    "address": "10921 NEBRASKA AVE, TAMPA, FL 33612",
+    "lots": 3,
+    "approved": "02/23/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002098",
+    "name": "MID LAKES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "6509 THORNHILL RD, WINTER HAVEN, FL 33880",
+    "lots": 12,
+    "approved": "06/29/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002110",
+    "name": "EAST POINT MOBILE MANOR",
+    "county": "Hillsborough",
+    "address": "5337 GARDEN LN, TAMPA, FL 33610",
+    "lots": 12,
+    "approved": "11/03/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002141",
+    "name": "NORMAN VILLAGE",
+    "county": "Polk",
+    "address": "23 TENNESSEE LANE, AUBURNDALE, FL 33823",
+    "lots": 20,
+    "approved": "12/11/1984",
+    "owner": "NORRIS, DAVID",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002145",
+    "name": "TIDEWATER TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "8540 NORTH RIVER RD, TAMPA, FL 33635",
+    "lots": 20,
+    "approved": "05/11/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000447",
+    "name": "HIDDEN GOLF CLUB",
+    "county": "Polk",
+    "address": "1 CENTURY DR, WINTER HAVEN, FL 33881",
+    "lots": 341,
+    "approved": "01/22/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000448",
+    "name": "HEARTLAND ESTATES",
+    "county": "Polk",
+    "address": "1701 WEST COMMERCE AVE, HAINES CITY, FL 33844",
+    "lots": 278,
+    "approved": "11/19/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000461",
+    "name": "HACIENDA HEIGHTS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10731 EL PASO DRIVE, RIVERVIEW, FL 33569",
+    "lots": 590,
+    "approved": "09/29/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000462",
+    "name": "HALLIDAY MHP",
+    "county": "Hillsborough",
+    "address": "12408 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 85,
+    "approved": "04/21/1999",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000463",
+    "name": "HARBOR VIEW",
+    "county": "Pasco",
+    "address": "6617 LOUISIANA AVE, NEW PORT RICHEY, FL 34653",
+    "lots": 471,
+    "approved": "09/12/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000464",
+    "name": "HARMONY HEIGHTS MHP",
+    "county": "Pasco",
+    "address": "11050 HARMONY DRIVE, DADE CITY, FL 33525",
+    "lots": 78,
+    "approved": "02/27/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000476",
+    "name": "HAMMOCK LAKE EST MHP",
+    "county": "Polk",
+    "address": "1801 HWY 17 S, FORT MEADE, FL 33841",
+    "lots": 79,
+    "approved": "09/27/2004",
+    "owner": "HAMMOCK LAKE MOBILE ESTATES",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001508",
+    "name": "TYRONE VILLAGE",
+    "county": "Hillsborough",
+    "address": "13618 N FLORIDA AVE, TAMPA, FL 33613",
+    "lots": 111,
+    "approved": "04/01/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001517",
+    "name": "PLANTATION OAKS",
+    "county": "Hillsborough",
+    "address": "700 N KINGSWAY RD, SEFFNER, FL 33584",
+    "lots": 101,
+    "approved": "09/23/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001519",
+    "name": "PLANT CITY MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "4404 SR 574, PLANT CITY, FL 33567",
+    "lots": 117,
+    "approved": "03/17/2020",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY002180",
+    "name": "LAKE IOLA TP",
+    "county": "Pasco",
+    "address": "BOX 16, 33009 MCCABE ROAD, SAN ANTONIO, FL 33576",
+    "lots": 14,
+    "approved": "09/16/1987",
+    "owner": "JONES, J RALPH",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002190",
+    "name": "CROSSON'S 579 TP",
+    "county": "Hillsborough",
+    "address": "11723 HWY 579 S, THONOTOSASSA, FL 33592",
+    "lots": 10,
+    "approved": "09/07/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000835",
+    "name": "WOODALL'S VILLAGE",
+    "county": "Polk",
+    "address": "2121 NEW TAMPA HWY 3F, LAKELAND, FL 33815",
+    "lots": 235,
+    "approved": "10/20/2016",
+    "owner": "WOODALL'S, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003209",
+    "name": "KING RICHARDS COURT",
+    "county": "Hillsborough",
+    "address": "10306 BIG BEND RD LOT 1, RIVERVIEW, FL 33569",
+    "lots": 117,
+    "approved": "11/03/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003214",
+    "name": "BLUE HERON BAY",
+    "county": "Polk",
+    "address": "36345 US HWY 27N, HAINES CITY, FL 33844",
+    "lots": 252,
+    "approved": "09/25/2025",
+    "owner": "BLUE HERON BAY, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003223",
+    "name": "LAKE POINTE VILLAGE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "277 LAKE ERIE DR, MULBERRY, FL 33860",
+    "lots": 374,
+    "approved": "08/15/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003255",
+    "name": "STRAWBERRY RIDGE SOUTH",
+    "county": "Hillsborough",
+    "address": "4419 SR 60, VALRICO, FL 33594",
+    "lots": 494,
+    "approved": "05/08/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003264",
+    "name": "GRAND VALLEY",
+    "county": "Pasco",
+    "address": "7306 OSTEEN RD, NEW PORT RICHEY, FL 33653",
+    "lots": 193,
+    "approved": "05/22/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003655",
+    "name": "HAMPTON MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "5425 2ND STREET, HIGHLAND CITY, FL 33846",
+    "lots": 24,
+    "approved": "08/22/2000",
+    "owner": "HAMPTON, M NEWTON",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003662",
+    "name": "UNCLE JOES FISH CAMP",
+    "county": "Polk",
+    "address": "4535 WALK-IN-WATER RD, LAKES WALES, FL 33853",
+    "lots": 22,
+    "approved": "07/22/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003665",
+    "name": "COUNTRY OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "615 N WIGGINS RD, PLANT CITY, FL 33566",
+    "lots": 2,
+    "approved": "09/15/2022",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ000318",
+    "name": "EL CAMBA MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1841 GEORGE JENKINS BLVD, LAKELAND, FL 33805",
+    "lots": 101,
+    "approved": "10/02/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000327",
+    "name": "FISHERMAN'S COVE",
+    "county": "Pasco",
+    "address": "36100 DOCKSIDE PLACE, DADE CITY, FL 33525",
+    "lots": 202,
+    "approved": "08/11/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000332",
+    "name": "FISH HAVEN LODGE",
+    "county": "Polk",
+    "address": "201 FISH HAVEN RD, AUBURNDALE, FL 33823",
+    "lots": 70,
+    "approved": "02/21/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001865",
+    "name": "OAKHILL VILLAGE",
+    "county": "Hillsborough",
+    "address": "101 OAKHILL RIDGE RD, VALRICO, FL 33594",
+    "lots": 220,
+    "approved": "01/04/2024",
+    "owner": "OAKHILL VILLAGE INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001867",
+    "name": "LAKE FOX VILLAGE",
+    "county": "Polk",
+    "address": "4950 CYPRESS GARDEN RD, WINTER HAVEN, FL 33884",
+    "lots": 77,
+    "approved": "10/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002946",
+    "name": "ANNETTE TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "10803 ANNETTE AVE, TAMPA, FL 33612",
+    "lots": 20,
+    "approved": "01/27/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002950",
+    "name": "PARADISE COVE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "2600 EARLENE DR, LAND O' LAKES, FL 34639",
+    "lots": 10,
+    "approved": "08/13/2007",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002952",
+    "name": "ROBINSON PINES MHP",
+    "county": "Hillsborough",
+    "address": "4701 HWY 92 WEST, PLANT CITY, FL 33567",
+    "lots": 13,
+    "approved": "10/22/1986",
+    "owner": "ROBINSON, T.G. & LAVERNE FAMILY PRTN LTD",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY002959",
+    "name": "GARLAND MOTOR COURT",
+    "county": "Pasco",
+    "address": "4511 LAND-O-LAKES BOULEVARD, LAND-O-LAKES, FL 34639",
+    "lots": 12,
+    "approved": "08/22/1986",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002961",
+    "name": "GROCE TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "730 GROCE CIR, RUSKIN, FL 33570",
+    "lots": 24,
+    "approved": "05/15/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002962",
+    "name": "BERNHARDT'S MOBILE COURT",
+    "county": "Hillsborough",
+    "address": "9901 SYMMES RD, RIVERVIEW, FL 33534",
+    "lots": 13,
+    "approved": "09/26/2002",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002995",
+    "name": "LEDBETTERS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "11024 E OLD HILLSBORO, TAMPA, FL 33610",
+    "lots": 12,
+    "approved": "05/15/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003010",
+    "name": "SUN-LAND MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "801 W US HWY 92, SEFFNER, FL 33584",
+    "lots": 25,
+    "approved": "09/01/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000018",
+    "name": "ANGLER'S COVE",
+    "county": "Polk",
+    "address": "944 REYNOLDS RD, LAKELAND, FL 33801",
+    "lots": 187,
+    "approved": "07/14/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000027",
+    "name": "BEACON HILL COLONY MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1112 W BEACON RD, LAKELAND, FL 33803",
+    "lots": 201,
+    "approved": "08/30/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000035",
+    "name": "BANYAN TERRACE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1630 6TH ST NW, WINTER HAVEN, FL 33881",
+    "lots": 29,
+    "approved": "04/15/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001103",
+    "name": "SHIPP RECK HARBOR MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1600 S LAKE SHIPP DR, WINTER HAVEN, FL 33880",
+    "lots": 112,
+    "approved": "10/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001109",
+    "name": "SIXTH AVENUE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "39345 SIXTH AVE E, ZEPHYRHILLS, FL 33542-6843",
+    "lots": 134,
+    "approved": "09/05/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001111",
+    "name": "SPANISH MAIN TRAVEL RESORT",
+    "county": "Hillsborough",
+    "address": "12110 SPANISH MAIN RESORT TR, THONOTOSASSA, FL 33592",
+    "lots": 56,
+    "approved": "02/21/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000357",
+    "name": "FLORIDIAN MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "5018 SLEIGHBELL LN, NEW PORT RICHEY, FL 34652",
+    "lots": 83,
+    "approved": "12/21/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000363",
+    "name": "FLORIDA CAMP INN",
+    "county": "Polk",
+    "address": "1000 MAIN ST, DAVENPORT, FL 33897",
+    "lots": 32,
+    "approved": "01/07/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000364",
+    "name": "CYPRESS SHORES WEST MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3255 WEST US HWY 92, WINTER HAVEN, FL 33881",
+    "lots": 82,
+    "approved": "04/11/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001941",
+    "name": "STOLL MANOR MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1123 WALT WILLIAMS RD, LAKELAND, FL 33805",
+    "lots": 241,
+    "approved": "10/16/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR7604",
+    "name": "COACH LIGHT VILLA",
+    "county": "Polk",
+    "address": "1900 S LAKE REEDY BLVD, FROSTPROOF, FL 33843",
+    "lots": 106,
+    "approved": "12/05/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003042",
+    "name": "HOLIDAY HAVEN MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "8301 NEW YORK AVE, HUDSON, FL 34667",
+    "lots": 24,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003043",
+    "name": "S & S MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "8937 KLOSS LN, HUDSON, FL 34667",
+    "lots": 5,
+    "approved": "01/03/2011",
+    "owner": "GLESNER, KATHLEEN & ROBERT",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000849",
+    "name": "ANGLER'S GREEN",
+    "county": "Polk",
+    "address": "10 LAKEVIEW DR, MULBERRY, FL 33860",
+    "lots": 387,
+    "approved": "09/26/2025",
+    "owner": "CHC VI LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001124",
+    "name": "TANGLEWOOD VILLAGE ADULT MHP",
+    "county": "Polk",
+    "address": "2230 TANGLEWOOD ST, LAKELAND, FL 33801",
+    "lots": 63,
+    "approved": "04/06/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001128",
+    "name": "CENTRAL PARK II",
+    "county": "Polk",
+    "address": "1101 W COMMERCE AVE, HAINES CITY, FL 33844",
+    "lots": 128,
+    "approved": "10/10/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001137",
+    "name": "SUNDANCE",
+    "county": "Pasco",
+    "address": "6340 SANTA FE DR, ZEPHYRHILLS, FL 33542",
+    "lots": 333,
+    "approved": "09/04/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000861",
+    "name": "PEDALERS POND",
+    "county": "Polk",
+    "address": "1960 PEDALER'S POND BLVD, LAKE WALES, FL 33859",
+    "lots": 214,
+    "approved": "04/09/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000873",
+    "name": "ARBOR OAKS",
+    "county": "Pasco",
+    "address": "36323 ARBOR OAKS DRIVE, ZEPHYRHILLS, FL 33541",
+    "lots": 157,
+    "approved": "11/22/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000876",
+    "name": "LAKELAND HARBOR",
+    "county": "Polk",
+    "address": "4747 N  SR 33, LAKELAND, FL 33801",
+    "lots": 506,
+    "approved": "09/24/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000888",
+    "name": "COUNTRY PLACE VILLAGE",
+    "county": "Pasco",
+    "address": "2601 COUNTRY PLACE BLVD, NEW PORT RICHEY, FL 34655",
+    "lots": 515,
+    "approved": "11/19/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000893",
+    "name": "MAGNOLIA HILL",
+    "county": "Hillsborough",
+    "address": "328 MAGNOLIA HILL DRIVE, PLANT CITY, FL 33565",
+    "lots": 128,
+    "approved": "02/10/2022",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001153",
+    "name": "GALAXY MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "5810 W US HWY 92, PLANT CITY, FL 33566",
+    "lots": 40,
+    "approved": "05/10/2022",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001167",
+    "name": "HIDEAWAY HILLS MOBILE HOME PARK I",
+    "county": "Hillsborough",
+    "address": "11344 S US HWY 41, GIBSONTON, FL 33534",
+    "lots": 51,
+    "approved": "12/09/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001168",
+    "name": "COUNTRY VILLA ESTATES",
+    "county": "Hillsborough",
+    "address": "1800 AMBERWOOD DR, RIVERVIEW, FL 33578",
+    "lots": 112,
+    "approved": "10/15/2001",
+    "owner": "SEXTON, MARGORIE",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003360",
+    "name": "FOUR LAKES GOLF CLUB",
+    "county": "Polk",
+    "address": "OLD LUCERNE ROAD, WINTER HAVEN, FL 33881",
+    "lots": 814,
+    "approved": "03/30/2018",
+    "owner": "FOUR LAKES GOLF CLUB, LTD.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000061",
+    "name": "BONNY SHORES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "164 BONNY SHORES DR, LAKELAND, FL 33801",
+    "lots": 164,
+    "approved": "03/25/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003079",
+    "name": "DUFFEY'S TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "3501 SAM ASTIN RD, PLANT CITY, FL 33566",
+    "lots": 23,
+    "approved": "01/03/2011",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY003092",
+    "name": "SHEPHERD RETIREMENT COMMUNITY",
+    "county": "Polk",
+    "address": "185 MARION PLACE, FROSTPROOF, FL 33843",
+    "lots": 23,
+    "approved": "09/14/1987",
+    "owner": "FROSTPROOF GOSPEL CHURCH, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003136",
+    "name": "LAKE DALE MHP",
+    "county": "Polk",
+    "address": "1122 MCCAMPBELL ROAD, AUBURNDALE, FL 33823",
+    "lots": 12,
+    "approved": "04/09/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003166",
+    "name": "ALAFIA RIVER DEVELOPMENT MHP",
+    "county": "Hillsborough",
+    "address": "9810 VAUGHN ST, GIBSONTON, FL 33534",
+    "lots": 20,
+    "approved": "04/22/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003498",
+    "name": "OAKS AT COUNTRY WOOD",
+    "county": "Hillsborough",
+    "address": "745 ARBOR ESTATES WAY, PLANT CITY, FL 33565",
+    "lots": 168,
+    "approved": "11/14/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ003525",
+    "name": "TERIO'S MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3520 EAST GASKIN ROAD LOT #1, BARTOW, FL 33830",
+    "lots": 40,
+    "approved": "01/30/1997",
+    "owner": "BARROW, RICHARD MR & MRS",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003526",
+    "name": "RIDGE",
+    "county": "Polk",
+    "address": "49473 HWY 27, DAVENPORT, FL 33897",
+    "lots": 481,
+    "approved": "10/17/2025",
+    "owner": "ROUTE 27 ASSOCIATES LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003537",
+    "name": "SOUTHPORT SPRINGS",
+    "county": "Pasco",
+    "address": "3509 SOUTHPORT SPRINGS PKWY, ZEPHYRHILLS, FL 33541",
+    "lots": 554,
+    "approved": "09/05/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000071",
+    "name": "MOUNT CARMEL RIDGE",
+    "county": "Hillsborough",
+    "address": "113 S MOUNT CARMEL RD, BRANDON, FL 33511",
+    "lots": 211,
+    "approved": "03/24/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000084",
+    "name": "BAYONET POINT",
+    "county": "Pasco",
+    "address": "10730 FALMOUTH CT, NEW PORT RICHEY, FL 34654",
+    "lots": 163,
+    "approved": "05/05/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002577",
+    "name": "SUNRISE TP",
+    "county": "Polk",
+    "address": "20 GRANER DRIVE, FROSTPROOF, FL 33843",
+    "lots": 12,
+    "approved": "12/11/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002580",
+    "name": "BERT'S HIDEAWAY FISH CAMP",
+    "county": "Polk",
+    "address": "2854 TINDEL CAMP RD, LAKE WALES, FL 33893",
+    "lots": 16,
+    "approved": "08/31/2012",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002551",
+    "name": "SUNNY SKIES MHP",
+    "county": "Pasco",
+    "address": "32704 CANTWELL DRIVE, SAN ANTONIO, FL 33576",
+    "lots": 51,
+    "approved": "07/19/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002562",
+    "name": "WHIDDEN MOBILE HOME AND RV PARK",
+    "county": "Polk",
+    "address": "402 SATSUMA LN, FROSTPROOF, FL 33843",
+    "lots": 132,
+    "approved": "06/24/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003195",
+    "name": "BRINKLEY STAMAT MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "4331 MITCHELL RD, LAND O' LAKES, FL 34638",
+    "lots": 15,
+    "approved": "09/16/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003204",
+    "name": "KENTWOOD MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "4821 WILLIAMS RD, TAMPA, FL 33610",
+    "lots": 23,
+    "approved": "02/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000899",
+    "name": "WOOD DALE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "37945 BENTLEY DR, ZEPHYRHILLS, FL 33542",
+    "lots": 123,
+    "approved": "05/14/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003635",
+    "name": "PALM KEY VILLAGE",
+    "county": "Polk",
+    "address": "48097 HWY 27, DAVENPORT, FL 33897",
+    "lots": 204,
+    "approved": "10/17/2025",
+    "owner": "53 ASSOCIATES",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003680",
+    "name": "HIGHLANDS AT SCOTLAND YARDS",
+    "county": "Pasco",
+    "address": "9420 US 301, DADE CITY, FL 33525",
+    "lots": 350,
+    "approved": "07/22/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003682",
+    "name": "WINDMILL VILLAGE",
+    "county": "Polk",
+    "address": "240 BAY BREEZE LOOP, DAVENPORT, FL 33897",
+    "lots": 509,
+    "approved": "05/07/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001183",
+    "name": "WOODLAND LAKES",
+    "county": "Polk",
+    "address": "1901 HWY 17-92 WEST, HAINES CITY, FL 33844",
+    "lots": 167,
+    "approved": "11/13/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000954",
+    "name": "MEADOWBROOK VILLAGE",
+    "county": "Hillsborough",
+    "address": "8920 SHELDON RD, TAMPA, FL 33635",
+    "lots": 257,
+    "approved": "04/22/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001204",
+    "name": "ROYAL OAKS MH & TRAVEL RESORT",
+    "county": "Polk",
+    "address": "1012 SR 542 DUNDEE RD, DUNDEE, FL 33838",
+    "lots": 33,
+    "approved": "06/30/2012",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001205",
+    "name": "SOUTHWINDS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1425 RITTER RD, LAKELAND, FL 33810",
+    "lots": 35,
+    "approved": "09/22/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001210",
+    "name": "ZEPHYR MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "3950 DIXON ST, ZEPHYRHILLS, FL 33542",
+    "lots": 82,
+    "approved": "01/01/2005",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001230",
+    "name": "TROPIC BREEZE",
+    "county": "Pasco",
+    "address": "11310 US 19, PORT RICHEY, FL 34668",
+    "lots": 75,
+    "approved": "01/24/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000113",
+    "name": "TAMPA SUN ESTATES 6",
+    "county": "Hillsborough",
+    "address": "17123 RICH-JO CIR, LUTZ, FL 33548",
+    "lots": 33,
+    "approved": "07/11/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003583",
+    "name": "TUCK-A-WAY",
+    "county": "Hillsborough",
+    "address": "301 27TH ST SE, RUSKIN, FL 33570",
+    "lots": 12,
+    "approved": "11/14/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000052",
+    "name": "BOB & JO TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "2903 W WATERS AVE, TAMPA, FL 33614",
+    "lots": 33,
+    "approved": "09/22/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002645",
+    "name": "LAZY DAZY RETREAT",
+    "county": "Polk",
+    "address": "6211 US HWY 98 N, LAKELAND, FL 33809",
+    "lots": 25,
+    "approved": "02/20/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002651",
+    "name": "AL-LEE VILLAGE",
+    "county": "Polk",
+    "address": "2105 BRUCE ST, LAKELAND, FL 33801",
+    "lots": 19,
+    "approved": "10/01/1996",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000638",
+    "name": "LAUREL MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "18721 US HWY 27 S, LAKE WALES, FL 33853",
+    "lots": 34,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000962",
+    "name": "CYPRESS LAKES VILLAGE",
+    "county": "Polk",
+    "address": "10000 N US HWY 98, LAKELAND, FL 33809",
+    "lots": 1457,
+    "approved": "04/25/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000132",
+    "name": "ALAFIA MOBILE PLAZA",
+    "county": "Hillsborough",
+    "address": "11888 HWY 41 SOUTH, GIBSONTON, FL 33534",
+    "lots": 104,
+    "approved": "06/01/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000155",
+    "name": "CLUB WILDWOOD",
+    "county": "Pasco",
+    "address": "7700 PARKWAY BLVD, HUDSON, FL 34667",
+    "lots": 478,
+    "approved": "10/17/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000156",
+    "name": "BAY WEST CLUB",
+    "county": "Hillsborough",
+    "address": "9315 MEMORIAL HWY, TAMPA, FL 33615",
+    "lots": 380,
+    "approved": "11/04/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000659",
+    "name": "PALMS AT DOVER",
+    "county": "Hillsborough",
+    "address": "5230 SR 60, DOVER, FL 33527",
+    "lots": 126,
+    "approved": "03/27/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000662",
+    "name": "LAKESHORE VILLAS",
+    "county": "Hillsborough",
+    "address": "15401 LAKESHORE VILLA ST, TAMPA, FL 33613",
+    "lots": 283,
+    "approved": "04/22/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000668",
+    "name": "OAKVIEW LAKES INC",
+    "county": "Polk",
+    "address": "300 S WASHINGTON AVE, FORT MEADE, FL 33841",
+    "lots": 188,
+    "approved": "08/26/1992",
+    "owner": "OAKVIEW LAKES INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002798",
+    "name": "OAK MEADOWS M H P",
+    "county": "Polk",
+    "address": "3655 JOHNSON AVENUE, HAINES CITY, FL 33844",
+    "lots": 53,
+    "approved": "01/28/1998",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002804",
+    "name": "LAKESIDE OAKS MOBILE PARK",
+    "county": "Pasco",
+    "address": "36442 LAUREL LANE, DADE CITY, FL 33525",
+    "lots": 72,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002807",
+    "name": "ROBART'S MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2000 MAINE STREET, FROSTPROOF, FL 33843",
+    "lots": 99,
+    "approved": "01/13/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002816",
+    "name": "EAST LAKE LANDINGS",
+    "county": "Pasco",
+    "address": "18801 SKIFF DR, HUDSON, FL 34667",
+    "lots": 169,
+    "approved": "07/09/2026",
+    "owner": "EAST LAKE INVESTORS LLLP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003276",
+    "name": "SCAGLIONE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "9516 EASTFIELD RD, THONOTOSASSA, FL 33592",
+    "lots": 12,
+    "approved": "09/26/2002",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003370",
+    "name": "CHESTER DEES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "DEES RD OFF HINSON AVE, HAINES CITY, FL 33844",
+    "lots": 21,
+    "approved": "09/24/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000167",
+    "name": "COTEE RIVER PARK HOMEOWNERS ASSC INC",
+    "county": "Pasco",
+    "address": "5611 OAK RIDGE AVENUE, NEW PORT RICHEY, FL 34652",
+    "lots": 1,
+    "approved": "12/01/1997",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001242",
+    "name": "FAIRVIEW MOBILE ESTATES INC",
+    "county": "Pasco",
+    "address": "37400 CHANCEY RD, ZEPHYRHILLS, FL 33541",
+    "lots": 81,
+    "approved": "04/22/2002",
+    "owner": "WHITE, JAMES & JOANNE",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001244",
+    "name": "HOLIDAY RV & MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "7515 DECEMBER DR, PORT RICHEY, FL 34668",
+    "lots": 55,
+    "approved": "03/12/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001248",
+    "name": "KINGS POINTE",
+    "county": "Polk",
+    "address": "100 WINTERDALE DR, LAKE ALFRED, FL 33850",
+    "lots": 226,
+    "approved": "03/18/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001250",
+    "name": "PARADISE VILLAGE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "9304 PARADISE DR, TAMPA, FL 33610",
+    "lots": 614,
+    "approved": "02/27/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001270",
+    "name": "LAKE JULIANA LANDINGS",
+    "county": "Polk",
+    "address": "166 JULIANA BLVD, AUBURNDALE, FL 33823",
+    "lots": 271,
+    "approved": "09/10/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000693",
+    "name": "ANGLER'S COVE WEST",
+    "county": "Polk",
+    "address": "944 REYNOLDS RD, LAKELAND, FL 33801",
+    "lots": 153,
+    "approved": "07/13/2023",
+    "owner": "ANGLERS COVE WEST LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000696",
+    "name": "AVALON MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "6205 N ROME AVE, TAMPA, FL 33604",
+    "lots": 36,
+    "approved": "07/23/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001714",
+    "name": "PARAKEET PARK",
+    "county": "Polk",
+    "address": "2400 PARAKEET PARK BLVD, LAKE WALES, FL 33859",
+    "lots": 103,
+    "approved": "06/05/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001724",
+    "name": "STRAWBERRY SQUARE MHP",
+    "county": "Hillsborough",
+    "address": "4401 BOOT BAY RD, PLANT CITY, FL 33567",
+    "lots": 6,
+    "approved": "11/20/2008",
+    "owner": "STRAWBERRY SQUARE, INC. .",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY002652",
+    "name": "NATURES TRAIL MHP",
+    "county": "Hillsborough",
+    "address": "12880 MORRIS BRIDGE ROAD, THONOTOSASSA, FL 33592",
+    "lots": 35,
+    "approved": "09/01/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002666",
+    "name": "A-OK CAMPGROUND",
+    "county": "Polk",
+    "address": "6925 THORNHILL RD, WINTER HAVEN, FL 33880",
+    "lots": 11,
+    "approved": "10/07/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002669",
+    "name": "CRYSTAL KAY",
+    "county": "Hillsborough",
+    "address": "2712 SE 14TH AVE, RUSKIN, FL 33570",
+    "lots": 24,
+    "approved": "07/16/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002704",
+    "name": "SOUTHERN OAKS MHP",
+    "county": "Polk",
+    "address": "3276 MT TABOR RD, LAKELAND, FL 33810",
+    "lots": 25,
+    "approved": "02/22/1991",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002713",
+    "name": "TRAILER INN COURT",
+    "county": "Hillsborough",
+    "address": "8406 TAMPA STREET, TAMPA, FL 33604",
+    "lots": 30,
+    "approved": "09/25/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002721",
+    "name": "OAKHILL MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "18920 US HWY 301, DADE CITY, FL 33523",
+    "lots": 20,
+    "approved": "02/01/1996",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003410",
+    "name": "DUFF MEADOWS MHP",
+    "county": "Polk",
+    "address": "1525 DUFF ROAD, LAKELAND, FL 33810",
+    "lots": 12,
+    "approved": "04/13/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003411",
+    "name": "EAGLE RIDGE MHP",
+    "county": "Polk",
+    "address": "2907 SHELL RD, LAKE WALES, FL 33853",
+    "lots": 19,
+    "approved": "02/10/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001276",
+    "name": "HIDDEN COVE WEST",
+    "county": "Polk",
+    "address": "BOX 1916 LUCERNE PARK RD, WINTER HAVEN, FL 33880",
+    "lots": 243,
+    "approved": "08/13/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001296",
+    "name": "VILLA MARIA MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "2510 W SHELL POINT RD, RUSKIN, FL 33570",
+    "lots": 58,
+    "approved": "12/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001302",
+    "name": "RAMBLEWOOD MOBILE HOME COMMMUNITY",
+    "county": "Pasco",
+    "address": "38418 RAMBLEWOOD BLVD, ZEPHYRHILLS, FL 33541",
+    "lots": 200,
+    "approved": "07/29/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000188",
+    "name": "CARIBBEAN MOBILE HOME ESTATES",
+    "county": "Pasco",
+    "address": "11635 TURKS DR, NEW PORT RICHEY, FL 34654",
+    "lots": 98,
+    "approved": "07/13/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000193",
+    "name": "COLONY CLUB MOBILE HOME ESTATES",
+    "county": "Polk",
+    "address": "1501 11TH ST NE, WINTER HAVEN, FL 33881",
+    "lots": 105,
+    "approved": "03/29/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000194",
+    "name": "COUNTRYSIDE VILLAGE MAN HOME COMM",
+    "county": "Hillsborough",
+    "address": "9601 CLUBHOUSE LANE, TAMPA, FL 33536",
+    "lots": 414,
+    "approved": "11/25/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000195",
+    "name": "CHULAVISTA LANDINGS",
+    "county": "Hillsborough",
+    "address": "1734 WHEELHOUSE CIR, RUSKIN, FL 33570",
+    "lots": 245,
+    "approved": "03/12/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000200",
+    "name": "CHARLIES RETIREMENT MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10813 E MAIN ST, THONOTOSASSA, FL 33592",
+    "lots": 79,
+    "approved": "12/02/1994",
+    "owner": "HALASZ KAROLY (CHARLES)",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001745",
+    "name": "OAKRIDGE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3922 VAN LANE, SEBRING, FL 33870",
+    "lots": 148,
+    "approved": "08/15/2001",
+    "owner": "GOSS JAMES C",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001754",
+    "name": "SANLAN RANCH MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2727 SANLAN RANCH DR, LAKELAND, FL 33813",
+    "lots": 50,
+    "approved": "03/23/2017",
+    "owner": "SANLAN RANCH CAMPGROUND INC CORPORATE OFFICE",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002743",
+    "name": "LAKEMONT RIDGE HOME & RV PARK",
+    "county": "Polk",
+    "address": "2000 MAINE ST, FROSTPROOF, FL 33843",
+    "lots": 18,
+    "approved": "04/11/2007",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000704",
+    "name": "LAKELAND GARDENS MHP",
+    "county": "Polk",
+    "address": "3741 OLD TAMPA HWY (OFFICE), LAKELAND, FL 33811",
+    "lots": 43,
+    "approved": "07/13/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000708",
+    "name": "FLORIDA VILLAS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "1 PONCAN CIR HWY 301, ZEPHYRHILLS, FL 33541",
+    "lots": 60,
+    "approved": "11/03/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000709",
+    "name": "CAMP ROSALIE",
+    "county": "Polk",
+    "address": "3000 CAMP ROSALIE RD, LAKE WALES, FL 33853",
+    "lots": 59,
+    "approved": "08/03/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000973",
+    "name": "ORANGE MANOR MHP WEST",
+    "county": "Polk",
+    "address": "18 KINSMEN DR, WINTER HAVEN, FL 33884",
+    "lots": 92,
+    "approved": "02/01/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000975",
+    "name": "SHADOW WOOD VILLAGE",
+    "county": "Pasco",
+    "address": "14709 SHADOW  WOOD BLVD, HUDSON, FL 34667",
+    "lots": 260,
+    "approved": "03/17/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000985",
+    "name": "PARADISE MOBILE HOME COURT",
+    "county": "Hillsborough",
+    "address": "2201 US 41 S, RUSKIN, FL 33570",
+    "lots": 114,
+    "approved": "08/15/2001",
+    "owner": "RICKERT WAYNE C & GOSS SCHUETZ",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000988",
+    "name": "FLORIDA PALMS ESTATES",
+    "county": "Polk",
+    "address": "1803 US 92, AUBURNDALE, FL 33823",
+    "lots": 40,
+    "approved": "09/18/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000999",
+    "name": "VILLAS AT SILVER DOLLAR",
+    "county": "Pasco",
+    "address": "17000 PATTERSON ROAD, ODESSA, FL 33556",
+    "lots": 225,
+    "approved": "11/27/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001002",
+    "name": "SPRING LAKE PARK",
+    "county": "Polk",
+    "address": "3731 E ST RD 60, LAKE WALES, FL 33853",
+    "lots": 31,
+    "approved": "08/01/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001004",
+    "name": "MOCKINGBIRD MHP",
+    "county": "Pasco",
+    "address": "38018 WREN RD, ZEPHYRHILLS, FL 33540",
+    "lots": 83,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000206",
+    "name": "CENTRAL LEISURE LK MH & RV PARK",
+    "county": "Polk",
+    "address": "1095 HWY 92 W, AUBURNDALE, FL 33823",
+    "lots": 80,
+    "approved": "10/05/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000718",
+    "name": "BEACON TERRACE",
+    "county": "Polk",
+    "address": "2425 HARDEN BLVD, LAKELAND, FL 33803",
+    "lots": 297,
+    "approved": "09/14/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000727",
+    "name": "HAWAIIAN ISLES TRAVEL RESORTS",
+    "county": "Hillsborough",
+    "address": "4054 ALOHA BLVD, RUSKIN, FL 33570",
+    "lots": 135,
+    "approved": "10/27/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000736",
+    "name": "MAY GROVE VILLAGE",
+    "county": "Polk",
+    "address": "1725 GIBSONIA GALLOWAY RD, LAKELAND, FL 33810",
+    "lots": 81,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000741",
+    "name": "STERLING MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "7 BRIDGE BLVD, LAKELAND, FL 33815",
+    "lots": 340,
+    "approved": "01/18/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001018",
+    "name": "SHADY REST MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "37836 8TH AVE W, ZEPHYRHILLS, FL 33541",
+    "lots": 60,
+    "approved": "11/29/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001033",
+    "name": "PINECREST MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "6043 HARRIET ST, ZEPHYRHILLS, FL 33542",
+    "lots": 134,
+    "approved": "09/05/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001035",
+    "name": "PLEASANT VIEW MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2251 FORT MEADE RD CR 630 W, FROSTPROOF, FL 33843",
+    "lots": 35,
+    "approved": "03/05/1997",
+    "owner": "PLEASANT VIEW MOBILE HOME PARK, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001311",
+    "name": "WHISPERING PINES MANUFACTURED HOME COMMUNITY",
+    "county": "Polk",
+    "address": "101 SUNSHINE DR, FROSTPROOF, FL 33843",
+    "lots": 198,
+    "approved": "10/03/2013",
+    "owner": "RICKERT, WAYNE, RICKERT, ALLAN, GOSS, JAMES PARTNERS",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001325",
+    "name": "ORANGE MANOR MHP EAST",
+    "county": "Polk",
+    "address": "206 ORANGE MANOR DR, WINTER HAVEN, FL 33884",
+    "lots": 205,
+    "approved": "08/27/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001331",
+    "name": "NEPTUNE MOBILE VILLAGE",
+    "county": "Hillsborough",
+    "address": "2525 GULF CITY RD # 1, RUSKIN, FL 33570-2771",
+    "lots": 159,
+    "approved": "04/30/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001332",
+    "name": "WINWARD LAKES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "6220 S DALE MABRY HWY, TAMPA, FL 33611",
+    "lots": 213,
+    "approved": "09/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001341",
+    "name": "WINTERS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "38022 WINTER DR, ZEPHYRHILLS, FL 33542",
+    "lots": 247,
+    "approved": "03/24/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001342",
+    "name": "TREE LANE VILLAGE",
+    "county": "Pasco",
+    "address": "5729 DAYTON ST, ZEPHYRHILLS, FL 33542",
+    "lots": 185,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001352",
+    "name": "WINTERSET SHORES ESTATES",
+    "county": "Polk",
+    "address": "SR 540-A 19-B HUMMINGBIRD LN, WINTER HAVEN, FL 33880",
+    "lots": 42,
+    "approved": "06/03/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001882",
+    "name": "OAK HAVEN",
+    "county": "Hillsborough",
+    "address": "5233 PINE ST, SEFFNER, FL 33584",
+    "lots": 11,
+    "approved": "12/31/1984",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001908",
+    "name": "LAKE JULIANA BOATING AND LODGING",
+    "county": "Polk",
+    "address": "600 LUNDY RD, AUBURNDALE, FL 33823",
+    "lots": 11,
+    "approved": "11/14/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001919",
+    "name": "GIFFORD MHP",
+    "county": "Polk",
+    "address": "2615 TANGLEWOOD ST, LAKELAND, FL 33801",
+    "lots": 20,
+    "approved": "09/04/2012",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001769",
+    "name": "RANCH OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "11940 US HWY 301 NORTH LOT 11, THONOTOSASSA, FL 33637",
+    "lots": 83,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001779",
+    "name": "WESTSIDE RIDGE",
+    "county": "Polk",
+    "address": "911 WESTSIDE RIDGE BLVD, AUBURNDALE, FL 33823",
+    "lots": 225,
+    "approved": "07/15/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002772",
+    "name": "ALAFIA OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8406 HENRY GEORGE RD, PLANT CITY, FL 33567",
+    "lots": 25,
+    "approved": "10/17/2017",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY002791",
+    "name": "CAPTAIN'S LANDING MHP",
+    "county": "Hillsborough",
+    "address": "105 21ST NW, RUSKIN, FL 33570",
+    "lots": 25,
+    "approved": "09/04/1987",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002882",
+    "name": "CYPRESS GREENS",
+    "county": "Polk",
+    "address": "1000 CYPRESS CREEK BLVD, LAKE ALFRED, FL 33850",
+    "lots": 262,
+    "approved": "02/20/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002921",
+    "name": "LAKE CLINCH MANOR",
+    "county": "Polk",
+    "address": "14 LAKE ST, FROSTPROOF, FL 33843",
+    "lots": 33,
+    "approved": "09/08/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001934",
+    "name": "MANNINGS MHP",
+    "county": "Hillsborough",
+    "address": "6403 CR 579, SEFFNER, FL 33584",
+    "lots": 12,
+    "approved": "10/07/1986",
+    "owner": "MANNING, JERRY & PATRICIA",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000231",
+    "name": "CAMP TIGER FISH CAMP",
+    "county": "Polk",
+    "address": "1731 SAM KEENE RD, LAKE WALES, FL 33898",
+    "lots": 45,
+    "approved": "12/11/1989",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000233",
+    "name": "CAMELOT MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "11611 SIR LAWRENCE CT, THONOTOSASSA, FL 33592",
+    "lots": 119,
+    "approved": "11/13/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001802",
+    "name": "PINE LAKE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "7805 US 98 N, LAKELAND, FL 33809",
+    "lots": 30,
+    "approved": "10/12/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001805",
+    "name": "LAKE ALFRED MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "670 EAST ALFRED DRIVE, LAKE ALFRED, FL 33850",
+    "lots": 84,
+    "approved": "08/18/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001816",
+    "name": "GRAPE HAMMOCK TP",
+    "county": "Polk",
+    "address": "1400 GRAPE HAMMOCK RD, LAKE WALES, FL 33853",
+    "lots": 37,
+    "approved": "03/13/2007",
+    "owner": "GRAPE HAMMOCK FISH CAMP INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001827",
+    "name": "CYPRESS SHORES EAST MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3275 WEST US 92, WINTER HAVEN, FL 33881",
+    "lots": 122,
+    "approved": "04/10/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001829",
+    "name": "CENTRAL MHP NORTH",
+    "county": "Hillsborough",
+    "address": "9702 N CENTRAL, TAMPA, FL 33612",
+    "lots": 63,
+    "approved": "08/23/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002833",
+    "name": "ORANGE GROVE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "916 N PARSONS AVE, SEFFNER, FL 33584",
+    "lots": 14,
+    "approved": "07/09/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002834",
+    "name": "EELWEKS",
+    "county": "Hillsborough",
+    "address": "9910 SKEWLEE RD, THONOTOSASSA, FL 33592",
+    "lots": 13,
+    "approved": "09/20/1988",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002835",
+    "name": "SERENE MH COURT",
+    "county": "Polk",
+    "address": "2412 BROADWAY ST, LAKELAND, FL 33801",
+    "lots": 11,
+    "approved": "03/06/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002850",
+    "name": "PROCTORS MOBILE HOME PARK #1",
+    "county": "Polk",
+    "address": "1111 HW 17 & 92 N, DAVENPORT, FL 33837",
+    "lots": 0,
+    "approved": "08/28/2015",
+    "owner": "PROCTOR HAROLD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002870",
+    "name": "BRITT'S M H P",
+    "county": "Hillsborough",
+    "address": "3125 WEST HILLSBOROUGH, TAMPA, FL 33614",
+    "lots": 8,
+    "approved": "08/13/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003026",
+    "name": "LAKE HAMMOCK VILLAGE",
+    "county": "Polk",
+    "address": "36106 U.S. HWY 27, HAINES CITY, FL 33844",
+    "lots": 214,
+    "approved": "04/29/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003069",
+    "name": "CYPRESS KNEE COVE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3300 CANAL RD, LAKE WALES, FL 33898",
+    "lots": 32,
+    "approved": "04/01/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003085",
+    "name": "CRAWFORD'S 3B'S MHP",
+    "county": "Hillsborough",
+    "address": "4202 W HOLLOWAY RD, PLANT CITY, FL 33567",
+    "lots": 29,
+    "approved": "07/30/2008",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ000257",
+    "name": "COLONIAL MOBILE HOME VILLAGE",
+    "county": "Polk",
+    "address": "745 PINEWOOD AVE, LAKELAND, FL 33815",
+    "lots": 104,
+    "approved": "03/19/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000265",
+    "name": "CASA VERDE MANUFACTURED HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "102 MAGNOLIA LN, TAMPA, FL 33610",
+    "lots": 384,
+    "approved": "11/13/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000286",
+    "name": "DELL LAKE VILLAGE",
+    "county": "Polk",
+    "address": "213 FREDRICK AVENUE, DUNDEE, FL 33838",
+    "lots": 234,
+    "approved": "02/05/2007",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002908",
+    "name": "B & W MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "9722 E US 92, TAMPA, FL 33610",
+    "lots": 13,
+    "approved": "10/09/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000765",
+    "name": "KINGS AND QUEENS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2808 N FLORIDA AVE, LAKELAND, FL 33805",
+    "lots": 108,
+    "approved": "09/21/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000766",
+    "name": "LAKELAND ESTATES MOBILE HOME COMMUNITY",
+    "county": "Polk",
+    "address": "224 TYLER AVE, LAKELAND, FL 33801",
+    "lots": 100,
+    "approved": "07/29/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001044",
+    "name": "PLEASANT LIVING MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10502 PLEASANT BLVD, RIVERVIEW, FL 33569",
+    "lots": 245,
+    "approved": "04/27/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001067",
+    "name": "OSCEOLA MHP",
+    "county": "Pasco",
+    "address": "9821 HOPI LN, NEW PORT RICHEY, FL 34654",
+    "lots": 65,
+    "approved": "10/02/1989",
+    "owner": "GORDON, GARY L",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000302",
+    "name": "TRANQUIL ACRES MOBILE HOME ESTATES",
+    "county": "Polk",
+    "address": "70 AVE E N, AUBURNDALE, FL 33823",
+    "lots": 154,
+    "approved": "01/06/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001377",
+    "name": "ROYAL PALM VILLAGE",
+    "county": "Polk",
+    "address": "3000 US 17-92 W, HAINES CITY, FL 33844",
+    "lots": 396,
+    "approved": "02/03/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001385",
+    "name": "THREE LAKES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "9800 SHELDON RD, TAMPA, FL 33635",
+    "lots": 545,
+    "approved": "07/15/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001389",
+    "name": "SUNRISE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "18118 US SERVICE RD, LUTZ, FL 33548",
+    "lots": 168,
+    "approved": "04/11/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001937",
+    "name": "SABLE PALMS MHP",
+    "county": "Polk",
+    "address": "4230 HWY 60, MULBERRY, FL 33860",
+    "lots": 20,
+    "approved": "11/24/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001951",
+    "name": "LAKE THOMAS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "5235 VILLAGE LN, LAND O' LAKES, FL 34638",
+    "lots": 14,
+    "approved": "08/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001959",
+    "name": "COUNTRY GROVE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10730 SKEWLEE RD, THONOTOSASSA, FL 33592",
+    "lots": 14,
+    "approved": "08/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001968",
+    "name": "OPPORTUNITY VILLA",
+    "county": "Polk",
+    "address": "6025 NEW TAMPA HWY, LAKELAND, FL 33811",
+    "lots": 10,
+    "approved": "10/05/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001980",
+    "name": "DICKSON MOBILE HOME PARK #2",
+    "county": "Hillsborough",
+    "address": "12885 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 13,
+    "approved": "09/09/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000793",
+    "name": "JENNINGS RESORT INC MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "4325 JENNINGS FISH CAMP RD, LAKE WALES, FL 33898",
+    "lots": 66,
+    "approved": "01/28/2010",
+    "owner": "JENNINGS RESORT, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000803",
+    "name": "PINE RIDGE ESTATES",
+    "county": "Polk",
+    "address": "7405 N SOCRUM LOOP RD, LAKELAND, FL 33809",
+    "lots": 105,
+    "approved": "06/29/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000804",
+    "name": "CAREFREE VILLAGE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8000 SHELDON RD, TAMPA, FL 33615",
+    "lots": 408,
+    "approved": "09/06/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003148",
+    "name": "PARADISE LAKES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3900 SR 37 N, MULBERRY, FL 33860",
+    "lots": 265,
+    "approved": "11/30/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003181",
+    "name": "MEADOWBROOK",
+    "county": "Polk",
+    "address": "3801 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 215,
+    "approved": "12/15/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003607",
+    "name": "KOZY ACRES RV PARK",
+    "county": "Pasco",
+    "address": "8106 N HWY 301, ZEPHYRHILLS, FL 33541",
+    "lots": 19,
+    "approved": "08/31/2000",
+    "owner": "AUGUSTE GOODWAN/CHRISTIAN ROBIN",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001417",
+    "name": "SUNNYSIDE MHP",
+    "county": "Pasco",
+    "address": "5028 FISHER ST, ZEPHYRHILLS, FL 33542",
+    "lots": 208,
+    "approved": "08/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001422",
+    "name": "LAZY ACRES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "14011 NEBRASKA AVE, TAMPA, FL 33613",
+    "lots": 28,
+    "approved": "07/22/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001426",
+    "name": "OAK HARBOR MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "10000 W LAKE LOWERY RD, HAINES CITY, FL 33844",
+    "lots": 73,
+    "approved": "05/10/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001983",
+    "name": "BRANTLEY'S MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "9721 CR RD 39 S, LITHIA, FL 33547",
+    "lots": 12,
+    "approved": "03/18/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001999",
+    "name": "PLEASANT RIDGE MHP",
+    "county": "Polk",
+    "address": "330 BRACEY ROAD, LAKELAND, FL 33809",
+    "lots": 24,
+    "approved": "10/02/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000304",
+    "name": "EASTWOOD ESTATES",
+    "county": "Hillsborough",
+    "address": "12130 U S 41 SOUTH, GIBSONTON, FL 33534",
+    "lots": 160,
+    "approved": "02/26/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003235",
+    "name": "WALDEN SHORES",
+    "county": "Polk",
+    "address": "2204 THOREAU DR, LAKE WALES, FL 33898",
+    "lots": 222,
+    "approved": "09/04/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000538",
+    "name": "HOLIDAY MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "4141 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 214,
+    "approved": "04/29/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001062",
+    "name": "SWISS VILLAGE",
+    "county": "Polk",
+    "address": "366 ALPINE DR, WINTER HAVEN, FL 33881",
+    "lots": 381,
+    "approved": "03/03/2015",
+    "owner": "CHC III LTD.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003278",
+    "name": "GLEN HAVEN RV & MHP",
+    "county": "Pasco",
+    "address": "37251 CHANCEY RD, ZEPHYRHILLS, FL 33541",
+    "lots": 52,
+    "approved": "12/11/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR7636",
+    "name": "PINE GROVE ESTATES",
+    "county": "Polk",
+    "address": "2245 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 31,
+    "approved": "11/22/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003109",
+    "name": "SASNETT PALMS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "10740 SKEWLEE RD, THONOTOSASSA, FL 33592",
+    "lots": 13,
+    "approved": "07/02/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003128",
+    "name": "CAMP LESTER",
+    "county": "Polk",
+    "address": "14400 RESSE DRIVE, LAKE WALES, FL 33853",
+    "lots": 22,
+    "approved": "01/01/2004",
+    "owner": "COSCE, LEO & JOANNE",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003135",
+    "name": "NASRALLAH MHP",
+    "county": "Hillsborough",
+    "address": "8601 E SLIGH AVE, TAMPA, FL 33610",
+    "lots": 12,
+    "approved": "09/10/1987",
+    "owner": "NASRALLAH, RICHARD",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003279",
+    "name": "SUNSHINE TRAILER PARK",
+    "county": "Hillsborough",
+    "address": "5302 GLEN HARWELL ROAD, PLANT CITY, FL 33567",
+    "lots": 20,
+    "approved": "10/14/1993",
+    "owner": "SPEER, WAYNE AND CATHERINE",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY003350",
+    "name": "TYER'S MOBILE RANCH #2",
+    "county": "Pasco",
+    "address": "20401 US 301, TRILBY, FL 33593",
+    "lots": 6,
+    "approved": "03/11/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003066",
+    "name": "ALAFIA RIVERFRONT",
+    "county": "Hillsborough",
+    "address": "7801 RIVERVIEW DR, RIVERVIEW, FL 33578",
+    "lots": 96,
+    "approved": "12/14/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003203",
+    "name": "SOUTHERN PINES RV & MH RESORT",
+    "county": "Polk",
+    "address": "1622 COUNTY ROAD 630 WEST, FROSTPROOF, FL 33843",
+    "lots": 99,
+    "approved": "01/31/2002",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003087",
+    "name": "ANCLOTE ACRES MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "1210 CALVARY RD, HOLIDAY, FL 34691",
+    "lots": 38,
+    "approved": "09/18/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000964",
+    "name": "TEN ROCKS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3925 COMBEE RD N, LAKELAND, FL 33805-7617",
+    "lots": 36,
+    "approved": "06/10/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000989",
+    "name": "MEADOWS AT COUNTRYWOOD",
+    "county": "Hillsborough",
+    "address": "745 ARBOR ESTATES WAY, PLANT CITY, FL 33565",
+    "lots": 736,
+    "approved": "10/31/2018",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ002918",
+    "name": "ROSE LAKE ESTATES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "14530 N FLORIDA AVE, TAMPA, FL 33613",
+    "lots": 213,
+    "approved": "04/12/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003052",
+    "name": "WINDING CREEK MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "12420 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 77,
+    "approved": "07/08/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000459",
+    "name": "HAINES CITY MOBILE HOME & RV PARK",
+    "county": "Polk",
+    "address": "753 W MAIN ST OFFICE, HAINES CITY, FL 33844",
+    "lots": 192,
+    "approved": "01/27/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000618",
+    "name": "LAKE REGION MOBILE HOME VILLAGE",
+    "county": "Polk",
+    "address": "31850 US 27 S, HAINES CITY, FL 33844",
+    "lots": 75,
+    "approved": "07/27/2012",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000653",
+    "name": "MADISON LANE ESTATES",
+    "county": "Hillsborough",
+    "address": "5353 MADISON LAKE CIR, TAMPA, FL 33619",
+    "lots": 127,
+    "approved": "02/08/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000682",
+    "name": "ARIANA VILLAGE",
+    "county": "Polk",
+    "address": "1625 ARIANA ST, LAKELAND, FL 33803",
+    "lots": 210,
+    "approved": "06/10/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000703",
+    "name": "LAKELAND JUNCTION",
+    "county": "Polk",
+    "address": "202 E GRIFFIN RD, LAKELAND, FL 33805",
+    "lots": 194,
+    "approved": "09/26/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000706",
+    "name": "PARADISE PALMS",
+    "county": "Polk",
+    "address": "3710 OLD TAMPA HWY, LAKELAND, FL 33811",
+    "lots": 50,
+    "approved": "07/17/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000802",
+    "name": "LAKESIDE GARDENS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "5301 US HWY 27 S, LAKE WALES, FL 33853",
+    "lots": 54,
+    "approved": "05/11/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000853",
+    "name": "CARIBBEAN ISLES RESIDENTIAL COOPERATIVE",
+    "county": "Hillsborough",
+    "address": "405 ELSBERRY RD, APOLLO BEACH, FL 33572",
+    "lots": 22,
+    "approved": "07/24/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001200",
+    "name": "TOWERWOOD",
+    "county": "Polk",
+    "address": "597 TOWERWOOD BLVD, LAKE WALES, FL 33859",
+    "lots": 330,
+    "approved": "05/14/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001245",
+    "name": "IMPERIAL COURTS MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "5129 SANDPIPER DR, NEW PORT RICHEY, FL 34652",
+    "lots": 84,
+    "approved": "06/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001376",
+    "name": "LAKE WALES MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "705 N SCENIC HWY, LAKE WALES, FL 33853-2600",
+    "lots": 47,
+    "approved": "02/06/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001447",
+    "name": "FORT MEADE ESTATES",
+    "county": "Polk",
+    "address": "1046 2ND ST SE, FORT MEADE, FL 33841",
+    "lots": 247,
+    "approved": "06/06/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001630",
+    "name": "SHADY ACRES MHP & RV PARK",
+    "county": "Pasco",
+    "address": "14417 US 19, HUDSON, FL 34667",
+    "lots": 72,
+    "approved": "06/12/2002",
+    "owner": "SHADY ACRES MHP & RV PARK FLA GENERAL PARTNERSHIP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001632",
+    "name": "GLEN OAKS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "12428 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 43,
+    "approved": "02/06/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001781",
+    "name": "AUBURNDALE ESTATES",
+    "county": "Polk",
+    "address": "2604 SADDLE CREEK RD, AUBURNDALE, FL 33823",
+    "lots": 124,
+    "approved": "08/23/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001843",
+    "name": "VALENCIA MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "226 S WASHINGTON AVE, FORT MEADE, FL 33841",
+    "lots": 95,
+    "approved": "12/17/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000335",
+    "name": "FOUNTAINVIEW ESTATES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8800 BERKSHIRE LN, TAMPA, FL 33635",
+    "lots": 546,
+    "approved": "09/15/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000417",
+    "name": "GREENBRIER MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2120 DUFF RD, LAKELAND, FL 33810",
+    "lots": 141,
+    "approved": "11/10/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002055",
+    "name": "LINWOOD OAKS",
+    "county": "Polk",
+    "address": "111 WEST CARTER ROAD, LAKELAND, FL 33813",
+    "lots": 21,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002060",
+    "name": "DAN'S MHP",
+    "county": "Polk",
+    "address": "US 27 S DAN'S CIR, LAKE WALES, FL 33853",
+    "lots": 12,
+    "approved": "07/21/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002191",
+    "name": "CAULEY'S MHP",
+    "county": "Polk",
+    "address": "3731 OLD TAMPA HWY, LAKELAND, FL 33811",
+    "lots": 20,
+    "approved": "09/21/2000",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002741",
+    "name": "WIGWAM MOBILE HOME PARK/RVP",
+    "county": "Hillsborough",
+    "address": "9102 WILLIAMS RD, SEFFNER, FL 33584",
+    "lots": 11,
+    "approved": "11/02/1989",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002836",
+    "name": "SANDY'S MHP",
+    "county": "Hillsborough",
+    "address": "9920 SKEWLEE RD, THONOTOSASSA, FL 33592",
+    "lots": 13,
+    "approved": "09/20/1988",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR7533",
+    "name": "VALRICO HILLS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "3942 E STATE ROAD 60, DOVER, FL 33527",
+    "lots": 38,
+    "approved": "06/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR7575",
+    "name": "SHADY OAKS MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3245 E MAIN ST, LAKELAND, FL 33801",
+    "lots": 30,
+    "approved": "11/18/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003094",
+    "name": "SHIPP SIDE MHP",
+    "county": "Polk",
+    "address": "1849 7TH ST SW, WINTER HAVEN, FL 33880",
+    "lots": 19,
+    "approved": "02/01/1999",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003596",
+    "name": "SHAMSI MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "11219 MCMULLEN RD, RIVERVIEW, FL 33569",
+    "lots": 11,
+    "approved": "08/25/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000074",
+    "name": "BRIARWOOD ESTATES MOBILE HOME COMMUNITY",
+    "county": "Polk",
+    "address": "5310 DEESON RD, LAKELAND, FL 33809",
+    "lots": 19,
+    "approved": "07/10/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000150",
+    "name": "COUNTRY VILLAGE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "10532 BECOMING DR, HUDSON, FL 34667",
+    "lots": 74,
+    "approved": "04/12/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000162",
+    "name": "PLANTATION OAKS MOBILE HOME PARK-SECTION B",
+    "county": "Hillsborough",
+    "address": "143 ALAFARA ST, SEFFNER, FL 33584",
+    "lots": 101,
+    "approved": "12/04/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000196",
+    "name": "CHRISTMAS TREE TRAILER PARK",
+    "county": "Polk",
+    "address": "2400 HUTCHINS RD, FT. MEADE, FL 33841",
+    "lots": 99,
+    "approved": "10/11/1993",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000294",
+    "name": "NORTH ROME MHP",
+    "county": "Hillsborough",
+    "address": "6700 N ROME AVE, TAMPA, FL 33604",
+    "lots": 82,
+    "approved": "07/28/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001907",
+    "name": "BREEZEWOOD MHP",
+    "county": "Hillsborough",
+    "address": "1701 SKIPPER RD, TAMPA, FL 33613",
+    "lots": 52,
+    "approved": "07/19/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002148",
+    "name": "PARKWOOD ESTATES",
+    "county": "Hillsborough",
+    "address": "4000 US HIGHWAY 92 EAST, PLANT CITY, FL 33566",
+    "lots": 213,
+    "approved": "12/07/2023",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMY001996",
+    "name": "LAKE MATTIE MHP",
+    "county": "Polk",
+    "address": "563 CONE ROAD, AUBURNDALE, FL 33823",
+    "lots": 15,
+    "approved": "01/26/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001998",
+    "name": "OAK TREE",
+    "county": "Hillsborough",
+    "address": "1920 151ST AVE, LUTZ, FL 33549",
+    "lots": 12,
+    "approved": "06/20/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003186",
+    "name": "BREWER & SONS RENTALS",
+    "county": "Hillsborough",
+    "address": "7026 NUNDY AVE, GIBSONTON, FL 33534",
+    "lots": 4,
+    "approved": "10/01/2002",
+    "owner": "BREWER, INA",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000889",
+    "name": "LAKEFRONT TRAILER PARK",
+    "county": "Polk",
+    "address": "FORT MEADE ROAD, FROSTPROOF, FL 33843",
+    "lots": 40,
+    "approved": "08/26/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002387",
+    "name": "MAS VERDE MOBILE HOME ESTATES",
+    "county": "Polk",
+    "address": "2600 HARDEN BLVD, LAKELAND, FL 33803",
+    "lots": 403,
+    "approved": "11/04/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000191",
+    "name": "COLONY COVE MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "5229 RUBBER TREE CIR, NEW PORT RICHEY, FL 34653",
+    "lots": 140,
+    "approved": "12/07/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003267",
+    "name": "SELF'S MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "4262 CASTLEWOOD DRIVE, SEFFNER, FL 33584",
+    "lots": 21,
+    "approved": "01/03/2011",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000280",
+    "name": "WINTER HAVEN OAKS",
+    "county": "Polk",
+    "address": "5248 SPIRIT LAKE RD, WINTER HAVEN, FL 33880",
+    "lots": 344,
+    "approved": "07/19/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000995",
+    "name": "SWISS GOLF & TENNIS CLUB",
+    "county": "Polk",
+    "address": "1 CENTURY DR, WINTER HAVEN, FL 33881",
+    "lots": 612,
+    "approved": "02/27/2015",
+    "owner": "CHC VII LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PR7291",
+    "name": "ARROW WOOD MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3305 SKYVIEW DR, LAKELAND, FL 33801",
+    "lots": 23,
+    "approved": "04/02/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000083",
+    "name": "BLUE JAY MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "38511 WILDS RD, DADE CITY, FL 33525",
+    "lots": 206,
+    "approved": "01/17/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002761",
+    "name": "KENNARD'S MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3800 HWY 17/92 W, HAINES CITY, FL 33844",
+    "lots": 18,
+    "approved": "06/22/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003549",
+    "name": "TERRACE CROSSINGS",
+    "county": "Hillsborough",
+    "address": "9901 E FOWLER AVE, THONOTOSASSA, FL 33903",
+    "lots": 65,
+    "approved": "02/06/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000120",
+    "name": "MOUSE MOUNTAIN MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "7500 OSCEOLA POLK LINE RD, DAVENPORT, FL 33837",
+    "lots": 43,
+    "approved": "02/10/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001112",
+    "name": "SIESTA MOBILE HOME COURT",
+    "county": "Hillsborough",
+    "address": "14714 N FLORIDA AVE, TAMPA, FL 33613",
+    "lots": 73,
+    "approved": "11/20/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000740",
+    "name": "LAKE BONNY MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "30 BONISEE CIR, LAKELAND, FL 33801",
+    "lots": 106,
+    "approved": "05/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001697",
+    "name": "PALM BREEZE ESTATE",
+    "county": "Polk",
+    "address": "4535 US HWY 92 E, LAKELAND, FL 33801",
+    "lots": 32,
+    "approved": "01/07/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003591",
+    "name": "NEW HARMONY MHP",
+    "county": "Polk",
+    "address": "3120 HWY 27 SOUTH, LAKE WALES, FL 33853",
+    "lots": 23,
+    "approved": "01/03/2011",
+    "owner": "FISHER, LINDA",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001116",
+    "name": "SUNCOAST GATEWAY",
+    "county": "Pasco",
+    "address": "6010 RIDGE RD, NEW PORT RICHEY, FL 34668",
+    "lots": 174,
+    "approved": "06/23/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003659",
+    "name": "SUNNYSIDE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "2317 N US HWY 27, DAVENPORT, FL 33837",
+    "lots": 17,
+    "approved": "03/29/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000560",
+    "name": "KEENES ADULT MHP",
+    "county": "Pasco",
+    "address": "12301 CARL LOOP, DADE CITY, FL 33525",
+    "lots": 37,
+    "approved": "10/10/1990",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000384",
+    "name": "GARDEN MOBILE VILLAGE",
+    "county": "Polk",
+    "address": "2040 15TH ST SW, WINTER HAVEN, FL 33880",
+    "lots": 67,
+    "approved": "11/08/2011",
+    "owner": "PETERMAN, PHYLLIS",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001219",
+    "name": "SLEEPY HOLLOW MOBILE ESTATES",
+    "county": "Pasco",
+    "address": "6616 WIRE RD, ZEPHYRHILLS, FL 33542",
+    "lots": 39,
+    "approved": "10/17/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000351",
+    "name": "FOUNTAINVIEW ESTATES",
+    "county": "Polk",
+    "address": "600 FOUNTAINVIEW S, LAKELAND, FL 33809",
+    "lots": 197,
+    "approved": "03/07/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000497",
+    "name": "HARTS PARK",
+    "county": "Hillsborough",
+    "address": "1209 RIVER DR SW, RUSKIN, FL 33570",
+    "lots": 31,
+    "approved": "09/06/1994",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000584",
+    "name": "LAKE KISSIMMEE MHP",
+    "county": "Polk",
+    "address": "CAMP LESTER RD, LAKE WALES, FL 33853",
+    "lots": 71,
+    "approved": "09/19/2011",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001719",
+    "name": "SPEER MHP",
+    "county": "Hillsborough",
+    "address": "1955 BRANCH FORBES RD, PLANT CITY, FL 33565",
+    "lots": 114,
+    "approved": "08/22/2011",
+    "owner": "",
+    "plantCity": true
+  },
+  {
+    "id": "PRMZ001696",
+    "name": "PEACE RIVER VILLAGE",
+    "county": "Polk",
+    "address": "2405 E STATE RD 60, BARTOW, FL 33830",
+    "lots": 88,
+    "approved": "08/22/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000425",
+    "name": "SCHALAMAR CREEK GOLF & COUNTRY CLUB COMM",
+    "county": "Polk",
+    "address": "4500 US HWY 92 EAST 1030, LAKELAND, FL 33801",
+    "lots": 795,
+    "approved": "11/20/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001803",
+    "name": "SUNSHINE VILLAGE MOBILE HOME COMMUNITY",
+    "county": "Polk",
+    "address": "1234 REYNOLDS RD, LAKELAND, FL 33801",
+    "lots": 303,
+    "approved": "12/10/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002712",
+    "name": "TWIN PALMS COURT",
+    "county": "Hillsborough",
+    "address": "11520 US 92 E BOX D-4, SEFFNER, FL 33584",
+    "lots": 3,
+    "approved": "03/22/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000467",
+    "name": "OAKS OF THONOTOSASSA THE",
+    "county": "Hillsborough",
+    "address": "10321 MAIN ST, THONOTOSASSA, FL 33592-8327",
+    "lots": 190,
+    "approved": "02/20/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000502",
+    "name": "HI-PINES MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "12224 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 62,
+    "approved": "09/18/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002556",
+    "name": "CRYSTAL LAKE MOBILE HOME COMMUNITY",
+    "county": "Pasco",
+    "address": "4604 LAKE CRYSTAL BLVD, ZEPHYRHILLS, FL 33541",
+    "lots": 519,
+    "approved": "04/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002622",
+    "name": "CROWELLS MHP",
+    "county": "Hillsborough",
+    "address": "6704 RIVERVIEW DR, RIVERVIEW, FL 33569",
+    "lots": 13,
+    "approved": "09/30/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000927",
+    "name": "SPANISH TRAILS WEST",
+    "county": "Pasco",
+    "address": "7142 PISCINA ST, ZEPHYRHILLS, FL 33541",
+    "lots": 34,
+    "approved": "12/05/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000691",
+    "name": "STRAWBERRY RIDGE",
+    "county": "Hillsborough",
+    "address": "4419 SR 60, VALRICO, FL 33594",
+    "lots": 373,
+    "approved": "05/15/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001182",
+    "name": "VALENCIA EST MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "3325 US HWY 98 S, LAKELAND, FL 33803",
+    "lots": 86,
+    "approved": "06/23/2014",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000728",
+    "name": "BRENTWOOD ESTATES",
+    "county": "Pasco",
+    "address": "9920 PRINCESS LN, HUDSON, FL 34667",
+    "lots": 194,
+    "approved": "10/17/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001063",
+    "name": "CHALET VILLAGE",
+    "county": "Hillsborough",
+    "address": "14622 N NEBRASKA AVE, TAMPA, FL 33613",
+    "lots": 60,
+    "approved": "07/24/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000365",
+    "name": "FEATHEROCK MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "2200 HWY 60 E, VALRICO, FL 33594",
+    "lots": 522,
+    "approved": "10/06/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000781",
+    "name": "LITTLE MANATEE ISLES",
+    "county": "Hillsborough",
+    "address": "1177 PRIMROSE PEAK DR, RUSKIN, FL 33570",
+    "lots": 167,
+    "approved": "03/23/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001832",
+    "name": "RIVIERA MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "1015 NEPTUNE DR, RUSKIN, FL 33570",
+    "lots": 30,
+    "approved": "07/25/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000661",
+    "name": "BARTOW MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "1510 E GEORGIA ST, BARTOW, FL 33830",
+    "lots": 84,
+    "approved": "05/14/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000465",
+    "name": "HACIENDA VILLAGE",
+    "county": "Pasco",
+    "address": "7107 GIBRALTAR AVE, NEW PORT RICHEY, FL 34653",
+    "lots": 506,
+    "approved": "09/05/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001703",
+    "name": "JOHNNY'S MOBILE HOME CORP",
+    "county": "Hillsborough",
+    "address": "203 E LINEBAUGH AVE, TAMPA, FL 33612",
+    "lots": 92,
+    "approved": "11/05/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000189",
+    "name": "CITRUS CENTER COLONY",
+    "county": "Polk",
+    "address": "1111 W BEACON RD, LAKELAND, FL 33803",
+    "lots": 228,
+    "approved": "05/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001587",
+    "name": "RIVERWALK VILLAGE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8518 GIBSONTON DR, GIBSONTON, FL 33534",
+    "lots": 176,
+    "approved": "02/24/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001742",
+    "name": "COUNTRY AIRE ESTATES MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "38130 MCDONALD ST, DADE CITY, FL 33525",
+    "lots": 120,
+    "approved": "10/01/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002844",
+    "name": "HAMMONDELL CAMPSITES",
+    "county": "Polk",
+    "address": "5601 CYPRESS GARDENS ROAD, WINTER HAVEN, FL 33884",
+    "lots": 23,
+    "approved": "06/30/2006",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003197",
+    "name": "RAMBLEWOOD VILLAGE MH COMMUNITY",
+    "county": "Pasco",
+    "address": "38210 VINSON AVE, ZEPHYRHILLS, FL 33542",
+    "lots": 154,
+    "approved": "10/29/2001",
+    "owner": "HEILER, ALFRED",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000360",
+    "name": "FOXWOOD VILLAGE",
+    "county": "Polk",
+    "address": "4700 FOXWOOD BLVD, LAKELAND, FL 33810",
+    "lots": 352,
+    "approved": "11/05/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000015",
+    "name": "ARIPEKA WEST MOBILE HOME PARK",
+    "county": "Pasco",
+    "address": "9230 ELMIRA AVE, ARIPEKA, FL 34679",
+    "lots": 120,
+    "approved": "04/04/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001628",
+    "name": "LIVINGSTON MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "15812 LIVINGSTON AVE, LUTZ, FL 33549",
+    "lots": 65,
+    "approved": "05/15/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001069",
+    "name": "ORANGEWOOD LAKES MH COMM",
+    "county": "Pasco",
+    "address": "7850 OLDFIELD RD, NEW PORT RICHEY, FL 34653",
+    "lots": 251,
+    "approved": "10/29/2001",
+    "owner": "HEILER, ALFRED- TRUSTEE",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000745",
+    "name": "LAKE BLUE MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "713 ROSE ST, AUBURNDALE, FL 33823",
+    "lots": 102,
+    "approved": "02/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000731",
+    "name": "MAY MANOR MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "340 BRUNNELL PKWY, LAKELAND, FL 33815",
+    "lots": 297,
+    "approved": "02/10/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000575",
+    "name": "LITTLE MANATEE SPRINGS MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "4337 HAMLIN WAY, WIMAUMA, FL 33598",
+    "lots": 265,
+    "approved": "06/12/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002916",
+    "name": "CHERRY POCKET FISH CAMP",
+    "county": "Polk",
+    "address": "3100 CANAL RD LOT 17, LAKE WALES, FL 33843",
+    "lots": 22,
+    "approved": "12/20/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001639",
+    "name": "LANDINGS AT LAKE HENRY",
+    "county": "Polk",
+    "address": "23 O'HARA DR, HAINES CITY, FL 33844",
+    "lots": 395,
+    "approved": "07/11/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001686",
+    "name": "KISSIMMEE SOUTH",
+    "county": "Polk",
+    "address": "3700 US HWY 17-92 N, DAVENPORT, FL 33837",
+    "lots": 127,
+    "approved": "10/12/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002025",
+    "name": "MELODY ACRES MOBILE HOME PARK 2",
+    "county": "Polk",
+    "address": "5270 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 19,
+    "approved": "04/06/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002069",
+    "name": "ENCHANTED GROVE MOBILE HOME & RV PARK",
+    "county": "Polk",
+    "address": "5137 NORTH SCENIC HIGHWAY, LAKE WALES, FL 33853",
+    "lots": 120,
+    "approved": "07/01/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003554",
+    "name": "RAINBOW RESORT RV & MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "700 HWY 630A, FROSTPROOF, FL 33843",
+    "lots": 37,
+    "approved": "08/22/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001556",
+    "name": "CHAPMAN'S MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "5600 NEW TAMPA HWY, LAKELAND, FL 33815",
+    "lots": 76,
+    "approved": "03/09/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002904",
+    "name": "LAND SOUTH COUNTRY VILLAS",
+    "county": "Polk",
+    "address": "5435 LEWELLYN RD, LAKELAND, FL 33810",
+    "lots": 45,
+    "approved": "07/15/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001614",
+    "name": "FLORIDA HOLINESS CAMP GROUND",
+    "county": "Polk",
+    "address": "3335 S FLORIDA AVE, LAKELAND, FL 33803",
+    "lots": 101,
+    "approved": "12/12/1988",
+    "owner": "FLORIDA HOLINESS CAMPGROUND, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001679",
+    "name": "RIVERBEND MOBILE VILLAGE",
+    "county": "Pasco",
+    "address": "5330 GREEN KEY RD, NEW PORT RICHEY, FL 34652",
+    "lots": 90,
+    "approved": "10/15/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001329",
+    "name": "RIVERSIDE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "1501 SUSIE CIRCLE, RUSKIN, FL 33570",
+    "lots": 51,
+    "approved": "01/28/2002",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000158",
+    "name": "CHELETTE MANOR",
+    "county": "Polk",
+    "address": "2300 E STATE RD 60, LAKE WALES, FL 33853",
+    "lots": 64,
+    "approved": "06/27/2007",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003248",
+    "name": "SOUTHFORK MOBILE HOME COMMUNITY",
+    "county": "Pasco",
+    "address": "10808 US 98 SOUTH, DADE CITY, FL 33525",
+    "lots": 241,
+    "approved": "06/16/2016",
+    "owner": "HEILER, ALFRED (TRUSTEE)",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000051",
+    "name": "SUN VISTA MOBILE HOME PARK",
+    "county": "Polk",
+    "address": "900 OHLINGER RD, BABSON PARK, FL 33827",
+    "lots": 60,
+    "approved": "08/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002919",
+    "name": "HICKORY LAKE ESTATES",
+    "county": "Polk",
+    "address": "1640 S SCENIC HWY, FROSTPROOF, FL 33843",
+    "lots": 142,
+    "approved": "08/18/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR9792",
+    "name": "ST JOSEPH'S MHP",
+    "county": "Hillsborough",
+    "address": "5233 PINE STREET, SEFFNER, FL 33586",
+    "lots": 13,
+    "approved": "09/23/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR9803",
+    "name": "CYPRESS CREEK VILLAGE",
+    "county": "Polk",
+    "address": "117 MONTEREY CYPRESS BLVD, WINTER HAVEN, FL 33881",
+    "lots": 552,
+    "approved": "01/20/2026",
+    "owner": "CRF III LTD",
+    "plantCity": false
+  },
+  {
+    "id": "PR9808",
+    "name": "ROCKY CREEK VILLAGE",
+    "county": "Hillsborough",
+    "address": "8400 W WATERS AVE, TAMPA, FL 33615",
+    "lots": 160,
+    "approved": "08/18/2016",
+    "owner": "ROCKY CREEK RETIREMENT PROPERTIES INC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9817",
+    "name": "RESERVE AT GRAND VALLEY",
+    "county": "Pasco",
+    "address": "7306 OSTEEN RD, NEW PORT RICHEY, FL 34653",
+    "lots": 37,
+    "approved": "05/20/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR9821",
+    "name": "CLYDE'S COTTAGES",
+    "county": "Pasco",
+    "address": "3927 CRYSTAL SPRINGS RD, ZEPHYRHILLS, FL 33541",
+    "lots": 10,
+    "approved": "06/30/2015",
+    "owner": "CLYDE'S COTTAGES MH AND RV PARK LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9833",
+    "name": "HIGHLAND OAKS",
+    "county": "Hillsborough",
+    "address": "4943 HILLSBOROUGH AVE, TAMPA, FL 33610",
+    "lots": 86,
+    "approved": "03/11/2025",
+    "owner": "HIGHLAND OAKS MHC LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9836",
+    "name": "BAY LANDINGS EAST",
+    "county": "Hillsborough",
+    "address": "11211 E BAY RD # 10, GIBSONTON, FL 33534",
+    "lots": 94,
+    "approved": "11/17/2020",
+    "owner": "BULLFROG MHC LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9835",
+    "name": "BAY LANDINGS WEST",
+    "county": "Hillsborough",
+    "address": "8750 SYMMES RD, GIBSONTON, FL 33534",
+    "lots": 40,
+    "approved": "11/20/2020",
+    "owner": "BULLFROG MHC LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9840",
+    "name": "PELICAN SUN ESTATES 2",
+    "county": "Hillsborough",
+    "address": "11123 N NEBRASKA AVE, TAMPA, FL 33612",
+    "lots": 34,
+    "approved": "07/01/2021",
+    "owner": "PELICAN SUN ESTATES GP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9839",
+    "name": "PELICAN SUN ESTATES 1",
+    "county": "Hillsborough",
+    "address": "10921 N NEBRASKA AVE, TAMPA, FL 33612",
+    "lots": 30,
+    "approved": "11/15/2024",
+    "owner": "PELICAN SUN ESTATES GP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9841",
+    "name": "TAMPA SUN ESTATES",
+    "county": "Hillsborough",
+    "address": "10101 N FLORIDA AVE, TAMPA, FL 33612",
+    "lots": 69,
+    "approved": "08/18/2022",
+    "owner": "TAMPA SUN ESTATES LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9845",
+    "name": "TAMPA SUN ESTATES 3",
+    "county": "Hillsborough",
+    "address": "10603 N NEBRASKA AVE, TAMPA, FL 33612",
+    "lots": 52,
+    "approved": "10/11/2021",
+    "owner": "TAMPA SUN ESTATES 3 AND 4 LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9846",
+    "name": "TAMPA SUN ESTATES 4",
+    "county": "Hillsborough",
+    "address": "14011 N NEBRASKA AVE, TAMPA, FL 33612",
+    "lots": 48,
+    "approved": "10/05/2021",
+    "owner": "TAMPA SUN ESTATES 3 AND 4 LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9854",
+    "name": "TAMPA SUN ESTATES 5",
+    "county": "Hillsborough",
+    "address": "221 21ST ST SE, RUSKIN, FL 33570",
+    "lots": 34,
+    "approved": "07/08/2022",
+    "owner": "TAMPA SUN ESTATES 5 LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9883",
+    "name": "VALRICO MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "1221 N VALRICO RD, VALRICO, FL 33594",
+    "lots": 0,
+    "approved": "06/18/2025",
+    "owner": "VALRICO MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9884",
+    "name": "FOREST GREEN ACRES",
+    "county": "Pasco",
+    "address": "11337 HUDSON AVE, HUDSON, FL 34669",
+    "lots": 0,
+    "approved": "06/18/2025",
+    "owner": "FOREST GREEN ACRES MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9885",
+    "name": "WATERSIDE MOBILE HOME PARK",
+    "county": "Hillsborough",
+    "address": "8536 HONEYWELL RD, GIBSONTON, FL 33534",
+    "lots": 0,
+    "approved": "12/23/2025",
+    "owner": "WATERSIDE MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9889",
+    "name": "NEW RIVER GARDENS",
+    "county": "Pasco",
+    "address": "3815 NEW RIVER RD, WESLEY CHAPEL, FL 33543",
+    "lots": 14,
+    "approved": "01/20/2026",
+    "owner": "UAH TAMPA I LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9890",
+    "name": "PLEASANT VILLAGE GARDENS",
+    "county": "Pasco",
+    "address": "4531 GAIL BLVD, ZEPHYRHILLS, FL 33542",
+    "lots": 18,
+    "approved": "01/20/2026",
+    "owner": "UAH TAMPA I LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9893",
+    "name": "CAROUSEL MOBILE HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "5410 N FALKENBURG RD, TAMPA, FL 33610",
+    "lots": 46,
+    "approved": "08/03/2026",
+    "owner": "CAROUSEL MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9894",
+    "name": "TWIN PALMS MOBILE HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "11520 E US  HWY 92, SEFFNER, FL 33584",
+    "lots": 0,
+    "approved": "08/07/2026",
+    "owner": "ANGEL WOODS MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9897",
+    "name": "CITRUS KNOLL MOBILE HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "12960 MORRIS BRIDGE RD, THONOTOSASSA, FL 33592",
+    "lots": 34,
+    "approved": "08/07/2026",
+    "owner": "CITRUS KNOLL TAMPA MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9901",
+    "name": "J & L MOBILE HOME COMMUNITY",
+    "county": "Hillsborough",
+    "address": "2310 S 50TH ST, TAMPA, FL 33619",
+    "lots": 0,
+    "approved": "08/19/2026",
+    "owner": "J AND L MHP LLC",
+    "plantCity": false
+  }
+]
