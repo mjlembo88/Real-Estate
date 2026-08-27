@@ -4267,5 +4267,1679 @@
     "match": "2300 E STATE RD 60, LAKE WALES, FL 33853",
     "src": "arcgis",
     "from": "mhp-map-listings"
+  },
+  "2261 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.959523013774,
+    "lon": -82.744544019338,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2261 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "7230 4TH ST N, ST. PETERSBURG, FL 33702-5803": {
+    "ok": true,
+    "lat": 27.837961864582,
+    "lon": -82.643285683656,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7230 4th St N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "7499 46TH AVE N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.813871143299,
+    "lon": -82.742687595423,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7499 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "7111 142ND AVE N, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.902890768788,
+    "lon": -82.738559591928,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7111 142nd Ave N, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "6418 HAINES RD, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.831279476095,
+    "lon": -82.678660500179,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "6418 Haines Rd, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "30700 U.S. 19 NORTH, PALM HARBOR, FL 34684": {
+    "ok": true,
+    "lat": 28.05123687631,
+    "lon": -82.742776024501,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "30700 US Highway 19 N, Palm Harbor, Florida, 34684",
+    "src": "arcgis"
+  },
+  "5640 SEMINOLE BLVD, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.823325804352,
+    "lon": -82.788126143994,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5640 Seminole Blvd, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "2500 54 AVE N, SAINT PETERSBURG BCH, FL 33714": {
+    "ok": true,
+    "lat": 27.82061643797,
+    "lon": -82.666510680069,
+    "score": 99.14,
+    "addr_type": "PointAddress",
+    "match": "2500 54th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "4125 PARK ST N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.811531544575,
+    "lon": -82.751279884368,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4125 Park St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "39248 US HWY 19 N, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.128013349198,
+    "lon": -82.743492677223,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "39248 US Highway 19 N, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "1654 CLEARWATER-LARGO RD, CLEARWATER, FL 33756": {
+    "ok": true,
+    "lat": 27.93753166587,
+    "lon": -82.796976847014,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1654 Clearwater Largo Rd, Clearwater, Florida, 33756",
+    "src": "arcgis"
+  },
+  "2500 52ND AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.818438316611,
+    "lon": -82.667194391911,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2500 52nd Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "3301 58TH AVE N, ST PETERBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.826372290881,
+    "lon": -82.677808814998,
+    "score": 98.98,
+    "addr_type": "PointAddress",
+    "match": "3301 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "626 S BROAD ST LOT 226, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.554193521177,
+    "lon": -82.396236044539,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "626 S Broad St, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "7275 TWIN BROOK ST, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.535978891205,
+    "lon": -82.40400372185,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7275 Twin Brook St, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "38791 US HWY 19 N, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.124661048932,
+    "lon": -82.737902031624,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "38791 US Highway 19 N, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "6978 46TH AVE N, ST PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.812579659658,
+    "lon": -82.735033911995,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6978 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "3290 54TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.820878288625,
+    "lon": -82.677266254405,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3290 54th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "8701 SEMINOLE BLVD, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.851742216317,
+    "lon": -82.786488403932,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8701 Seminole Blvd, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "12840 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.889600004018,
+    "lon": -82.787319972546,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12840 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "7901 40 AVE N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.809142618351,
+    "lon": -82.748709573759,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7901 40th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "10365 ULMERTON ROAD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.897248490666,
+    "lon": -82.782518399312,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10365 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "40274 US 19 N, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.138259052363,
+    "lon": -82.741604737351,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "40274 US Highway 19 N, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "6372 126TH AVE N, LARGO, FL 33773": {
+    "ok": true,
+    "lat": 27.885333489573,
+    "lon": -82.723815237509,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "6372 126th Ave, Largo, Florida, 33773",
+    "src": "arcgis"
+  },
+  "123 MCMULLEN BOOTH RD, CLEARWATER, FL 33759": {
+    "ok": true,
+    "lat": 27.963723478822,
+    "lon": -82.706762255499,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "123 S McMullen Booth Rd, Clearwater, Florida, 33759",
+    "src": "arcgis"
+  },
+  "5200 28TH ST N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.818965454502,
+    "lon": -82.672216995932,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "5200 28th St N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "7400 46TH AVE N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.811602623114,
+    "lon": -82.74217101873,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7400 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "19709 US HWY 19 N, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.951430621534,
+    "lon": -82.729015034963,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "19709 US Highway 19 N, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "249 JASPER ST, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.930461991546,
+    "lon": -82.791118986342,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "249 Jasper St, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "3390 GANDY BLVD N, ST. PETERSBURG, FL 33702-2098": {
+    "ok": true,
+    "lat": 27.842466257439,
+    "lon": -82.679132904242,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3390 Gandy Blvd N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "1071 DONEGAN RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.905301990875,
+    "lon": -82.776930016827,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1071 Donegan Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "2463 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.960207773354,
+    "lon": -82.735810076229,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2463 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "5151 4TH ST N, ST. PETERSBURG, FL 33703": {
+    "ok": true,
+    "lat": 27.818806533617,
+    "lon": -82.63675551053,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5151 4th St N, Saint Petersburg, Florida, 33703",
+    "src": "arcgis"
+  },
+  "2580 NURSERY RD, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.943339989494,
+    "lon": -82.731537820181,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2580 Nursery Rd, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "800 MAIN ST, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.018918017866,
+    "lon": -82.7780560417,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "800 Main St, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "1399 S BELCHER RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.903999401212,
+    "lon": -82.743620752703,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1399 S Belcher Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "2882 GULF TO BAY BLVD, CLEARWATER, FL 33759": {
+    "ok": true,
+    "lat": 27.961126429942,
+    "lon": -82.717953437342,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2882 Gulf To Bay Blvd, Clearwater, Florida, 33759",
+    "src": "arcgis"
+  },
+  "2419 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.956990547458,
+    "lon": -82.738219621935,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2419 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "1040 MAIN ST, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.019393187957,
+    "lon": -82.776409081545,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1040 Main St, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "1799 SEMINOLE BLVD, LARGO, FL 34648": {
+    "ok": true,
+    "lat": 27.900283116801,
+    "lon": -82.785633533628,
+    "score": 98.21,
+    "addr_type": "PointAddress",
+    "match": "1799 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "1025 CLEARWATER-LARGO RD, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.926380088519,
+    "lon": -82.796545430457,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "1025 Clearwater Largo Rd N, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "2381 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.959911347348,
+    "lon": -82.738735360437,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2381 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "2291 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.95828282738,
+    "lon": -82.742630263205,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2291 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "3300 N ALTERNATE 19, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.060391590959,
+    "lon": -82.774606050353,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "3300 Alt 19, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "9204 66TH ST N, PINELLAS PARK, FL 33782": {
+    "ok": true,
+    "lat": 27.855897419088,
+    "lon": -82.729244782929,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9204 66th St N, Pinellas Park, Florida, 33782",
+    "src": "arcgis"
+  },
+  "3663 58TH AVE N, ST PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.826847921976,
+    "lon": -82.682892355455,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3663 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "1100 CURLEW RD, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.05309899992,
+    "lon": -82.777522030649,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1100 Curlew Rd, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "505 ANCLOTE BLVD, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.170514501711,
+    "lon": -82.7620772844,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "505 Anclote Blvd, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "4300 E BAY DR, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.918547493368,
+    "lon": -82.742173449482,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4300 E Bay Dr, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "1181 ANCLOTE RD, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.169047375288,
+    "lon": -82.782457714333,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1181 Anclote Rd, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "2346 DRUID RD, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.955571994165,
+    "lon": -82.741659974093,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "2346 Druid Rd E, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "21253 YONTZ RD, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.580377538959,
+    "lon": -82.381436788655,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "21253 Yontz Rd, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "601 STARKEY RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.910953237634,
+    "lon": -82.760272744466,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "601 Starkey Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "1355 HARBOR HILL PARKWAY, SAFETY HARBOR, FL 34695-4154": {
+    "ok": true,
+    "lat": 27.98511547874,
+    "lon": -82.701506047836,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1355 Harbor Hill Pkwy, Safety Harbor, Florida, 34695",
+    "src": "arcgis"
+  },
+  "16416 US HWY19 N, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.921316496991,
+    "lon": -82.73438942746,
+    "score": 99.0,
+    "addr_type": "PointAddress",
+    "match": "16416 US Highway 19 N, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "2505 EAST BAY DR, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.914361151827,
+    "lon": -82.76076845022,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2505 E Bay Dr, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "15549 CORTEZ BLVD, BROOKSVILLE, FL 34613": {
+    "ok": true,
+    "lat": 28.541252658954,
+    "lon": -82.463226729288,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "15549 Cortez Blvd, Brooksville, Florida, 34613",
+    "src": "arcgis"
+  },
+  "8667 SEMINOLE BLVD, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.851244876092,
+    "lon": -82.786660316767,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8667 Seminole Blvd, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "3503 58TH ST N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.803871968682,
+    "lon": -82.71206681199,
+    "score": 99.5,
+    "addr_type": "StreetAddress",
+    "match": "3503 58th St N, Saint Petersburg, Florida, 33710",
+    "src": "arcgis"
+  },
+  "925 PONCE DE LEON BLVD, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.565876804556,
+    "lon": -82.398028849809,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "925 Ponce de Leon Blvd, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "4000 - 24TH STREET NORTH, ST PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.803250308057,
+    "lon": -82.665101765965,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4000 24th St N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "795 COUNTY RD 1, PALM HARBOR, FL 34683": {
+    "ok": true,
+    "lat": 28.05755289181,
+    "lon": -82.764162953368,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "795 County Road 1, Palm Harbor, Florida, 34683",
+    "src": "arcgis"
+  },
+  "1305 HOWELL AVE., BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.574934456765,
+    "lon": -82.378653074791,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1305 Howell Ave, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "2701 50TH AVE N, ST PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.81804281651,
+    "lon": -82.670763406284,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2701 50th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "730 14TH ST NW, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.923738531733,
+    "lon": -82.802226265335,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "730 14th St NW, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "13225 101 STREET, LARGO, FL 33773": {
+    "ok": true,
+    "lat": 27.89303138754,
+    "lon": -82.77847505304,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "13225 101st St, Largo, Florida, 33773",
+    "src": "arcgis"
+  },
+  "5757 66TH ST N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.823692009702,
+    "lon": -82.725908031094,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5757 66th St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "7349 ULMERTON RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.89820641647,
+    "lon": -82.738963264385,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7349 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "3565 58TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.826541395777,
+    "lon": -82.681887532902,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3565 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "5145 EAST BAY DRIVE, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.914449329448,
+    "lon": -82.733187546364,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5145 E Bay Dr, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "801 MISSOURI AVENUE, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.923817782627,
+    "lon": -82.787925732689,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "801 Missouri Ave N, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "12766 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.889365017363,
+    "lon": -82.787874016346,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12766 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "9063 GETTIE DR, BROOKSVILLE, FL 34613": {
+    "ok": true,
+    "lat": 28.556700590326,
+    "lon": -82.562913122849,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9063 Gettie Dr, Weeki Wachee, Florida, 34613",
+    "src": "arcgis"
+  },
+  "6700 150TH AVE N, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.910521779168,
+    "lon": -82.732639286077,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6700 150th Ave N, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "3401 GANDY BLVD, PINELLAS PARK, FL 33781": {
+    "ok": true,
+    "lat": 27.845930959026,
+    "lon": -82.682035222036,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3401 Gandy Blvd, Pinellas Park, Florida, 33781",
+    "src": "arcgis"
+  },
+  "540 SEMINOLE BLVD, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.911421576474,
+    "lon": -82.786126138077,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "540 Seminole Blvd, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "16940 US 19 N, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.926428745466,
+    "lon": -82.733087717897,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "16940 US Highway 19 N, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "2424 50TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.816484997895,
+    "lon": -82.666317980115,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2424 50th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "2560 62ND AVE N, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.826687995264,
+    "lon": -82.667992097637,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2560 62nd Ave N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "8225 WESLEY DR, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.547994894231,
+    "lon": -82.364987387492,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "8225 Wesley Dr, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "7840 72ND ST N, PINELLAS PARK, FL 33781-1944": {
+    "ok": true,
+    "lat": 27.843206798585,
+    "lon": -82.738315175631,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7840 72nd St N, Pinellas Park, Florida, 33781",
+    "src": "arcgis"
+  },
+  "1610 W BAY DR, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.917948941662,
+    "lon": -82.805275182615,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1610 W Bay Dr, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "10636 GANDY BLVD, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.866452121114,
+    "lon": -82.623773367435,
+    "score": 99.53,
+    "addr_type": "PointAddress",
+    "match": "10636 Gandy Blvd N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "10441 GANDY BLVD, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.871071262225,
+    "lon": -82.630171022671,
+    "score": 99.53,
+    "addr_type": "PointAddress",
+    "match": "10441 Gandy Blvd N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "5000 28TH ST N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.817004005339,
+    "lon": -82.670499041057,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "5000 28th St N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "9301 49TH ST N, PINELLAS PARK, FL 33782": {
+    "ok": true,
+    "lat": 27.856043725207,
+    "lon": -82.699497240921,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9301 49th St N, Pinellas Park, Florida, 33782",
+    "src": "arcgis"
+  },
+  "3113 SR 580, SAFETY HARBOR, FL 34695": {
+    "ok": true,
+    "lat": 28.022029925148,
+    "lon": -82.706691847512,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3113 State Road 580, Safety Harbor, Florida, 34695",
+    "src": "arcgis"
+  },
+  "14300 66TH ST N, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.902763112403,
+    "lon": -82.73164871276,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "14300 66th St N, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "1415 MAIN ST, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.019148184927,
+    "lon": -82.767384202577,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1415 Main St, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "37376 US 19 N, PALM HARBOR, FL 34684": {
+    "ok": true,
+    "lat": 28.112220209144,
+    "lon": -82.741397704343,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "37376 US Highway 19 N, Palm Harbor, Florida, 34684",
+    "src": "arcgis"
+  },
+  "3432 STATE RD 580, SAFETY HARBOR, FL 34695": {
+    "ok": true,
+    "lat": 28.030191007084,
+    "lon": -82.695253986258,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "3432 State Road 580, Safety Harbor, Florida, 34695",
+    "src": "arcgis"
+  },
+  "9925 ULMERTON RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.899711471004,
+    "lon": -82.77669255751,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9925 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "4600 67TH ST N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.814075577918,
+    "lon": -82.731488450771,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4600 67th St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "14099 BELCHER RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.900218995242,
+    "lon": -82.742533033128,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "14099 Belcher Rd S, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "33456 CORTEZ ROAD, RIDGE MANOR, FL 33523": {
+    "ok": true,
+    "lat": 28.506583766316,
+    "lon": -82.18840105561,
+    "score": 97.97,
+    "addr_type": "PointAddress",
+    "match": "33456 Cortez Blvd, Dade City, Florida, 33523",
+    "src": "arcgis"
+  },
+  "7490 46TH AVENUE NORTH, ST PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.812598979945,
+    "lon": -82.742826986473,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7490 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "1100 DONEGAN ROAD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.901528709522,
+    "lon": -82.77555940802,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1100 Donegan Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "900 N BROAD ST, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.565455907288,
+    "lon": -82.374734032142,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "900 N Broad St, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "3301 US HWY 19 N, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.059641398674,
+    "lon": -82.773381285861,
+    "score": 98.84,
+    "addr_type": "StreetAddress",
+    "match": "3301 US-19 Alt N, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "27466 US 19 N, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 28.021852605986,
+    "lon": -82.74050109216,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "27466 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "6401 SEMINOLE BLVD, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.830788757573,
+    "lon": -82.7857554065,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6401 Seminole Blvd, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "2701 34 ST N, ST. PETERSBURG, FL 33713": {
+    "ok": true,
+    "lat": 27.796320737245,
+    "lon": -82.677122672404,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2701 34th St N, Saint Petersburg, Florida, 33713",
+    "src": "arcgis"
+  },
+  "9790 66TH ST N, PINELLAS PARK, FL 33782": {
+    "ok": true,
+    "lat": 27.860481188568,
+    "lon": -82.735884675167,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9790 66th St N, Pinellas Park, Florida, 33782",
+    "src": "arcgis"
+  },
+  "10545 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.868141703246,
+    "lon": -82.786734664248,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10545 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "6190 62ND AVE N, PINELLAS PARK, FL 33781": {
+    "ok": true,
+    "lat": 27.827282984661,
+    "lon": -82.719333014786,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6190 62nd Ave N, Pinellas Park, Florida, 33781",
+    "src": "arcgis"
+  },
+  "10401 AMITY AVE, BROOKSVILLE, FL 34614": {
+    "ok": true,
+    "lat": 28.606289563983,
+    "lon": -82.54964733615,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10401 Amity Ave, Weeki Wachee, Florida, 34614",
+    "src": "arcgis"
+  },
+  "7501 142ND AVE N, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.906713796736,
+    "lon": -82.742471509959,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7501 142nd Ave N, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "29081 US HWY 19 N # 400, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 27.989876735019,
+    "lon": -82.726678327996,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "29081 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "370 53RD AVE N, ST. PETERSBURG, FL 33703": {
+    "ok": true,
+    "lat": 27.820754739372,
+    "lon": -82.635920170059,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "370 53rd Ave N, Saint Petersburg, Florida, 33703",
+    "src": "arcgis"
+  },
+  "27554 US HWY 19 N, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 28.022422449674,
+    "lon": -82.739125454211,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "27554 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "5230 PARK BLVD, PINELLAS PARK, FL 33781": {
+    "ok": true,
+    "lat": 27.838701902814,
+    "lon": -82.704627803855,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "5230 Park Blvd N, Pinellas Park, Florida, 33781",
+    "src": "arcgis"
+  },
+  "7100 ULMERTON RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.889218836971,
+    "lon": -82.739995160485,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7100 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "4061-58 AVENUE NORTH, ST PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.825377400883,
+    "lon": -82.688785671577,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "4061 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "11811 BROAD ST # O, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.591633471004,
+    "lon": -82.373030075046,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11811 Broad St, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "9333 PARK BLVD, SEMINOLE, FL 33777": {
+    "ok": true,
+    "lat": 27.839824868292,
+    "lon": -82.768409896068,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9333 Park Blvd, Seminole, Florida, 33777",
+    "src": "arcgis"
+  },
+  "4025 46TH AVE N, ST. PETERSBURG, FL 33714-2909": {
+    "ok": true,
+    "lat": 27.814799019981,
+    "lon": -82.688512672991,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "4025 46th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "29141 US 19 N, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 28.037463607284,
+    "lon": -82.736682464712,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "29141 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "29250 US HWY 19 N, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 28.040498736333,
+    "lon": -82.739827941516,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "29250 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "620 CLEARWATER LARGO RD, LARGO, FL 33770": {
+    "ok": true,
+    "lat": 27.922625917905,
+    "lon": -82.79595743995,
+    "score": 99.55,
+    "addr_type": "PointAddress",
+    "match": "620 Clearwater Largo Rd N, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "4001 49TH ST N, ST PETERSBURG, FL 33709-5751": {
+    "ok": true,
+    "lat": 27.808716356665,
+    "lon": -82.698591995378,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "4001 49th St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "15777 BOLESTA RD, CLEARWATER, FL 33760": {
+    "ok": true,
+    "lat": 27.91791880872,
+    "lon": -82.702127733595,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "15777 Bolesta Rd, Clearwater, Florida, 33760",
+    "src": "arcgis"
+  },
+  "901 BELLEAIR RD, CLEARWATER, FL 33756": {
+    "ok": true,
+    "lat": 27.938113160403,
+    "lon": -82.792563858811,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "901 Belleair Rd, Clearwater, Florida, 33756",
+    "src": "arcgis"
+  },
+  "1280 LAKEVIEW RD, CLEARWATER, FL 33516": {
+    "ok": true,
+    "lat": 27.9519382715,
+    "lon": -82.784038960367,
+    "score": 98.39,
+    "addr_type": "PointAddress",
+    "match": "1280 Lakeview Rd, Clearwater, Florida, 33756",
+    "src": "arcgis"
+  },
+  "7001 142 AVE N, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.901370626828,
+    "lon": -82.733710660941,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7001 142nd Ave N, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "403 RIVERSIDE DR, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.149706468987,
+    "lon": -82.766582641176,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "403 Riverside Dr, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "7570 46TH AVE N, ST PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.811757017771,
+    "lon": -82.744061137896,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7570 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "5101 SEMINOLE BLVD, ST. PETERSBURG, FL 33708": {
+    "ok": true,
+    "lat": 27.818518154239,
+    "lon": -82.785853977681,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5101 Seminole Blvd, Saint Petersburg, Florida, 33708",
+    "src": "arcgis"
+  },
+  "1038 SPARROW LN, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.154518854876,
+    "lon": -82.739344976255,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1038 Sparrow Ln, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "7403 46TH AVE N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.815489646893,
+    "lon": -82.741080700765,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7403 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "12300 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.885034339449,
+    "lon": -82.788727210271,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12300 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "10265 ULMERTON ROAD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.8980497587,
+    "lon": -82.778203479377,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10265 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "1020 LAKESIDE DR., BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.57121938773,
+    "lon": -82.376113190491,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1020 Lakeside Dr, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "7803 46TH AVE N, ST PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.816344936293,
+    "lon": -82.74458802433,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7803 46th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "3801 58TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.825758903206,
+    "lon": -82.685142058267,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3801 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "1001 STARKEY RD, LARGO, FL 33771": {
+    "ok": true,
+    "lat": 27.905015706972,
+    "lon": -82.75842671411,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1001 Starkey Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "3035 66TH AVE N, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.833761609082,
+    "lon": -82.674411042907,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3035 66th Ave N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "7201 FIRST ST NE, ST PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.837622146047,
+    "lon": -82.633538368453,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "7201 1st St NE, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "4182 ANGELICA AVE, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.492448021887,
+    "lon": -82.4256032996,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4182 Angelica Ave, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "77 LONE PINE AVE, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.027971269576,
+    "lon": -82.747635265229,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "77 Lone Pine Ave, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "7505 US 19 N, PINELLAS PARK, FL 33780": {
+    "ok": true,
+    "lat": 27.841528280564,
+    "lon": -82.683923161907,
+    "score": 98.21,
+    "addr_type": "PointAddress",
+    "match": "7505 US Highway 19 N, Pinellas Park, Florida, 33781",
+    "src": "arcgis"
+  },
+  "5796 ULMERTON RD, CLEARWATER, FL 33760": {
+    "ok": true,
+    "lat": 27.891938303547,
+    "lon": -82.711999352422,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5796 Ulmerton Rd, Clearwater, Florida, 33760",
+    "src": "arcgis"
+  },
+  "10999 74TH AVE N, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.840806053877,
+    "lon": -82.790861410457,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10999 74th Ave N, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "2141 RIDGE RD SW, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.896905000274,
+    "lon": -82.792992006425,
+    "score": 93.93,
+    "addr_type": "PointAddress",
+    "match": "2141 Ridge Rd S, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "2001 83RD AVE N, ST. PETERSBURG, FL 33702": {
+    "ok": true,
+    "lat": 27.847238116827,
+    "lon": -82.659255891414,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2001 83rd Ave N, Saint Petersburg, Florida, 33702",
+    "src": "arcgis"
+  },
+  "800 CHESAPEAKE DR, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.156166695131,
+    "lon": -82.77011687065,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "800 Chesapeake Dr, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "6130 BROAD ST, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.518106955345,
+    "lon": -82.413342251635,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6130 Broad St, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "2266 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.963867102733,
+    "lon": -82.743394441317,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2266 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "22329 CORTEZ BLVD, BROOKSVILLE, FL 34601": {
+    "ok": true,
+    "lat": 28.541519832118,
+    "lon": -82.359540910627,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "22329 Cortez Blvd, Brooksville, Florida, 34601",
+    "src": "arcgis"
+  },
+  "10100 GANDY BLVD N, ST. PETERSBURG, FL 33716": {
+    "ok": true,
+    "lat": 27.866882615661,
+    "lon": -82.636248489207,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10100 Gandy Blvd N, Saint Petersburg, Florida, 33716",
+    "src": "arcgis"
+  },
+  "12344 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.885432647488,
+    "lon": -82.787515354709,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12344 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "15004 113 AVE N, LARGO, FL 33774": {
+    "ok": true,
+    "lat": 27.875245282368,
+    "lon": -82.847518968791,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "15004 113th Ave, Largo, Florida, 33774",
+    "src": "arcgis"
+  },
+  "3043 58TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.824945984327,
+    "lon": -82.67524797594,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "3043 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "3301 ALT US 19 N, DUNEDIN, FL 34698": {
+    "ok": true,
+    "lat": 28.059641398674,
+    "lon": -82.773381285861,
+    "score": 92.19,
+    "addr_type": "StreetAddress",
+    "match": "3301 US-19 Alt N, Dunedin, Florida, 34698",
+    "src": "arcgis"
+  },
+  "1025 PHILIPPE PKWY, SAFETY HARBOR, FL 34695": {
+    "ok": true,
+    "lat": 27.997880991547,
+    "lon": -82.685642038791,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1025 Philippe Pkwy, Safety Harbor, Florida, 34695",
+    "src": "arcgis"
+  },
+  "12260 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.884278962335,
+    "lon": -82.78944662902,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "12260 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "2236 GULF TO BAY BLVD, CLEARWATER, FL 33765": {
+    "ok": true,
+    "lat": 27.961492551473,
+    "lon": -82.743459820162,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2236 Gulf To Bay Blvd, Clearwater, Florida, 33765",
+    "src": "arcgis"
+  },
+  "799 E KLOSTERMAN RD, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.12466301868,
+    "lon": -82.742900998678,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "799 E Klosterman Rd, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "5701 HAINES ROAD NORTH, ST PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.823896025225,
+    "lon": -82.670459646113,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "5701 Haines Rd N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "5015 SEMINOLE BLVD, ST. PETERSBURG, FL 33708-3377": {
+    "ok": true,
+    "lat": 27.818134724078,
+    "lon": -82.785800836415,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5015 Seminole Blvd, Saint Petersburg, Florida, 33708",
+    "src": "arcgis"
+  },
+  "9191 BAY PINES BLVD, ST. PETERSBURG, FL 33708": {
+    "ok": true,
+    "lat": 27.813980401407,
+    "lon": -82.767675222255,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9191 Bay Pines Blvd, Saint Petersburg, Florida, 33708",
+    "src": "arcgis"
+  },
+  "2491 NURSERY RD, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.940557030002,
+    "lon": -82.734908770181,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2491 Nursery Rd, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "6735 54TH AVE N, ST PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.823361385531,
+    "lon": -82.731510830452,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6735 54th Ave N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "6291 WINDWARD BLVD, SPRING HILL, FL 34607": {
+    "ok": true,
+    "lat": 28.47887130849,
+    "lon": -82.613431775297,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6291 Windward Blvd, Spring Hill, Florida, 34607",
+    "src": "arcgis"
+  },
+  "9900 ULMERTON RD, LARGO, FL 33771-4302": {
+    "ok": true,
+    "lat": 27.893723229828,
+    "lon": -82.775707516249,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9900 Ulmerton Rd, Largo, Florida, 33771",
+    "src": "arcgis"
+  },
+  "1616-21 STREET SOUTH, ST. PETERSBURG, FL 33712": {
+    "ok": true,
+    "lat": 27.754452125055,
+    "lon": -82.659918229403,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1616 21st St S, Saint Petersburg, Florida, 33712",
+    "src": "arcgis"
+  },
+  "12701 126TH AVE N, LARGO, FL 33774": {
+    "ok": true,
+    "lat": 27.888472093217,
+    "lon": -82.813932431309,
+    "score": 98.87,
+    "addr_type": "PointAddress",
+    "match": "12701 126th Ave, Largo, Florida, 33774",
+    "src": "arcgis"
+  },
+  "11630 HAMLIN BLVD, LARGO, FL 33774": {
+    "ok": true,
+    "lat": 27.879123798515,
+    "lon": -82.8417821428,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "11630 Hamlin Blvd, Largo, Florida, 33774",
+    "src": "arcgis"
+  },
+  "9753 SEMINOLE BLVD, SEMINOLE, FL 33772": {
+    "ok": true,
+    "lat": 27.861202870431,
+    "lon": -82.786685797752,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "9753 Seminole Blvd, Seminole, Florida, 33772",
+    "src": "arcgis"
+  },
+  "1431 FRIAR TUCK LANE, SPRING HILL, FL 34607": {
+    "ok": true,
+    "lat": 28.456927360248,
+    "lon": -82.63590022113,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1431 Friar Tuck Ln, Spring Hill, Florida, 34607",
+    "src": "arcgis"
+  },
+  "6030 150TH AVE N, CLEARWATER, FL 33760": {
+    "ok": true,
+    "lat": 27.906705833928,
+    "lon": -82.717768197282,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6030 150th Ave N, Clearwater, Florida, 33760",
+    "src": "arcgis"
+  },
+  "10611 66TH ST N, PINELLAS PARK, FL 33782-2339": {
+    "ok": true,
+    "lat": 27.868213410428,
+    "lon": -82.725197832438,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10611 66th St N, Pinellas Park, Florida, 33782",
+    "src": "arcgis"
+  },
+  "5860 150TH AVE N, CLEARWATER, FL 33760": {
+    "ok": true,
+    "lat": 27.907585556576,
+    "lon": -82.714238410217,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "5860 150th Ave N, Clearwater, Florida, 33760",
+    "src": "arcgis"
+  },
+  "2331 BELLEAIR RD, CLEARWATER, FL 33764": {
+    "ok": true,
+    "lat": 27.936487741739,
+    "lon": -82.740425990308,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "2331 Belleair Rd, Clearwater, Florida, 33764",
+    "src": "arcgis"
+  },
+  "10675 SEMINOLE BLVD, LARGO, FL 33778": {
+    "ok": true,
+    "lat": 27.86992465978,
+    "lon": -82.785816175298,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "10675 Seminole Blvd, Largo, Florida, 33778",
+    "src": "arcgis"
+  },
+  "1375 PASADENA AVE S, SOUTH PASADENA, FL 33707": {
+    "ok": true,
+    "lat": 27.755772610081,
+    "lon": -82.739716881299,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "1375 Pasadena Ave S, South Pasadena, Florida, 33707",
+    "src": "arcgis"
+  },
+  "6250 ROOSEVELT BLVD, CLEARWATER, FL 33760": {
+    "ok": true,
+    "lat": 27.915807155853,
+    "lon": -82.723000013606,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6250 Roosevelt Blvd, Clearwater, Florida, 33760",
+    "src": "arcgis"
+  },
+  "701 8TH AVE NW, LARGO, FL 33770-1164": {
+    "ok": true,
+    "lat": 27.923832367139,
+    "lon": -82.793698600863,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "701 8th Ave NW, Largo, Florida, 33770",
+    "src": "arcgis"
+  },
+  "2517 50TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.81795882984,
+    "lon": -82.668342125913,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2517 50th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "4189 78TH ST N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.809765519486,
+    "lon": -82.744476796475,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "4189 78th St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "100 HAMPTON RD, CLEARWATER, FL 33759": {
+    "ok": true,
+    "lat": 27.966252592377,
+    "lon": -82.721157336012,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "100 Hampton Rd, Clearwater, Florida, 33759",
+    "src": "arcgis"
+  },
+  "40110 US HWY 19 N, TARPON SPRINGS, FL 34689": {
+    "ok": true,
+    "lat": 28.136642308969,
+    "lon": -82.742757751952,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "40110 US Highway 19 N, Tarpon Springs, Florida, 34689",
+    "src": "arcgis"
+  },
+  "2600 58TH AVE N, ST. PETERSBURG, FL 33714": {
+    "ok": true,
+    "lat": 27.824294081807,
+    "lon": -82.669239408648,
+    "score": 99.9,
+    "addr_type": "PointAddress",
+    "match": "2600 58th Ave N, Saint Petersburg, Florida, 33714",
+    "src": "arcgis"
+  },
+  "28488 US HWY 19 N, CLEARWATER, FL 34621": {
+    "ok": true,
+    "lat": 28.030879999525,
+    "lon": -82.742890018384,
+    "score": 98.33,
+    "addr_type": "PointAddress",
+    "match": "28488 US Highway 19 N, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "2550 SR 580 E, CLEARWATER, FL 33761": {
+    "ok": true,
+    "lat": 28.02251016629,
+    "lon": -82.730644141664,
+    "score": 98.04,
+    "addr_type": "PointAddress",
+    "match": "2550 State Road 580, Clearwater, Florida, 33761",
+    "src": "arcgis"
+  },
+  "6135 66TH ST N, ST. PETERSBURG, FL 33709": {
+    "ok": true,
+    "lat": 27.827348992148,
+    "lon": -82.727173027921,
+    "score": 100.0,
+    "addr_type": "PointAddress",
+    "match": "6135 66th St N, Saint Petersburg, Florida, 33709",
+    "src": "arcgis"
+  },
+  "2900 GULF TO BAY BLVD # 225, CLEARWATER, FL 33759": {
+    "ok": true,
+    "lat": 27.9632768,
+    "lon": -82.7167681,
+    "score": 6.361867704275605e-05,
+    "addr_type": "building",
+    "match": "2900, Gulf to Bay Boulevard, Bayview, Clearwater, Pinellas County, Florida, 34619, United States",
+    "src": "nominatim"
   }
 }

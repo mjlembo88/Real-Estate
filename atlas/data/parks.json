@@ -4858,5 +4858,1955 @@
     "approved": "08/19/2026",
     "owner": "J AND L MHP LLC",
     "plantCity": false
+  },
+  {
+    "id": "PRMZ000478",
+    "name": "HAPPY TRAILS MP",
+    "county": "Pinellas",
+    "address": "2261 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 84,
+    "approved": "06/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000715",
+    "name": "PARADISE PARK",
+    "county": "Pinellas",
+    "address": "7111 142ND AVE N, LARGO, FL 33771",
+    "lots": 108,
+    "approved": "06/16/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000445",
+    "name": "HOLLYWOOD MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7230 4TH ST N, ST. PETERSBURG, FL 33702-5803",
+    "lots": 236,
+    "approved": "12/10/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003287",
+    "name": "CAROLINE TRAILER COURT",
+    "county": "Pinellas",
+    "address": "6418 HAINES RD, ST. PETERSBURG, FL 33702",
+    "lots": 13,
+    "approved": "02/10/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000946",
+    "name": "PALACE MHP",
+    "county": "Pinellas",
+    "address": "2500 54 AVE N, SAINT PETERSBURG BCH, FL 33714",
+    "lots": 31,
+    "approved": "05/01/1998",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001304",
+    "name": "PARK ON 46TH",
+    "county": "Pinellas",
+    "address": "7499 46TH AVE N, ST. PETERSBURG, FL 33709",
+    "lots": 40,
+    "approved": "05/07/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000355",
+    "name": "FRONTIER VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "30700 U.S. 19 NORTH, PALM HARBOR, FL 34684",
+    "lots": 117,
+    "approved": "12/04/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001347",
+    "name": "BICKLEY PARK",
+    "county": "Pinellas",
+    "address": "5640 SEMINOLE BLVD, SEMINOLE, FL 33772",
+    "lots": 1,
+    "approved": "01/06/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001114",
+    "name": "SUN VALLEY",
+    "county": "Pinellas",
+    "address": "39248 US HWY 19 N, TARPON SPRINGS, FL 34689",
+    "lots": 261,
+    "approved": "11/07/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000118",
+    "name": "CROSSWINDS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "4125 PARK ST N, ST. PETERSBURG, FL 33709",
+    "lots": 376,
+    "approved": "11/13/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000620",
+    "name": "PALM HAVEN MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3301 58TH AVE N, ST PETERBURG, FL 33714",
+    "lots": 270,
+    "approved": "02/12/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000789",
+    "name": "KAKUSHA MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1654 CLEARWATER-LARGO RD, CLEARWATER, FL 33756",
+    "lots": 116,
+    "approved": "08/05/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002879",
+    "name": "PINECREST MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2500 52ND AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 128,
+    "approved": "12/03/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000054",
+    "name": "BLUE SKIES MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "614 WOODROW AVE NW LOT 25, LARGO, FL 33770",
+    "lots": 52,
+    "approved": "06/23/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001855",
+    "name": "SOUTHWAY VILLA MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "7275 TWIN BROOK ST, BROOKSVILLE, FL 34601",
+    "lots": 268,
+    "approved": "09/24/2015",
+    "owner": "BAIRD HOMES OF FLORIDA INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001418",
+    "name": "VILLA PLUMOSA MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3290 54TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 37,
+    "approved": "05/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001574",
+    "name": "OAKS MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "626 S BROAD ST LOT 226, BROOKSVILLE, FL 34601",
+    "lots": 70,
+    "approved": "07/22/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000499",
+    "name": "HERITAGE VILLAGE & INN",
+    "county": "Pinellas",
+    "address": "12840 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 81,
+    "approved": "07/29/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001795",
+    "name": "TARPONAIRE RESORT",
+    "county": "Pinellas",
+    "address": "38791 US HWY 19 N, TARPON SPRINGS, FL 34689",
+    "lots": 137,
+    "approved": "08/01/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002863",
+    "name": "PORPOISE PARK",
+    "county": "Pinellas",
+    "address": "8701 SEMINOLE BLVD, SEMINOLE, FL 33772",
+    "lots": 32,
+    "approved": "03/30/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001443",
+    "name": "PALM CIRCLE COMMUNITY",
+    "county": "Pinellas",
+    "address": "6978 46TH AVE N, ST PETERSBURG, FL 33709",
+    "lots": 55,
+    "approved": "05/08/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001388",
+    "name": "TARPON SHORES MOBILE VILLAGE",
+    "county": "Pinellas",
+    "address": "40274 US 19 N, TARPON SPRINGS, FL 34689",
+    "lots": 2,
+    "approved": "08/31/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000792",
+    "name": "BAYSIDE WATERS",
+    "county": "Pinellas",
+    "address": "19709 US HWY 19 N, CLEARWATER, FL 33764",
+    "lots": 289,
+    "approved": "08/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000623",
+    "name": "SAWGRASS TRAILS AT LOWE'S CITY",
+    "county": "Pinellas",
+    "address": "5200 28TH ST N, ST. PETERSBURG, FL 33714",
+    "lots": 337,
+    "approved": "03/23/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000251",
+    "name": "COLONY CO-OP INC",
+    "county": "Pinellas",
+    "address": "7901 40 AVE N, ST. PETERSBURG, FL 33709",
+    "lots": 19,
+    "approved": "03/19/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001396",
+    "name": "SUNNY GROVE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2463 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 134,
+    "approved": "07/13/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000429",
+    "name": "HONEYVINE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "10365 ULMERTON ROAD, LARGO, FL 33771",
+    "lots": 101,
+    "approved": "05/14/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001543",
+    "name": "SUN SEAIR MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6372 126TH AVE N, LARGO, FL 33773",
+    "lots": 106,
+    "approved": "08/04/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000498",
+    "name": "HILLSIDE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "123 MCMULLEN BOOTH RD, CLEARWATER, FL 33759",
+    "lots": 68,
+    "approved": "02/20/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000555",
+    "name": "ISLE OF PALMS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7400 46TH AVE N, ST. PETERSBURG, FL 33709",
+    "lots": 163,
+    "approved": "07/29/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000556",
+    "name": "SHORELINE PALMS",
+    "county": "Pinellas",
+    "address": "12100 SEMINOLE BLVD LOT 52, LARGO, FL 33778",
+    "lots": 402,
+    "approved": "12/11/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001565",
+    "name": "KING'S MANOR ESTATES",
+    "county": "Pinellas",
+    "address": "1399 S BELCHER RD, LARGO, FL 33771",
+    "lots": 350,
+    "approved": "11/16/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001608",
+    "name": "SHANGRI-LA MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "249 JASPER ST, LARGO, FL 33770",
+    "lots": 160,
+    "approved": "05/24/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001610",
+    "name": "ROBERT'S MOBILE HOME & RV RESORT INC",
+    "county": "Pinellas",
+    "address": "3390 GANDY BLVD N, ST. PETERSBURG, FL 33702-2098",
+    "lots": 178,
+    "approved": "12/10/2025",
+    "owner": "CONNER LILLIAN M",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000572",
+    "name": "LINCOLNSHIRE EST MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1071 DONEGAN RD, LARGO, FL 33771",
+    "lots": 464,
+    "approved": "12/08/2022",
+    "owner": "RICKERT WAYNE C",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001687",
+    "name": "TREASURE VILLAGE TRAILER PARK",
+    "county": "Pinellas",
+    "address": "5151 4TH ST N, ST. PETERSBURG, FL 33703",
+    "lots": 150,
+    "approved": "07/22/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001689",
+    "name": "TWIN LAKES LODGE",
+    "county": "Pinellas",
+    "address": "2419 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 214,
+    "approved": "05/12/2005",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001690",
+    "name": "BELLEAIR VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1025 CLEARWATER-LARGO RD, LARGO, FL 33770",
+    "lots": 72,
+    "approved": "09/25/2001",
+    "owner": "JOBANPUTRA, ATUL K. & KANTA K.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000367",
+    "name": "FAR HORIZON",
+    "county": "Pinellas",
+    "address": "2580 NURSERY RD, CLEARWATER, FL 33764",
+    "lots": 88,
+    "approved": "02/03/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000387",
+    "name": "GOLDEN CREST MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "800 MAIN ST, DUNEDIN, FL 34698",
+    "lots": 176,
+    "approved": "02/03/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000395",
+    "name": "GLEN ELLEN",
+    "county": "Pinellas",
+    "address": "2882 GULF TO BAY BLVD, CLEARWATER, FL 33759",
+    "lots": 106,
+    "approved": "08/29/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000399",
+    "name": "GREEN MEADOWS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1799 SEMINOLE BLVD, LARGO, FL 34648",
+    "lots": 50,
+    "approved": "06/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000400",
+    "name": "GRAND BAY",
+    "county": "Pinellas",
+    "address": "3300 N ALTERNATE 19, DUNEDIN, FL 34698",
+    "lots": 140,
+    "approved": "09/16/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000419",
+    "name": "GOLDEN ACRES MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1040 MAIN ST, DUNEDIN, FL 34698",
+    "lots": 4,
+    "approved": "06/30/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000421",
+    "name": "GULF TO BAY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2381 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 71,
+    "approved": "08/01/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000430",
+    "name": "HIGHLAND MHP",
+    "county": "Pinellas",
+    "address": "3663 58TH AVE N, ST PETERSBURG, FL 33714",
+    "lots": 192,
+    "approved": "11/27/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001431",
+    "name": "NEW RANCH MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2291 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 113,
+    "approved": "04/07/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001446",
+    "name": "PALM GROVE VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "9204 66TH ST N, PINELLAS PARK, FL 33782",
+    "lots": 86,
+    "approved": "06/03/2020",
+    "owner": "RICKERT, WAYNE, RICKERT, ALLAN, GOSS, JAMES PARTNERS",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001477",
+    "name": "MEADOWS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "505 ANCLOTE BLVD, TARPON SPRINGS, FL 34689",
+    "lots": 329,
+    "approved": "03/09/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001487",
+    "name": "3 SEASONS MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "21253 YONTZ RD, BROOKSVILLE, FL 34601",
+    "lots": 125,
+    "approved": "11/04/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000443",
+    "name": "HOLIDAY RANCH MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "4300 E BAY DR, CLEARWATER, FL 33764",
+    "lots": 150,
+    "approved": "07/05/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000446",
+    "name": "HONEYMOON MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1100 CURLEW RD, DUNEDIN, FL 34698",
+    "lots": 230,
+    "approved": "03/19/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000495",
+    "name": "HILLCREST",
+    "county": "Pinellas",
+    "address": "2346 DRUID RD, CLEARWATER, FL 33764",
+    "lots": 279,
+    "approved": "06/19/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000496",
+    "name": "HICKORY POINT PARK",
+    "county": "Pinellas",
+    "address": "1181 ANCLOTE RD, TARPON SPRINGS, FL 34689",
+    "lots": 35,
+    "approved": "10/22/1990",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002185",
+    "name": "HARBOR HILL MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1355 HARBOR HILL PARKWAY, SAFETY HARBOR, FL 34695-4154",
+    "lots": 26,
+    "approved": "10/01/1991",
+    "owner": "DE NORIO, OKSANA",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000316",
+    "name": "EAST BAY OAKS",
+    "county": "Pinellas",
+    "address": "601 STARKEY RD, LARGO, FL 33771",
+    "lots": 329,
+    "approved": "06/15/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000319",
+    "name": "ELDORADO VILLAGE",
+    "county": "Pinellas",
+    "address": "2505 EAST BAY DR, LARGO, FL 33771",
+    "lots": 227,
+    "approved": "06/16/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000323",
+    "name": "EMBASSY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "16416 US HWY19 N, CLEARWATER, FL 33764",
+    "lots": 460,
+    "approved": "04/11/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000333",
+    "name": "FLORIDA MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "8667 SEMINOLE BLVD, SEMINOLE, FL 33772",
+    "lots": 48,
+    "approved": "09/12/2001",
+    "owner": "GALLAGHER ROBERT F, TRUSTEE, ROBERT F GALLAGHER TRUST",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000338",
+    "name": "FRONTIER MOBILE PARK",
+    "county": "Hernando",
+    "address": "15549 CORTEZ BLVD, BROOKSVILLE, FL 34613",
+    "lots": 66,
+    "approved": "10/11/2001",
+    "owner": "MCGIST INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000346",
+    "name": "98 ESTATES",
+    "county": "Hernando",
+    "address": "925 PONCE DE LEON BLVD, BROOKSVILLE, FL 34601",
+    "lots": 55,
+    "approved": "01/09/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001870",
+    "name": "MOBILE MANOR MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3503 58TH ST N, ST. PETERSBURG, FL 33714",
+    "lots": 110,
+    "approved": "09/25/2012",
+    "owner": "GODDARD, JOHN AND ASSOCIATES INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001894",
+    "name": "SOUTHWIND MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "795 COUNTY RD 1, PALM HARBOR, FL 34683",
+    "lots": 213,
+    "approved": "07/06/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003007",
+    "name": "HICKORY GROVE MHP",
+    "county": "Hernando",
+    "address": "1305 HOWELL AVE., BROOKSVILLE, FL 34601",
+    "lots": 20,
+    "approved": "10/19/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000020",
+    "name": "AMERICAN WAY MOBILE HOME ESTATES",
+    "county": "Pinellas",
+    "address": "730 14TH ST NW, LARGO, FL 33770",
+    "lots": 40,
+    "approved": "05/28/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001108",
+    "name": "SILVER LAKE MOBILE HOME RESORT",
+    "county": "Pinellas",
+    "address": "4000 - 24TH STREET NORTH, ST PETERSBURG, FL 33714",
+    "lots": 460,
+    "approved": "09/09/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000350",
+    "name": "FOUR SEASONS ESTATES RESIDENT OWNED COMMUNITY",
+    "county": "Pinellas",
+    "address": "13225 101 STREET, LARGO, FL 33773",
+    "lots": 171,
+    "approved": "08/29/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000358",
+    "name": "FLORIDA SANDS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2701 50TH AVE N, ST PETERSBURG, FL 33714",
+    "lots": 31,
+    "approved": "02/15/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000366",
+    "name": "FAIRHAVEN MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "5757 66TH ST N, ST. PETERSBURG, FL 33709",
+    "lots": 183,
+    "approved": "10/21/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000854",
+    "name": "AVERY ACRES MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3565 58TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 47,
+    "approved": "09/08/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001131",
+    "name": "TEAKWOOD VILLAGE",
+    "county": "Pinellas",
+    "address": "801 MISSOURI AVENUE, LARGO, FL 33770",
+    "lots": 686,
+    "approved": "10/06/2023",
+    "owner": "HOULE FAMILY LIMITED PARTNERSHIP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001146",
+    "name": "OASIS PARK",
+    "county": "Pinellas",
+    "address": "12766 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 96,
+    "approved": "07/21/2017",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000864",
+    "name": "LA PLAZA MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6700 150TH AVE N, CLEARWATER, FL 33764",
+    "lots": 335,
+    "approved": "03/25/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000039",
+    "name": "BAY RANCH MOBILE VILLAGE",
+    "county": "Pinellas",
+    "address": "7349 ULMERTON RD, LARGO, FL 33771",
+    "lots": 404,
+    "approved": "02/20/2020",
+    "owner": "BAY RANCH MOBILE VILLAGE LLP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000056",
+    "name": "BLUE HORIZON MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "5145 EAST BAY DRIVE, CLEARWATER, FL 33764",
+    "lots": 95,
+    "approved": "12/11/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002067",
+    "name": "SOUTHERN SKIES MANOR",
+    "county": "Pinellas",
+    "address": "540 SEMINOLE BLVD, LARGO, FL 33770",
+    "lots": 50,
+    "approved": "07/07/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002124",
+    "name": "JOHN WESLEY MANOR MHP",
+    "county": "Hernando",
+    "address": "8225 WESLEY DR, BROOKSVILLE, FL 34601",
+    "lots": 101,
+    "approved": "02/11/2002",
+    "owner": "WESLEYAN BIBLE CONFERENCE ASSOC INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002132",
+    "name": "SOUTH GATE MOBILE HOME PARK, A COOP",
+    "county": "Pinellas",
+    "address": "20000 US HWY 19 N #809, CLEARWATER, FL 33765",
+    "lots": 27,
+    "approved": "02/20/2023",
+    "owner": "SOUTH GATE HOMEOWNERS, INC.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002536",
+    "name": "COUNTRYSIDE VILLAGE MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "9063 GETTIE DR, BROOKSVILLE, FL 34613",
+    "lots": 84,
+    "approved": "08/19/2014",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000916",
+    "name": "SUNSET PALMS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3401 GANDY BLVD, PINELLAS PARK, FL 33781",
+    "lots": 48,
+    "approved": "09/23/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001177",
+    "name": "NORTH RIDGE MOBILE HOME COURT",
+    "county": "Pinellas",
+    "address": "2424 50TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 91,
+    "approved": "11/16/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001179",
+    "name": "DONOVAN'S MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "16940 US 19 N, CLEARWATER, FL 33764",
+    "lots": 1,
+    "approved": "11/25/2014",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001180",
+    "name": "SOUTHERNAIRE MH RESORT",
+    "county": "Pinellas",
+    "address": "2560 62ND AVE N, ST. PETERSBURG, FL 33702",
+    "lots": 169,
+    "approved": "08/14/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001181",
+    "name": "PINELLAS CASCADES MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7840 72ND ST N, PINELLAS PARK, FL 33781-1944",
+    "lots": 238,
+    "approved": "10/31/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002593",
+    "name": "COUNTRYSIDE MANOR",
+    "county": "Pinellas",
+    "address": "1275 BELCHER ROAD, # 36, DUNEDIN, FL 34698",
+    "lots": 2,
+    "approved": "09/01/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000931",
+    "name": "ST PETE SUN ESTATES 1",
+    "county": "Pinellas",
+    "address": "5000 28TH ST N, ST. PETERSBURG, FL 33714",
+    "lots": 46,
+    "approved": "08/15/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000959",
+    "name": "PINEWOOD VILLAGE",
+    "county": "Pinellas",
+    "address": "10441 GANDY BLVD, ST. PETERSBURG, FL 33702",
+    "lots": 76,
+    "approved": "12/01/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001207",
+    "name": "WEST BAY OAKS MOBILE HOME AND RV PARK",
+    "county": "Pinellas",
+    "address": "1610 W BAY DR, LARGO, FL 33770",
+    "lots": 99,
+    "approved": "08/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001231",
+    "name": "TWIN PALMS MANUFACTURED HOME COMMUNITY",
+    "county": "Pinellas",
+    "address": "14300 66TH ST N, CLEARWATER, FL 33764",
+    "lots": 149,
+    "approved": "04/11/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001235",
+    "name": "TWIN CITY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "10636 GANDY BLVD, ST. PETERSBURG, FL 33702",
+    "lots": 101,
+    "approved": "03/18/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000641",
+    "name": "LAKE HIGHLANDER MHP",
+    "county": "Pinellas",
+    "address": "1500 COUNTY RD # 287, DUNEDIN, FL 34698",
+    "lots": 2,
+    "approved": "07/14/2014",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002627",
+    "name": "TARPON LAKEVIEW MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "37376 US 19 N, PALM HARBOR, FL 34684",
+    "lots": 160,
+    "approved": "02/28/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000119",
+    "name": "CRYSTAL LAKE",
+    "county": "Pinellas",
+    "address": "9301 49TH ST N, PINELLAS PARK, FL 33782",
+    "lots": 166,
+    "approved": "02/25/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000130",
+    "name": "AMBER GLADES ESTATES",
+    "county": "Pinellas",
+    "address": "3113 SR 580, SAFETY HARBOR, FL 34695",
+    "lots": 422,
+    "approved": "12/03/2025",
+    "owner": "LEISURE ASSOCIATES LP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000139",
+    "name": "BAY'S END MANOR MANUFACTURED HOME COMMUNITY",
+    "county": "Pinellas",
+    "address": "3432 STATE RD 580, SAFETY HARBOR, FL 34695",
+    "lots": 188,
+    "approved": "12/09/2025",
+    "owner": "LEISURE ASSOCIATES LP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000643",
+    "name": "LAKE HAVEN",
+    "county": "Pinellas",
+    "address": "1415 MAIN ST, DUNEDIN, FL 34698",
+    "lots": 378,
+    "approved": "06/21/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000664",
+    "name": "OAK CREST/ACORN MANUFACTURED HOME COMMUNITY",
+    "county": "Pinellas",
+    "address": "9925 ULMERTON RD, LARGO, FL 33771",
+    "lots": 654,
+    "approved": "12/09/2025",
+    "owner": "LEISURE ASSOCIATES LP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002711",
+    "name": "EL REY",
+    "county": "Pinellas",
+    "address": "4600 67TH ST N, ST. PETERSBURG, FL 33709",
+    "lots": 11,
+    "approved": "01/28/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002782",
+    "name": "SUNCOAST MOBILE MANOR",
+    "county": "Pinellas",
+    "address": "7490 46TH AVENUE NORTH, ST PETERSBURG, FL 33709",
+    "lots": 59,
+    "approved": "02/02/2002",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY003396",
+    "name": "BUCKEYE TRAILER COURT",
+    "county": "Pinellas",
+    "address": "1100 DONEGAN ROAD, LARGO, FL 33771",
+    "lots": 12,
+    "approved": "08/24/1994",
+    "owner": "TOTH, JOHN C.",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001290",
+    "name": "RIDGE MANOR CAMPGROUNDS",
+    "county": "Hernando",
+    "address": "33456 CORTEZ ROAD, RIDGE MANOR, FL 33523",
+    "lots": 40,
+    "approved": "10/20/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001307",
+    "name": "WESTGATE COMMUNITY",
+    "county": "Pinellas",
+    "address": "14099 BELCHER RD, LARGO, FL 33771",
+    "lots": 263,
+    "approved": "09/13/2011",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001308",
+    "name": "WESTWIND I MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "3301 US HWY 19 N, DUNEDIN, FL 34698",
+    "lots": 45,
+    "approved": "07/22/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000175",
+    "name": "CLOVER LEAF FARMS MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "900 N BROAD ST, BROOKSVILLE, FL 34601",
+    "lots": 954,
+    "approved": "03/11/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000182",
+    "name": "COUNTRY SIDE ESTATES",
+    "county": "Pinellas",
+    "address": "27466 US 19 N, CLEARWATER, FL 33761",
+    "lots": 103,
+    "approved": "09/06/1995",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000184",
+    "name": "CLEARWATER CASCADE MOBILE HOME COMMUNITY",
+    "county": "Pinellas",
+    "address": "9790 66TH ST N, PINELLAS PARK, FL 33782",
+    "lots": 15,
+    "approved": "07/01/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000192",
+    "name": "PELICAN PALMS VILLAGE",
+    "county": "Pinellas",
+    "address": "2701 34 ST N, ST. PETERSBURG, FL 33713",
+    "lots": 286,
+    "approved": "06/24/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002751",
+    "name": "TWIN LAKE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6401 SEMINOLE BLVD, SEMINOLE, FL 33772",
+    "lots": 24,
+    "approved": "08/18/1992",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000977",
+    "name": "POINTE WEST RESIDENT OWNED COMMUNITY",
+    "county": "Pinellas",
+    "address": "12651 SEMINOLE BLVD LOT 5L, LARGO, FL 33778",
+    "lots": 206,
+    "approved": "06/18/2013",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000979",
+    "name": "SHADY LANE OAKS",
+    "county": "Pinellas",
+    "address": "15777 BOLESTA RD # 174, CLEARWATER, FL 33760",
+    "lots": 250,
+    "approved": "06/26/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000998",
+    "name": "WHISPERING PINES MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7501 142ND AVE N, LARGO, FL 33771",
+    "lots": 392,
+    "approved": "06/29/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000221",
+    "name": "CARDINAL COURT MOBILE HOME COMMUNITY",
+    "county": "Pinellas",
+    "address": "10545 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 139,
+    "approved": "02/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000744",
+    "name": "LAKE BON BON MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6190 62ND AVE N, PINELLAS PARK, FL 33781",
+    "lots": 79,
+    "approved": "03/30/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001007",
+    "name": "SERENDIPITY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "29081 US HWY 19 N # 400, CLEARWATER, FL 33761",
+    "lots": 256,
+    "approved": "07/12/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001322",
+    "name": "WEEKI WACHEE NORTH",
+    "county": "Hernando",
+    "address": "10401 AMITY AVE, BROOKSVILLE, FL 34614",
+    "lots": 182,
+    "approved": "10/14/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000759",
+    "name": "ROMANY PARK SOUTH",
+    "county": "Pinellas",
+    "address": "370 53RD AVE N, ST. PETERSBURG, FL 33703",
+    "lots": 85,
+    "approved": "08/14/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001777",
+    "name": "RANCHERO VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7100 ULMERTON RD, LARGO, FL 33771",
+    "lots": 946,
+    "approved": "06/26/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001794",
+    "name": "BELLE HAVEN MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "27554 US HWY 19 N, CLEARWATER, FL 33761",
+    "lots": 65,
+    "approved": "01/22/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002977",
+    "name": "TROPICAL GARDENS MHP",
+    "county": "Pinellas",
+    "address": "4061-58 AVENUE NORTH, ST PETERSBURG, FL 33714",
+    "lots": 65,
+    "approved": "08/29/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001920",
+    "name": "PARK LAWN TP",
+    "county": "Pinellas",
+    "address": "5230 PARK BLVD, PINELLAS PARK, FL 33781",
+    "lots": 20,
+    "approved": "05/22/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000249",
+    "name": "CONRAD MOBILE PARK",
+    "county": "Pinellas",
+    "address": "9333 PARK BLVD, SEMINOLE, FL 33777",
+    "lots": 55,
+    "approved": "05/06/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001830",
+    "name": "RIVIERA ESTATES",
+    "county": "Pinellas",
+    "address": "29141 US 19 N, CLEARWATER, FL 33761",
+    "lots": 171,
+    "approved": "03/05/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002888",
+    "name": "TALL OAKS VILLAGE",
+    "county": "Hernando",
+    "address": "11811 BROAD ST # O, BROOKSVILLE, FL 34601",
+    "lots": 37,
+    "approved": "06/12/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003062",
+    "name": "COUNTRYSIDE ESTATES ROC",
+    "county": "Hernando",
+    "address": "7001 TALL OAK LN, BROOKSVILLE, FL 34601",
+    "lots": 15,
+    "approved": "06/30/2014",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003090",
+    "name": "SUNNY ACRES TP",
+    "county": "Pinellas",
+    "address": "4025 46TH AVE N, ST. PETERSBURG, FL 33714-2909",
+    "lots": 32,
+    "approved": "10/15/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000283",
+    "name": "DORAL VILLAGE",
+    "county": "Pinellas",
+    "address": "29250 US HWY 19 N, CLEARWATER, FL 33761",
+    "lots": 271,
+    "approved": "08/17/2026",
+    "owner": "DORAL RO ASSOCIATION INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000285",
+    "name": "DISSTON MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "4001 49TH ST N, ST PETERSBURG, FL 33709-5751",
+    "lots": 59,
+    "approved": "02/03/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000296",
+    "name": "DOWN YONDER",
+    "county": "Pinellas",
+    "address": "7001 142 AVE N, LARGO, FL 33771",
+    "lots": 362,
+    "approved": "07/06/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000764",
+    "name": "BELMONT MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "901 BELLEAIR RD, CLEARWATER, FL 33756",
+    "lots": 36,
+    "approved": "04/06/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000767",
+    "name": "KEYSTONE TP",
+    "county": "Pinellas",
+    "address": "620 CLEARWATER LARGO RD, LARGO, FL 33770",
+    "lots": 28,
+    "approved": "02/11/1999",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001049",
+    "name": "COTTAGE COVE",
+    "county": "Pinellas",
+    "address": "1280 LAKEVIEW RD, CLEARWATER, FL 33516",
+    "lots": 113,
+    "approved": "08/19/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001057",
+    "name": "SHADY LANE VILLAGE",
+    "county": "Pinellas",
+    "address": "15777 BOLESTA RD, CLEARWATER, FL 33760",
+    "lots": 155,
+    "approved": "06/28/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001058",
+    "name": "VAGABOND MHP",
+    "county": "Pinellas",
+    "address": "7570 46TH AVE N, ST PETERSBURG, FL 33709",
+    "lots": 133,
+    "approved": "08/04/1998",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001064",
+    "name": "BAY SHORE COVE",
+    "county": "Pinellas",
+    "address": "403 RIVERSIDE DR, TARPON SPRINGS, FL 34689",
+    "lots": 62,
+    "approved": "11/05/1997",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001375",
+    "name": "SUNSHINE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "7403 46TH AVE N, ST. PETERSBURG, FL 33709",
+    "lots": 243,
+    "approved": "06/24/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001386",
+    "name": "TARPON GLEN",
+    "county": "Pinellas",
+    "address": "1038 SPARROW LN, TARPON SPRINGS, FL 34689",
+    "lots": 168,
+    "approved": "09/06/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY001979",
+    "name": "LA TROPICAL OAKS",
+    "county": "Pinellas",
+    "address": "5101 SEMINOLE BLVD, ST. PETERSBURG, FL 33708",
+    "lots": 19,
+    "approved": "06/22/2009",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000800",
+    "name": "LAKESIDE MOBILE MANOR",
+    "county": "Hernando",
+    "address": "1020 LAKESIDE DR., BROOKSVILLE, FL 34601",
+    "lots": 33,
+    "approved": "10/19/2001",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001092",
+    "name": "SUGAR CREEK MH COMMUNITY",
+    "county": "Pinellas",
+    "address": "10265 ULMERTON ROAD, LARGO, FL 33771",
+    "lots": 250,
+    "approved": "06/11/2026",
+    "owner": "SUGAR CREEK DEVELOPMENT LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001094",
+    "name": "SUN VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "12300 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 84,
+    "approved": "02/27/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001581",
+    "name": "MELODY GARDENS MHP",
+    "county": "Pinellas",
+    "address": "7803 46TH AVE N, ST PETERSBURG, FL 33709",
+    "lots": 24,
+    "approved": "12/31/1992",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000500",
+    "name": "SAWGRASS LAKE ESTATES",
+    "county": "Pinellas",
+    "address": "3035 66TH AVE N, ST. PETERSBURG, FL 33702",
+    "lots": 135,
+    "approved": "08/17/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000550",
+    "name": "IMPERIAL ESTATES MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "4182 ANGELICA AVE, BROOKSVILLE, FL 34601",
+    "lots": 112,
+    "approved": "05/08/2026",
+    "owner": "IMPERIAL ESTATES INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000553",
+    "name": "PARADISE ISLAND",
+    "county": "Pinellas",
+    "address": "1001 STARKEY RD, LARGO, FL 33771",
+    "lots": 460,
+    "approved": "07/23/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001022",
+    "name": "OAKWOOD MOBILE HOME ESTATES",
+    "county": "Pinellas",
+    "address": "3801 58TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 61,
+    "approved": "09/20/2019",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000647",
+    "name": "MARINER'S COVE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "5796 ULMERTON RD, CLEARWATER, FL 33760",
+    "lots": 96,
+    "approved": "01/03/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000774",
+    "name": "DUNEDIN VILLAGE",
+    "county": "Pinellas",
+    "address": "77 LONE PINE AVE, DUNEDIN, FL 34698",
+    "lots": 128,
+    "approved": "02/03/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000868",
+    "name": "MOBEL AMERICANA DBA AMERICANA COVE",
+    "county": "Pinellas",
+    "address": "7201 FIRST ST NE, ST PETERSBURG, FL 33702",
+    "lots": 137,
+    "approved": "07/14/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000909",
+    "name": "VILLAGE GREEN MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2001 83RD AVE N, ST. PETERSBURG, FL 33702",
+    "lots": 576,
+    "approved": "12/03/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001216",
+    "name": "BOULEVARD ESTATES",
+    "county": "Pinellas",
+    "address": "2266 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 169,
+    "approved": "09/17/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001229",
+    "name": "PINE RIDGE COURT",
+    "county": "Pinellas",
+    "address": "7505 US 19 N, PINELLAS PARK, FL 33780",
+    "lots": 46,
+    "approved": "09/15/2000",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001236",
+    "name": "REGAL PARK INC",
+    "county": "Pinellas",
+    "address": "2141 RIDGE RD SW, LARGO, FL 33778",
+    "lots": 92,
+    "approved": "04/04/2014",
+    "owner": "REGAL PARK INC",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001346",
+    "name": "ORANGE LAKE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "12344 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 36,
+    "approved": "12/05/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001349",
+    "name": "TWELVE OAKS MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "10999 74TH AVE N, SEMINOLE, FL 33772",
+    "lots": 91,
+    "approved": "07/26/2017",
+    "owner": "TWELVE OAKS FAMILY PTNRSP",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001606",
+    "name": "ROMANY PARK NORTH",
+    "county": "Pinellas",
+    "address": "370 53RD AVE N, ST. PETERSBURG, FL 33703",
+    "lots": 98,
+    "approved": "08/14/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001735",
+    "name": "PARKWOOD ESTATES",
+    "county": "Pinellas",
+    "address": "2900 GULF TO BAY BLVD # 225, CLEARWATER, FL 33759",
+    "lots": 2,
+    "approved": "01/26/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001873",
+    "name": "CHESAPEAKE POINT MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "800 CHESAPEAKE DR, TARPON SPRINGS, FL 34689",
+    "lots": 9,
+    "approved": "06/15/2016",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000354",
+    "name": "BIG TREE MOBILE HOME PARK",
+    "county": "Hernando",
+    "address": "6130 BROAD ST, BROOKSVILLE, FL 34601",
+    "lots": 96,
+    "approved": "08/11/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000413",
+    "name": "GATEWAY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "10100 GANDY BLVD N, ST. PETERSBURG, FL 33716",
+    "lots": 337,
+    "approved": "11/02/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002056",
+    "name": "STAR TRAILER CT",
+    "county": "Pinellas",
+    "address": "3043 58TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 22,
+    "approved": "05/03/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002076",
+    "name": "RIVER OAKS RV TRAVEL PARK",
+    "county": "Hernando",
+    "address": "22329 CORTEZ BLVD, BROOKSVILLE, FL 34601",
+    "lots": 16,
+    "approved": "11/16/2020",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMY002265",
+    "name": "PRESERVE AT INDIAN ROCKS",
+    "county": "Pinellas",
+    "address": "15004 113 AVE N, LARGO, FL 33774",
+    "lots": 20,
+    "approved": "02/25/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002127",
+    "name": "SAFETY HARBOR MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "1025 PHILIPPE PKWY, SAFETY HARBOR, FL 34695",
+    "lots": 49,
+    "approved": "12/20/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002692",
+    "name": "PARADISE WEST MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "12260 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 29,
+    "approved": "02/26/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001555",
+    "name": "KING OF THE ROAD MHP",
+    "county": "Pinellas",
+    "address": "5701 HAINES ROAD NORTH, ST PETERSBURG, FL 33714",
+    "lots": 56,
+    "approved": "07/28/2004",
+    "owner": "RESIDENTIAL DEVELOPMENT CORPORATION",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001309",
+    "name": "WESTWIND II ROC",
+    "county": "Pinellas",
+    "address": "3301 ALT US 19 N, DUNEDIN, FL 34698",
+    "lots": 39,
+    "approved": "10/05/2018",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000185",
+    "name": "COACH MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2491 NURSERY RD, CLEARWATER, FL 33764",
+    "lots": 51,
+    "approved": "07/19/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000821",
+    "name": "SEMINOLE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "5015 SEMINOLE BLVD, ST. PETERSBURG, FL 33708-3377",
+    "lots": 78,
+    "approved": "03/01/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000398",
+    "name": "BOULEVARD MOBILE HOME ESTATES II",
+    "county": "Pinellas",
+    "address": "2236 GULF TO BAY BLVD, CLEARWATER, FL 33765",
+    "lots": 118,
+    "approved": "11/10/2011",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001100",
+    "name": "SUN COUNTRY MHP",
+    "county": "Pinellas",
+    "address": "799 E KLOSTERMAN RD, TARPON SPRINGS, FL 34689",
+    "lots": 121,
+    "approved": "10/14/2010",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000205",
+    "name": "CENTURY MOBILE MANOR",
+    "county": "Pinellas",
+    "address": "6735 54TH AVE N, ST PETERSBURG, FL 33709",
+    "lots": 86,
+    "approved": "09/15/2004",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000477",
+    "name": "HARBOR LIGHTS CLUB MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "9191 BAY PINES BLVD, ST. PETERSBURG, FL 33708",
+    "lots": 308,
+    "approved": "08/02/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000372",
+    "name": "GROSSE POINTE ESTATES",
+    "county": "Pinellas",
+    "address": "9900 ULMERTON RD, LARGO, FL 33771-4302",
+    "lots": 1,
+    "approved": "06/30/2015",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000523",
+    "name": "WINDWARD VILLAGE",
+    "county": "Hernando",
+    "address": "6291 WINDWARD BLVD, SPRING HILL, FL 34607",
+    "lots": 255,
+    "approved": "12/13/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000551",
+    "name": "INDIAN ROCKS MHP",
+    "county": "Pinellas",
+    "address": "12701 126TH AVE N, LARGO, FL 33774",
+    "lots": 83,
+    "approved": "09/29/2008",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001345",
+    "name": "STAR-LITE MOBILE PARK",
+    "county": "Pinellas",
+    "address": "11630 HAMLIN BLVD, LARGO, FL 33774",
+    "lots": 75,
+    "approved": "08/06/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000494",
+    "name": "HIGH POINT VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6030 150TH AVE N, CLEARWATER, FL 33760",
+    "lots": 114,
+    "approved": "08/08/2001",
+    "owner": "RICKERT, WAYNE, RICKERT, ALLAN, GOSS, JAMES PARTNERS",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000841",
+    "name": "TANGERINE TP",
+    "county": "Pinellas",
+    "address": "1616-21 STREET SOUTH, ST. PETERSBURG, FL 33712",
+    "lots": 65,
+    "approved": "05/27/2003",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001087",
+    "name": "SUN TERRACE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "5860 150TH AVE N, CLEARWATER, FL 33760",
+    "lots": 67,
+    "approved": "09/03/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000154",
+    "name": "CAUSEWAY VILLAGE",
+    "county": "Pinellas",
+    "address": "1375 PASADENA AVE S, SOUTH PASADENA, FL 33707",
+    "lots": 227,
+    "approved": "10/02/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001850",
+    "name": "LAKEVIEW TRAILER PARK",
+    "county": "Pinellas",
+    "address": "9753 SEMINOLE BLVD, SEMINOLE, FL 33772",
+    "lots": 73,
+    "approved": "06/30/2007",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ003201",
+    "name": "FOREST GLENN RETIREMENT VILLAGE",
+    "county": "Hernando",
+    "address": "1431 FRIAR TUCK LANE, SPRING HILL, FL 34607",
+    "lots": 17,
+    "approved": "09/14/2022",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001305",
+    "name": "WHISPERING PINES MH VILLAGE",
+    "county": "Pinellas",
+    "address": "701 8TH AVE NW, LARGO, FL 33770-1164",
+    "lots": 68,
+    "approved": "09/16/1996",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001303",
+    "name": "RICHMAR MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "10675 SEMINOLE BLVD, LARGO, FL 33778",
+    "lots": 39,
+    "approved": "01/24/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001721",
+    "name": "PARK ROYALE",
+    "county": "Pinellas",
+    "address": "10611 66TH ST N, PINELLAS PARK, FL 33782-2339",
+    "lots": 309,
+    "approved": "10/24/2024",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000181",
+    "name": "COUNTRY PARK MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2331 BELLEAIR RD, CLEARWATER, FL 33764",
+    "lots": 17,
+    "approved": "11/05/2021",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ000557",
+    "name": "ISLAND IN THE SUN",
+    "county": "Pinellas",
+    "address": "100 HAMPTON RD, CLEARWATER, FL 33759",
+    "lots": 187,
+    "approved": "09/15/2025",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ002976",
+    "name": "SILK OAK LODGE",
+    "county": "Pinellas",
+    "address": "28488 US HWY 19 N, CLEARWATER, FL 34621",
+    "lots": 182,
+    "approved": "07/05/2023",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001776",
+    "name": "REGENCY HEIGHTS",
+    "county": "Pinellas",
+    "address": "2550 SR 580 E, CLEARWATER, FL 33761",
+    "lots": 392,
+    "approved": "05/28/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PRMZ001778",
+    "name": "SATELLITE BAY COMMUNITY",
+    "county": "Pinellas",
+    "address": "6250 ROOSEVELT BLVD, CLEARWATER, FL 33760",
+    "lots": 83,
+    "approved": "08/05/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR9828",
+    "name": "COURTESY MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "2517 50TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 0,
+    "approved": "11/13/2018",
+    "owner": "COURTESY MHP LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9848",
+    "name": "PINE LANE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "4189 78TH ST N, ST. PETERSBURG, FL 33709",
+    "lots": 32,
+    "approved": "01/04/2022",
+    "owner": "PARK LANE PARTNERS LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9850",
+    "name": "PALM SPRINGS ESTATES",
+    "county": "Pinellas",
+    "address": "40110 US HWY 19 N, TARPON SPRINGS, FL 34689",
+    "lots": 44,
+    "approved": "02/04/2026",
+    "owner": "",
+    "plantCity": false
+  },
+  {
+    "id": "PR9852",
+    "name": "ST PETE SUN ESTATES 2",
+    "county": "Pinellas",
+    "address": "2600 58TH AVE N, ST. PETERSBURG, FL 33714",
+    "lots": 41,
+    "approved": "07/01/2022",
+    "owner": "ST PETE SUN ESTATES 2 LLC",
+    "plantCity": false
+  },
+  {
+    "id": "PR9861",
+    "name": "PATIO VILLAGE MOBILE HOME PARK",
+    "county": "Pinellas",
+    "address": "6135 66TH ST N, ST. PETERSBURG, FL 33709",
+    "lots": 73,
+    "approved": "05/03/2023",
+    "owner": "",
+    "plantCity": false
   }
 ]
