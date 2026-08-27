@@ -145,10 +145,12 @@ const buyColors = { under250:"#3dba7a", mid:"#e0a43a", upper:"#6b7c9a", known:"#
 const buyBandLabel = { under250:"Under $250k", mid:"$250–340k", upper:"$340–400k", known:"Holly Lake" };
 
 const map = L.map("map", { zoomControl:true }).setView([28.19, -82.73], 11);
-L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-  attribution: "&copy; OSM &copy; CARTO",
-  subdomains: "abcd",
-  maxZoom: 19
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+  attribution: "Tiles &copy; Esri",
+  maxZoom: 16
+}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
+  maxZoom: 16
 }).addTo(map);
 
 function loadUser(key) {
