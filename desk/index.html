@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grok Bot — A research desk you didn’t hire</title>
+  <meta name="description" content="Off-market MHC and SFR deal flow for small and mid-size investors who don’t have a research staff. Tampa Bay is live. Other metros are a build." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-2: #111111;
+      --cream: #f3ead8;
+      --cream-dim: #cfc4ae;
+      --gold: #c4a574;
+      --gold-2: #e0c28a;
+      --muted: #8a8276;
+      --line: rgba(243,234,216,.12);
+      --danger: #b9a089;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--cream);
+      font-family: Outfit, system-ui, sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: .01em;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    header.nav {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(10,10,10,.86);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; }
+    .wordmark { font-family: Outfit, sans-serif; letter-spacing: .28em; font-size: 12px; font-weight: 500; }
+    .nav-links { display: flex; gap: 22px; align-items: center; font-size: 13px; color: var(--cream-dim); }
+    .nav-links a { text-decoration: none; }
+    .nav-links a:hover { color: var(--cream); }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      text-decoration: none; border: 1px solid var(--gold);
+      color: var(--bg); background: var(--gold);
+      padding: 11px 18px; font-size: 13px; letter-spacing: .06em;
+      text-transform: uppercase; font-weight: 500;
+    }
+    .btn:hover { background: var(--gold-2); border-color: var(--gold-2); }
+    .btn.ghost { background: transparent; color: var(--cream); border-color: var(--line); }
+    .btn.ghost:hover { border-color: var(--cream); }
+    .hero { padding: 72px 0 40px; display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; align-items: center; }
+    .kicker { color: var(--gold); letter-spacing: .22em; text-transform: uppercase; font-size: 11px; margin-bottom: 18px; }
+    h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 500; letter-spacing: -0.02em; line-height: 1.08; }
+    h1 { font-size: clamp(42px, 6vw, 76px); max-width: 11ch; }
+    .sub { margin-top: 22px; max-width: 42ch; color: var(--cream-dim); font-size: 18px; font-weight: 300; }
+    .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+    .ad {
+      border: 1px solid var(--line);
+      background: #050505;
+    }
+    .ad img { width: 100%; height: auto; }
+    .stats { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
+    .stat-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+    .stat b { display: block; font-family: Fraunces, serif; font-size: 32px; color: var(--gold); font-weight: 500; }
+    .stat span { display: block; margin-top: 6px; color: var(--muted); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
+    section { padding: 88px 0; }
+    .sec-kicker { color: var(--gold); letter-spacing: .2em; text-transform: uppercase; font-size: 11px; margin-bottom: 12px; }
+    h2 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 14px; }
+    .lede { color: var(--cream-dim); max-width: 58ch; margin-bottom: 36px; }
+    .maps { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .map-card {
+      border: 1px solid var(--line); padding: 28px; background: var(--bg-2);
+      min-height: 180px; display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .map-card h3 { font-size: 28px; margin-bottom: 8px; }
+    .map-card p { color: var(--muted); font-size: 14px; }
+    .cases { display: grid; gap: 0; }
+    .case {
+      display: grid; grid-template-columns: 72px 1fr; gap: 20px;
+      padding: 26px 0; border-top: 1px solid var(--line);
+    }
+    .case:last-child { border-bottom: 1px solid var(--line); }
+    .num { font-family: Fraunces, serif; color: var(--gold); font-size: 22px; }
+    .case h3 { font-size: 22px; margin-bottom: 8px; }
+    .case p { color: var(--cream-dim); max-width: 70ch; }
+    .gaps { background: var(--bg-2); }
+    .gap-list { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 28px; }
+    .gap-list li { list-style: none; color: var(--cream-dim); padding-left: 16px; position: relative; }
+    .gap-list li::before { content: ""; position: absolute; left: 0; top: .55em; width: 6px; height: 6px; background: var(--gold); }
+    .prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .price {
+      border: 1px solid var(--line); padding: 24px; background: #0d0d0d;
+      display: flex; flex-direction: column; gap: 10px; min-height: 220px;
+    }
+    .price.featured { border-color: var(--gold); background: #14110c; grid-column: span 1; }
+    .price .name { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+    .price .amt { font-family: Fraunces, serif; font-size: 30px; }
+    .price .blurb { color: var(--muted); font-size: 14px; }
+    .founding {
+      margin-top: 18px; border: 1px solid var(--gold); padding: 28px;
+      display: grid; grid-template-columns: 1.4fr .8fr; gap: 20px; align-items: center;
+      background: linear-gradient(180deg, #16120c, #0d0d0d);
+    }
+    .founding h3 { font-size: 32px; }
+    .founding p { color: var(--cream-dim); margin-top: 8px; }
+    form.apply { display: grid; gap: 12px; max-width: 640px; }
+    label { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    input, select, textarea {
+      width: 100%; background: #0d0d0d; border: 1px solid var(--line);
+      color: var(--cream); padding: 12px 14px; font: inherit;
+    }
+    input:focus, select:focus, textarea:focus { outline: 1px solid var(--gold); }
+    .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 0 48px; color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    footer a { color: var(--cream-dim); }
+    @media (max-width: 900px) {
+      .hero, .stat-row, .maps, .prices, .founding, .gap-list, .row2 { grid-template-columns: 1fr; }
+      .nav-links a.hide-sm { display: none; }
+      .hero { padding-top: 40px; }
+      section { padding: 64px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="wordmark">GROK BOT</div>
+      <nav class="nav-links">
+        <a class="hide-sm" href="#proof">Proof</a>
+        <a class="hide-sm" href="#work">The work</a>
+        <a class="hide-sm" href="#pricing">Pricing</a>
+        <a class="btn" href="#apply">Apply</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <div>
+        <p class="kicker">Tampa Bay hunt · Aug 2026</p>
+        <h1>A research desk you didn’t hire.</h1>
+        <p class="sub">For small and mid-size investors who want off-market MHC and SFR deal flow and don’t have a research staff.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#apply">Apply for a founding desk</a>
+          <a class="btn ghost" href="https://mjlembo88.github.io/Real-Estate/" target="_blank" rel="noopener">Open Housing HQ</a>
+        </div>
+      </div>
+      <figure class="ad">
+        <img src="ad-square.png" alt="Tampa Bay hunt proof: 681 parks, 91,281 lots, 95 sourced rents, 2,506 deeds, 80 named owners" />
+      </figure>
+    </div>
+
+    <div class="stats" id="proof">
+      <div class="wrap stat-row">
+        <div class="stat"><b>681</b><span>Licensed MHC parks</span></div>
+        <div class="stat"><b>91,281</b><span>Filed lots (capacity, not occupancy)</span></div>
+        <div class="stat"><b>95</b><span>Parks with sourced lot rent</span></div>
+        <div class="stat"><b>2,506</b><span>Recorded MHC deeds</span></div>
+        <div class="stat"><b>80</b><span>Named independent owners</span></div>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <p class="sec-kicker">Live now</p>
+        <h2>Click the actual desk.</h2>
+        <p class="lede">Tampa Bay is built. The maps refresh on weekdays. Hard NOs stay marked. Other metros are a build, not a claim.</p>
+        <div class="maps">
+          <a class="map-card" href="https://mjlembo88.github.io/Real-Estate/" target="_blank" rel="noopener">
+            <div>
+              <h3>Housing HQ</h3>
+              <p>Pasco–Pinellas SFR buy box. 2-dog rentals within ~45 min of Pinellas. $150k–$400k with live Zillow links. Hard NO tracking. Weekday refresh.</p>
+            </div>
+            <span class="kicker">Open the map →</span>
+          </a>
+          <a class="map-card" href="https://mjlembo88.github.io/Real-Estate/atlas/" target="_blank" rel="noopener">
+            <div>
+              <h3>MHC Atlas</h3>
+              <p>Licensed census, sourced rents, and sales tape. Green = sourced rent. Amber = opened, no rent. Quiet = roster only.</p>
+            </div>
+            <span class="kicker">Open the atlas →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <p class="sec-kicker">What it actually did</p>
+        <h2>One month. One corridor. A full desk.</h2>
+        <p class="lede">August 2026, Tampa Bay. Every line below is work that shipped, not a feature list.</p>
+        <div class="cases">
+          <article class="case"><div class="num">01</div><div><h3>Live buy box, on a map</h3><p>Pasco–Pinellas corridor, 2-dog rentals within ~45 minutes of Pinellas, Hard NO tracking, weekday refresh, houses $150k–$400k with live Zillow links.</p></div></article>
+          <article class="case"><div class="num">02</div><div><h3>Kill the deal on paper before you drive it</h3><p>7519 Holly Lake Ln, New Port Richey, $339,900, Flood Zone A. At $1,900–$2,100 market rent the investor cash-flow case failed. Break-even sat at $3,100–$3,300 leveraged. That’s a pass.</p></div></article>
+          <article class="case"><div class="num">03</div><div><h3>Start from the licensed universe, not a listing site</h3><p>Florida DBPR: 681 parks, 91,281 filed lots across Pinellas, Pasco, Hillsborough, Polk, and Hernando. Lot counts are capacity, not occupancy. We say so.</p></div></article>
+          <article class="case"><div class="num">04</div><div><h3>Sourced lot rents, labeled honestly</h3><p>95 parks with a printed lot rent from operator sheets, listings, or MHVillage. Never filled gaps with MHBO $475–$725 placeholders. Club Wildwood: $716 lot vs $1,899 home. ROC vs land-lease called out at Doral, Pointe West, Four Seasons, Palm Tree Acres.</p></div></article>
+          <article class="case"><div class="num">05</div><div><h3>Public sales tape as a price compass</h3><p>2,506 recorded MHC / DOR-28 deeds from county PA bulk and GIS. Pasco and Polk back to 2000; Pinellas GIS is ~2022–2026 only; Hillsborough and Hernando are last-sale snapshots. Ranchero $53.7M (Dec 2022). Sundance $22.5M (Jul 2025, Pasco). Cypress Lakes $206M (Oct 2022) flagged as a multi-parcel package, not one park.</p></div></article>
+          <article class="case"><div class="num">06</div><div><h3>Named off-market owners, ready to mail</h3><p>DBPR mailing list plus Sunbiz officers: 80 independent owners (47 entities, 26 individuals). PA owner-of-record on 569 of 681 parks. Named targets include Dominick / Sugar Creek, Malpeli / Blue Heron Bay, Corsetti / Oakhill, Metcalf / Woodall’s, Drost-Falk / Four Lakes. 112 unmatched on purpose. No letters sent yet. Seller-finance is the next step, not a claim we’ve already run.</p></div></article>
+          <article class="case"><div class="num">07</div><div><h3>A pipeline that updates, not a one-off scrape</h3><p>Same hunt, Hard NO tracking, weekday map refresh. The maps stay live.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gaps">
+      <div class="wrap">
+        <p class="sec-kicker">What we don’t claim</p>
+        <h2>The gaps stay on the page.</h2>
+        <p class="lede">If a shop hides this stuff, they are selling a scrape. We are not.</p>
+        <ul class="gap-list">
+          <li>Sourced rents are 95 of 681 parks, not the whole census.</li>
+          <li>Pinellas sales tape is about five years, not a 25-year history.</li>
+          <li>We have no occupancy. Lot counts are capacity.</li>
+          <li>The mailer is built. It has not gone out.</li>
+          <li>Tampa Bay is live. Other metros are a build.</li>
+          <li>Never used MHBO $475–$725 placeholders.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="wrap">
+        <p class="sec-kicker">Pricing</p>
+        <h2>Pay for a desk, not a login.</h2>
+        <p class="lede">A loaded analyst is $6–8k a month and still Googles lot rent. PropStream is $99 and is not this.</p>
+        <div class="prices">
+          <div class="price"><div class="name">The Map</div><div class="amt">$247/mo</div><p class="blurb">One-metro SFR buy box. Live Zillow links, Hard NO, weekday refresh. What Housing HQ is.</p></div>
+          <div class="price"><div class="name">The Atlas</div><div class="amt">$997/mo</div><p class="blurb">Licensed census, sourced rents, sales tape, live atlas. One metro cluster. What MHC Atlas is.</p></div>
+          <div class="price"><div class="name">Deal Kill</div><div class="amt">$350 / address</div><p class="blurb">Holly Lake style rent-vs-buy. One page. Pass or don’t.</p></div>
+          <div class="price"><div class="name">Origin List</div><div class="amt">$7,500 / market</div><p class="blurb">One-time. Named independent owners, Sunbiz officers, PA owner-of-record, mailer-ready. Letters not included.</p></div>
+          <div class="price featured"><div class="name">Full Desk</div><div class="amt">$2,497/mo</div><p class="blurb">Map + Atlas + 4 Deal Kills/mo. Weekday pipeline. $3,997 after founding. The “I didn’t hire anyone” SKU.</p></div>
+          <div class="price"><div class="name">White Glove Metro</div><div class="amt">$12,500 + $4,997/mo</div><p class="blurb">We stand up your market from scratch and keep it live. You send mail and write checks.</p></div>
+        </div>
+        <div class="founding">
+          <div>
+            <p class="kicker">Founding 5</p>
+            <h3>$997/mo, locked 12 months.</h3>
+            <p>Full Desk. Tampa Bay is the demo you can click today. Your market is a build. Five spots.</p>
+          </div>
+          <a class="btn" href="#apply">Take a founding spot</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply">
+      <div class="wrap">
+        <p class="sec-kicker">Apply</p>
+        <h2>Tell us the metro. We’ll tell you if we take it.</h2>
+        <p class="lede">Founding desks first. No fake waitlist. This emails Maker Mark.</p>
+        <form class="apply" id="apply-form">
+          <div class="row2">
+            <div><label for="name">Name</label><input id="name" name="name" required autocomplete="name" /></div>
+            <div><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email" /></div>
+          </div>
+          <div class="row2">
+            <div><label for="metro">Metro you care about</label><input id="metro" name="metro" required placeholder="Tampa Bay, Jacksonville, …" /></div>
+            <div>
+              <label for="focus">Focus</label>
+              <select id="focus" name="focus">
+                <option>MHC</option>
+                <option>SFR</option>
+                <option selected>Both</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="note">Short note</label>
+            <textarea id="note" name="note" rows="4" placeholder="What you’re hunting, timeline, anything we should know."></textarea>
+          </div>
+          <button class="btn" type="submit">Apply for a founding desk</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;width:100%">
+      <div>GROK BOT · Maker Mark</div>
+      <div>Tampa Bay live. Other metros are a build. · <a href="mailto:mlembo88@gmail.com">mlembo88@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('apply-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('name').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var metro = document.getElementById('metro').value.trim();
+      var focus = document.getElementById('focus').value;
+      var note = document.getElementById('note').value.trim();
+      var body = 'Name: ' + name + '\\nEmail: ' + email + '\\nMetro: ' + metro + '\\nFocus: ' + focus + '\\n\\n' + note;
+      var href = 'mailto:mlembo88@gmail.com?subject=' + encodeURIComponent('Founding desk — ' + metro) + '&body=' + encodeURIComponent(body);
+      window.location.href = href;
+    });
+  </script>
+</body>
+</html>
