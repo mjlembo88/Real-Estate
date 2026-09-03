@@ -35,6 +35,17 @@ Scout (or any feeder) overwrites `listings.json` in place. The viewer reads only
 | `mls` | string \| null | no | MLS number if known |
 | `firstLookEnds` | string \| null | no | ISO date when First Look window ends |
 | `notes` | string \| null | no | Scout notes |
+| `photoPath` | string \| null | no | Relative path under this folder (e.g. `photos/hp-….jpg`). Preferred over remote URLs when present. |
+| `photoUrl` | string \| null | no | Absolute image URL. Used if `photoPath` missing. |
+| `photo` | string \| null | no | Single primary image URL (absolute `https://…` or relative to this folder, e.g. `photos/hp-….jpg`). Card thumb + detail hero use this when present. |
+| `photos` | string[] \| null | no | Optional gallery URLs. Card thumb uses `photo` if set, otherwise `photos[0]`. Detail shows hero + thumb strip when more than one URL is available. Do not invent or placeholder-fake URLs — omit until Scout has real photos. |
+
+## Photos (Scout)
+
+- Prefer dropping files under `foreclosures/photos/` and referencing them as relative paths (`photos/<id>-1.jpg`).
+- Absolute CDN / listing-site image URLs are fine when Scout has them.
+- Missing `photo` / `photos` → viewer shows a calm house placeholder (no broken `<img>`).
+- Viewer order: `photoPath`, then `photoUrl`, then `photo`, then unique `photos[]`.
 
 ## Example (do not publish as live data)
 
@@ -64,7 +75,9 @@ Scout (or any feeder) overwrites `listings.json` in place. The viewer reads only
       "url": "https://www.homepath.com/",
       "mls": null,
       "firstLookEnds": "2026-09-10",
-      "notes": null
+      "notes": null,
+      "photo": "photos/hp-example-001.jpg",
+      "photos": ["photos/hp-example-001.jpg", "photos/hp-example-001-2.jpg"]
     }
   ]
 }

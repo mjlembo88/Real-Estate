@@ -2,60 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Foreclosures · HomePath / First Look</title>
   <meta name="description" content="Pasco–Pinellas–Hernando HomePath and First Look foreclosure viewer for Maker Mark." />
+  <meta name="theme-color" content="#0f1412" />
   <!-- Relative assets work under https://mjlembo88.github.io/Real-Estate/foreclosures/ -->
   <base href="./" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="app">
-    <header class="topbar">
-      <div>
-        <h1>Foreclosures · HomePath / First Look</h1>
-        <p class="sub">Pasco · Pinellas · Hernando — Scout-fed listings only (no invented data)</p>
-      </div>
-      <div class="updated" id="updated">Updated: …</div>
-    </header>
+    <div class="sticky-head">
+      <header class="topbar">
+        <div class="topbar-main">
+          <h1>Foreclosures</h1>
+          <span class="updated" id="updated">Updated: …</span>
+        </div>
+        <div class="topbar-sub">Pasco · Pinellas · Hernando · Scout-fed</div>
+      </header>
 
-    <div class="filters" id="filters">
-      <div class="filter">
-        <label for="f-county">County</label>
-        <select id="f-county"></select>
-      </div>
-      <div class="filter">
-        <label for="f-source">Source</label>
-        <select id="f-source"></select>
-      </div>
-      <div class="filter">
-        <label for="f-status">Status</label>
-        <select id="f-status"></select>
-      </div>
-      <div class="filter">
-        <label for="f-price-min">Min price</label>
-        <input id="f-price-min" type="number" inputmode="numeric" min="0" step="1000" placeholder="Any" />
-      </div>
-      <div class="filter">
-        <label for="f-price-max">Max price</label>
-        <input id="f-price-max" type="number" inputmode="numeric" min="0" step="1000" placeholder="Any" />
-      </div>
-      <div class="meta-row">
-        <span id="count">0 listings</span>
-        <button type="button" class="reset" id="f-reset">Reset</button>
+      <div class="filters" id="filters" role="toolbar" aria-label="Filters">
+        <div class="chip-row" data-filter="county" aria-label="County">
+          <button type="button" class="chip active" data-value="">All</button>
+          <button type="button" class="chip" data-value="Pasco">Pasco</button>
+          <button type="button" class="chip" data-value="Pinellas">Pinellas</button>
+          <button type="button" class="chip" data-value="Hernando">Hernando</button>
+        </div>
+        <div class="chip-row" data-filter="source" aria-label="Source">
+          <button type="button" class="chip active" data-value="">All src</button>
+          <button type="button" class="chip" data-value="HomePath">HomePath</button>
+          <button type="button" class="chip" data-value="First Look">First Look</button>
+          <button type="button" class="chip" data-value="other">Other</button>
+        </div>
+        <div class="chip-row" data-filter="firstLook" aria-label="First Look">
+          <button type="button" class="chip active" data-value="">Any</button>
+          <button type="button" class="chip" data-value="active">First Look</button>
+        </div>
+        <div class="chip-row" data-filter="price" aria-label="Price">
+          <button type="button" class="chip active" data-value="">Any $</button>
+          <button type="button" class="chip" data-value="150">≤$150k</button>
+          <button type="button" class="chip" data-value="250">≤$250k</button>
+          <button type="button" class="chip" data-value="350">≤$350k</button>
+          <button type="button" class="chip" data-value="350+">$350k+</button>
+        </div>
+        <div class="filter-meta">
+          <span id="count">0 listings</span>
+          <button type="button" class="reset" id="f-reset">Reset</button>
+        </div>
       </div>
     </div>
 
-    <div class="main">
-      <aside class="list-pane">
-        <div class="list-head">Listings</div>
-        <div class="list" id="list"></div>
-      </aside>
-      <section class="detail-pane" id="detail" aria-live="polite">
-        <div class="detail-empty">Loading…</div>
-      </section>
-    </div>
+    <main class="grid-wrap">
+      <div class="grid" id="list" role="list"></div>
+    </main>
   </div>
+
+  <div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+  <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title" hidden>
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <button type="button" class="sheet-close" id="sheet-close" aria-label="Close detail">×</button>
+    <div class="sheet-body" id="detail"></div>
+  </aside>
+
   <script src="app.js"></script>
 </body>
 </html>
