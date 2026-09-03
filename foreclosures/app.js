@@ -107,6 +107,47 @@
     return list.length ? list[0] : null;
   }
 
+  function addressQuery(item) {
+    if (!item) return "";
+    return [item.address, item.city, item.state || "FL", item.zip]
+      .filter((x) => x != null && String(x).trim() !== "")
+      .join(" ")
+      .trim();
+  }
+
+  /** Google Search + Maps dig links when Scout has no listing photos. */
+  function digLinksEl(item, compact) {
+    const q = addressQuery(item);
+    if (!q) return null;
+    const wrap = document.createElement("div");
+    wrap.className = compact ? "dig-links dig-links-compact" : "dig-links";
+    const label = document.createElement("div");
+    label.className = "dig-label";
+    label.textContent = compact ? "Find visuals" : "No photo — dig visuals";
+    wrap.appendChild(label);
+    const row = document.createElement("div");
+    row.className = "dig-row";
+    const search = document.createElement("a");
+    search.href =
+      "https://www.google.com/search?q=" +
+      encodeURIComponent(q + " real estate");
+    search.target = "_blank";
+    search.rel = "noopener noreferrer";
+    search.textContent = "Google Search";
+    search.addEventListener("click", (e) => e.stopPropagation());
+    const maps = document.createElement("a");
+    maps.href =
+      "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+    maps.target = "_blank";
+    maps.rel = "noopener noreferrer";
+    maps.textContent = "Maps / Street View";
+    maps.addEventListener("click", (e) => e.stopPropagation());
+    row.appendChild(search);
+    row.appendChild(maps);
+    wrap.appendChild(row);
+    return wrap;
+  }
+
   function daysLeft(iso) {
     if (!iso) return null;
     const end = new Date(iso);
@@ -203,17 +244,22 @@
 
     const frag = document.createDocumentFragment();
     items.forEach((item) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
+      const btn = document.createElement("div");
       btn.className = "card";
       btn.dataset.id = item.id;
-      btn.setAttribute("role", "listitem");
+      btn.setAttribute("role", "button");
+      btn.tabIndex = 0;
+      btn.setAttribute("aria-label", item.address || "Listing");
 
       const thumb = document.createElement("div");
       thumb.className = "card-thumb";
       const u = thumbUrl(item);
       if (u) thumb.appendChild(safeImg(u, item.address || "Listing"));
-      else thumb.appendChild(placeholderEl());
+      else {
+        thumb.appendChild(placeholderEl());
+        const dig = digLinksEl(item, true);
+        if (dig) thumb.appendChild(dig);
+      }
 
       const body = document.createElement("div");
       body.className = "card-body";
@@ -255,6 +301,12 @@
       btn.appendChild(thumb);
       btn.appendChild(body);
       btn.addEventListener("click", () => openSheet(item));
+      btn.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          btn.click();
+        }
+      });
       frag.appendChild(btn);
     });
     els.list.appendChild(frag);
@@ -360,7 +412,11 @@
     const hero = document.createElement("div");
     hero.className = "detail-hero";
     if (photos.length) hero.appendChild(safeImg(photos[0], item.address || "Listing"));
-    else hero.appendChild(placeholderEl());
+    else {
+      hero.appendChild(placeholderEl());
+      const digHero = digLinksEl(item, false);
+      if (digHero) hero.appendChild(digHero);
+    }
     root.appendChild(hero);
 
     if (photos.length > 1) {
@@ -421,6 +477,29 @@
 
     const actions = document.createElement("div");
     actions.className = "actions";
+    if (!photos.length) {
+      const q = addressQuery(item);
+      if (q) {
+        const gs = document.createElement("a");
+        gs.className = "btn-ghost";
+        gs.href =
+          "https://www.google.com/search?q=" +
+          encodeURIComponent(q + " real estate");
+        gs.target = "_blank";
+        gs.rel = "noopener noreferrer";
+        gs.textContent = "Google Search";
+        actions.appendChild(gs);
+        const gm = document.createElement("a");
+        gm.className = "btn-ghost";
+        gm.href =
+          "https://www.google.com/maps/search/?api=1&query=" +
+          encodeURIComponent(q);
+        gm.target = "_blank";
+        gm.rel = "noopener noreferrer";
+        gm.textContent = "Maps / Street View";
+        actions.appendChild(gm);
+      }
+    }
     if (item.url) {
       const a = document.createElement("a");
       a.className = "btn-primary";

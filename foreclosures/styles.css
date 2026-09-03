@@ -514,3 +514,61 @@ button { font: inherit; color: inherit; }
 .leaflet-popup-tip { background: var(--panel); }
 
 body.sheet-open { overflow: hidden; }
+
+
+/* Dig visuals (no-photo listings) */
+.card-thumb { position: relative; }
+.detail-hero { position: relative; }
+.dig-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  margin: 8px 12px 0;
+  border-radius: 10px;
+  background: rgba(125, 211, 168, 0.08);
+  border: 1px solid var(--line);
+}
+.dig-links-compact {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  margin: 0;
+  padding: 6px 8px;
+  gap: 4px;
+  background: rgba(15, 20, 18, 0.88);
+  backdrop-filter: blur(4px);
+}
+.dig-label {
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 650;
+}
+.dig-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.dig-row a {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--chip);
+}
+.dig-row a:hover { border-color: var(--accent); }
+.detail-hero .dig-links {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  margin: 0;
+  z-index: 2;
+}
+.card[role="button"] { cursor: pointer; }
