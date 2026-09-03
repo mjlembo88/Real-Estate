@@ -311,11 +311,14 @@
         marker = null;
       }
       map = L.map(el, { zoomControl: true, attributionControl: true });
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-        attribution: "&copy; OSM &copy; CARTO",
-        subdomains: "abcd",
-        maxZoom: 19,
-      }).addTo(map);
+      // Esri free dark basemap — no API key (Carto dark tiles watermark without a key)
+      L.tileLayer(
+        "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+        {
+          attribution: "Tiles &copy; Esri",
+          maxZoom: 16,
+        }
+      ).addTo(map);
       marker = L.marker([lat, lng]).addTo(map);
       marker.bindPopup(item.address || "Listing");
       map.setView([lat, lng], 14);
