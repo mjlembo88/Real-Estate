@@ -6,6 +6,7 @@ Maker Mark (Marcus Lembo) — Pasco–Pinellas housing hunt plus Tampa Bay licen
 
 - Housing HQ (rent + buy): https://mjlembo88.github.io/Real-Estate/
 - MHC Atlas: https://mjlembo88.github.io/Real-Estate/atlas/
+- Foreclosures (HomePath / First Look): https://mjlembo88.github.io/Real-Estate/foreclosures/
 
 Do not invent listings, rents, lot counts, or pet rules. Numbers are sourced as of late Aug 2026.
 

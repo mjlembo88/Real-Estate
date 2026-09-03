@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foreclosures · HomePath / First Look</title>
+  <meta name="description" content="Pasco–Pinellas–Hernando HomePath and First Look foreclosure viewer for Maker Mark." />
+  <!-- Relative assets work under https://mjlembo88.github.io/Real-Estate/foreclosures/ -->
+  <base href="./" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1>Foreclosures · HomePath / First Look</h1>
+        <p class="sub">Pasco · Pinellas · Hernando — Scout-fed listings only (no invented data)</p>
+      </div>
+      <div class="updated" id="updated">Updated: …</div>
+    </header>
+
+    <div class="filters" id="filters">
+      <div class="filter">
+        <label for="f-county">County</label>
+        <select id="f-county"></select>
+      </div>
+      <div class="filter">
+        <label for="f-source">Source</label>
+        <select id="f-source"></select>
+      </div>
+      <div class="filter">
+        <label for="f-status">Status</label>
+        <select id="f-status"></select>
+      </div>
+      <div class="filter">
+        <label for="f-price-min">Min price</label>
+        <input id="f-price-min" type="number" inputmode="numeric" min="0" step="1000" placeholder="Any" />
+      </div>
+      <div class="filter">
+        <label for="f-price-max">Max price</label>
+        <input id="f-price-max" type="number" inputmode="numeric" min="0" step="1000" placeholder="Any" />
+      </div>
+      <div class="meta-row">
+        <span id="count">0 listings</span>
+        <button type="button" class="reset" id="f-reset">Reset</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <aside class="list-pane">
+        <div class="list-head">Listings</div>
+        <div class="list" id="list"></div>
+      </aside>
+      <section class="detail-pane" id="detail" aria-live="polite">
+        <div class="detail-empty">Loading…</div>
+      </section>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
