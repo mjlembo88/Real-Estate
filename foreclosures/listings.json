@@ -1,36 +1,22 @@
 {
   "meta": {
-    "updatedAt": "2026-09-03T08:53:10Z",
-    "generatedBy": "scout",
-    "notes": "SFR-only. Primary fields: photo + photos[]. Aliases photoUrl; Normandy also has photoPath for local photos/ file."
+    "updatedAt": "2026-09-03T12:15:26Z",
+    "sourcesTried": [
+      "HomePath API bounds search (RETAIL_LISTING + Single Family + corridor zips)",
+      "HomeSteps search?search= (Hudson/NPR/Tarpon/Pasco/Pinellas/FL) \u2014 JSON-LD",
+      "RealForeclose Pasco/Pinellas \u2014 deferred to browser (curl 403)",
+      "HUD HomeStore \u2014 auctions-hud-today.json not present; searchresult HTML needs browser/API"
+    ],
+    "notes": "SFR-only corridor merge. HomePath=6, HomeSteps SFR=0, Auction/HUD merged=0. Photos downloaded under foreclosures-pages/photos/. Do not invent listings.",
+    "counts": {
+      "HomePath": 6,
+      "First Look": 1,
+      "HomeSteps": 0,
+      "Auction/HUD": 0,
+      "total": 6
+    }
   },
   "listings": [
-    {
-      "id": "hp-11604-versailles-ln-port-richey-34668",
-      "address": "11604 Versailles Ln",
-      "city": "Port Richey",
-      "state": "FL",
-      "zip": "34668",
-      "county": "Pasco",
-      "source": "HomePath",
-      "status": "Open / investor (day 21+)",
-      "price": 170000,
-      "beds": 2.0,
-      "baths": 2.0,
-      "sqft": 1239,
-      "propertyType": "SFR",
-      "lat": 28.325788,
-      "lng": -82.674675,
-      "url": "https://homepath.fanniemae.com/property-detail/e4d32e70-cad0-49c0-a877-56e044765e30",
-      "mls": null,
-      "firstLookEnds": "2026-03-05",
-      "notes": "Prev $185,000.0; reoId A2500MS; Online Offer only",
-      "photo": "https://homepath.fanniemae.com/images/4fb90d944a9a451aa694ecd26dbc36eb/REO2HP_A2500MS_REOImage_478013424.jpg",
-      "photos": [
-        "https://homepath.fanniemae.com/images/4fb90d944a9a451aa694ecd26dbc36eb/REO2HP_A2500MS_REOImage_478013424.jpg"
-      ],
-      "photoUrl": "https://homepath.fanniemae.com/images/4fb90d944a9a451aa694ecd26dbc36eb/REO2HP_A2500MS_REOImage_478013424.jpg"
-    },
     {
       "id": "hp-1421-normandy-blvd-holiday-34691",
       "address": "1421 Normandy Blvd",
@@ -38,7 +24,7 @@
       "state": "FL",
       "zip": "34691",
       "county": "Pasco",
-      "source": "HomePath",
+      "source": "First Look",
       "status": "First Look",
       "price": 257900,
       "beds": 3.0,
@@ -50,12 +36,11 @@
       "url": "https://homepath.fanniemae.com/property-detail/994a7d20-8969-4bef-a379-3bbaf9e48e7b",
       "mls": null,
       "firstLookEnds": "2026-10-01",
-      "notes": "reoId A26007B; Online Offer only; Owner-occupant First Look window \u2014 investors wait until it ends.",
       "photo": "https://homepath.fanniemae.com/images/74e4dc58dcc642a0a72d061f11432eac/REO2HP_A26007B_REOImage_480545966.jpg",
       "photos": [
         "https://homepath.fanniemae.com/images/74e4dc58dcc642a0a72d061f11432eac/REO2HP_A26007B_REOImage_480545966.jpg"
       ],
-      "photoUrl": "https://homepath.fanniemae.com/images/74e4dc58dcc642a0a72d061f11432eac/REO2HP_A26007B_REOImage_480545966.jpg",
+      "notes": "reoId A26007B; Online Offer only; Owner-occupant First Look \u2014 investors wait until window ends.",
       "photoPath": "photos/hp-1421-normandy-blvd-holiday-34691.jpg"
     },
     {
@@ -77,12 +62,12 @@
       "url": "https://homepath.fanniemae.com/property-detail/e924f068-2c00-4cbf-a752-549387c8ad6a",
       "mls": null,
       "firstLookEnds": "2026-06-21",
-      "notes": "Prev $218,900.0; reoId A2500X4; Online Offer only",
       "photo": "https://homepath.fanniemae.com/images/2c23ef8b6a484807b9330661226d9bb8/REO2HP_A2500X4_REOImage_479276978.jpg",
       "photos": [
         "https://homepath.fanniemae.com/images/2c23ef8b6a484807b9330661226d9bb8/REO2HP_A2500X4_REOImage_479276978.jpg"
       ],
-      "photoUrl": "https://homepath.fanniemae.com/images/2c23ef8b6a484807b9330661226d9bb8/REO2HP_A2500X4_REOImage_479276978.jpg"
+      "notes": "reoId A2500X4; Online Offer only",
+      "photoPath": "photos/hp-5103-valimor-dr-holiday-34690.jpg"
     },
     {
       "id": "hp-12709-clock-tower-pkwy-hudson-34667",
@@ -103,12 +88,12 @@
       "url": "https://homepath.fanniemae.com/property-detail/e6121945-b2ec-427a-a272-353195a86604",
       "mls": null,
       "firstLookEnds": null,
-      "notes": "Prev $302,000.0; reoId A2600CY; Online Offer only; HECM",
       "photo": "https://homepath.fanniemae.com/images/40808b1447b348fe81e3aedd5c2f8110/REO2HP_A2600CY_REOImage_479782387.jpg",
       "photos": [
         "https://homepath.fanniemae.com/images/40808b1447b348fe81e3aedd5c2f8110/REO2HP_A2600CY_REOImage_479782387.jpg"
       ],
-      "photoUrl": "https://homepath.fanniemae.com/images/40808b1447b348fe81e3aedd5c2f8110/REO2HP_A2600CY_REOImage_479782387.jpg"
+      "notes": "reoId A2600CY; Online Offer only; HECM",
+      "photoPath": "photos/hp-12709-clock-tower-pkwy-hudson-34667.jpg"
     },
     {
       "id": "hp-11314-oyster-bay-cir-new-port-richey-34654",
@@ -129,12 +114,12 @@
       "url": "https://homepath.fanniemae.com/property-detail/c0be8181-a74a-4d01-8434-65d20c2af7ac",
       "mls": null,
       "firstLookEnds": "2026-05-18",
-      "notes": "Prev $490,000.0; reoId A2500QN; Online Offer only",
       "photo": "https://homepath.fanniemae.com/images/0b26cfe54dfe4389a91adfd1c8b7a1f8/REO2HP_A2500QN_REOImage_478795122.jpg",
       "photos": [
         "https://homepath.fanniemae.com/images/0b26cfe54dfe4389a91adfd1c8b7a1f8/REO2HP_A2500QN_REOImage_478795122.jpg"
       ],
-      "photoUrl": "https://homepath.fanniemae.com/images/0b26cfe54dfe4389a91adfd1c8b7a1f8/REO2HP_A2500QN_REOImage_478795122.jpg"
+      "notes": "reoId A2500QN; Online Offer only",
+      "photoPath": "photos/hp-11314-oyster-bay-cir-new-port-richey-34654.jpg"
     },
     {
       "id": "hp-4037-las-vegas-dr-new-port-richey-34653",
@@ -155,12 +140,38 @@
       "url": "https://homepath.fanniemae.com/property-detail/82bd24c0-473b-45ac-8d8b-a7fb107bc149",
       "mls": null,
       "firstLookEnds": "2026-08-09",
-      "notes": "Prev $130,000.0; reoId A2500MR; Online Offer only",
       "photo": "https://homepath.fanniemae.com/images/2b5c5d8e442b42b994722d32e016808f/REO2HP_A2500MR_REOImage_479842415.jpg",
       "photos": [
         "https://homepath.fanniemae.com/images/2b5c5d8e442b42b994722d32e016808f/REO2HP_A2500MR_REOImage_479842415.jpg"
       ],
-      "photoUrl": "https://homepath.fanniemae.com/images/2b5c5d8e442b42b994722d32e016808f/REO2HP_A2500MR_REOImage_479842415.jpg"
+      "notes": "reoId A2500MR; Online Offer only",
+      "photoPath": "photos/hp-4037-las-vegas-dr-new-port-richey-34653.jpg"
+    },
+    {
+      "id": "hp-11604-versailles-ln-port-richey-34668",
+      "address": "11604 Versailles Ln",
+      "city": "Port Richey",
+      "state": "FL",
+      "zip": "34668",
+      "county": "Pasco",
+      "source": "HomePath",
+      "status": "Open / investor (day 21+)",
+      "price": 170000,
+      "beds": 2.0,
+      "baths": 2.0,
+      "sqft": 1239,
+      "propertyType": "SFR",
+      "lat": 28.325788,
+      "lng": -82.674675,
+      "url": "https://homepath.fanniemae.com/property-detail/e4d32e70-cad0-49c0-a877-56e044765e30",
+      "mls": null,
+      "firstLookEnds": "2026-03-05",
+      "photo": "https://homepath.fanniemae.com/images/4fb90d944a9a451aa694ecd26dbc36eb/REO2HP_A2500MS_REOImage_478013424.jpg",
+      "photos": [
+        "https://homepath.fanniemae.com/images/4fb90d944a9a451aa694ecd26dbc36eb/REO2HP_A2500MS_REOImage_478013424.jpg"
+      ],
+      "notes": "reoId A2500MS; Online Offer only",
+      "photoPath": "photos/hp-11604-versailles-ln-port-richey-34668.jpg"
     }
   ]
 }
