@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Home Hunt · Tampa Bay</title>
+  <meta name="description" content="Maker Mark’s Tampa Bay home hunt — filterable listings and map." />
+  <meta name="theme-color" content="#0f1412" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <!-- Relative assets work under https://mjlembo88.github.io/Real-Estate/home-hunt/ -->
+  <base href="./" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="sticky-head">
+      <header class="topbar">
+        <div class="topbar-main">
+          <h1>Home Hunt</h1>
+          <span class="updated" id="updated">Updated: …</span>
+        </div>
+        <div class="topbar-sub">Tampa Bay</div>
+      </header>
+
+      <div class="filters" id="filters" role="toolbar" aria-label="Filters">
+        <div class="chip-row" data-filter="mode" aria-label="Mode">
+          <button type="button" class="chip active" data-value="all">All</button>
+          <button type="button" class="chip" data-value="buy">Buy</button>
+          <button type="button" class="chip" data-value="rent">Rent</button>
+          <button type="button" class="chip" data-value="watch">Watch</button>
+          <button type="button" class="chip" data-value="shop">Has shop</button>
+        </div>
+        <div class="filter-meta">
+          <span id="count">0 listings</span>
+          <button type="button" class="reset" id="f-reset">Reset</button>
+        </div>
+      </div>
+
+      <p class="hard-strip" id="hard-strip" title="Target criteria (context only — not a client filter)">
+        Target: ≥0.75 acres (0.70–0.74 borderline) · large garage/workshop or shop-capable land · no HOA (flag CDD/deed) · ≤30 min of Pinellas · buy ≤$500k / rent &lt;$3500
+      </p>
+    </div>
+
+    <div class="main-split">
+      <div class="map-pane">
+        <div id="map" role="application" aria-label="Listings map"></div>
+      </div>
+      <main class="list-pane">
+        <div class="list" id="list" role="list"></div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
