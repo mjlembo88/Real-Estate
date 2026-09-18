@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T12:04:40-04:00",
+  "updatedAt": "2026-09-17T21:31:18-04:00",
   "listings": [
     {
       "id": "zillow-2079288478",
@@ -964,7 +964,7 @@
     },
     {
       "id": "zillow-46355273",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Hernando \u2014 may exceed ~30 min Pinellas (weak unless south/west)",
       "address": "17438 LAWLESS ROAD, SPRING HILL, FL 34610",
@@ -983,7 +983,7 @@
       "lat": 28.41144,
       "lng": -82.51828,
       "driveNote": "Hernando \u2014 may exceed ~30 min Pinellas (weak unless south/west)",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=1.1 acres; Home for sale; 1.1 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=1.1 acres; Home for sale; 1.1 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/17438-Lawless-Rd-Spring-Hill-FL-34610/46355273_zpid/",
       "flags": [
@@ -991,7 +991,9 @@
         "hoa_unverified",
         "manufactured",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -2360,7 +2362,7 @@
     },
     {
       "id": "craigslist-f5b7ec42acca",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "hard filter band \u00b7 2.41 ac",
       "address": "Address unverified",
@@ -2379,7 +2381,7 @@
       "lat": 28.2154005847779,
       "lng": -82.4604984004045,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "2.41 ACRES \u2022 3BR/2BA MANUFACTURED HOME \u2022 RURAL SETTING \u2022 DEVELOPMENT POTEN",
+      "notes": "2.41 ACRES \u2022 3BR/2BA MANUFACTURED HOME \u2022 RURAL SETTING \u2022 DEVELOPMENT POTEN | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea?query=acreage&max_price=500000",
       "flags": [
@@ -2387,7 +2389,9 @@
         "price_unverified",
         "hoa_unverified",
         "shop_unverified",
-        "flood_unverified"
+        "flood_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -2653,7 +2657,7 @@
     },
     {
       "id": "zillow-465100492",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 East Hillsborough \u2014 far from Pinellas (weak)",
       "address": "6020 KELLY ROAD, PLANT CITY, FL 33565",
@@ -2672,7 +2676,7 @@
       "lat": 28.087742,
       "lng": -82.202705,
       "driveNote": "East Hillsborough \u2014 far from Pinellas (weak)",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=2.5 acres; Home for sale; 2.5 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=2.5 acres; Home for sale; 2.5 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/6020-Kelly-Rd-Plant-City-FL-33565/465100492_zpid/",
       "flags": [
@@ -2681,7 +2685,9 @@
         "hoa_unverified",
         "manufactured",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -2814,7 +2820,7 @@
     },
     {
       "id": "zillow-2137487596",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 East Hillsborough \u2014 far from Pinellas (weak)",
       "address": "5302 COUGAR TRAIL LANE, PLANT CITY, FL 33565",
@@ -2833,7 +2839,7 @@
       "lat": 28.072071,
       "lng": -82.19044,
       "driveNote": "East Hillsborough \u2014 far from Pinellas (weak)",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=2.56 acres; Home for sale; 2.56 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=2.56 acres; Home for sale; 2.56 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/5302-Cougar-Trail-Ln-Plant-City-FL-33565/2137487596_zpid/",
       "flags": [
@@ -2842,7 +2848,9 @@
         "hoa_unverified",
         "manufactured",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -3011,7 +3019,7 @@
     },
     {
       "id": "craigslist-1eb3d086ea7c",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "weak / verify",
       "address": "Address unverified",
@@ -3030,7 +3038,7 @@
       "lat": 28.3644864948941,
       "lng": -82.6994103418053,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "4 units plus 2 vacant lots for sale",
+      "notes": "4 units plus 2 vacant lots for sale | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: multi-family.",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea?query=acreage&max_price=500000",
       "flags": [
@@ -3040,7 +3048,9 @@
         "lot_size_unverified",
         "weak_match",
         "shop_unverified",
-        "flood_unverified"
+        "flood_unverified",
+        "excluded_multifamily",
+        "type_excluded"
       ]
     },
     {
@@ -3219,7 +3229,7 @@
     },
     {
       "id": "craigslist-caf88cc2bb01",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "weak / verify",
       "address": "Address unverified",
@@ -3238,7 +3248,7 @@
       "lat": 28.3644864948941,
       "lng": -82.6994103418053,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Four rentals in Hudson plus two lots",
+      "notes": "Four rentals in Hudson plus two lots | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: multi-family.",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea?query=acreage&max_price=500000",
       "flags": [
@@ -3248,7 +3258,9 @@
         "lot_size_unverified",
         "weak_match",
         "shop_unverified",
-        "flood_unverified"
+        "flood_unverified",
+        "excluded_multifamily",
+        "type_excluded"
       ]
     },
     {
@@ -3283,7 +3295,8 @@
         "weak_match",
         "shop_unverified",
         "flood_unverified",
-        "vacant_land_filtered"
+        "vacant_land_filtered",
+        "excluded_mobile"
       ]
     },
     {
@@ -3566,7 +3579,7 @@
     },
     {
       "id": "zillow-89747623",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pinellas \u2014 local",
       "address": "29081 Us Highway 19 N Lot 291, Clearwater, FL 33761",
@@ -3585,7 +3598,7 @@
       "lat": 28.04461,
       "lng": -82.73451,
       "driveNote": "Pinellas \u2014 local",
-      "notes": "For sale by owner; homeType=MANUFACTURED; lot=55.88960055096419 acres",
+      "notes": "For sale by owner; homeType=MANUFACTURED; lot=55.88960055096419 acres | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/29081-Us-Highway-19-N-LOT-291-Clearwater-FL-33761/89747623_zpid/",
       "flags": [
@@ -3594,12 +3607,14 @@
         "lot_size_implausible",
         "manufactured",
         "shop_unverified",
-        "very_large_parcel_verify"
+        "very_large_parcel_verify",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
       "id": "zillow-47104606",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pinellas \u2014 local",
       "address": "115 RACHEL DRIVE, TARPON SPRINGS, FL 34689",
@@ -3618,7 +3633,7 @@
       "lat": 28.139217,
       "lng": -82.744484,
       "driveNote": "Pinellas \u2014 local",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0417 acres",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0417 acres | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/115-Rachel-Dr-Tarpon-Springs-FL-34689/47104606_zpid/",
       "flags": [
@@ -3626,12 +3641,14 @@
         "hoa_unverified",
         "manufactured",
         "shop_unverified",
-        "very_large_parcel_verify"
+        "very_large_parcel_verify",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
       "id": "zillow-47104565",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pinellas \u2014 local",
       "address": "64 RACHEL DRIVE, TARPON SPRINGS, FL 34689",
@@ -3650,7 +3667,7 @@
       "lat": 28.139217,
       "lng": -82.744484,
       "driveNote": "Pinellas \u2014 local",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0417 acres",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0417 acres | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/64-Rachel-Dr-Tarpon-Springs-FL-34689/47104565_zpid/",
       "flags": [
@@ -3658,7 +3675,9 @@
         "hoa_unverified",
         "manufactured",
         "shop_unverified",
-        "very_large_parcel_verify"
+        "very_large_parcel_verify",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -3693,7 +3712,7 @@
     },
     {
       "id": "zillow-47104699",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pinellas \u2014 local",
       "address": "229 DIXIE, TARPON SPRINGS, FL 34689",
@@ -3712,7 +3731,7 @@
       "lat": 28.139217,
       "lng": -82.744484,
       "driveNote": "Pinellas \u2014 local",
-      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0431 acres",
+      "notes": "Home for sale; homeType=MANUFACTURED; lot=38.0431 acres | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/229-Dixie-Ln-Tarpon-Springs-FL-34689/47104699_zpid/",
       "flags": [
@@ -3720,7 +3739,9 @@
         "hoa_unverified",
         "manufactured",
         "shop_unverified",
-        "very_large_parcel_verify"
+        "very_large_parcel_verify",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -4025,7 +4046,7 @@
     },
     {
       "id": "cl-2-41-ACRES-3BR-2BA-MANUFACTURED-HOME-RUR",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Verify drive time to Pinellas",
       "address": "2.41 ACRES \u2022 3BR/2BA MANUFACTURED HOME \u2022 RURAL SETTING \u2022 DEVELOPMENT POTEN",
@@ -4044,14 +4065,16 @@
       "lat": null,
       "lng": null,
       "driveNote": "Verify drive time to Pinellas",
-      "notes": "Craigslist ld+json; 2.41 ACRES \u2022 3BR/2BA MANUFACTURED HOME \u2022 RURAL SETTING \u2022 DEVELOPMENT POTEN",
+      "notes": "Craigslist ld+json; 2.41 ACRES \u2022 3BR/2BA MANUFACTURED HOME \u2022 RURAL SETTING \u2022 DEVELOPMENT POTEN | Marked dead 2026-09-17: excluded type (mobile/manufactured, townhome, or multi-family). Reasons: mobile/manufactured.",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea",
       "flags": [
         "craigslist_sparse",
         "flood_unverified",
         "hoa_unverified",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
