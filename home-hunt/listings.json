@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:31:18-04:00",
+  "updatedAt": "2026-09-19T07:55:50-04:00",
   "listings": [
     {
       "id": "zillow-2079288478",
@@ -4203,7 +4203,7 @@
     },
     {
       "id": "cl-3-2-2-Modular-House-1-2-Acre-Fenced-Lot",
-      "status": "rent",
+      "status": "dead",
       "type": "rent",
       "match": "Weak \u2014 Verify drive time to Pinellas",
       "address": "3/2/2 Modular House 1/2 Acre Fenced Lot",
@@ -4222,14 +4222,16 @@
       "lat": null,
       "lng": null,
       "driveNote": "Verify drive time to Pinellas",
-      "notes": "Craigslist ld+json; 3/2/2 Modular House 1/2 Acre Fenced Lot",
+      "notes": "Craigslist ld+json; 3/2/2 Modular House 1/2 Acre Fenced Lot | Marked dead 2026-09-19: excluded type (mobile/manufactured/modular).",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea",
       "flags": [
         "craigslist_sparse",
         "flood_unverified",
         "hoa_unverified",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {
@@ -4265,7 +4267,7 @@
     },
     {
       "id": "cl-3-2-2-Modular-House-1-2-Acre-Fenced-Lot-",
-      "status": "rent",
+      "status": "dead",
       "type": "rent",
       "match": "Weak \u2014 Verify drive time to Pinellas",
       "address": "3/2/2 Modular House 1/2 Acre Fenced Lot (Thonotosassa Fl, near Tampa,",
@@ -4284,14 +4286,16 @@
       "lat": null,
       "lng": null,
       "driveNote": "Verify drive time to Pinellas",
-      "notes": "Craigslist ld+json; 3/2/2 Modular House 1/2 Acre Fenced Lot (Thonotosassa Fl, near Tampa,",
+      "notes": "Craigslist ld+json; 3/2/2 Modular House 1/2 Acre Fenced Lot (Thonotosassa Fl, near Tampa, | Marked dead 2026-09-19: excluded type (mobile/manufactured/modular).",
       "source": "craigslist",
       "url": "https://tampa.craigslist.org/search/rea",
       "flags": [
         "craigslist_sparse",
         "flood_unverified",
         "hoa_unverified",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded"
       ]
     },
     {

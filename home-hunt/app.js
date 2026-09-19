@@ -116,27 +116,36 @@
     return "HOA ?";
   }
 
+  function isGraveyard(status) {
+    return status === "dead" || status === "sold";
+  }
+
   function applyFilters(items) {
     const mode = state.mode || "all";
     return items.filter((x) => {
       const type = String(x.type || "").toLowerCase();
       const status = String(x.status || "").toLowerCase();
-      if (mode === "all") return true;
+      // Default hunt views hide dead/sold history (graveyard).
+      if (mode === "all") {
+        return !isGraveyard(status);
+      }
       if (mode === "buy") {
         if (type !== "sale") return false;
-        if (status === "dead" || status === "sold") return false;
+        if (isGraveyard(status)) return false;
         return true;
       }
       if (mode === "rent") {
+        if (isGraveyard(status)) return false;
         return type === "rent" || status === "rent";
       }
       if (mode === "watch") {
         return status === "watch";
       }
       if (mode === "shop") {
+        if (isGraveyard(status)) return false;
         return hasShop(x);
       }
-      return true;
+      return !isGraveyard(status);
     });
   }
 
