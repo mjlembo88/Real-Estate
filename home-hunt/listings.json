@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T07:55:50-04:00",
+  "updatedAt": "2026-09-19T08:12:34-04:00",
   "listings": [
     {
       "id": "zillow-2079288478",
@@ -251,7 +251,7 @@
     },
     {
       "id": "zillow-46425785",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 0.8953 ac, 3bd/2ba, $86,500",
       "address": "9918 FARGO DRIVE, HUDSON, FL 34667",
@@ -270,14 +270,17 @@
       "lat": 28.373577,
       "lng": -82.65035,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 0.8953 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 0.8953 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/9918-Fargo-Dr-Hudson-FL-34667/46425785_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -344,7 +347,7 @@
     },
     {
       "id": "zillow-46442485",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.16 ac, 2bd/2ba, $98,000",
       "address": "10906 Song Ln, Hudson, FL 34669",
@@ -363,14 +366,17 @@
       "lat": 28.374907,
       "lng": -82.63472,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "For sale by owner; 1.16 acres (Zillow lot field) [from pass1]",
+      "notes": "For sale by owner; 1.16 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10906-Song-Ln-Hudson-FL-34669/46442485_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -623,7 +629,7 @@
     },
     {
       "id": "zillow-46389472",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 0.8839 ac, 1bd/1ba, $158,900",
       "address": "12013 BETHWOOD AVENUE, NEW PORT RICHEY, FL 34654",
@@ -642,19 +648,22 @@
       "lat": 28.305902,
       "lng": -82.61626,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 0.8839 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 0.8839 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/12013-Bethwood-Ave-New-Port-Richey-FL-34654/46389472_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
       "id": "zillow-46459822",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.6947 ac, 2bd/2ba, $159,900",
       "address": "13016 BARNEY DRIVE, HUDSON, FL 34669",
@@ -673,14 +682,17 @@
       "lat": 28.34682,
       "lng": -82.61156,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 1.6947 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.6947 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/13016-Barney-Dr-Hudson-FL-34669/46459822_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -716,7 +728,7 @@
     },
     {
       "id": "zillow-46471551",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pasco \u2014 typically \u226430 min Pinellas",
       "address": "26931 DEACON LOOP, ZEPHYRHILLS, FL 33544",
@@ -735,14 +747,17 @@
       "lat": 28.260798,
       "lng": -82.37058,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 1.17 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.17 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/26931-Deacon-Loop-Wesley-Chapel-FL-33544/46471551_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -809,7 +824,7 @@
     },
     {
       "id": "zillow-46395338",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.4371 ac, 5bd/2ba, $185,000",
       "address": "10543 DENTON AVENUE, HUDSON, FL 34667",
@@ -828,14 +843,17 @@
       "lat": 28.390125,
       "lng": -82.64017,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 1.4371 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.4371 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10543-Denton-Ave-Hudson-FL-34667/46395338_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -933,7 +951,7 @@
     },
     {
       "id": "zillow-46446490",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 5.0 ac, 2bd/2ba, $210,000",
       "address": "10616 SHADY DRIVE, HUDSON, FL 34669",
@@ -952,14 +970,17 @@
       "lat": 28.353306,
       "lng": -82.639046,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 5.0 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 5.0 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10616-Shady-Dr-Hudson-FL-34669/46446490_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1060,7 +1081,7 @@
     },
     {
       "id": "zillow-464282136",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.07 ac, 3bd/2ba, $269,000",
       "address": "13354 TYRONE STREET, HUDSON, FL 34667",
@@ -1079,19 +1100,22 @@
       "lat": 28.419462,
       "lng": -82.59575,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "New construction; 1.07 acres (Zillow lot field) [from pass1]",
+      "notes": "New construction; 1.07 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/13354-Tyrone-St-Hudson-FL-34667/464282136_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
       "id": "zillow-46456314",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.0 ac, 3bd/2ba, $272,500",
       "address": "17808 DOGWOOD DRIVE, LUTZ, FL 33558",
@@ -1110,14 +1134,17 @@
       "lat": 28.179476,
       "lng": -82.52144,
       "driveNote": "Hillsborough west (Lutz/Odessa) \u2014 often \u226430\u201340 min Pinellas; verify",
-      "notes": "Home for sale; 1.0 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.0 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/17808-Dogwood-Dr-Lutz-FL-33558/46456314_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1215,7 +1242,7 @@
     },
     {
       "id": "zillow-333220474",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Hernando \u2014 Spring Hill south often ~30\u201345 min Pinellas; verify",
       "address": "17544 Galveston St, Spring Hill, FL 34610",
@@ -1234,19 +1261,22 @@
       "lat": 28.413082,
       "lng": -82.533676,
       "driveNote": "Hernando \u2014 Spring Hill south often ~30\u201345 min Pinellas; verify",
-      "notes": "Home for sale; 1.13 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.13 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/17544-Galveston-St-Spring-Hill-FL-34610/333220474_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
       "id": "zillow-46446485",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.4738 ac, 4bd/2ba, $300,000",
       "address": "10342 SHADY DRIVE, HUDSON, FL 34669",
@@ -1265,14 +1295,17 @@
       "lat": 28.352962,
       "lng": -82.64295,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 1.4738 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.4738 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10342-Shady-Dr-Hudson-FL-34669/46446485_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1308,7 +1341,7 @@
     },
     {
       "id": "zillow-46452589",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 1.0854 ac, 5bd/3ba, $337,800",
       "address": "11420 ENGLISH WALNUT STREET, HUDSON, FL 34669",
@@ -1327,14 +1360,17 @@
       "lat": 28.350952,
       "lng": -82.62556,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 1.0854 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.0854 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/11420-English-Walnut-St-Hudson-FL-34669/46452589_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1370,7 +1406,7 @@
     },
     {
       "id": "zillow-46343777",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Hernando \u2014 Spring Hill south often ~30\u201345 min Pinellas; verify",
       "address": "17235 CARLESIMO AVENUE, SPRING HILL, FL 34610",
@@ -1389,14 +1425,17 @@
       "lat": 28.43242,
       "lng": -82.530815,
       "driveNote": "Hernando \u2014 Spring Hill south often ~30\u201345 min Pinellas; verify",
-      "notes": "Home for sale; 1.1553 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.1553 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/17235-Carlesimo-Ave-Spring-Hill-FL-34610/46343777_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1432,7 +1471,7 @@
     },
     {
       "id": "zillow-46414112",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 4.05 ac, 2bd/2ba, $375,000",
       "address": "9630 ELLIS STREET, NEW PORT RICHEY, FL 34654",
@@ -1451,19 +1490,22 @@
       "lat": 28.297005,
       "lng": -82.59688,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 4.05 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 4.05 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/9630-Ellis-St-New-Port-Richey-FL-34654/46414112_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
       "id": "zillow-46351455",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 4.0 ac, 3bd/2ba, $377,500",
       "address": "17539 EDWIN TERRACE, HUDSON, FL 34667",
@@ -1482,14 +1524,17 @@
       "lat": 28.41301,
       "lng": -82.62855,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 4.0 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 4.0 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/17539-Edwin-Ter-Hudson-FL-34667/46351455_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -1587,7 +1632,7 @@
     },
     {
       "id": "zillow-319847920",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Hard \u2014 5.36 ac, 4bd/3ba, $395,000",
       "address": "10565 BESSEMER STREET, NEW PORT RICHEY, FL 34654",
@@ -1606,14 +1651,17 @@
       "lat": 28.310518,
       "lng": -82.613045,
       "driveNote": "Pasco \u2014 typically \u226430 min Pinellas",
-      "notes": "Home for sale; 5.36 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 5.36 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10565-Bessemer-St-New-Port-Richey-FL-34654/319847920_zpid/",
       "flags": [
         "flood_unverified",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -2350,7 +2398,7 @@
       "lat": 28.430204,
       "lng": -82.53757,
       "driveNote": "Hernando \u2014 Spring Hill south often ~30\u201345 min Pinellas; verify",
-      "notes": "House for sale; 1.1 acres (Zillow lot field) [from pass1]",
+      "notes": "House for sale; 1.1 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/18731-Firethorn-Dr-Spring-Hill-FL-34610/46346468_zpid/",
       "flags": [
@@ -2415,7 +2463,7 @@
       "lat": 28.381691,
       "lng": -82.24394,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "For sale by owner; 7.0 acres (Zillow lot field) [from pass1]",
+      "notes": "For sale by owner; 7.0 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/10515-Us-Highway-301-Dade-City-FL-33525/318493252_zpid/",
       "flags": [
@@ -2561,7 +2609,7 @@
     },
     {
       "id": "zillow-46405792",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pasco \u2014 often >30 min Pinellas; verify drive",
       "address": "3642 KALMAN DRIVE, ZEPHYRHILLS, FL 33541",
@@ -2580,7 +2628,7 @@
       "lat": 28.210526,
       "lng": -82.23223,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Home for sale; 0.87 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 0.87 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/3642-Kalman-Dr-Zephyrhills-FL-33541/46405792_zpid/",
       "flags": [
@@ -2588,12 +2636,15 @@
         "geography_far",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
       "id": "zillow-46462143",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pasco \u2014 often >30 min Pinellas; verify drive",
       "address": "36910 SUNSHINE ROAD, ZEPHYRHILLS, FL 33541",
@@ -2612,7 +2663,7 @@
       "lat": 28.262285,
       "lng": -82.205605,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Home for sale; 1.07 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.07 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/36910-Sunshine-Rd-Zephyrhills-FL-33541/46462143_zpid/",
       "flags": [
@@ -2620,7 +2671,10 @@
         "geography_far",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -2644,7 +2698,7 @@
       "lat": 28.268051,
       "lng": -82.16648,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Foreclosure; 0.93 acres (Zillow lot field) [from pass1]",
+      "notes": "Foreclosure; 0.93 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/7556-23rd-St-Zephyrhills-FL-33540/69067375_zpid/",
       "flags": [
@@ -2743,7 +2797,7 @@
       "lat": 28.220423,
       "lng": -82.194756,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Foreclosure; 0.99 acres (Zillow lot field) [from pass1]",
+      "notes": "Foreclosure; 0.99 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/4306-Lane-Rd-Zephyrhills-FL-33541/46387868_zpid/",
       "flags": [
@@ -2756,7 +2810,7 @@
     },
     {
       "id": "zillow-46426235",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pasco \u2014 often >30 min Pinellas; verify drive",
       "address": "27435 HOLIDAY DRIVE, DADE CITY, FL 33525",
@@ -2775,7 +2829,7 @@
       "lat": 28.367998,
       "lng": -82.36222,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Home for sale; 1.1101 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 1.1101 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/27435-Holiday-Dr-Dade-City-FL-33525/46426235_zpid/",
       "flags": [
@@ -2783,7 +2837,10 @@
         "geography_far",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -2855,7 +2912,7 @@
     },
     {
       "id": "zillow-46475782",
-      "status": "watch",
+      "status": "dead",
       "type": "sale",
       "match": "Weak \u2014 Pasco \u2014 often >30 min Pinellas; verify drive",
       "address": "7930 FROGGY LANE, ZEPHYRHILLS, FL 33540",
@@ -2874,7 +2931,7 @@
       "lat": 28.273245,
       "lng": -82.15964,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "Home for sale; 2.17 acres (Zillow lot field) [from pass1]",
+      "notes": "Home for sale; 2.17 acres (Zillow lot field) [from pass1] | Marked dead 2026-09-19: manufactured/mobile/non-SFR per Zillow homeType (pass1 mislabel). homeType=MANUFACTURED",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/7930-Froggy-Ln-Zephyrhills-FL-33540/46475782_zpid/",
       "flags": [
@@ -2882,7 +2939,10 @@
         "geography_far",
         "hoa_unverified",
         "pass1_carry",
-        "shop_unverified"
+        "shop_unverified",
+        "excluded_mobile",
+        "type_excluded",
+        "pass1_hometype_corrected"
       ]
     },
     {
@@ -2906,7 +2966,7 @@
       "lat": 28.317924,
       "lng": -82.16344,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "House for sale; 2.08 acres (Zillow lot field) [from pass1]",
+      "notes": "House for sale; 2.08 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/39425-Wilds-Rd-Dade-City-FL-33525/46370742_zpid/",
       "flags": [
@@ -2938,7 +2998,7 @@
       "lat": 28.385908,
       "lng": -82.219955,
       "driveNote": "Pasco \u2014 often >30 min Pinellas; verify drive",
-      "notes": "House for sale; 1.25 acres (Zillow lot field) [from pass1]",
+      "notes": "House for sale; 1.25 acres (Zillow lot field) [from pass1] | homeType=SINGLE_FAMILY (verified raw)",
       "source": "zillow",
       "url": "https://www.zillow.com/homedetails/36653-Blanton-Rd-Dade-City-FL-33523/54031585_zpid/",
       "flags": [
