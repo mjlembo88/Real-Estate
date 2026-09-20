@@ -26,7 +26,7 @@ Mobile-first living dashboard for Maker Mark’s Tampa Bay home search — filte
 - **Favorites** — starred listings only (includes dead/sold so history isn’t lost; status pill still shows; dismissed never shown)
 - **Open houses** — listings with truthy `openHouseToday` / `open_house_today`, or non-empty `openHouse` (string/object); graveyard + dismissed hidden
 
-Hard-filter strip (context only, not a client filter): ≥0.75 acres (0.70–0.74 borderline), large garage/workshop or shop-capable land, no HOA (flag CDD/deed), ≤30 min of Pinellas, buy ≤$500k / rent <$3500.
+Hard-filter strip (context only, not a client filter): ≥0.6 acres, large garage/workshop or shop-capable land, no HOA (flag CDD/deed), ≤30 min of Pinellas, buy ≤$500k / rent <$3500.
 
 ## Favorites & dismissed (browser only · v1)
 
