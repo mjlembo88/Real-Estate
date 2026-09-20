@@ -17,13 +17,19 @@ Mobile-first living dashboard for Maker Mark’s Tampa Bay home search — filte
 
 ## Filters
 
-- **All** — every listing
+- **All** — every listing except `dead` / `sold`
 - **Buy** — `type: sale`, excluding `dead` / `sold` (still shows `over-budget`)
 - **Rent** — `type: rent` OR `status: rent`
 - **Watch** — `status: watch`
 - **Has shop** — non-empty `workshop`, or flags/garage mentioning shop/workshop
+- **Favorites** — starred listings only (includes dead/sold so history isn’t lost; status pill still shows)
+- **Open houses** — listings with truthy `openHouseToday` / `open_house_today`, or non-empty `openHouse` (string/object); graveyard hidden
 
 Hard-filter strip (context only, not a client filter): ≥0.75 acres (0.70–0.74 borderline), large garage/workshop or shop-capable land, no HOA (flag CDD/deed), ≤30 min of Pinellas, buy ≤$500k / rent <$3500.
+
+## Favorites (browser only)
+
+Star/heart on each card (and map popup) toggles a favorite. Ids are stored in **`localStorage`** under key `home-hunt-favorites-v1` as a JSON array of listing `id` strings. Favorites are **never** written into `listings.json` — that file stays Home Hunt–owned.
 
 ## Data drop
 

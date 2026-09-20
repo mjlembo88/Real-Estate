@@ -1,6 +1,8 @@
 (() => {
   "use strict";
 
+  const FAVORITES_KEY = "home-hunt-favorites-v1";
+
   const els = {
     updated: document.getElementById("updated"),
     count: document.getElementById("count"),
@@ -19,6 +21,52 @@
   let map = null;
   let markersLayer = null;
   const markerById = new Map();
+
+  /** @type {Set<string>} Favorite listing ids — localStorage only, never listings.json */
+  let favoriteIds = loadFavorites();
+
+  function loadFavorites() {
+    try {
+      const raw = localStorage.getItem(FAVORITES_KEY);
+      if (!raw) return new Set();
+      const arr = JSON.parse(raw);
+      if (!Array.isArray(arr)) return new Set();
+      return new Set(arr.map((id) => String(id)).filter(Boolean));
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveFavorites() {
+    try {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favoriteIds]));
+    } catch (err) {
+      console.warn("Could not save favorites", err);
+    }
+  }
+
+  function isFavorite(id) {
+    return favoriteIds.has(String(id));
+  }
+
+  function toggleFavorite(id) {
+    const key = String(id);
+    if (favoriteIds.has(key)) favoriteIds.delete(key);
+    else favoriteIds.add(key);
+    saveFavorites();
+  }
+
+  /** Truthy openHouseToday / open_house_today, or non-empty openHouse (string/object). */
+  function hasOpenHouse(item) {
+    if (!item) return false;
+    if (item.openHouseToday) return true;
+    if (item.open_house_today) return true;
+    const oh = item.openHouse;
+    if (oh == null) return false;
+    if (typeof oh === "string") return oh.trim() !== "";
+    if (typeof oh === "object") return Object.keys(oh).length > 0;
+    return Boolean(oh);
+  }
 
   function resolveDataUrl() {
     const base = document.querySelector("base")?.getAttribute("href");
@@ -125,6 +173,15 @@
     return items.filter((x) => {
       const type = String(x.type || "").toLowerCase();
       const status = String(x.status || "").toLowerCase();
+      // Favorites: show starred ids regardless of dead/sold so history isn’t lost.
+      if (mode === "favorites") {
+        return isFavorite(x.id);
+      }
+      // Open houses: only listings with open-house signal; hide graveyard.
+      if (mode === "openhouses") {
+        if (isGraveyard(status)) return false;
+        return hasOpenHouse(x);
+      }
       // Default hunt views hide dead/sold history (graveyard).
       if (mode === "all") {
         return !isGraveyard(status);
@@ -159,10 +216,28 @@
   }
 
   function makePopupHtml(item) {
+    const fav = isFavorite(item.id);
     const parts = [
-      "<strong>" + escapeHtml(item.address || "Listing") + "</strong>",
+      '<div class="pop-top">' +
+        "<strong>" +
+        escapeHtml(item.address || "Listing") +
+        "</strong>" +
+        '<button type="button" class="fav-btn pop-fav' +
+        (fav ? " is-fav" : "") +
+        '" data-fav-id="' +
+        escapeAttr(item.id) +
+        '" aria-label="' +
+        (fav ? "Remove from favorites" : "Add to favorites") +
+        '" title="' +
+        (fav ? "Unfavorite" : "Favorite") +
+        '">' +
+        (fav ? "★" : "☆") +
+        "</button></div>",
       '<div class="pop-price">' + escapeHtml(priceText(item)) + "</div>",
     ];
+    if (hasOpenHouse(item)) {
+      parts.push('<span class="badge-open-house">Open house</span>');
+    }
     const city = [item.city, item.zip].filter(Boolean).join(" · ");
     if (city) parts.push("<div>" + escapeHtml(city) + "</div>");
     if (item.url) {
@@ -213,6 +288,24 @@
     // Tampa Bay default view
     map.setView([28.0, -82.55], 9);
     setTimeout(() => map && map.invalidateSize(), 80);
+
+    // Star clicks inside Leaflet popups (content is HTML string)
+    map.getContainer().addEventListener("click", (e) => {
+      const btn = e.target.closest(".fav-btn[data-fav-id]");
+      if (!btn || !map.getContainer().contains(btn)) return;
+      e.preventDefault();
+      e.stopPropagation();
+      const id = btn.getAttribute("data-fav-id");
+      if (!id) return;
+      toggleFavorite(id);
+      // Re-render list + refresh open popup content
+      refresh();
+      const m = markerById.get(id);
+      if (m && m.isPopupOpen()) {
+        const item = all.find((x) => String(x.id) === String(id));
+        if (item) m.setPopupContent(makePopupHtml(item));
+      }
+    });
   }
 
   function syncMarkers(items) {
@@ -271,6 +364,35 @@
     });
   }
 
+  function makeFavButton(item) {
+    const fav = isFavorite(item.id);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "fav-btn" + (fav ? " is-fav" : "");
+    btn.setAttribute("aria-label", fav ? "Remove from favorites" : "Add to favorites");
+    btn.title = fav ? "Unfavorite" : "Favorite";
+    btn.textContent = fav ? "★" : "☆";
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      toggleFavorite(item.id);
+      // If filtering Favorites, re-apply so unfavorited drops off; else just update star UI.
+      if (state.mode === "favorites") {
+        refresh();
+      } else {
+        const now = isFavorite(item.id);
+        btn.classList.toggle("is-fav", now);
+        btn.textContent = now ? "★" : "☆";
+        btn.setAttribute("aria-label", now ? "Remove from favorites" : "Add to favorites");
+        btn.title = now ? "Unfavorite" : "Favorite";
+        // Keep map popup star in sync if open
+        const m = markerById.get(item.id);
+        if (m && m.isPopupOpen()) m.setPopupContent(makePopupHtml(item));
+      }
+    });
+    return btn;
+  }
+
   function renderList(items) {
     els.list.innerHTML = "";
     const total = all.length;
@@ -293,8 +415,16 @@
     if (items.length === 0) {
       const empty = document.createElement("div");
       empty.className = "empty";
-      empty.innerHTML =
-        "<strong>No matches</strong>Try another filter chip, or tap Reset.";
+      if (state.mode === "favorites") {
+        empty.innerHTML =
+          "<strong>No favorites yet</strong>Tap the star on a listing to save it here (stored in this browser only).";
+      } else if (state.mode === "openhouses") {
+        empty.innerHTML =
+          "<strong>No open houses</strong>None of the current listings flag an open house.";
+      } else {
+        empty.innerHTML =
+          "<strong>No matches</strong>Try another filter chip, or tap Reset.";
+      }
       els.list.appendChild(empty);
       syncMarkers([]);
       return;
@@ -314,6 +444,7 @@
       price.className = "price";
       price.textContent = priceText(item);
       top.appendChild(price);
+      top.appendChild(makeFavButton(item));
       btn.appendChild(top);
 
       const addr = document.createElement("div");
@@ -357,6 +488,12 @@
 
       const pills = document.createElement("div");
       pills.className = "pills";
+      if (hasOpenHouse(item)) {
+        const p = document.createElement("span");
+        p.className = "pill badge-open-house";
+        p.textContent = "Open house";
+        pills.appendChild(p);
+      }
       if (item.status) {
         const p = document.createElement("span");
         p.className = "pill " + statusClass(item.status);
