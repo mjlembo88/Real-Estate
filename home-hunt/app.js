@@ -1,7 +1,10 @@
 (() => {
   "use strict";
 
+  // Persistence keys — v1 is local-only. Future X (Twitter) sync would replace
+  // these helpers to merge remote favorites+dismissed with local (no Google/Firebase).
   const FAVORITES_KEY = "home-hunt-favorites-v1";
+  const DISMISSED_KEY = "home-hunt-dismissed-v1";
 
   const els = {
     updated: document.getElementById("updated"),
@@ -10,6 +13,7 @@
     filters: document.getElementById("filters"),
     reset: document.getElementById("f-reset"),
     map: document.getElementById("map"),
+    toast: document.getElementById("toast"),
   };
 
   const state = { mode: "all" };
@@ -24,10 +28,17 @@
 
   /** @type {Set<string>} Favorite listing ids — localStorage only, never listings.json */
   let favoriteIds = loadFavorites();
+  /** @type {Set<string>} Dismissed ("not interested") ids — localStorage only, never listings.json */
+  let dismissedIds = loadDismissed();
 
-  function loadFavorites() {
+  let toastTimer = null;
+  let undoDismissId = null;
+
+  // —— Persistence helpers (swap later for X sync layer) ——
+
+  function loadIdSet(key) {
     try {
-      const raw = localStorage.getItem(FAVORITES_KEY);
+      const raw = localStorage.getItem(key);
       if (!raw) return new Set();
       const arr = JSON.parse(raw);
       if (!Array.isArray(arr)) return new Set();
@@ -37,16 +48,36 @@
     }
   }
 
-  function saveFavorites() {
+  function saveIdSet(key, set) {
     try {
-      localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favoriteIds]));
+      localStorage.setItem(key, JSON.stringify([...set]));
     } catch (err) {
-      console.warn("Could not save favorites", err);
+      console.warn("Could not save", key, err);
     }
+  }
+
+  function loadFavorites() {
+    return loadIdSet(FAVORITES_KEY);
+  }
+
+  function saveFavorites() {
+    saveIdSet(FAVORITES_KEY, favoriteIds);
+  }
+
+  function loadDismissed() {
+    return loadIdSet(DISMISSED_KEY);
+  }
+
+  function saveDismissed() {
+    saveIdSet(DISMISSED_KEY, dismissedIds);
   }
 
   function isFavorite(id) {
     return favoriteIds.has(String(id));
+  }
+
+  function isDismissed(id) {
+    return dismissedIds.has(String(id));
   }
 
   function toggleFavorite(id) {
@@ -54,6 +85,64 @@
     if (favoriteIds.has(key)) favoriteIds.delete(key);
     else favoriteIds.add(key);
     saveFavorites();
+  }
+
+  function dismissListing(id) {
+    const key = String(id);
+    dismissedIds.add(key);
+    saveDismissed();
+    // Also drop from favorites so it doesn't linger in that set for sync later
+    if (favoriteIds.has(key)) {
+      favoriteIds.delete(key);
+      saveFavorites();
+    }
+  }
+
+  function undismissListing(id) {
+    const key = String(id);
+    dismissedIds.delete(key);
+    saveDismissed();
+  }
+
+  function showUndoToast(id) {
+    undoDismissId = String(id);
+    if (!els.toast) return;
+    els.toast.hidden = false;
+    els.toast.innerHTML = "";
+    const label = document.createElement("span");
+    label.textContent = "Removed · ";
+    const undo = document.createElement("button");
+    undo.type = "button";
+    undo.className = "toast-undo";
+    undo.textContent = "Undo";
+    undo.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (undoDismissId) {
+        undismissListing(undoDismissId);
+        undoDismissId = null;
+        hideToast();
+        refresh();
+      }
+    });
+    els.toast.appendChild(label);
+    els.toast.appendChild(undo);
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      hideToast();
+      undoDismissId = null;
+    }, 5000);
+  }
+
+  function hideToast() {
+    if (toastTimer) {
+      clearTimeout(toastTimer);
+      toastTimer = null;
+    }
+    if (els.toast) {
+      els.toast.hidden = true;
+      els.toast.innerHTML = "";
+    }
   }
 
   /** Truthy openHouseToday / open_house_today, or non-empty openHouse (string/object). */
@@ -66,6 +155,13 @@
     if (typeof oh === "string") return oh.trim() !== "";
     if (typeof oh === "object") return Object.keys(oh).length > 0;
     return Boolean(oh);
+  }
+
+  function hasAcresAtLeast(item, min) {
+    if (item == null || item.acres == null || item.acres === "") return false;
+    const n = Number(item.acres);
+    if (!Number.isFinite(n)) return false;
+    return n >= min;
   }
 
   function resolveDataUrl() {
@@ -171,6 +267,9 @@
   function applyFilters(items) {
     const mode = state.mode || "all";
     return items.filter((x) => {
+      // Dismissed never appear in any filter mode (including Favorites / Open houses).
+      if (isDismissed(x.id)) return false;
+
       const type = String(x.type || "").toLowerCase();
       const status = String(x.status || "").toLowerCase();
       // Favorites: show starred ids regardless of dead/sold so history isn’t lost.
@@ -181,6 +280,11 @@
       if (mode === "openhouses") {
         if (isGraveyard(status)) return false;
         return hasOpenHouse(x);
+      }
+      // ≥0.6 acres — missing/null acres excluded (don't invent).
+      if (mode === "acres") {
+        if (isGraveyard(status)) return false;
+        return hasAcresAtLeast(x, 0.6);
       }
       // Default hunt views hide dead/sold history (graveyard).
       if (mode === "all") {
@@ -393,13 +497,33 @@
     return btn;
   }
 
+  function makeDismissButton(item) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "dismiss-btn";
+    btn.setAttribute("aria-label", "Not interested");
+    btn.title = "Not interested";
+    btn.textContent = "Not interested";
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = item.id;
+      dismissListing(id);
+      if (selectedId != null && String(selectedId) === String(id)) selectedId = null;
+      showUndoToast(id);
+      refresh();
+    });
+    return btn;
+  }
+
   function renderList(items) {
     els.list.innerHTML = "";
     const total = all.length;
+    const visibleTotal = all.filter((x) => !isDismissed(x.id)).length;
     els.count.textContent =
       items.length +
       (items.length === 1 ? " listing" : " listings") +
-      (state.mode !== "all" && total ? " · " + total + " total" : "");
+      (state.mode !== "all" && visibleTotal ? " · " + visibleTotal + " total" : "");
 
     if (total === 0) {
       const empty = document.createElement("div");
@@ -421,6 +545,9 @@
       } else if (state.mode === "openhouses") {
         empty.innerHTML =
           "<strong>No open houses</strong>None of the current listings flag an open house.";
+      } else if (state.mode === "acres") {
+        empty.innerHTML =
+          "<strong>No ≥0.6 acre matches</strong>Listings without acres data are excluded from this filter.";
       } else {
         empty.innerHTML =
           "<strong>No matches</strong>Try another filter chip, or tap Reset.";
@@ -523,6 +650,8 @@
       }
       if (pills.childNodes.length) btn.appendChild(pills);
 
+      const actions = document.createElement("div");
+      actions.className = "card-actions";
       if (item.url) {
         const a = document.createElement("a");
         a.className = "card-link";
@@ -531,8 +660,10 @@
         a.rel = "noopener noreferrer";
         a.textContent = "Open listing →";
         a.addEventListener("click", (e) => e.stopPropagation());
-        btn.appendChild(a);
+        actions.appendChild(a);
       }
+      actions.appendChild(makeDismissButton(item));
+      btn.appendChild(actions);
 
       btn.addEventListener("click", () => focusOnListing(item));
       btn.addEventListener("keydown", (e) => {

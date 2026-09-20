@@ -287,15 +287,42 @@ button { font: inherit; color: inherit; }
   gap: 4px;
   margin-top: 8px;
 }
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+}
 .card .card-link {
   display: inline-block;
-  margin-top: 8px;
   font-size: 12.5px;
   font-weight: 650;
   color: var(--accent);
   text-decoration: none;
 }
 .card .card-link:hover { text-decoration: underline; }
+.dismiss-btn {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding: 4px 10px;
+  min-height: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dismiss-btn:hover,
+.dismiss-btn:focus-visible {
+  color: var(--danger);
+  border-color: var(--danger);
+  background: var(--danger-bg);
+  outline: none;
+}
 
 .pill {
   display: inline-flex;
@@ -405,3 +432,41 @@ button { font: inherit; color: inherit; }
   font-size: 10px !important;
 }
 .leaflet-control-attribution a { color: var(--muted) !important; }
+
+
+/* —— Dismiss undo toast —— */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + var(--safe-bottom));
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  max-width: calc(100vw - 24px);
+}
+.toast[hidden] { display: none !important; }
+.toast-undo {
+  background: transparent;
+  border: none;
+  padding: 2px 4px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.toast-undo:hover,
+.toast-undo:focus-visible {
+  color: var(--ink);
+  outline: none;
+}

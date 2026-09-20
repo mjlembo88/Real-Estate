@@ -17,19 +17,31 @@ Mobile-first living dashboard for Maker Mark’s Tampa Bay home search — filte
 
 ## Filters
 
-- **All** — every listing except `dead` / `sold`
+- **All** — every listing except `dead` / `sold` (and dismissed)
 - **Buy** — `type: sale`, excluding `dead` / `sold` (still shows `over-budget`)
 - **Rent** — `type: rent` OR `status: rent`
 - **Watch** — `status: watch`
 - **Has shop** — non-empty `workshop`, or flags/garage mentioning shop/workshop
-- **Favorites** — starred listings only (includes dead/sold so history isn’t lost; status pill still shows)
-- **Open houses** — listings with truthy `openHouseToday` / `open_house_today`, or non-empty `openHouse` (string/object); graveyard hidden
+- **≥0.6 ac** — `Number(acres) >= 0.6`; missing/null acres are excluded (not invented); graveyard hidden
+- **Favorites** — starred listings only (includes dead/sold so history isn’t lost; status pill still shows; dismissed never shown)
+- **Open houses** — listings with truthy `openHouseToday` / `open_house_today`, or non-empty `openHouse` (string/object); graveyard + dismissed hidden
 
 Hard-filter strip (context only, not a client filter): ≥0.75 acres (0.70–0.74 borderline), large garage/workshop or shop-capable land, no HOA (flag CDD/deed), ≤30 min of Pinellas, buy ≤$500k / rent <$3500.
 
-## Favorites (browser only)
+## Favorites & dismissed (browser only · v1)
 
-Star/heart on each card (and map popup) toggles a favorite. Ids are stored in **`localStorage`** under key `home-hunt-favorites-v1` as a JSON array of listing `id` strings. Favorites are **never** written into `listings.json` — that file stays Home Hunt–owned.
+Star on each card (and map popup) toggles a favorite. **Not interested** on each card dismisses a listing permanently for this browser.
+
+| Key | Shape |
+|-----|--------|
+| `home-hunt-favorites-v1` | JSON `string[]` of listing `id`s |
+| `home-hunt-dismissed-v1` | JSON `string[]` of listing `id`s |
+
+Both are **never** written into `listings.json` — that file stays Home Hunt–owned. Dismissed ids are hidden in **every** filter mode (including Favorites and Open houses) so republished listings stay gone. After dismiss, a ~5s **Removed · Undo** toast restores the id.
+
+Helpers (`loadFavorites` / `saveFavorites` / `loadDismissed` / `saveDismissed`) keep storage behind a small API so a future sync layer can replace localStorage without rewriting UI.
+
+**Sign-in / sync (future):** v1 is local-only. A later **X (Twitter)** sync would merge remote favorites + dismissed with local. No Google Auth / Firebase in this build.
 
 ## Data drop
 
