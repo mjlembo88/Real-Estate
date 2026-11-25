@@ -1,57 +1,27 @@
-# listings.json schema (Home Hunt)
+# listings.json schema v2 (Home Hunt)
 
-Home Hunt (or any feeder) overwrites `listings.json` in place. The viewer reads only this file.
+Root: `{ "updatedAt": ISO-8601, "schemaVersion": 2, "criteria"?: string, "listings": [] }`
 
-## Root
+The board shows a listing by default only if `match` starts with `hard` or `weak` (case-insensitive) and `status` is not `dead`/`sold`.
 
-| Field | Type | Required | Notes |
-|-------|------|----------|-------|
-| `updatedAt` | string (ISO-8601) | yes | Shown as “Updated: …” (America/New_York) |
-| `listings` | array | yes | Empty `[]` until data arrives |
+| Field | Type | Notes |
+|-------|------|-------|
+| `id` | string | **Stable** unique id — synced favorites/notes key on it. Never reuse or renumber. |
+| `status` | string | `watch`, `over-budget`, `sold`, `dead` |
+| `type` | string | `sale` |
+| `match` | string | `hard` or `weak` (may be followed by a short blurb, e.g. `weak — ac 0.9`) |
+| `flags` | string[] | e.g. `construction_unverified`, `outbuilding_unverified`, `x_shaded`, `flood_unverified` (shown as dashed “unverified” pills) |
+| `address`, `city`, `zip`, `county` | string | |
+| `price` | number | USD; `priceLabel` (string) overrides display |
+| `beds`, `baths`, `sqft`, `acres` | number | |
+| `construction` | string | e.g. `CBS`, `frame`, `CBS (per remarks)` |
+| `floodZone` | string | e.g. `X`, `X (shaded)`, `AE` |
+| `floodSource` | string | Where the zone came from (FEMA NFHL, county GIS, listing) |
+| `outbuilding` | string \| bool | e.g. `detached garage`, `barn`, `workshop` |
+| `workshop` | string | Evidence text for the outbuilding |
+| `driveNote` | string | Minutes to Hudson |
+| `lat`, `lng` | number | Map pin |
+| `url`, `source`, `notes`, `garage`, `hoa` | string | optional |
+| `openHouse` / `openHouseToday` | string/object / bool | optional |
 
-## Listing object
-
-| Field | Type | Required | Notes |
-|-------|------|----------|-------|
-| `id` | string | yes | Stable unique id |
-| `status` | string | yes | One of: `watch`, `over-budget`, `sold`, `dead`, `rent` |
-| `type` | string | yes | `sale` or `rent` |
-| `match` | string | no | Short match blurb |
-| `address` | string | yes | Street line |
-| `city` | string | yes | |
-| `zip` | string | no | |
-| `county` | string | no | e.g. Pinellas, Pasco, Hillsborough, Hernando |
-| `price` | number | no | Numeric USD (sort/filter) |
-| `priceLabel` | string | no | Display string; preferred over formatted `price` when set |
-| `acres` | number | no | Lot size |
-| `beds` | number | no | |
-| `baths` | number | no | |
-| `sqft` | number | no | Living area |
-| `garage` | string | no | Freeform (e.g. `3-car`, `detached shop`) |
-| `hoa` | string | no | One of: `none`, `cdd`, `deed`, `unknown`, `hoa` |
-| `workshop` | string | no | Non-empty → “Has shop” filter |
-| `lat` | number | no | Map pin when both `lat` and `lng` present (non-zero) |
-| `lng` | number | no | |
-| `driveNote` | string | no | Drive-time note (e.g. vs Pinellas) |
-| `notes` | string | no | Internal notes |
-| `source` | string | no | Origin label |
-| `url` | string | no | Listing URL |
-| `flags` | string[] | no | Chips; shop-related values also satisfy “Has shop” |
-
-## Filter rules (viewer)
-
-- **Buy:** `type === "sale"` and status not `dead`/`sold` (includes `over-budget`)
-- **Rent:** `type === "rent"` OR `status === "rent"`
-- **Watch:** `status === "watch"`
-- **Has shop:** `workshop` non-empty OR `flags` contain shop/workshop OR `garage` mentions workshop/shop
-
-## Empty seed
-
-```json
-{
-  "updatedAt": "2026-09-17T10:25:07-04:00",
-  "listings": []
-}
-```
-
-Do not invent live listings. Home Hunt owns the file.
+Do not invent listings. Home Hunt owns the file.

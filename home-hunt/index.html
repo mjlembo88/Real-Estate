@@ -3,16 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Home Hunt · Tampa Bay</title>
-  <meta name="description" content="Maker Mark’s Tampa Bay home hunt — filterable listings and map." />
+  <title>Home Hunt · Hudson–Trinity</title>
+  <meta name="description" content="Mark &amp; Nicole’s home hunt — new-criteria matches, shared favorites and notes." />
   <meta name="theme-color" content="#0f1412" />
+  <meta name="referrer" content="no-referrer" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
   <!-- Relative assets work under https://mjlembo88.github.io/Real-Estate/home-hunt/ -->
   <base href="./" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <div class="app">
@@ -22,28 +21,36 @@
           <h1>Home Hunt</h1>
           <span class="updated" id="updated">Updated: …</span>
         </div>
-        <div class="topbar-sub">Tampa Bay</div>
+        <div class="topbar-sub">
+          <span>Hudson–Trinity · v2</span>
+          <span class="who" id="who"></span>
+        </div>
       </header>
 
       <div class="filters" id="filters" role="toolbar" aria-label="Filters">
         <div class="chip-row" data-filter="mode" aria-label="Mode">
-          <button type="button" class="chip active" data-value="all">All</button>
-          <button type="button" class="chip" data-value="buy">Buy</button>
-          <button type="button" class="chip" data-value="rent">Rent</button>
-          <button type="button" class="chip" data-value="watch">Watch</button>
-          <button type="button" class="chip" data-value="shop">Has shop</button>
-          <button type="button" class="chip" data-value="acres">≥0.6 ac</button>
-          <button type="button" class="chip" data-value="favorites">Favorites</button>
+          <button type="button" class="chip active" data-value="matches">Matches</button>
+          <button type="button" class="chip" data-value="hard">Hard</button>
+          <button type="button" class="chip" data-value="weak">Weak</button>
+          <button type="button" class="chip" data-value="shop">Shop / barn</button>
+          <button type="button" class="chip" data-value="favorites">★ Favorites</button>
+          <button type="button" class="chip" data-value="notes">Notes</button>
           <button type="button" class="chip" data-value="openhouses">Open houses</button>
+          <button type="button" class="chip" data-value="dismissed">Not interested</button>
+          <button type="button" class="chip chip-archive" data-value="archive">9/20 archive</button>
         </div>
         <div class="filter-meta">
           <span id="count">0 listings</span>
+          <span class="sync" id="sync" aria-live="polite"></span>
           <button type="button" class="reset" id="f-reset">Reset</button>
         </div>
       </div>
 
-      <p class="hard-strip" id="hard-strip" title="Target criteria (context only — not a client filter)">
-        Target: ≥0.6 acres · large garage/workshop or shop-capable land · no HOA (flag CDD/deed) · ≤30 min of Pinellas · buy ≤$500k / rent &lt;$3500
+      <p class="hard-strip" id="hard-strip" title="Target criteria">
+        Buy &lt;$600k · Hudson–Trinity band (Hudson, Bayonet Pt, NPR east of US-19, Seven Springs, Trinity, SR-52/Little/Starkey) · CBS · 3+bd/2+ba · ≥1 ac · workshop/detached garage/barn · Flood zone X
+      </p>
+      <p class="archive-banner" id="archive-banner" hidden>
+        Showing the 9/20 archive (old criteria: ≥0.6 ac, ≤30 min of Pinellas). Not current matches.
       </p>
     </div>
 
@@ -57,9 +64,24 @@
     </div>
   </div>
 
+  <div class="gate" id="gate" hidden>
+    <div class="gate-card" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+      <h2 id="gate-title">Household sign-in</h2>
+      <p>Favorites, Not-interested picks and notes are private and shared between Mark and Nicole.</p>
+      <p class="gate-how">Open your personal Home Hunt link once on this phone, or paste your household code here.</p>
+      <form id="gate-form" autocomplete="off">
+        <label for="gate-code" class="sr">Household code</label>
+        <input id="gate-code" type="password" inputmode="text" autocapitalize="off" spellcheck="false" placeholder="Household code" />
+        <button type="submit" class="gate-go">Sign in</button>
+      </form>
+      <p class="gate-err" id="gate-err" role="alert"></p>
+      <button type="button" class="gate-skip" id="gate-skip">Just browse (no favorites or notes)</button>
+    </div>
+  </div>
+
   <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

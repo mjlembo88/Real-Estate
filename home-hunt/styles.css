@@ -470,3 +470,45 @@ button { font: inherit; color: inherit; }
   color: var(--ink);
   outline: none;
 }
+
+/* —— v2 additions —— */
+.topbar-sub { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.who { font-size: 12px; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
+.who button { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; min-height: 28px; color: var(--muted); cursor: pointer; }
+.sync { font-size: 12px; color: var(--muted); margin-left: auto; margin-right: 8px; }
+.sync.err { color: var(--danger); }
+.chip-archive { border-style: dashed; }
+.archive-banner { margin: 0; padding: 6px 12px; font-size: 12px; background: var(--warn-bg); color: var(--warn); border-bottom: 1px solid var(--line); }
+.archive-banner[hidden] { display: none; }
+.card .facts { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; color: var(--ink); margin-top: 4px; }
+.card .facts span { white-space: nowrap; }
+.card .evidence { font-size: 12.5px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+.card .evidence b { color: var(--ink); font-weight: 600; }
+.pill.match-hard { background: #1d3a2b; color: #8ee0b5; border-color: #2f6a4a; }
+.pill.match-weak { background: var(--warn-bg); color: var(--warn); border-color: #6a5420; }
+.pill.unverified { background: #2a2218; color: #e5b866; border-style: dashed; }
+.pill.flood-x { background: #1d3a2b; color: #8ee0b5; }
+.pill.flood-other { background: var(--danger-bg); color: var(--danger); }
+.pill.cbs { background: #1c2b3a; color: #9cc8f0; }
+.note-view { margin-top: 6px; padding: 6px 8px; border-left: 3px solid var(--accent); background: var(--panel-2); font-size: 13px; white-space: pre-wrap; word-break: break-word; border-radius: 4px; }
+.note-view small { display: block; color: var(--muted); font-size: 11px; margin-top: 2px; }
+.note-btn { background: var(--chip); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; min-height: 36px; cursor: pointer; font-size: 13px; }
+.note-edit { margin-top: 6px; display: flex; flex-direction: column; gap: 6px; }
+.note-edit textarea { width: 100%; min-height: 72px; resize: vertical; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; padding: 8px; font: inherit; font-size: 16px; }
+.note-edit .row { display: flex; gap: 8px; align-items: center; }
+.note-edit .row span { font-size: 11px; color: var(--muted); margin-right: auto; }
+.note-edit button { min-height: 36px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--chip); cursor: pointer; }
+.note-edit button.save { background: var(--chip-active); border-color: var(--accent); }
+.undismiss-btn { background: var(--chip); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; min-height: 36px; cursor: pointer; font-size: 13px; }
+.gate { position: fixed; inset: 0; z-index: 2000; background: rgba(8, 12, 10, 0.92); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.gate[hidden] { display: none; }
+.gate-card { width: 100%; max-width: 380px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+.gate-card h2 { margin: 0 0 8px; font-size: 20px; }
+.gate-card p { margin: 0 0 10px; font-size: 14px; color: var(--muted); line-height: 1.4; }
+.gate-card form { display: flex; gap: 8px; margin-top: 8px; }
+.gate-card input { flex: 1; min-width: 0; min-height: 44px; padding: 8px 10px; font-size: 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.gate-go { min-height: 44px; padding: 0 16px; border-radius: 8px; border: 1px solid var(--accent); background: var(--chip-active); cursor: pointer; }
+.gate-err { color: var(--danger) !important; min-height: 1em; }
+.gate-skip { background: none; border: none; color: var(--muted); text-decoration: underline; padding: 8px 0; min-height: 44px; cursor: pointer; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.fav-btn[disabled], .dismiss-btn[disabled], .note-btn[disabled] { opacity: 0.45; }

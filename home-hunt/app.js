@@ -1,765 +1,681 @@
 (() => {
   "use strict";
 
-  // Persistence keys — v1 is local-only. Future X (Twitter) sync would replace
-  // these helpers to merge remote favorites+dismissed with local (no Google/Firebase).
-  const FAVORITES_KEY = "home-hunt-favorites-v1";
-  const DISMISSED_KEY = "home-hunt-dismissed-v1";
+  // —— Sync backend (Supabase project "home-hunt", ref klvgcwzofvxsqtjvmgof) ——
+  // The publishable key is public by design. All table access is blocked for anon;
+  // the only door is token-checked SECURITY DEFINER RPCs (hh_*).
+  const SB_URL = "https://klvgcwzofvxsqtjvmgof.supabase.co/rest/v1/rpc/";
+  const SB_KEY = "sb_publishable_ansoP2WK76NZa0V4oJQqrw__QbtzmeV";
 
+  const KEY_STORE = "home-hunt-household-key-v2";
+  const BROWSE_ONLY = "home-hunt-browse-only-v2";
+  const MIGRATED_PREFIX = "home-hunt-migrated-v2:";
+  // v1 browser-only keys (read for one-time merge; never deleted)
+  const V1_FAVORITES = "home-hunt-favorites-v1";
+  const V1_DISMISSED = "home-hunt-dismissed-v1";
+
+  const DATA_FILE = "listings.json";
+  const ARCHIVE_FILE = "listings-archive-2026-09-20.json";
+  const POLL_MS = 60000;
+
+  const $ = (id) => document.getElementById(id);
   const els = {
-    updated: document.getElementById("updated"),
-    count: document.getElementById("count"),
-    list: document.getElementById("list"),
-    filters: document.getElementById("filters"),
-    reset: document.getElementById("f-reset"),
-    map: document.getElementById("map"),
-    toast: document.getElementById("toast"),
+    updated: $("updated"), count: $("count"), list: $("list"), filters: $("filters"),
+    reset: $("f-reset"), map: $("map"), toast: $("toast"), who: $("who"), sync: $("sync"),
+    gate: $("gate"), gateForm: $("gate-form"), gateCode: $("gate-code"), gateErr: $("gate-err"),
+    gateSkip: $("gate-skip"), archiveBanner: $("archive-banner"),
   };
 
-  const state = { mode: "all" };
-
-  let all = [];
-  let selectedId = null;
-  let fingerprint = "";
-  let loadGen = 0;
-  let map = null;
-  let markersLayer = null;
+  const state = { mode: "matches" };
+  let current = { updatedAt: null, listings: [] };
+  let archive = null; // lazy-loaded
+  let token = null;
+  let me = null; // {email, name}
+  /** @type {Map<string, {favorite:boolean, dismissed:boolean, note:string|null, updated_by:string|null, updated_at:string}>} */
+  const ls = new Map();
+  let editingId = null;
+  let map = null, markersLayer = null;
   const markerById = new Map();
-
-  /** @type {Set<string>} Favorite listing ids — localStorage only, never listings.json */
-  let favoriteIds = loadFavorites();
-  /** @type {Set<string>} Dismissed ("not interested") ids — localStorage only, never listings.json */
-  let dismissedIds = loadDismissed();
-
   let toastTimer = null;
-  let undoDismissId = null;
+  let pollTimer = null;
 
-  // —— Persistence helpers (swap later for X sync layer) ——
+  // ——— helpers ———
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const lsGet = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
+  const lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
+  const lsDel = (k) => { try { localStorage.removeItem(k); } catch {} };
 
-  function loadIdSet(key) {
-    try {
-      const raw = localStorage.getItem(key);
-      if (!raw) return new Set();
-      const arr = JSON.parse(raw);
-      if (!Array.isArray(arr)) return new Set();
-      return new Set(arr.map((id) => String(id)).filter(Boolean));
-    } catch {
-      return new Set();
+  async function rpc(fn, args) {
+    const res = await fetch(SB_URL + fn, {
+      method: "POST",
+      headers: { apikey: SB_KEY, "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(args),
+      cache: "no-store",
+    });
+    if (!res.ok) {
+      let msg = "HTTP " + res.status;
+      try { const j = await res.json(); if (j && j.message) msg = j.message; } catch {}
+      const err = new Error(msg); err.status = res.status; throw err;
     }
+    return res.json();
   }
 
-  function saveIdSet(key, set) {
-    try {
-      localStorage.setItem(key, JSON.stringify([...set]));
-    } catch (err) {
-      console.warn("Could not save", key, err);
-    }
+  function setSync(text, isErr) {
+    if (!els.sync) return;
+    els.sync.textContent = text || "";
+    els.sync.classList.toggle("err", !!isErr);
   }
 
-  function loadFavorites() {
-    return loadIdSet(FAVORITES_KEY);
-  }
-
-  function saveFavorites() {
-    saveIdSet(FAVORITES_KEY, favoriteIds);
-  }
-
-  function loadDismissed() {
-    return loadIdSet(DISMISSED_KEY);
-  }
-
-  function saveDismissed() {
-    saveIdSet(DISMISSED_KEY, dismissedIds);
-  }
-
-  function isFavorite(id) {
-    return favoriteIds.has(String(id));
-  }
-
-  function isDismissed(id) {
-    return dismissedIds.has(String(id));
-  }
-
-  function toggleFavorite(id) {
-    const key = String(id);
-    if (favoriteIds.has(key)) favoriteIds.delete(key);
-    else favoriteIds.add(key);
-    saveFavorites();
-  }
-
-  function dismissListing(id) {
-    const key = String(id);
-    dismissedIds.add(key);
-    saveDismissed();
-    // Also drop from favorites so it doesn't linger in that set for sync later
-    if (favoriteIds.has(key)) {
-      favoriteIds.delete(key);
-      saveFavorites();
-    }
-  }
-
-  function undismissListing(id) {
-    const key = String(id);
-    dismissedIds.delete(key);
-    saveDismissed();
-  }
-
-  function showUndoToast(id) {
-    undoDismissId = String(id);
+  function toast(text, undoFn) {
     if (!els.toast) return;
     els.toast.hidden = false;
     els.toast.innerHTML = "";
     const label = document.createElement("span");
-    label.textContent = "Removed · ";
-    const undo = document.createElement("button");
-    undo.type = "button";
-    undo.className = "toast-undo";
-    undo.textContent = "Undo";
-    undo.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      if (undoDismissId) {
-        undismissListing(undoDismissId);
-        undoDismissId = null;
-        hideToast();
-        refresh();
-      }
-    });
+    label.textContent = text;
     els.toast.appendChild(label);
-    els.toast.appendChild(undo);
+    if (undoFn) {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "toast-undo"; b.textContent = "Undo";
+      b.addEventListener("click", (e) => { e.stopPropagation(); hideToast(); undoFn(); });
+      els.toast.appendChild(document.createTextNode(" · "));
+      els.toast.appendChild(b);
+    }
     if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => {
-      hideToast();
-      undoDismissId = null;
-    }, 5000);
+    toastTimer = setTimeout(hideToast, 5000);
   }
-
   function hideToast() {
-    if (toastTimer) {
-      clearTimeout(toastTimer);
-      toastTimer = null;
-    }
-    if (els.toast) {
-      els.toast.hidden = true;
-      els.toast.innerHTML = "";
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = null;
+    if (els.toast) { els.toast.hidden = true; els.toast.innerHTML = ""; }
+  }
+
+  // ——— sign-in ———
+  function takeTokenFromHash() {
+    const h = location.hash || "";
+    const m = h.match(/[#&]k=([A-Za-z0-9_\-]{32,200})/);
+    if (!m) return null;
+    // Strip the key from the address bar/history right away.
+    try { history.replaceState(null, "", location.pathname + location.search); } catch {}
+    return m[1];
+  }
+
+  async function signIn(candidate, { fromGate = false } = {}) {
+    try {
+      const who = await rpc("hh_whoami", { p_token: candidate });
+      token = candidate; me = who;
+      lsSet(KEY_STORE, candidate); lsDel(BROWSE_ONLY);
+      els.gate.hidden = true;
+      renderWho();
+      await migrateLocal();
+      await pullState();
+      startPolling();
+      return true;
+    } catch (err) {
+      if (err.status === 403 || err.status === 401) {
+        lsDel(KEY_STORE); token = null; me = null;
+        showGate(fromGate ? "That code didn’t work (it may have been revoked)." : "Your saved sign-in no longer works. Ask Mark for a new link.");
+      } else {
+        // Network trouble: keep the key, try again on focus.
+        token = candidate;
+        setSync("offline — will retry", true);
+        renderWho();
+      }
+      return false;
     }
   }
 
-  /** Truthy openHouseToday / open_house_today, or non-empty openHouse (string/object). */
-  function hasOpenHouse(item) {
-    if (!item) return false;
-    if (item.openHouseToday) return true;
-    if (item.open_house_today) return true;
-    const oh = item.openHouse;
+  function showGate(msg) {
+    els.gate.hidden = false;
+    els.gateErr.textContent = msg || "";
+  }
+
+  function signOut() {
+    lsDel(KEY_STORE); token = null; me = null; ls.clear();
+    stopPolling(); renderWho(); refresh(); showGate("");
+  }
+
+  function renderWho() {
+    els.who.innerHTML = "";
+    if (me) {
+      const s = document.createElement("span");
+      s.textContent = "Synced · " + (me.name || me.email);
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = "Sign out";
+      b.addEventListener("click", signOut);
+      els.who.append(s, b);
+    } else {
+      const b = document.createElement("button");
+      b.type = "button"; b.textContent = "Sign in to sync";
+      b.addEventListener("click", () => showGate(""));
+      els.who.appendChild(b);
+    }
+  }
+
+  // One-time merge of this browser's v1 localStorage favorites/dismissed into the shared store.
+  async function migrateLocal() {
+    if (!me) return;
+    const flag = MIGRATED_PREFIX + me.email;
+    if (lsGet(flag)) return;
+    const read = (k) => { try { const a = JSON.parse(lsGet(k) || "[]"); return Array.isArray(a) ? a.map(String).filter(Boolean) : []; } catch { return []; } };
+    const favs = read(V1_FAVORITES), dis = read(V1_DISMISSED);
+    if (!favs.length && !dis.length) { lsSet(flag, new Date().toISOString()); return; }
+    try {
+      const n = await rpc("hh_merge_local", { p_token: token, p_favorites: favs, p_dismissed: dis });
+      lsSet(flag, new Date().toISOString());
+      if (n > 0) toast("Merged " + n + " saved pick" + (n === 1 ? "" : "s") + " from this phone");
+    } catch (err) { console.warn("merge failed; will retry next load", err.message); }
+  }
+
+  async function pullState() {
+    if (!token || !me) return;
+    try {
+      const rows = await rpc("hh_get_state", { p_token: token });
+      ls.clear();
+      (rows || []).forEach((r) => ls.set(String(r.listing_id), r));
+      setSync("synced " + new Date().toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" }));
+      if (!editingId) refresh();
+    } catch (err) {
+      if (err.status === 403) { signOut(); showGate("Your access was revoked or expired."); return; }
+      setSync("sync failed — retrying", true);
+    }
+  }
+
+  function startPolling() {
+    stopPolling();
+    pollTimer = setInterval(() => { if (document.visibilityState === "visible") pullState(); }, POLL_MS);
+  }
+  function stopPolling() { if (pollTimer) clearInterval(pollTimer); pollTimer = null; }
+
+  function stateOf(id) { return ls.get(String(id)) || { favorite: false, dismissed: false, note: null }; }
+  const isFav = (id) => !!stateOf(id).favorite;
+  const isDismissed = (id) => !!stateOf(id).dismissed;
+
+  async function writeState(id, patch) {
+    if (!token || !me) { showGate("Sign in to save favorites, Not-interested picks and notes."); return false; }
+    const key = String(id);
+    const before = ls.has(key) ? { ...ls.get(key) } : null;
+    const optimistic = { ...stateOf(key), ...("favorite" in patch ? { favorite: patch.favorite } : {}),
+      ...("dismissed" in patch ? { dismissed: patch.dismissed } : {}),
+      ...("note" in patch ? { note: patch.note || null } : {}), updated_by: me.email };
+    ls.set(key, optimistic);
+    refresh();
+    try {
+      const row = await rpc("hh_set_state", {
+        p_token: token, p_listing_id: key,
+        p_favorite: "favorite" in patch ? patch.favorite : null,
+        p_dismissed: "dismissed" in patch ? patch.dismissed : null,
+        p_note: "note" in patch ? (patch.note || "") : null,
+      });
+      if (row && row.listing_id) ls.set(key, row);
+      setSync("saved");
+      refresh();
+      return true;
+    } catch (err) {
+      if (before) ls.set(key, before); else ls.delete(key);
+      refresh();
+      toast("Couldn’t save: " + err.message);
+      return false;
+    }
+  }
+
+  // ——— listing helpers ———
+  function matchLevel(item) {
+    const m = String(item.match || "").trim().toLowerCase();
+    if (m.startsWith("hard")) return "hard";
+    if (m.startsWith("weak")) return "weak";
+    return null;
+  }
+  const isGraveyard = (s) => ["dead", "sold"].includes(String(s || "").toLowerCase());
+  function hasCoords(x) {
+    const a = Number(x.lat), b = Number(x.lng);
+    return Number.isFinite(a) && Number.isFinite(b) && !(a === 0 && b === 0) && x.lat != null && x.lng != null;
+  }
+  function hasOpenHouse(x) {
+    if (x.openHouseToday || x.open_house_today) return true;
+    const oh = x.openHouse;
     if (oh == null) return false;
     if (typeof oh === "string") return oh.trim() !== "";
     if (typeof oh === "object") return Object.keys(oh).length > 0;
-    return Boolean(oh);
+    return !!oh;
   }
-
-  function hasAcresAtLeast(item, min) {
-    if (item == null || item.acres == null || item.acres === "") return false;
-    const n = Number(item.acres);
-    if (!Number.isFinite(n)) return false;
-    return n >= min;
+  function hasShop(x) {
+    const ob = x.outbuilding;
+    if (ob === true) return true;
+    if (typeof ob === "string" && ob.trim() && !/^(no|none|false|unknown)$/i.test(ob.trim())) return true;
+    if (x.workshop != null && String(x.workshop).trim() !== "") return true;
+    return /\b(workshop|shop|barn|detached)\b/i.test(String(x.garage || ""));
   }
-
-  function resolveDataUrl() {
-    const base = document.querySelector("base")?.getAttribute("href");
-    const root = base
-      ? new URL("listings.json", new URL(base, location.href)).href
-      : new URL("listings.json", location.href).href;
-    return root + (root.includes("?") ? "&" : "?") + "t=" + Date.now();
-  }
-
-  function fmtPrice(n) {
-    if (n == null || n === "" || Number.isNaN(Number(n))) return "—";
-    return "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 });
-  }
-
-  function priceText(item) {
-    if (item.priceLabel && String(item.priceLabel).trim()) return String(item.priceLabel).trim();
-    return fmtPrice(item.price);
-  }
-
-  function fmtUpdated(iso) {
-    if (!iso) return "Updated: —";
+  const fmtPrice = (n) => (n == null || n === "" || Number.isNaN(Number(n)) ? "—" : "$" + Number(n).toLocaleString("en-US", { maximumFractionDigits: 0 }));
+  const priceText = (x) => (x.priceLabel && String(x.priceLabel).trim() ? String(x.priceLabel).trim() : fmtPrice(x.price));
+  function fmtUpdated(iso, label) {
+    if (!iso) return (label || "Updated") + ": —";
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return "Updated: " + iso;
-    try {
-      const s = d.toLocaleString("en-US", {
-        timeZone: "America/New_York",
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "2-digit",
-      });
-      return "Updated: " + s + " ET";
-    } catch {
-      return "Updated: " + iso;
-    }
+    return (label || "Updated") + ": " + d.toLocaleString("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " ET";
+  }
+  const FLAG_LABELS = {
+    construction_unverified: "CBS unverified",
+    outbuilding_unverified: "Outbuilding unverified",
+    x_shaded: "Zone X (shaded)",
+    flood_unverified: "Flood zone unverified",
+  };
+  const flagLabel = (f) => FLAG_LABELS[f] || String(f).replace(/_/g, " ");
+  function memberName(email) {
+    if (!email) return "";
+    if (me && email === me.email) return "you";
+    if (/^mlembo88@/i.test(email)) return "Mark";
+    if (/^nlembo91@/i.test(email)) return "Nicole";
+    return email.split("@")[0];
   }
 
-  function hasCoords(item) {
-    const lat = item.lat != null ? Number(item.lat) : NaN;
-    const lng = item.lng != null ? Number(item.lng) : NaN;
-    return Number.isFinite(lat) && Number.isFinite(lng) && !(lat === 0 && lng === 0);
-  }
-
-  function hasShop(item) {
-    if (!item) return false;
-    if (item.workshop != null && String(item.workshop).trim() !== "") return true;
-    const garage = String(item.garage || "").toLowerCase();
-    if (/\b(workshop|work\s*shop|\bshop\b)/i.test(garage)) return true;
-    const flags = Array.isArray(item.flags) ? item.flags : [];
-    return flags.some((f) => {
-      const s = String(f || "").toLowerCase();
-      return s.includes("shop") || s.includes("workshop") || s.includes("work shop");
-    });
-  }
-
-  function bedsBaths(item) {
-    return [
-      item.beds != null && item.beds !== "" ? item.beds + " bd" : null,
-      item.baths != null && item.baths !== "" ? item.baths + " ba" : null,
-      item.sqft != null && item.sqft !== ""
-        ? Number(item.sqft).toLocaleString() + " sf"
-        : null,
-    ]
-      .filter(Boolean)
-      .join(" · ");
-  }
-
-  function acresText(item) {
-    if (item.acres == null || item.acres === "") return null;
-    const n = Number(item.acres);
-    if (!Number.isFinite(n)) return null;
-    return n + (n === 1 ? " acre" : " acres");
-  }
-
-  function statusClass(status) {
-    const s = String(status || "").toLowerCase().replace(/\s+/g, "-");
-    if (["watch", "over-budget", "sold", "dead", "rent"].includes(s)) {
-      return "status-" + s;
-    }
-    return "";
-  }
-
-  function hoaClass(hoa) {
-    const h = String(hoa || "unknown").toLowerCase();
-    if (["none", "cdd", "deed", "unknown", "hoa"].includes(h)) return "hoa-" + h;
-    return "hoa-unknown";
-  }
-
-  function hoaLabel(hoa) {
-    const h = String(hoa || "unknown").toLowerCase();
-    if (h === "none") return "No HOA";
-    if (h === "cdd") return "CDD";
-    if (h === "deed") return "Deed restrict";
-    if (h === "hoa") return "HOA";
-    return "HOA ?";
-  }
-
-  function isGraveyard(status) {
-    return status === "dead" || status === "sold";
+  function activeListings() {
+    if (state.mode === "archive") return archive ? archive.listings || [] : [];
+    return current.listings || [];
   }
 
   function applyFilters(items) {
-    const mode = state.mode || "all";
+    const mode = state.mode;
     return items.filter((x) => {
-      // Dismissed never appear in any filter mode (including Favorites / Open houses).
-      if (isDismissed(x.id)) return false;
-
-      const type = String(x.type || "").toLowerCase();
-      const status = String(x.status || "").toLowerCase();
-      // Favorites: show starred ids regardless of dead/sold so history isn’t lost.
-      if (mode === "favorites") {
-        return isFavorite(x.id);
-      }
-      // Open houses: only listings with open-house signal; hide graveyard.
-      if (mode === "openhouses") {
-        if (isGraveyard(status)) return false;
-        return hasOpenHouse(x);
-      }
-      // ≥0.6 acres — missing/null acres excluded (don't invent).
-      if (mode === "acres") {
-        if (isGraveyard(status)) return false;
-        return hasAcresAtLeast(x, 0.6);
-      }
-      // Default hunt views hide dead/sold history (graveyard).
-      if (mode === "all") {
-        return !isGraveyard(status);
-      }
-      if (mode === "buy") {
-        if (type !== "sale") return false;
-        if (isGraveyard(status)) return false;
-        return true;
-      }
-      if (mode === "rent") {
-        if (isGraveyard(status)) return false;
-        return type === "rent" || status === "rent";
-      }
-      if (mode === "watch") {
-        return status === "watch";
-      }
-      if (mode === "shop") {
-        if (isGraveyard(status)) return false;
-        return hasShop(x);
-      }
-      return !isGraveyard(status);
+      const st = stateOf(x.id);
+      if (mode === "dismissed") return !!st.dismissed;
+      if (st.dismissed) return false;
+      if (mode === "favorites") return !!st.favorite;
+      if (mode === "notes") return !!(st.note && st.note.trim());
+      if (isGraveyard(x.status)) return false;
+      if (mode === "archive") return true;
+      const lvl = matchLevel(x);
+      if (!lvl) return false; // only new-criteria matches on the board
+      if (mode === "hard") return lvl === "hard";
+      if (mode === "weak") return lvl === "weak";
+      if (mode === "shop") return hasShop(x);
+      if (mode === "openhouses") return hasOpenHouse(x);
+      return true; // matches
     });
   }
 
   function sortListings(items) {
+    const rank = (x) => (matchLevel(x) === "hard" ? 0 : matchLevel(x) === "weak" ? 1 : 2);
     return items.slice().sort((a, b) => {
-      const pa = a.price == null ? Number.POSITIVE_INFINITY : Number(a.price);
-      const pb = b.price == null ? Number.POSITIVE_INFINITY : Number(b.price);
+      const fa = isFav(a.id) ? 0 : 1, fb = isFav(b.id) ? 0 : 1;
+      if (fa !== fb) return fa - fb;
+      if (rank(a) !== rank(b)) return rank(a) - rank(b);
+      const pa = a.price == null ? Infinity : Number(a.price), pb = b.price == null ? Infinity : Number(b.price);
       if (pa !== pb) return pa - pb;
       return String(a.address || "").localeCompare(String(b.address || ""));
     });
   }
 
-  function makePopupHtml(item) {
-    const fav = isFavorite(item.id);
-    const parts = [
-      '<div class="pop-top">' +
-        "<strong>" +
-        escapeHtml(item.address || "Listing") +
-        "</strong>" +
-        '<button type="button" class="fav-btn pop-fav' +
-        (fav ? " is-fav" : "") +
-        '" data-fav-id="' +
-        escapeAttr(item.id) +
-        '" aria-label="' +
-        (fav ? "Remove from favorites" : "Add to favorites") +
-        '" title="' +
-        (fav ? "Unfavorite" : "Favorite") +
-        '">' +
-        (fav ? "★" : "☆") +
-        "</button></div>",
-      '<div class="pop-price">' + escapeHtml(priceText(item)) + "</div>",
-    ];
-    if (hasOpenHouse(item)) {
-      parts.push('<span class="badge-open-house">Open house</span>');
+  // ——— rendering ———
+  function pill(text, cls) {
+    const p = document.createElement("span");
+    p.className = "pill " + (cls || "");
+    p.textContent = text;
+    return p;
+  }
+
+  function factsLine(x) {
+    const f = [];
+    if (x.beds != null && x.beds !== "") f.push(x.beds + " bd");
+    if (x.baths != null && x.baths !== "") f.push(x.baths + " ba");
+    if (x.sqft != null && x.sqft !== "") f.push(Number(x.sqft).toLocaleString() + " sf");
+    if (x.acres != null && x.acres !== "" && Number.isFinite(Number(x.acres))) f.push(Number(x.acres) + " ac");
+    return f;
+  }
+
+  function floodPill(x) {
+    if (!x.floodZone) return null;
+    const z = String(x.floodZone).trim();
+    const isX = /^x\b/i.test(z) || /^x[\s(-]/i.test(z) || z.toUpperCase() === "X";
+    return pill("Flood " + z, isX ? "flood-x" : "flood-other");
+  }
+
+  function makeCard(x) {
+    const id = String(x.id);
+    const st = stateOf(id);
+    const card = document.createElement("div");
+    card.className = "card";
+    card.setAttribute("role", "listitem");
+    card.tabIndex = 0;
+    card.dataset.id = id;
+
+    const top = document.createElement("div");
+    top.className = "card-top";
+    const price = document.createElement("div");
+    price.className = "price";
+    price.textContent = priceText(x);
+    const fav = document.createElement("button");
+    fav.type = "button";
+    fav.className = "fav-btn" + (st.favorite ? " is-fav" : "");
+    fav.textContent = st.favorite ? "★" : "☆";
+    fav.setAttribute("aria-label", st.favorite ? "Remove from favorites" : "Add to favorites");
+    fav.addEventListener("click", (e) => { e.stopPropagation(); writeState(id, { favorite: !st.favorite }); });
+    top.append(price, fav);
+    card.appendChild(top);
+
+    const addr = document.createElement("div");
+    addr.className = "addr";
+    addr.textContent = x.address || "—";
+    card.appendChild(addr);
+    const city = document.createElement("div");
+    city.className = "cityline";
+    city.textContent = [x.city, x.zip, x.county].filter(Boolean).join(" · ");
+    card.appendChild(city);
+
+    const facts = factsLine(x);
+    if (facts.length) {
+      const d = document.createElement("div");
+      d.className = "facts";
+      facts.forEach((t) => { const s = document.createElement("span"); s.textContent = t; d.appendChild(s); });
+      card.appendChild(d);
     }
-    const city = [item.city, item.zip].filter(Boolean).join(" · ");
-    if (city) parts.push("<div>" + escapeHtml(city) + "</div>");
-    if (item.url) {
-      parts.push(
-        '<a href="' +
-          escapeAttr(item.url) +
-          '" target="_blank" rel="noopener noreferrer">Open listing</a>'
-      );
+
+    if (x.driveNote) {
+      const d = document.createElement("div");
+      d.className = "drive";
+      d.textContent = "🚗 " + x.driveNote;
+      card.appendChild(d);
     }
-    return parts.join("");
+
+    const pills = document.createElement("div");
+    pills.className = "pills";
+    const lvl = matchLevel(x);
+    if (lvl) pills.appendChild(pill(lvl === "hard" ? "Hard match" : "Weak match", "match-" + lvl));
+    if (x.construction) pills.appendChild(pill(String(x.construction), /cbs|block|concrete/i.test(x.construction) ? "cbs" : "flag"));
+    const fp = floodPill(x);
+    if (fp) pills.appendChild(fp);
+    if (x.outbuilding != null && x.outbuilding !== "" && x.outbuilding !== false) {
+      pills.appendChild(pill(x.outbuilding === true ? "Outbuilding" : String(x.outbuilding), "flag"));
+    }
+    if (hasOpenHouse(x)) pills.appendChild(pill("Open house", "badge-open-house"));
+    if (state.mode === "archive" && x.status) pills.appendChild(pill(x.status, "status-" + String(x.status).toLowerCase()));
+    (Array.isArray(x.flags) ? x.flags : []).forEach((f) => {
+      if (!f) return;
+      pills.appendChild(pill(flagLabel(f), /unverified|shaded/i.test(f) ? "unverified" : "flag"));
+    });
+    if (pills.childNodes.length) card.appendChild(pills);
+
+    const ev = [];
+    if (x.workshop) ev.push(["Shop/outbuilding", x.workshop]);
+    if (x.floodSource) ev.push(["Flood source", x.floodSource]);
+    if (lvl == null && x.match) ev.push(["Match", x.match]);
+    else if (x.match && String(x.match).trim().length > 5) ev.push(["Match", x.match]);
+    ev.forEach(([k, v]) => {
+      const d = document.createElement("div");
+      d.className = "evidence";
+      const b = document.createElement("b"); b.textContent = k + ": ";
+      d.append(b, document.createTextNode(String(v)));
+      card.appendChild(d);
+    });
+
+    // Note view / editor
+    if (editingId === id) {
+      card.appendChild(makeNoteEditor(id, st.note || ""));
+    } else if (st.note) {
+      const nv = document.createElement("div");
+      nv.className = "note-view";
+      nv.textContent = st.note;
+      const sm = document.createElement("small");
+      sm.textContent = "— " + memberName(st.updated_by) + (st.updated_at ? ", " + new Date(st.updated_at).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "");
+      nv.appendChild(sm);
+      card.appendChild(nv);
+    }
+
+    const actions = document.createElement("div");
+    actions.className = "card-actions";
+    if (x.url) {
+      const a = document.createElement("a");
+      a.className = "card-link"; a.href = x.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      a.textContent = "Open listing →";
+      a.addEventListener("click", (e) => e.stopPropagation());
+      actions.appendChild(a);
+    }
+    if (editingId !== id) {
+      const nb = document.createElement("button");
+      nb.type = "button"; nb.className = "note-btn";
+      nb.textContent = st.note ? "Edit note" : "Add note";
+      nb.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (!me) { showGate("Sign in to add notes."); return; }
+        editingId = id; refresh();
+        const ta = els.list.querySelector('.card[data-id="' + CSS.escape(id) + '"] textarea');
+        if (ta) ta.focus();
+      });
+      actions.appendChild(nb);
+    }
+    if (st.dismissed) {
+      const ub = document.createElement("button");
+      ub.type = "button"; ub.className = "undismiss-btn"; ub.textContent = "Restore";
+      ub.addEventListener("click", (e) => { e.stopPropagation(); writeState(id, { dismissed: false }); });
+      actions.appendChild(ub);
+    } else {
+      const db = document.createElement("button");
+      db.type = "button"; db.className = "dismiss-btn"; db.textContent = "Not interested";
+      db.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const ok = await writeState(id, { dismissed: true });
+        if (ok) toast("Hidden for both of you", () => writeState(id, { dismissed: false }));
+      });
+      actions.appendChild(db);
+    }
+    card.appendChild(actions);
+
+    card.addEventListener("click", (e) => { if (!e.target.closest("textarea,button,a")) focusOn(x); });
+    card.addEventListener("keydown", (e) => {
+      if ((e.key === "Enter" || e.key === " ") && e.target === card) { e.preventDefault(); focusOn(x); }
+    });
+    return card;
   }
 
-  function escapeHtml(s) {
-    return String(s ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
+  function makeNoteEditor(id, note) {
+    const wrap = document.createElement("div");
+    wrap.className = "note-edit";
+    wrap.addEventListener("click", (e) => e.stopPropagation());
+    const ta = document.createElement("textarea");
+    ta.maxLength = 500; ta.value = note; ta.placeholder = "Short note for both of you (max 500 characters)";
+    const row = document.createElement("div");
+    row.className = "row";
+    const cnt = document.createElement("span");
+    const upd = () => { cnt.textContent = ta.value.length + "/500"; };
+    ta.addEventListener("input", upd); upd();
+    const cancel = document.createElement("button");
+    cancel.type = "button"; cancel.textContent = "Cancel";
+    cancel.addEventListener("click", () => { editingId = null; refresh(); });
+    const save = document.createElement("button");
+    save.type = "button"; save.className = "save"; save.textContent = "Save";
+    save.addEventListener("click", async () => {
+      save.disabled = true;
+      const val = ta.value.trim().slice(0, 500);
+      editingId = null;
+      await writeState(id, { note: val });
+    });
+    row.append(cnt, cancel, save);
+    wrap.append(ta, row);
+    return wrap;
   }
 
-  function escapeAttr(s) {
-    return escapeHtml(s).replace(/'/g, "&#39;");
+  function emptyState() {
+    const d = document.createElement("div");
+    d.className = "empty";
+    const total = (current.listings || []).length;
+    if (state.mode === "archive" && !archive) {
+      d.innerHTML = "<strong>Loading 9/20 archive…</strong>";
+    } else if (state.mode === "favorites") {
+      d.innerHTML = "<strong>No favorites yet</strong>Tap ☆ on a listing — it shows up here for both of you.";
+    } else if (state.mode === "notes") {
+      d.innerHTML = "<strong>No notes yet</strong>Use “Add note” on any listing.";
+    } else if (state.mode === "dismissed") {
+      d.innerHTML = "<strong>Nothing marked Not interested</strong>";
+    } else if (state.mode !== "archive" && !total) {
+      d.innerHTML = "<strong>Waiting for new-criteria listings</strong>Listing Scout’s pass 5 (Hudson–Trinity, CBS, ≥1 ac, shop/barn, Flood X) hasn’t landed yet. Older 9/20 results are under “9/20 archive”.";
+    } else {
+      d.innerHTML = "<strong>No listings in this view</strong>Try “Matches” or Reset.";
+    }
+    return d;
   }
 
+  function refresh() {
+    const items = sortListings(applyFilters(activeListings()));
+    els.list.innerHTML = "";
+    if (!items.length) els.list.appendChild(emptyState());
+    else {
+      const frag = document.createDocumentFragment();
+      items.forEach((x) => frag.appendChild(makeCard(x)));
+      els.list.appendChild(frag);
+    }
+    els.count.textContent = items.length + (items.length === 1 ? " listing" : " listings");
+    els.archiveBanner.hidden = state.mode !== "archive";
+    const src = state.mode === "archive" ? archive : current;
+    els.updated.textContent = fmtUpdated(src && src.updatedAt, state.mode === "archive" ? "Archive" : "Updated");
+    syncMarkers(items);
+  }
+
+  // ——— map (Esri World Dark Gray, no API key; never Carto/Mapbox/Google) ———
   function initMap() {
     if (map || !window.L || !els.map) return;
-    map = L.map(els.map, {
-      zoomControl: true,
-      attributionControl: true,
-    });
-    // Esri free dark basemap — no API key (do not use Carto/Mapbox/Google)
-    L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
-      {
-        attribution: "Tiles &copy; Esri",
-        maxZoom: 16,
-      }
-    ).addTo(map);
-    L.tileLayer(
-      "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
-      {
-        attribution: "",
-        maxZoom: 16,
-        opacity: 0.9,
-      }
-    ).addTo(map);
+    map = L.map(els.map, { zoomControl: true, attributionControl: true });
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+      { attribution: "Tiles &copy; Esri", maxZoom: 16 }).addTo(map);
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+      { attribution: "", maxZoom: 16, opacity: 0.9 }).addTo(map);
     markersLayer = L.layerGroup().addTo(map);
-    // Tampa Bay default view
-    map.setView([28.0, -82.55], 9);
+    map.setView([28.3, -82.62], 10); // Hudson–Trinity band
     setTimeout(() => map && map.invalidateSize(), 80);
+  }
 
-    // Star clicks inside Leaflet popups (content is HTML string)
-    map.getContainer().addEventListener("click", (e) => {
-      const btn = e.target.closest(".fav-btn[data-fav-id]");
-      if (!btn || !map.getContainer().contains(btn)) return;
-      e.preventDefault();
-      e.stopPropagation();
-      const id = btn.getAttribute("data-fav-id");
-      if (!id) return;
-      toggleFavorite(id);
-      // Re-render list + refresh open popup content
-      refresh();
-      const m = markerById.get(id);
-      if (m && m.isPopupOpen()) {
-        const item = all.find((x) => String(x.id) === String(id));
-        if (item) m.setPopupContent(makePopupHtml(item));
-      }
-    });
+  function popupHtml(x) {
+    const lvl = matchLevel(x);
+    return "<strong>" + esc(x.address || "Listing") + (isFav(x.id) ? " ★" : "") + "</strong>" +
+      '<div class="pop-price">' + esc(priceText(x)) + "</div>" +
+      "<div>" + esc(factsLine(x).join(" · ")) + "</div>" +
+      (lvl ? "<div>" + (lvl === "hard" ? "Hard match" : "Weak match") + "</div>" : "") +
+      (x.floodZone ? "<div>Flood " + esc(x.floodZone) + "</div>" : "") +
+      (x.url ? '<a href="' + esc(x.url) + '" target="_blank" rel="noopener noreferrer">Open listing →</a>' : "");
   }
 
   function syncMarkers(items) {
     if (!map || !markersLayer) return;
-    markersLayer.clearLayers();
-    markerById.clear();
-    const bounds = [];
-    items.forEach((item) => {
-      if (!hasCoords(item)) return;
-      const lat = Number(item.lat);
-      const lng = Number(item.lng);
-      const m = L.marker([lat, lng]);
-      m.bindPopup(makePopupHtml(item));
-      m.on("click", () => {
-        selectedId = item.id;
-        highlightCard(item.id);
-      });
+    markersLayer.clearLayers(); markerById.clear();
+    const pts = [];
+    items.forEach((x) => {
+      if (!hasCoords(x)) return;
+      const ll = [Number(x.lat), Number(x.lng)];
+      const m = L.marker(ll).bindPopup(popupHtml(x));
+      m.on("click", () => highlight(x.id));
       m.addTo(markersLayer);
-      markerById.set(item.id, m);
-      bounds.push([lat, lng]);
+      markerById.set(String(x.id), m);
+      pts.push(ll);
     });
-    if (selectedId && markerById.has(selectedId)) {
-      // keep selection if still visible
-    } else {
-      selectedId = null;
+    if (pts.length === 1) map.setView(pts[0], 13);
+    else if (pts.length > 1) map.fitBounds(pts, { padding: [28, 28], maxZoom: 13 });
+  }
+
+  function highlight(id) {
+    els.list.querySelectorAll(".card.active").forEach((c) => c.classList.remove("active"));
+    const c = els.list.querySelector('.card[data-id="' + CSS.escape(String(id)) + '"]');
+    if (c) { c.classList.add("active"); c.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+  }
+
+  function focusOn(x) {
+    highlight(x.id);
+    if (!map || !hasCoords(x)) return;
+    map.setView([Number(x.lat), Number(x.lng)], Math.max(map.getZoom(), 14), { animate: true });
+    const m = markerById.get(String(x.id));
+    if (m) m.openPopup();
+  }
+
+  // ——— data ———
+  function dataUrl(file) {
+    const u = new URL(file, new URL(document.querySelector("base")?.getAttribute("href") || "./", location.href)).href;
+    return u + "?t=" + Date.now();
+  }
+  async function fetchJson(file) {
+    const res = await fetch(dataUrl(file), { cache: "no-store", headers: { Accept: "application/json" } });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+  async function loadData() {
+    try {
+      const d = await fetchJson(DATA_FILE);
+      current = { updatedAt: d.updatedAt || null, listings: Array.isArray(d.listings) ? d.listings : [] };
+      if (!editingId) refresh();
+    } catch (err) {
+      els.updated.textContent = "Updated: (failed to load)";
+      console.warn("listings.json load failed", err.message);
     }
-    if (bounds.length === 1) {
-      map.setView(bounds[0], 13);
-    } else if (bounds.length > 1) {
-      try {
-        map.fitBounds(bounds, { padding: [28, 28], maxZoom: 13 });
-      } catch (_) {}
-    } else {
-      map.setView([28.0, -82.55], 9);
+  }
+  async function loadArchive() {
+    if (archive) return;
+    try {
+      const d = await fetchJson(ARCHIVE_FILE);
+      archive = { updatedAt: d.updatedAt || null, listings: Array.isArray(d.listings) ? d.listings : [] };
+    } catch (err) {
+      archive = { updatedAt: null, listings: [] };
+      toast("Couldn’t load the 9/20 archive");
     }
-    setTimeout(() => map && map.invalidateSize(), 60);
-  }
-
-  function focusOnListing(item) {
-    if (!item || !map) return;
-    selectedId = item.id;
-    highlightCard(item.id);
-    if (!hasCoords(item)) return;
-    const lat = Number(item.lat);
-    const lng = Number(item.lng);
-    map.setView([lat, lng], Math.max(map.getZoom(), 14), { animate: true });
-    const m = markerById.get(item.id);
-    if (m) {
-      m.openPopup();
-    }
-  }
-
-  function highlightCard(id) {
-    els.list.querySelectorAll(".card").forEach((c) => {
-      c.classList.toggle("active", c.dataset.id === String(id));
-    });
-  }
-
-  function makeFavButton(item) {
-    const fav = isFavorite(item.id);
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "fav-btn" + (fav ? " is-fav" : "");
-    btn.setAttribute("aria-label", fav ? "Remove from favorites" : "Add to favorites");
-    btn.title = fav ? "Unfavorite" : "Favorite";
-    btn.textContent = fav ? "★" : "☆";
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      toggleFavorite(item.id);
-      // If filtering Favorites, re-apply so unfavorited drops off; else just update star UI.
-      if (state.mode === "favorites") {
-        refresh();
-      } else {
-        const now = isFavorite(item.id);
-        btn.classList.toggle("is-fav", now);
-        btn.textContent = now ? "★" : "☆";
-        btn.setAttribute("aria-label", now ? "Remove from favorites" : "Add to favorites");
-        btn.title = now ? "Unfavorite" : "Favorite";
-        // Keep map popup star in sync if open
-        const m = markerById.get(item.id);
-        if (m && m.isPopupOpen()) m.setPopupContent(makePopupHtml(item));
-      }
-    });
-    return btn;
-  }
-
-  function makeDismissButton(item) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "dismiss-btn";
-    btn.setAttribute("aria-label", "Not interested");
-    btn.title = "Not interested";
-    btn.textContent = "Not interested";
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      const id = item.id;
-      dismissListing(id);
-      if (selectedId != null && String(selectedId) === String(id)) selectedId = null;
-      showUndoToast(id);
-      refresh();
-    });
-    return btn;
-  }
-
-  function renderList(items) {
-    els.list.innerHTML = "";
-    const total = all.length;
-    const visibleTotal = all.filter((x) => !isDismissed(x.id)).length;
-    els.count.textContent =
-      items.length +
-      (items.length === 1 ? " listing" : " listings") +
-      (state.mode !== "all" && visibleTotal ? " · " + visibleTotal + " total" : "");
-
-    if (total === 0) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      empty.innerHTML =
-        "<strong>Waiting for Home Hunt data</strong>" +
-        "listings.json is empty. Home Hunt owns this file — drop real listings here and refresh.";
-      els.list.appendChild(empty);
-      syncMarkers([]);
-      return;
-    }
-
-    if (items.length === 0) {
-      const empty = document.createElement("div");
-      empty.className = "empty";
-      if (state.mode === "favorites") {
-        empty.innerHTML =
-          "<strong>No favorites yet</strong>Tap the star on a listing to save it here (stored in this browser only).";
-      } else if (state.mode === "openhouses") {
-        empty.innerHTML =
-          "<strong>No open houses</strong>None of the current listings flag an open house.";
-      } else if (state.mode === "acres") {
-        empty.innerHTML =
-          "<strong>No ≥0.6 acre matches</strong>Listings without acres data are excluded from this filter.";
-      } else {
-        empty.innerHTML =
-          "<strong>No matches</strong>Try another filter chip, or tap Reset.";
-      }
-      els.list.appendChild(empty);
-      syncMarkers([]);
-      return;
-    }
-
-    const frag = document.createDocumentFragment();
-    items.forEach((item) => {
-      const btn = document.createElement("article");
-      btn.className = "card" + (selectedId === item.id ? " active" : "");
-      btn.dataset.id = item.id;
-      btn.setAttribute("role", "listitem");
-      btn.tabIndex = 0;
-
-      const top = document.createElement("div");
-      top.className = "card-top";
-      const price = document.createElement("div");
-      price.className = "price";
-      price.textContent = priceText(item);
-      top.appendChild(price);
-      top.appendChild(makeFavButton(item));
-      btn.appendChild(top);
-
-      const addr = document.createElement("div");
-      addr.className = "addr";
-      addr.textContent = item.address || "(no address)";
-      btn.appendChild(addr);
-
-      const cityline = document.createElement("div");
-      cityline.className = "cityline";
-      cityline.textContent = [item.city, item.zip, item.county]
-        .filter(Boolean)
-        .join(" · ");
-      btn.appendChild(cityline);
-
-      const metaBits = [
-        acresText(item),
-        bedsBaths(item),
-        item.garage ? "Garage: " + item.garage : null,
-        item.workshop ? "Shop: " + item.workshop : null,
-      ].filter(Boolean);
-      if (metaBits.length) {
-        const meta = document.createElement("div");
-        meta.className = "meta";
-        meta.textContent = metaBits.join(" · ");
-        btn.appendChild(meta);
-      }
-
-      if (item.match) {
-        const match = document.createElement("div");
-        match.className = "match";
-        match.textContent = item.match;
-        btn.appendChild(match);
-      }
-
-      if (item.driveNote) {
-        const drive = document.createElement("div");
-        drive.className = "drive";
-        drive.textContent = item.driveNote;
-        btn.appendChild(drive);
-      }
-
-      const pills = document.createElement("div");
-      pills.className = "pills";
-      if (hasOpenHouse(item)) {
-        const p = document.createElement("span");
-        p.className = "pill badge-open-house";
-        p.textContent = "Open house";
-        pills.appendChild(p);
-      }
-      if (item.status) {
-        const p = document.createElement("span");
-        p.className = "pill " + statusClass(item.status);
-        p.textContent = item.status;
-        pills.appendChild(p);
-      }
-      if (item.type) {
-        const p = document.createElement("span");
-        p.className = "pill type-" + String(item.type).toLowerCase();
-        p.textContent = item.type;
-        pills.appendChild(p);
-      }
-      if (item.hoa) {
-        const p = document.createElement("span");
-        p.className = "pill " + hoaClass(item.hoa);
-        p.textContent = hoaLabel(item.hoa);
-        pills.appendChild(p);
-      }
-      if (Array.isArray(item.flags)) {
-        item.flags.forEach((f) => {
-          if (!f) return;
-          const p = document.createElement("span");
-          p.className = "pill flag";
-          p.textContent = f;
-          pills.appendChild(p);
-        });
-      }
-      if (pills.childNodes.length) btn.appendChild(pills);
-
-      const actions = document.createElement("div");
-      actions.className = "card-actions";
-      if (item.url) {
-        const a = document.createElement("a");
-        a.className = "card-link";
-        a.href = item.url;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        a.textContent = "Open listing →";
-        a.addEventListener("click", (e) => e.stopPropagation());
-        actions.appendChild(a);
-      }
-      actions.appendChild(makeDismissButton(item));
-      btn.appendChild(actions);
-
-      btn.addEventListener("click", () => focusOnListing(item));
-      btn.addEventListener("keydown", (e) => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          focusOnListing(item);
-        }
-      });
-      frag.appendChild(btn);
-    });
-    els.list.appendChild(frag);
-    syncMarkers(items);
-  }
-
-  function refresh() {
-    renderList(sortListings(applyFilters(all)));
-  }
-
-  function setChipActive(row, value) {
-    row.querySelectorAll(".chip").forEach((c) => {
-      c.classList.toggle("active", (c.dataset.value || "") === value);
-    });
+    if (state.mode === "archive") refresh();
   }
 
   function wireFilters() {
     els.filters.querySelectorAll(".chip-row").forEach((row) => {
-      const key = row.dataset.filter;
       row.addEventListener("click", (e) => {
         const chip = e.target.closest(".chip");
-        if (!chip || !row.contains(chip)) return;
-        state[key] = chip.dataset.value || "all";
-        setChipActive(row, state[key]);
+        if (!chip) return;
+        state.mode = chip.dataset.value || "matches";
+        row.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === chip));
+        editingId = null;
+        if (state.mode === "archive") loadArchive();
         refresh();
       });
     });
     els.reset.addEventListener("click", () => {
-      state.mode = "all";
-      els.filters.querySelectorAll(".chip-row").forEach((row) => setChipActive(row, "all"));
+      state.mode = "matches"; editingId = null;
+      els.filters.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c.dataset.value === "matches"));
       refresh();
     });
   }
 
-  function dataFingerprint(data) {
-    const listings = Array.isArray(data.listings) ? data.listings : [];
-    const ids = listings.map((x) => x && x.id).filter(Boolean).join(",");
-    return String(data.updatedAt || "") + "|" + listings.length + "|" + ids;
+  function wireGate() {
+    els.gateForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const v = (els.gateCode.value || "").trim().replace(/^.*[#&]k=/, "");
+      if (!v) return;
+      els.gateErr.textContent = "Checking…";
+      const ok = await signIn(v, { fromGate: true });
+      if (ok) els.gateCode.value = "";
+    });
+    els.gateSkip.addEventListener("click", () => {
+      lsSet(BROWSE_ONLY, "1");
+      els.gate.hidden = true;
+    });
   }
 
-  async function loadData({ silent = false } = {}) {
-    const gen = ++loadGen;
-    try {
-      const res = await fetch(resolveDataUrl(), {
-        cache: "no-store",
-        headers: { Accept: "application/json" },
-      });
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const data = await res.json();
-      if (gen !== loadGen) return;
-      const fp = dataFingerprint(data);
-      if (fp === fingerprint) {
-        els.updated.textContent = fmtUpdated(data.updatedAt);
-        return;
-      }
-      fingerprint = fp;
-      all = Array.isArray(data.listings) ? data.listings : [];
-      els.updated.textContent = fmtUpdated(data.updatedAt);
-      // Preserve filter state; re-render with new data
-      refresh();
-    } catch (err) {
-      if (!silent) {
-        els.updated.textContent = "Updated: (failed to load)";
-        els.list.innerHTML =
-          '<div class="empty"><strong>Could not load listings.json</strong>Serve this folder over HTTP (GitHub Pages or a local static server).</div>';
-        console.error(err);
-      }
-    }
-  }
-
-  function boot() {
-    wireFilters();
-    initMap();
-    els.updated.textContent = "Updated: …";
+  function onFocus() {
     loadData();
-    window.addEventListener("pageshow", () => loadData({ silent: true }));
-    document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "visible") loadData({ silent: true });
-    });
-    window.addEventListener("focus", () => loadData({ silent: true }));
-    window.addEventListener("resize", () => {
-      if (map) setTimeout(() => map.invalidateSize(), 50);
-    });
+    if (token && me) pullState();
+    else if (token && !me) signIn(token);
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", boot);
-  } else {
-    boot();
+  async function boot() {
+    wireFilters();
+    wireGate();
+    initMap();
+    renderWho();
+    refresh();
+    loadData();
+    const fromHash = takeTokenFromHash();
+    const saved = lsGet(KEY_STORE);
+    if (fromHash) await signIn(fromHash, { fromGate: true });
+    else if (saved) await signIn(saved);
+    else if (!lsGet(BROWSE_ONLY)) showGate("");
+    window.addEventListener("hashchange", () => {
+      const k = takeTokenFromHash();
+      if (k) signIn(k, { fromGate: true });
+    });
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") onFocus(); });
+    window.addEventListener("focus", onFocus);
+    window.addEventListener("resize", () => { if (map) setTimeout(() => map.invalidateSize(), 50); });
   }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot);
+  else boot();
 })();

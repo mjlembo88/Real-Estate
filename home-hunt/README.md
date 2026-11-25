@@ -1,65 +1,40 @@
-# Home Hunt · Tampa Bay
+# Home Hunt · Hudson–Trinity (v2)
 
-Mobile-first living dashboard for Maker Mark’s Tampa Bay home search — filterable cards + Leaflet map (Esri World Dark Gray).
+Shared, mobile-first board for Mark & Nicole: new-criteria matches, Leaflet map (Esri World Dark Gray, no API key), and **synced** favorites / Not-interested / notes.
 
-**Live (after publish):** https://mjlembo88.github.io/Real-Estate/home-hunt/
+**Live:** https://mjlembo88.github.io/Real-Estate/home-hunt/
 
 ## Files
 
 | File | Role |
 |------|------|
-| `index.html` | Shell |
-| `app.js` | Filters, cards, Leaflet map, cache-bust reload |
-| `styles.css` | Dark mobile-first UI (foreclosures palette) |
-| `listings.json` | **Home Hunt owns this file** — overwrite in place |
+| `index.html` | Shell + household sign-in screen |
+| `app.js` | Filters, cards, map, sync client |
+| `styles.css` | Dark mobile-first UI |
+| `listings.json` | **Home Hunt owns this** — current new-criteria data (Listing Scout pass 5+) |
+| `listings-archive-2026-09-20.json` | 9/20 data (old criteria). Only shown under the “9/20 archive” chip |
 | `SCHEMA.md` | Field contract |
-| `.nojekyll` | GitHub Pages passthrough |
+| `sql/001_household_sync.sql` | Supabase schema (tables, RLS, RPCs) — no secrets |
 
-## Filters
+## Criteria (strip)
+Buy <$600k · Hudson–Trinity band (Hudson, Bayonet Pt, NPR east of US-19, Seven Springs, Trinity, SR-52/Little/Starkey) · CBS · 3+bd/2+ba · ≥1 ac · workshop/detached garage/barn · Flood zone X
 
-- **All** — every listing except `dead` / `sold` (and dismissed)
-- **Buy** — `type: sale`, excluding `dead` / `sold` (still shows `over-budget`)
-- **Rent** — `type: rent` OR `status: rent`
-- **Watch** — `status: watch`
-- **Has shop** — non-empty `workshop`, or flags/garage mentioning shop/workshop
-- **≥0.6 ac** — `Number(acres) >= 0.6`; missing/null acres are excluded (not invented); graveyard hidden
-- **Favorites** — starred listings only (includes dead/sold so history isn’t lost; status pill still shows; dismissed never shown)
-- **Open houses** — listings with truthy `openHouseToday` / `open_house_today`, or non-empty `openHouse` (string/object); graveyard + dismissed hidden
+## Views
+- **Matches** (default) — `match` starts with `hard` or `weak`, not dead/sold, not dismissed
+- **Hard / Weak** — by match level
+- **Shop / barn** — `outbuilding` set, `workshop` evidence, or garage text mentions shop/barn/detached
+- **★ Favorites / Notes / Not interested** — synced household state (Not interested has Restore)
+- **Open houses**
+- **9/20 archive** — loads `listings-archive-2026-09-20.json` with a banner; never shown by default
 
-Hard-filter strip (context only, not a client filter): ≥0.6 acres, large garage/workshop or shop-capable land, no HOA (flag CDD/deed), ≤30 min of Pinellas, buy ≤$500k / rent <$3500.
-
-## Favorites & dismissed (browser only · v1)
-
-Star on each card (and map popup) toggles a favorite. **Not interested** on each card dismisses a listing permanently for this browser.
-
-| Key | Shape |
-|-----|--------|
-| `home-hunt-favorites-v1` | JSON `string[]` of listing `id`s |
-| `home-hunt-dismissed-v1` | JSON `string[]` of listing `id`s |
-
-Both are **never** written into `listings.json` — that file stays Home Hunt–owned. Dismissed ids are hidden in **every** filter mode (including Favorites and Open houses) so republished listings stay gone. After dismiss, a ~5s **Removed · Undo** toast restores the id.
-
-Helpers (`loadFavorites` / `saveFavorites` / `loadDismissed` / `saveDismissed`) keep storage behind a small API so a future sync layer can replace localStorage without rewriting UI.
-
-**Sign-in / sync (future):** v1 is local-only. A later **X (Twitter)** sync would merge remote favorites + dismissed with local. No Google Auth / Firebase in this build.
+## Sync & privacy
+- Supabase project `home-hunt` (ref `klvgcwzofvxsqtjvmgof`, free plan). Tables `household_members`, `household_tokens`, `listing_state` all have RLS on; anon has **no** table grants.
+- Each person has a personal revocable household link (`…/home-hunt/#k=<code>`). The code is only sent to token-checked `SECURITY DEFINER` RPCs (`hh_whoami`, `hh_get_state`, `hh_set_state`, `hh_merge_local`); only its SHA-256 is stored. The `#k=` part never reaches GitHub and is stripped from the address bar after first load; the code is kept in that phone’s localStorage.
+- Codes live only on the box in `/home/box/home-hunt/household-tokens.json` (chmod 600). Never in this repo.
+- Sync = refresh on focus/visibility + every 60 s while open.
+- First sign-in on a browser merges old v1 localStorage (`home-hunt-favorites-v1`, `home-hunt-dismissed-v1`) into the shared store — only turns flags on, never clears anything or touches notes. v1 keys are left in place.
+- The publishable key in `app.js` is public by design.
+- If Supabase Auth email sign-in is ever configured (Site URL + custom SMTP), `listing_state` already has `authenticated` RLS policies keyed on `auth.jwt()->>'email'` in `household_members`.
 
 ## Data drop
-
-Home Hunt writes `/workspace/home-hunt/listings.json` (and the published copy under Real-Estate). Empty `listings: []` shows “Waiting for Home Hunt data”. See `SCHEMA.md`.
-
-## Local preview
-
-```bash
-cd /workspace/home-hunt && python3 -m http.server 8766
-# open http://127.0.0.1:8766/
-```
-
-Assets are relative (`./`). Works under `/Real-Estate/home-hunt/` on GitHub Pages.
-
-## Publish
-
-```bash
-/workspace/scripts/publish-home-hunt.sh
-```
-
-Copies into the Real-Estate checkout at `home-hunt/`. Does **not** commit or push — parent / CoS publishes.
+Home Hunt overwrites `listings.json` (`{updatedAt, schemaVersion: 2, listings: []}`). Empty list shows “Waiting for new-criteria listings”.
